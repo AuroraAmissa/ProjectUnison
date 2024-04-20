@@ -1,0 +1,39 @@
+[settings]
+strict = true
+verbose = true
+doctype = "<!DOCTYPE html>"
+clean_urls = false
+page_file_extensions = ["htm", "html", "md"]
+ignore_extensions = ["draft"]
+plugin_discovery = true
+plugin_dirs = ["scripts/plugins"]
+
+default_template_file = "templates/main.html"
+default_content_selector = "article"
+default_content_action = "append_child"
+
+[preprocessors]
+md = 'pandoc -f commonmark+smart -t html --no-highlight --lua-filter=scripts/support/pandoc-language.lua'
+
+[widgets.highlight]
+widget = "preprocess_element"
+selector = '*[class^="language-"]'
+command = 'highlight --force -O html -f --syntax=$(echo $ATTR_CLASS | sed -e "s/language-//")'
+
+[widgets.menu-inner]
+widget = "exec"
+selector = ["#menu-inner"]
+command = "pandoc -f commonmark+smart -t html --no-highlight templates/menu.md"
+
+[widgets.generator-meta]
+widget = 'insert_html'
+selector = 'head'
+html = '<meta name="generator" content="soupault">'
+
+[widgets.page-title]
+widget = "title"
+selector = "h1"
+default = "Project Unison"
+append = " | Project Unison"
+force = true
+keep = true
