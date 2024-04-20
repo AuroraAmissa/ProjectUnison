@@ -1,4 +1,2 @@
 /build
-/.soupault-cache
-/site/static/webfonts
-/site/static/img_xxxxxxxx/fonts.css
+/site/resources/webfonts

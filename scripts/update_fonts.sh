@@ -6,6 +6,6 @@ cd "$(realpath "$(dirname "$0")")/.."
 
 mkdir -p site/static/webfonts
 rm site/static/webfonts/* ||:
-scripts/support/mkwebfont -v --store site/static/webfonts --store-uri /static/webfonts/ \
+scripts/support/mkwebfont -v --store site/resources/webfonts --store-uri "../webfonts/" \
     --preload-in "Hachi Maru Pop:☆♡《》" \
-    -o site/static/img_xxxxxxxx/fonts.css fonts/*
+    -o site/resources/webfonts/fonts.css fonts/*
