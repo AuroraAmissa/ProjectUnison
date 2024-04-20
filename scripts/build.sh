@@ -1,5 +1,5 @@
 #! /usr/bin/env nix-shell
-#! nix-shell -i bash --pure -p soupault -p pandoc -p minify -p nix -p highlight
+#! nix-shell -i bash --pure -p soupault -p pandoc -p minify -p nix
 
 set -eu
 

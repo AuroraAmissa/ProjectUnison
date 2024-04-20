@@ -13,12 +13,7 @@ default_content_selector = "article"
 default_content_action = "append_child"
 
 [preprocessors]
-md = 'pandoc -f commonmark+smart -t html --no-highlight --lua-filter=scripts/support/pandoc-language.lua'
-
-[widgets.highlight]
-widget = "preprocess_element"
-selector = '*[class^="language-"]'
-command = 'highlight --force -O html -f --syntax=$(echo $ATTR_CLASS | sed -e "s/language-//")'
+md = 'pandoc -f commonmark+smart -t html --no-highlight'
 
 [widgets.menu-inner]
 widget = "exec"
