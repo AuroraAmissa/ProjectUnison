@@ -15,16 +15,14 @@ default_content_action = "append_child"
 [preprocessors]
 md = 'pandoc -f commonmark+smart -t html --no-highlight'
 
-[templates.nonav]
-file = "templates/nonav.html"
-content_selector = 'article'
-content_action = "append_child"
-section = "index"
-include_subsections = true
+[widgets.header]
+widget = "include"
+selector = "header"
+file = "templates/header.html"
 
 [widgets.menu-inner]
 widget = "exec"
-selector = ["#nav-main"]
+selector = ["#gen-menu"]
 command = "pandoc -f commonmark+smart -t html --no-highlight templates/menu.md"
 
 [widgets.generator-meta]
@@ -42,7 +40,7 @@ keep = true
 
 [widgets.table-of-contents]
 widget = "toc"
-selector = "#menu-inner"
+selector = "#gen-toc"
 
 min_level = 2
 max_level = 3

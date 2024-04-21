@@ -1,5 +1,16 @@
+/* Variables */
+body {
+    --grid-spacing: 0.35em;
+
+    --color-border: #ff80a2;
+    --color-link-visited: #f6608d;
+    --color-text: #ae3253;
+    --color-background-main: rgba(255, 250, 254, 0.7);
+    --color-background-secondary: rgba(255, 255, 255, 0.6);
+}
+
 /* Composable elements */
-h1, .center {
+h1, .h0, .center {
     text-align: center;
 }
 
@@ -29,9 +40,9 @@ div.highlight {
 }
 
 .highlight, :not(div.highlight > pre) > code {
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: var(--color-background-secondary);
     color: #000;
-    border-color: #ff80a2;
+    border-color: var(--color-border);
     border-style: dotted;
     border-width: 1px;
     padding: 0 1px 1px 1px;
@@ -54,7 +65,7 @@ body {
     background: #fff9fc url('gplaypattern_pink.png') repeat fixed 0 0;
     font-family: "M PLUS 2", sans-serif;
     font-weight: 420;
-    color: #ae3253;
+    color: var(--color-text);
     min-height: 100vh;
     display: flex;
     margin: 0;
@@ -74,26 +85,26 @@ img {
     border: 0;
 }
 
-h1:before {
+.h0:before {
     content: "☆ ";
 }
 
-h1:after {
+.h0:after {
     content: " ☆";
 }
 
 li::marker {
-    content: "♡ ";
+    content: "☆  ";
     font-family: "Hachi Maru Pop", sans-serif;
 }
 
-.toc {
+ul {
     margin: 0;
-    padding-left: 2em;
+    padding-left: 1.75em;
 }
 
-:not(.toc) > li + li {
-    margin-top: 0.35em;
+.section::after {
+    content: "  ";
 }
 
 h2:before, h3:before, h4:before, h5:before, h6:before {
@@ -104,8 +115,14 @@ h2:after, h3:after, h4:after, h5:after, h6:after {
     content: "》";
 }
 
-h1, h2, h3, h4, h5, h6 {
+.h0, h1, h2, h3, h4, h5, h6 {
     font-family: "Hachi Maru Pop", sans-serif;
+}
+
+.h0 {
+    font-size: 3.5rem;
+    margin: 0.6em 0 0 0;
+    padding: 0 0 0.3em 0;
 }
 
 h1 {
@@ -114,8 +131,17 @@ h1 {
     padding: 0 0 0.3em 0;
 }
 
-ul, p {
+.h0 {
+    width: 100%;
+    display: block;
+}
+
+:not(li) > ul, p {
     margin: 0.8rem 0 0.8rem 0;
+}
+
+li > ul {
+    margin: 0.2rem 0 0.2rem 0;
 }
 
 h2, h3, h4, h5, h6 {
@@ -132,13 +158,13 @@ hr {
 }
 
 h1, hr {
-    border-color: #ff80a2;
+    border-color: var(--color-border);
     border-style: dotted;
     border-width: 0px 0px 2px 0px;
 }
 
 a:link, a:visited {
-    color: #f6608d;
+    color: var(--color-link-visited);
     text-decoration: none;
 }
 
@@ -147,85 +173,76 @@ a:hover, a:active {
 }
 
 /* Page elements */
+#grid {
+    display: grid;
+    grid-template-rows: 0fr 1fr;
+    gap: var(--grid-spacing);
+    padding-left: var(--grid-spacing);
+    padding-right: var(--grid-spacing);
+    padding-bottom: var(--grid-spacing);
+
+    width: 100%;
+    max-width: 70em;
+}
+
 nav, #menu-inner, article {
     box-sizing: border-box;
 }
 
+article {
+    width: 100%;
+    min-height: 100%;
+    padding: 7px 15px 7px 15px;
+}
+
+#menu-inner, article {
+    background-color: var(--color-background-main);
+    border-color: var(--color-border);
+    border-style: dotted;
+    border-width: 1px;
+}
+
+#menu-inner {
+    padding: 7px;
+    width: 100%;
+    position: sticky;
+    top: var(--grid-spacing);
+}
+
+/* Media queries */
 @media only screen and (min-width: 70em) {
-    article, nav {
-        margin: 8px 3px 8px 3px;
+    #grid {
+        grid-template-columns: 12.5em 1fr;
+    }
+
+    header {
+        grid-row: 1;
+        grid-column: 1 / span 2;
     }
 
     nav {
-        height: 100%;
-        width: 12.5em;
+        grid-row: 2;
+        grid-column: 1;
     }
 
-    #menu-inner {
-        padding: 7px;
-        height: 100%;
-        width: 100%;
-    }
-
-    #menu-footer {
-        text-align: center;
-        margin: 0.75em 0 0 0;
-    }
-
-    #menu-inner, article {
-        background-color: rgba(255, 250, 254, 0.7);
-        border-color: #ff80a2;
-        border-style: dotted;
-        border-width: 1px;
-    }
-
-    #nav-container {
-        padding: 0;
-        margin: 0;
+    main {
+        grid-row: 2;
+        grid-column: 2;
     }
 }
 
 @media not screen and (min-width: 70em) {
-    body {
-        flex-flow: column;
-        padding: 0.3rem 0.3rem 0.3rem 0.3rem;
-        height: 100%;
-    }
-
-    nav, article, #menu-inner, #menu-footer {
-        margin: 0;
+    header {
+        grid-row: 1;
+        grid-column: 1;
     }
 
     nav {
-        padding-bottom: 6px;
+        display: none;
     }
 
-    nav, #menu-inner, #menu-footer {
-        width: 100%;
-    }
-
-    #menu-inner, #menu-footer, #menu-inner > p, #menu-footer > p {
-        display: inline;
-    }
-    #menu-inner > p + p:before, #menu-inner:after {
-        content: " ♡ ";
-        font-family: "Hachi Maru Pop", sans-serif;
-    }
-
-    article {
-        width: 100%;
-        height: 100%;
-        flex-grow: 1;
-    }
-
-    #nav-container {
-        padding: 7px;
-    }
-
-    #nav-container, article {
-        background-color: rgba(255, 250, 254, 0.7);
-        border-color: #ff80a2;
-        border-style: dotted;
-        border-width: 1px;
+    main {
+        grid-row: 2;
+        grid-column: 1;
     }
 }
