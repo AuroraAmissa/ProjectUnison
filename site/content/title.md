@@ -2,7 +2,7 @@
 
 ## What is this?
 
-Project Unison is an alternative SRD for [Pathfinder] and [Spheres of Power] that reworks the systems of both to simplify the systems of both for newer players while retaining the combat depth that more advanced players enjoy.
+Project Unison is an alternative SRD for [Pathfinder] and [Spheres of Power] that reworks the systems of both to simplify the systems of both for newer players while retaining the combat depth that more advanced players enjoy. 
 
 It adds some custom content from the following sources, in addition to Pathfinder and Spheres of Power:
 
@@ -27,4 +27,5 @@ As a rule of thumb: Additional content introduced to help with a character conce
 
 * [Front Page](#)
 * [Major Changes](./major_changes.html)
+* [Basic Rules](./basic_rules.html)
 * [Legal](./legal.html)

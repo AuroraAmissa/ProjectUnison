@@ -13,7 +13,7 @@ default_content_selector = "article"
 default_content_action = "append_child"
 
 [preprocessors]
-md = 'pandoc -f commonmark+smart -t html --no-highlight'
+md = 'pandoc -f commonmark+smart -t html --no-highlight --lua-filter=scripts/support/pandoc-language.lua'
 
 [plugins.inline-styles]
 file = "scripts/plugins/inline-style.lua"
@@ -49,7 +49,6 @@ widget = "toc"
 selector = "#gen-toc"
 
 min_level = 2
-max_level = 3
 toc_list_class = "toc"
 numbered_list = false
 heading_links = true
@@ -57,6 +56,9 @@ heading_link_text = "§"
 heading_link_class = "section"
 heading_links_append = true
 use_heading_slug = true
+
+slug_regex = '[^a-zA-Z0-9.]+'
+slug_replacement_string = "-"
 
 [widgets.inline-styles]
 widget = "inline-styles"
