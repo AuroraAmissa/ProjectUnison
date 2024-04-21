@@ -13,7 +13,7 @@ default_content_selector = "article"
 default_content_action = "append_child"
 
 [preprocessors]
-md = 'pandoc -f commonmark+smart -t html --no-highlight --lua-filter=scripts/support/pandoc-language.lua'
+md = 'pandoc -f commonmark+smart+pipe_tables -t html --no-highlight --lua-filter=scripts/support/pandoc-language.lua'
 
 [plugins.inline-styles]
 file = "scripts/plugins/inline-style.lua"

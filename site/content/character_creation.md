@@ -1,4 +1,4 @@
-# Character Creation
+# Characters
 
 ## How to Create a Character
 
@@ -8,19 +8,140 @@ Each character has six ability scores that represent their character’s most ba
 
 ### Generating Ability Scores
 
-Each character receives a number of points to spend on increasing 
+Each character receives a number of points to spend on buying their ability scores. To take a certain starting score in an ability score, you must spend the corresponding number of points in the table below. Negative points give you additional points to spend on other attributes.
 
-At character creation, assign ability scores from the following list to your 6 ability scores. The point total of your attributes must be 12 or 13. Afterwards, if you spent 13 points, add 1 to your lowest 3 ability scores (you may choose from among your lowest attributes if there is a tie), or your 5 lowest ability scores if you spent 12 points.
+You may choose whether your character receives 12 points or 13 points. If they receive 12 points, add one to their lowest 5 ability scores after this process. Otherwise, you only add one to their lowest 3 ability scores. If there is a tie, you may choose which scores to apply the bonus to among the tied scores.
 
-At character creation,
+| Ability Score | Points    |
+|---------------|-----------|
+| 4             | -3 points |
+| 6             | -2 points |
+| 8             | -1 points |
+| 10            | 0 points  |
+| 12            | 1 points  |
+| 14            | 2 points  |
+| 16            | 4 points  |
+| 18            | 6 points  |
+| 20            | 10 points |
+| 22            | 14 points |
 
-4 (-3 points)
-6 (-2 points)
-8 (-1 points)
-10 (0 points)
-12 (1 point)
-14 (2 points)
-16 (4 points)
-18 (6 points)
-20 (10 points)
-22 (14 points)
+### Determine Bonuses (or Penalties)
+
+Each ability has a modifier associated with. To calculate the modifier for an ability, divide it by two, and subtract 5. The modifier is the number you apply to the die roll when your character tries to do something related to that ability. You also use the modifier with some numbers that aren’t die rolls. A positive modifier is called a bonus, and a negative modifier is called a penalty.
+
+## The Abilities
+
+Each ability partially describes your character and affects some of their actions.
+
+### Strength (Str)
+
+Strength measures muscle and physical power. This ability is important for those who engage in hand-to-hand (or “melee”) combat, such as fighters, monks, paladins, and some rangers. Strength also sets the maximum amount of weight your character can carry.
+
+A character with a Strength score of 0 is too weak to move in any way and is unconscious. Some creatures (such as incorporeal creatures) do not possess a Strength score and have no modifier at all to Strength-based skills or checks.
+
+You apply your character’s Strength modifier to:
+
+* Melee attack rolls.
+* Damage rolls when using a melee weapon or a thrown weapon, including a sling. (Exceptions: Off-hand attacks receive only half the character’s Strength bonus, while two-handed attacks receive 1–1/2 times the Strength bonus. A Strength penalty, but not a bonus, applies to attacks made with a bow that is not a composite bow.)
+* Climb and Swim checks.
+* Strength checks (for breaking down doors and the like).
+
+Your Strength score determines your characters carrying capacity.
+
+**Temporary Bonuses:** Temporary increases to your Strength score give you a bonus on Strength-based skill checks, melee attack rolls, and weapon damage rolls (if they rely on Strength). The bonus also applies to your Combat Maneuver Bonus (if you are Small or larger) and to your Combat Maneuver Defense.
+
+**Permanent Bonuses:** Ability bonuses with a duration greater than 1 day actually increase the relevant ability score after 24 hours. Modify all skills and statistics as appropriate. This might cause you to gain skill points, hit points, and other bonuses. These bonuses should be noted separately in case they are removed.
+
+**Ability Damage:** Damage to your Strength score causes you to take penalties on Strength-based skill checks, melee attack rolls, and weapon damage rolls (if they rely on Strength). The Ability Damage penalty also applies to your Combat Maneuver Bonus (if you are Small or larger) and your Combat Maneuver Defense. See Ability Score Damage below.
+
+### Dexterity (Dex)
+
+Dexterity measures agility, reflexes, and balance. This ability is the most important one for rogues, but it’s also useful for characters who wear light or medium armor or no armor at all. This ability is vital for characters seeking to excel with ranged weapons, such as the bow or sling. A character with a Dexterity score of 0 is incapable of moving and is effectively immobile (but not unconscious).
+
+You apply your character’s Dexterity modifier to:
+
+* Ranged attack rolls, including those for attacks made with bows, crossbows, throwing axes, and many ranged spell attacks like scorching ray or searing light.
+* Armor Class (AC), provided that the character can react to the attack.
+* Reflex saving throws, for avoiding fireballs and other attacks that you can escape by moving quickly.
+* Acrobatics, Disable Device, Escape Artist, Fly, Ride, Sleight of Hand, and Stealth checks.
+
+**Temporary Bonuses:** Temporary increases to your Dexterity score give you a bonus on Dexterity-based skill checks, Ranged attack rolls, initiative checks, and Reflex saving throws. The bonus also applies to your Armor Class, your Combat Maneuver Bonus (if you are Tiny or smaller), and your Combat Maneuver Defense.
+
+**Permanent Bonuses:** Ability bonuses with a duration greater than 1 day actually increase the relevant ability score after 24 hours. Modify all skills and statistics as appropriate. This might cause you to gain skill points, hit points, and other bonuses. These bonuses should be noted separately in case they are removed.
+
+**Ability Damage:** Damage to your Dexterity score causes you to take penalties on Dexterity-based skill checks, ranged attack rolls, initiative checks, and Reflex saving throws. The Ability Damage penalty also applies to your Armor Class, your Combat Maneuver Bonus (if you are Tiny or smaller), and to your Combat Maneuver Defense. See Ability Score Damage below.
+
+### Constitution (Con)
+
+Constitution represents your character’s health and stamina. A Constitution bonus increases a character’s hit points, so the ability is important for all classes. Some creatures, such as undead and constructs, do not have a Constitution score. Their modifier is +0 for any Constitution-based checks. A character with a Constitution score of 0 is dead.
+
+You apply your character’s Constitution modifier to:
+
+* Each roll of a Hit Die (though a penalty can never drop a result below 1—that is, a character always gains at least 1 hit point each time they advance in level).
+* Fortitude saving throws, for resisting poison, disease, and similar threats.
+
+If a character’s Constitution score changes enough to alter their Constitution modifier, the character’s hit points also increase or decrease accordingly.
+
+**Temporary Bonuses:** Temporary increases to your Constitution score give you a bonus on your Fortitude saving throws. In addition, multiply your total Hit Dice by this bonus and add that amount to your current and total hit points. When the bonus ends, remove this total from your current and total hit points.
+
+**Permanent Bonuses:** Ability bonuses with a duration greater than 1 day actually increase the relevant ability score after 24 hours. Modify all skills and statistics as appropriate. This might cause you to gain skill points, hit points, and other bonuses. These bonuses should be noted separately in case they are removed.
+
+**Ability Damage:** Damage to your Constitution score causes you to take penalties on your Fortitude saving throws. In addition, multiply your total Hit Dice by the Ability Damage penalty and subtract that amount from your current and total hit points. Lost hit points are restored when the damage to your Constitution is healed. See Ability Score Damage below.
+
+#### Notes
+
+* Constructs do not have a Constitution score. Any DCs or other Statistics that rely on a Constitution score treat a construct as having a score of 10 (no bonus or penalty).
+* Undead creatures do not have a Constitution score. Undead use their Charisma score in place of their Constitution score when calculating hit points, Fortitude saves, and any special ability that relies on Constitution(such as when calculating a breath weapon’s DC).
+
+### Intelligence (Int)
+
+Intelligence determines how well your character learns and reasons. This ability is important for wizards because it affects their spellcasting ability in many ways. Creatures of animal-level instinct have Intelligence scores of 1 or 2. Any creature capable of understanding speech has a score of at least 3. A character with an Intelligence score of 0 is comatose. Some creatures do not possess an Intelligence score. Their modifier is +0 for any Intelligence-based skills or checks.
+
+You apply your character’s Intelligence modifier to:
+
+* The number of bonus languages your character knows at the start of the game. These are in addition to any starting racial languages and Common. If you have a penalty, you can still read and speak your racial languages unless your Intelligence is lower than 3.
+* The number of skill points gained each level, though your character always gets at least 1 skill point per level.
+    Appraise, Craft, Knowledge, Linguistics, and Spellcraft checks.
+
+**Temporary Bonuses:** Temporary increases to your Intelligence score give you a bonus on Intelligence-based skill checks. This bonus also applies to any spell DCs based on Intelligence.
+
+**Permanent Bonuses:** Ability bonuses with a duration greater than 1 day actually increase the relevant ability score after 24 hours. Modify all skills and statistics as appropriate. This might cause you to gain skill points, hit points, and other bonuses. These bonuses should be noted separately in case they are removed.
+
+**Ability Damage:** Damage to your Intelligence score causes you to take penalties on Intelligence-based skill checks. The Ability Damage penalty also applies to any spell DCs based on Intelligence. See Ability Score Damage below.
+
+#### Notes
+
+* Animals have Intelligence scores of 1 or 2 (no creature with an Intelligence score of 3 or higher can be an animal).
+* Oozes do not have an Intelligence score, and as such they have immunity to all mind-affecting effects (charms, compulsions, phantasms, patterns, and morale effects). An ooze with an Intelligence score loses this trait.
+* Vermin do not have an Intelligence score, and as such they have immunity to all mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms). Mindless creatures have no feats or skills. A vermin-like creature with an Intelligence score is usually either an animal or a magical beast, depending on its other abilities.
+
+### Wisdom (Wis)
+
+Wisdom describes a character’s willpower, common sense, awareness, and intuition. Wisdom is the most important ability for clerics and druids, and it is also important for monks and rangers. If you want your character to have acute senses, put a high score in Wisdom. Every creature has a Wisdom score. A character with a Wisdom score of 0 is incapable of rational thought and is unconscious.
+
+You apply your character’s Wisdom modifier to:
+
+* Will saving throws (for negating the effects of charm person and other spells).
+* Heal, Perception, Profession, Sense Motive, and Survival checks.
+
+**Temporary Bonuses:** Temporary increases to your Wisdom score give you a bonus on Wisdom-based skill checks and Will saving throws. This bonus also applies to any spell DCs based on Wisdom.
+
+**Permanent Bonuses:** Ability bonuses with a duration greater than 1 day actually increase the relevant ability score after 24 hours. Modify all skills and statistics as appropriate. This might cause you to gain skill points, hit points, and other bonuses. These bonuses should be noted separately in case they are removed.
+
+**Ability Damage:** Damage to your Wisdom score causes you to take penalties on Wisdom-based skill checks and Will saving throws. The Ability Damage penalty also applies to any spell DCs based on Wisdom. See Ability Score Damage below.
+
+### Charisma (Cha)
+
+Charisma measures a character’s personality, personal magnetism, ability to lead, and appearance. It is the most important ability for paladins, sorcerers, and bards. It is also important for clerics, since it affects their ability to channel energy. For undead creatures, Charisma is a measure of their unnatural “lifeforce.” Every creature has a Charisma score. A character with a Charisma score of 0 is not able to exert themselves in any way and is unconscious.
+
+You apply your character’s Charisma modifier to:
+
+* Bluff, Diplomacy, Disguise, Handle Animal, Intimidate, Perform, and Use Magic Device checks.
+* Checks that represent attempts to influence others.
+* Channel energy DCs for clerics and paladins attempting to harm undead foes.
+
+**Temporary Bonuses:** Temporary increases to your Charisma score give you a bonus on Charisma-based skill checks. This bonus also applies to any spell DCs based on Charisma.
+
+**Permanent Bonuses:** Ability bonuses with a duration greater than 1 day actually increase the relevant ability score after 24 hours. Modify all skills and statistics as appropriate. This might cause you to gain skill points, hit points, and other bonuses. These bonuses should be noted separately in case they are removed.
+
+**Ability Damage:** Damage to your Charisma score causes you to take penalties on Charisma-based skill checks. The Ability Damage penalty also applies to any spell DCs based on Charisma and the DC to resist your channeled energy. See Ability Score Damage below.

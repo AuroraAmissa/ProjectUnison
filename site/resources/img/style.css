@@ -115,7 +115,7 @@ ul {
     padding-left: 1.75em;
 }
 
-blockquote {
+blockquote, table {
     margin: 0;
     padding: 0.01em 0.7em 0.01em  0.7em;
     border-color: var(--color-border);
@@ -126,6 +126,16 @@ blockquote {
 .section {
     float: right;
     user-select: none;
+}
+
+h2::before, h3::before, h4::before, h5::before, h6::before {
+    content: "《  ";
+    font-family: var(--font-title);
+}
+
+h2::after, h3::after, h4::after, h5::after, h6::after {
+    content: "  》";
+    font-family: var(--font-title);
 }
 
 .a-left {

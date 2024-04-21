@@ -28,4 +28,5 @@ As a rule of thumb: Additional content introduced to help with a character conce
 * [Front Page](#)
 * [Major Changes](./major_changes.html)
 * [Basic Rules](./basic_rules.html)
+* [Characters](./character_creation.html)
 * [Legal](./legal.html)
