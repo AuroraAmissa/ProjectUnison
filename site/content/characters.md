@@ -1,6 +1,8 @@
 # Characters
 
-## How to Create a Character
+## Outline
+
+[TODO: Make this eventually!]
 
 ## Ability Scores
 
@@ -25,7 +27,7 @@ You may choose whether your character receives 12 points or 13 points. If they r
 | 20            | 10 points |
 | 22            | 14 points |
 
-### Determine Bonuses (or Penalties)
+### Determine Bonuses
 
 Each ability has a modifier associated with. To calculate the modifier for an ability, divide it by two, and subtract 5. The modifier is the number you apply to the die roll when your character tries to do something related to that ability. You also use the modifier with some numbers that aren’t die rolls. A positive modifier is called a bonus, and a negative modifier is called a penalty.
 
@@ -130,3 +132,25 @@ You apply your character’s Charisma modifier to:
 **Permanent Bonuses:** Ability bonuses with a duration greater than 1 day actually increase the relevant ability score after 24 hours. Modify all skills and statistics as appropriate. This might cause you to gain skill points, hit points, and other bonuses. These bonuses should be noted separately in case they are removed.
 
 **Ability Damage:** Damage to your Charisma score causes you to take penalties on Charisma-based skill checks. The Ability Damage penalty also applies to any magic DCs based on Charisma and the DC to resist your channeled energy. See Ability Score Damage below.
+
+## Changes to Ability Scores
+
+Some abilities increase your ability scores. Ability score increases with a duration of 1 day or less give only temporary bonuses. For every two points of increase to a single ability, apply a +1 bonus to the skills and statistics listed with the relevant ability.
+
+### $$ Permanent Bonuses
+
+Ability bonuses with a duration greater than 1 day actually increase the relevant ability score after 24 hours. Modify all skills and statistics related to that ability. This might cause you to gain skill points, hit points, and other bonuses. These bonuses should be noted separately in case they are removed.
+
+### $$ Ability Score Damage
+
+Diseases, poisons, spells, and other abilities can all deal damage directly to your ability scores. This damage does not actually reduce an ability, but it does apply a penalty to the skills and statistics that are based on that ability.
+
+For every 2 points of damage you take to a single ability, apply a –1 penalty to skills and statistics listed with the relevant ability. If the amount of ability damage you have taken equals or exceeds your ability score, you immediately fall unconscious until the damage is less than your ability score. The only exception to this is your Constitution score. If the damage to your Constitution is equal to or greater than your Constitution score, you die. Unless otherwise noted, damage to your ability scores is healed at the rate of 1 per day to each ability score that has been damaged. Ability damage can be healed through the use of spells, such as lesser restoration.
+
+### $$ Ability Score Penalties
+
+Some spells and abilities cause you to take an ability penalty for a limited amount of time. While in effect, these penalties function just like ability damage, but they cannot cause you to fall unconscious or die. In essence, penalties cannot decrease your ability score to less than 1.
+
+### $$ Ability Drain
+
+Ability drain actually reduces the relevant ability score. Modify all skills and statistics related to that ability. This might cause you to lose skill points, hit points, and other bonuses. Ability drain can be healed through the use of talents such as the Restore Spirit talent of the Life sphere.
