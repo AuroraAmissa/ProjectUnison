@@ -15,6 +15,12 @@ default_content_action = "append_child"
 [preprocessors]
 md = 'pandoc -f commonmark+smart -t html --no-highlight'
 
+[plugins.inline-styles]
+file = "scripts/plugins/inline-style.lua"
+
+[plugins.remove_redundant_hr]
+file = "scripts/plugins/remove_redundant_hr.lua"
+
 [widgets.header]
 widget = "include"
 selector = "header"
@@ -49,4 +55,12 @@ numbered_list = false
 heading_links = true
 heading_link_text = "§"
 heading_link_class = "section"
+heading_links_append = true
 use_heading_slug = true
+
+[widgets.inline-styles]
+widget = "inline-styles"
+
+[widgets.remove_redundant_hr]
+after = "table-of-contents"
+widget = "remove_redundant_hr"

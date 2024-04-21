@@ -93,7 +93,7 @@ img {
     content: " ☆";
 }
 
-li::marker {
+:not(ol) > li::marker {
     content: "☆  ";
     font-family: "Hachi Maru Pop", sans-serif;
 }
@@ -103,16 +103,9 @@ ul {
     padding-left: 1.75em;
 }
 
-.section::after {
-    content: "  ";
-}
-
-h2:before, h3:before, h4:before, h5:before, h6:before {
-    content: "《";
-}
-
-h2:after, h3:after, h4:after, h5:after, h6:after {
-    content: "》";
+.section {
+    float: right;
+    user-select: none;
 }
 
 .h0, h1, h2, h3, h4, h5, h6 {
@@ -212,7 +205,7 @@ article {
 /* Media queries */
 @media only screen and (min-width: 70em) {
     #grid {
-        grid-template-columns: 12.5em 1fr;
+        grid-template-columns: 15em 1fr;
     }
 
     header {
