@@ -13,3 +13,7 @@ This is a brief listing of all changes to the Pathfinder core system, to help pe
   * Unchained Action Economy
   * Fractional Base Bonuses
   * Elephant in the Room (3PP)
+
+## Spheres of Power
+
+* The term "magical effect" is used in place of "sphere effect" and "caster" in place of "spherescaster" as there are no spells in this SRD. To prevent confusion when using external content including spells, the term "spell" and "spellcaster" is never used.

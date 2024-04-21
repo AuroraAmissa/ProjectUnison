@@ -25,7 +25,7 @@ The Pathfinder RPG uses a number of terms, abbreviations, and definitions in pre
 
 * **Ability Score**: Each creature has six ability scores: Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma. These scores represent a creature's most basic attributes. The higher the score, the more raw potential and talent your character possesses.
 
-* **Action**: An action is a discrete measurement of time during a round of combat. Using abilities, casting spells, and making attacks all require actions to perform. There are a number of different kinds of actions, such as a standard action, move action, swift action, free action, and full-round action (see Combat).
+* **Action**: An action is a discrete measurement of time during a round of combat. Using abilities, casting magic, and making attacks all require actions to perform. There are a number of different kinds of actions, such as a standard action, move action, swift action, free action, and full-round action (see Combat).
 
 * **Alignment**: Alignment represents a creature's basic moral and ethical attitude. Alignment has two components: one describing whether a creature is lawful, neutral, or chaotic, followed by another that describes whether a character is good, neutral, or evil. Alignments are usually abbreviated using the first letter of each alignment component, such as LN for lawful neutral or CE for chaotic evil. Creatures that are neutral in both components are denoted by a single "N."
 
@@ -35,9 +35,9 @@ The Pathfinder RPG uses a number of terms, abbreviations, and definitions in pre
 
 * **Bonus**: Bonuses are numerical values that are added to checks and statistical scores. Most bonuses have a type, and as a general rule, bonuses of the same type are not cumulative (do not "stack")—only the greater bonus granted applies.
 
-* **Caster Level (CL)**: Caster level represents a creature's power and ability when casting spells. When a creature casts a spell, it often contains a number of variables, such as range or damage, that are based on the caster's level.
+* **Caster Level (CL)**: Caster level represents a creature's power and ability when casting magic. When a creature casts magic, it often contains a number of variables, such as range or damage, that are based on the caster's level.
 
-* **Class**: Classes represent chosen professions taken by characters and some other creatures. Classes give a host of bonuses and allow characters to take actions that they otherwise could not, such as casting spells or changing shape. As a creature gains levels in a given class, it gains new, more powerful abilities. Most PCs gain levels in the core classes or prestige classes, since these are the most powerful. Most NPCs gain levels in NPC classes, which are less powerful (see Creating NPCs).
+* **Class**: Classes represent chosen professions taken by characters and some other creatures. Classes give a host of bonuses and allow characters to take actions that they otherwise could not, such as casting magic or changing shape. As a creature gains levels in a given class, it gains new, more powerful abilities. Most PCs gain levels in the core classes or prestige classes, since these are the most powerful. Most NPCs gain levels in NPC classes, which are less powerful (see Creating NPCs).
 
 * **Check**: A check is a d20 roll which may or may not be modified by another value. The most common types are attack rolls, ability checks, skill checks, and saving throws.
 
@@ -47,7 +47,7 @@ The Pathfinder RPG uses a number of terms, abbreviations, and definitions in pre
 
 * **Combat Maneuver Defense (CMD)**: This score represents how hard it is to perform a combat maneuver against this creature. A creature's CMD is used as the difficulty class when performing a maneuver against that creature.
 
-* **Concentration Check**: When a creature is casting a spell, but is disrupted during the casting, they must make a concentration check or fail to cast the spell (see Magic).
+* **Concentration Check**: When a creature is casting a magic, but is disrupted during the casting, they must make a concentration check or fail to cast the magical effect (see Magic).
 
 * **Creature**: A creature is an active participant in the story or world. This includes PCs, NPCs, and monsters.
 
@@ -65,11 +65,11 @@ The Pathfinder RPG uses a number of terms, abbreviations, and definitions in pre
 
 * **Hit Dice (HD)**: Hit Dice represent a creature's general level of power and skill. As a creature gains levels, it gains additional Hit Dice. Monsters, on the other hand, gain racial Hit Dice, which represent the monster's general prowess and ability. Hit Dice are represented by the number the creature possesses followed by a type of die, such as "3d8." This value is used to determine a creature's total hit points. In this example, the creature has 3 Hit Dice. When rolling for this creature's hit points, you would roll a d8 three times and add the results together, along with other modifiers.
 
-* **Hit Points (hp)**: Hit points are an abstraction signifying how robust and healthy a creature is at the current moment. To determine a creature's hit points, roll the dice indicated by its Hit Dice. A creature gains maximum hit points if their first Hit Die roll is for a character class level. Creatures whose first Hit Die comes from an NPC class or from their race roll their first Hit Die normally. Wounds subtract hit points, while healing (both natural and magical) restores hit points. Some abilities and spells grant temporary hit points that disappear after a specific duration. When a creature's hit points drop below 0, they become unconscious. When a creature's hit points reach a negative total equal to its Constitution score, it dies.
+* **Hit Points (hp)**: Hit points are an abstraction signifying how robust and healthy a creature is at the current moment. To determine a creature's hit points, roll the dice indicated by its Hit Dice. A creature gains maximum hit points if their first Hit Die roll is for a character class level. Creatures whose first Hit Die comes from an NPC class or from their race roll their first Hit Die normally. Wounds subtract hit points, while healing (both natural and magical) restores hit points. Some abilities and magical effects grant temporary hit points that disappear after a specific duration. When a creature's hit points drop below 0, they become unconscious. When a creature's hit points reach a negative total equal to its Constitution score, it dies.
 
 * **Initiative**: Whenever combat begins, all creatures involved in the battle must make an initiative check to determine the order in which creatures act during combat. The higher the result of the check, the earlier a creature gets to act.
 
-* **Level**: A character's level represents their overall ability and power. There are three types of levels. Class level is the number of levels of a specific class possessed by a character. Character level is the sum of all of the levels possessed by a character in all of their classes. In addition, spells have a level associated with them numbered from 0 to 9. This level indicates the general power of the spell. As a spellcaster gains levels, they learn to cast spells of a higher level.
+* **Level**: A character's level represents their overall ability and power. There are three types of levels. Class level is the number of levels of a specific class possessed by a character. Character level is the sum of all of the levels possessed by a character in all of their classes.
 
 * **Monster**: Monsters are creatures that rely on racial Hit Dice instead of class levels for their powers and abilities (although some possess class levels as well). PCs are usually not monsters.
 
@@ -85,7 +85,7 @@ The Pathfinder RPG uses a number of terms, abbreviations, and definitions in pre
 
 * **Rounding**: Occasionally the rules ask you to round a result or value. Unless otherwise stated, always round down. For example, if you are asked to take half of 7, the result would be 3.
 
-* **Saving Throw**: When a creature is the subject of a dangerous spell or effect, they often receive a saving throw to mitigate the damage or result. Saving throws are passive, meaning that a character does not need to take an action to make a saving throw—they are made automatically. There are three types of saving throws: Fortitude (used to resist poisons, diseases, and other bodily ailments), Reflex (used to avoid effects that target an entire area, such as fireball), and Will (used to resist mental attacks and spells).
+* **Saving Throw**: When a creature is the subject of a dangerous effect, they often receive a saving throw to mitigate the damage or result. Saving throws are passive, meaning that a character does not need to take an action to make a saving throw—they are made automatically. There are three types of saving throws: Fortitude (used to resist poisons, diseases, and other bodily ailments), Reflex (used to avoid effects that target an entire area, such as fireball), and Will (used to resist mental and spiritual attacks).
 
 * **Skill**: A skill represents a creature's ability to perform an ordinary task, such as climb a wall, sneak down a hallway, or spot an intruder. The number of ranks possessed by a creature in a given skill represents their proficiency in that skill. As a creature gains Hit Dice, they also gain additional skill ranks that can be added to their skills.
 
