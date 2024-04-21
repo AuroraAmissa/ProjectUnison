@@ -1,5 +1,2 @@
-[**Home**](/)
+[**Project Unison**](../content/title.html)
 
-[**Projects**](/projects)
-
-[**Links**](/links)

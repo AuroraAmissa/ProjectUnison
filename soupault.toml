@@ -15,9 +15,16 @@ default_content_action = "append_child"
 [preprocessors]
 md = 'pandoc -f commonmark+smart -t html --no-highlight'
 
+[templates.nonav]
+file = "templates/nonav.html"
+content_selector = 'article'
+content_action = "append_child"
+section = "index"
+include_subsections = true
+
 [widgets.menu-inner]
 widget = "exec"
-selector = ["#menu-inner"]
+selector = ["#nav-main"]
 command = "pandoc -f commonmark+smart -t html --no-highlight templates/menu.md"
 
 [widgets.generator-meta]
@@ -32,3 +39,16 @@ default = "Project Unison"
 append = " | Project Unison"
 force = true
 keep = true
+
+[widgets.table-of-contents]
+widget = "toc"
+selector = "#menu-inner"
+
+min_level = 2
+max_level = 3
+toc_list_class = "toc"
+numbered_list = false
+heading_links = true
+heading_link_text = "§"
+heading_link_class = "section"
+use_heading_slug = true
