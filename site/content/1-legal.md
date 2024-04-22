@@ -10,15 +10,24 @@ Every effort has been made to avoid posting any material designated as the Produ
 
 **Declaration of Open Game Content:** All applicable content of this project not designated as Product Identity is declared Open Game Content as described in Section 1(d) of the Open Game License Version 1.0a. This does not apply to any material already designated Open Game Content (since it does not need to be designated as such again).
 
-## Resources Used
+## Credits
 
 Art assets are used from the following sources:
 
 * [Subtle Patterns](https://www.toptal.com/designers/subtlepatterns/) - Under Creative Commons, unspecified version.
-* [Haru Machi Pop](https://github.com/noriokanisawa/HachiMaruPop) - Under SIL Open Font License. Used for symbols.
-* [M PLUS 2](https://github.com/coz-m/MPLUS_FONTS) - Under SIL Open Font License. Used for body text.
-* [Rounded M+](http://jikasei.me/font/rounded-mplus/) - Under SIL Open Font License. Used for headings.
-* [Noto Sans Mono](https://fonts.google.com/noto/specimen/Noto+Sans+Mono) - Under SIL Open Font License. Used for monospace text.
+* [Haru Machi Pop](https://github.com/noriokanisawa/HachiMaruPop) - Under SIL Open Font License. Font used for symbols.
+* [M PLUS 2](https://github.com/coz-m/MPLUS_FONTS) - Under SIL Open Font License. Font used for body text.
+* [Rounded M+](http://jikasei.me/font/rounded-mplus/) - Under SIL Open Font License. Font used for headings.
+* [Noto Sans Mono](https://fonts.google.com/noto/specimen/Noto+Sans+Mono) - Under SIL Open Font License. Font used for monospace text.
+
+The following software was used to create this document. No part of these programs are included in the document, but credit is due where credit is due:
+
+* [Soupault](https://soupault.app/) - The static website generator used to generate this website.
+* [Pandoc](https://pandoc.org/) - Converts the source text format I use (Markdown) into HTML.
+* [mkwebfont](https://github.com/Lymia/mkwebfont) - Used to convert fonts into a form suitable for browsers.
+* [git](https://git-scm.com/) - Used for version control and tracking changes to the document.
+* [minify](https://github.com/tdewolff/minify) - Used to reduce the size of the HTML and CSS files.
+* [Nix](https://nixos.org/) - Used to help manage the programs used in the scripts that generate this document.
 
 ## Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 

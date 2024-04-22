@@ -45,7 +45,7 @@ When you create your character, assign values from the table below to each abili
 > 
 > Alignment, due to its nature of treating ethics and morals as a physical and objective force in the world is not approprate for all campaigns and all settings.
 > 
-> For more information on alternatives, see the [Optional Rules](./optional_rules.html#replacing-alignment) chapter.
+> For more information on alternatives, see the [Optional Rules](./7-optional_rules.html#replacing-alignment) chapter.
 
 ### Skills
 

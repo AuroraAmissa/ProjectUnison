@@ -14,7 +14,7 @@ Dice rolls are noted as "d#", where the "#" is the number of sides on the dice. 
 
 Most die rolls in the game use a d20 with a number of modifiers based on the character's skills, abilities, and the situation, Generally speaking, rolling high is better than rolling low.
 
-In some circumstances, you may be asked to roll "d100". An easy to do this with physical dice is to roll two differently colored ten-sided dice. Pick one color to represent the tens digit, then roll both dice. If the tens dice rolls a 4 and the ones dice rolls a 2, your result is 42. Some ten-sided dice are prelabeled for use as a tens dice, and are printed with "10", "20", "30", and so on. Treat a "10" as a "0" in that digit, and both dice landing on 10 as a 100.
+In some circumstances, you may be asked to roll "d100". An easy to do this with physical dice is to roll two differently colored ten-sided dice. Pick one color to represent the tens digit, then roll both dice. If the tens dice rolls a 4 and the ones dice rolls a 2, your result is 42. Some ten-sided dice are prelabeled for use as a tens dice, and are printed with "10", "20", "30", and so on. Treat a 10 as a 0 in that digit, and both dice landing on 10 as a 100.
 
 To resolve an effect that has a certain percentage chance of occuring, roll a [d100], and check if the result is equal to or under the percentage. For example, to check if a 24% chance occurs, roll [d100] and apply the effect if the result is under 24.
 
@@ -30,6 +30,12 @@ There are a few basic guidelines for how to interpret game rules to keep in mind
 
 * In general, if you wind up with a fraction, round down, even if the fraction is one-half or larger. Certain rolls, such as damage and hit points, have a minimum of 1.
 * Specific trumps general. If one ability says you can't do something in general, and another rule says you can do it in a specific case, you can do it only in that specific case.
+
+## Allowed Content
+
+Any Pathfinder content not explicitly included in this SRD is *not* allowed when using Project Unison without explicit GM permission, and GMs are encourged to do so only with extreme caution. This SRD is in part meant to simplify character creation in Spheres of Power by removing outdated options and consolidating weak ones. Allowing additional content without good reason may seriously impact this.
+
+As a rule of thumb: Additional content introduced to help with a character concept should be allowed. Additional content added to optimize a character further should not be allowed. Most excluded content is done so purposefully.
 
 ## Common Terms
 

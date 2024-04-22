@@ -1,39 +1,39 @@
-This document contains Project Unison version <span id="ver-tag">[unknown]</span>.
-
-The source files for this project can be found on [Github]. This is revision <span id="rev-tag">0000000</span>.
+This document contains Project Unison <span id="ver-tag"></span>. The source files for this project can be found on [Github]. This is revision <code><span id="rev-tag">0000000</span></code>.
 
 ## What is this?
 
-Project Unison is an alternative SRD for [Pathfinder] and [Spheres of Power] that reworks the systems of both to simplify the systems of both for newer players while retaining the combat depth that more advanced players enjoy. 
-
-It adds some custom content from the following sources, in addition to Pathfinder and Spheres of Power:
+Project Unison is an alternative SRD for [Pathfinder] and [Spheres of Power] that reworks the systems of both to simplify the systems of both for newer players while retaining the combat depth that more advanced players enjoy. It adds some custom content from the following sources, in addition to Pathfinder and Spheres of Power:
 
 * [Elephant in the Room](https://michaeliantorno.com/feat-taxes-in-pathfinder/)
+
+If you enjoy this SRD, consider buying some of the rulebooks or campaign settings from [Paizo] or [Drop Dead Studios]. Campaign settings, especially, may be used easily with this alternative rules set, and make creating memorable and deep campaigns far easier for GMs. 
 
 [Pathfinder]: https://paizo.com/pathfinder
 [Spheres of Power]: http://spheresofpower.wikidot.com/
 [Github]: https://github.com/AuroraAmissa/ProjectUnison
+[Paizo]: https://paizo.com/
+[Drop Dead Studios]: https://www.dropdeadstudios.com/
 
 ## Getting Started
 
-For players who are already familiar with Pathfinder, see the [Major Changes] page for a summary of the most important changes between Pathfinder or Spheres of Power and the systems used here.
+For players who are already familiar with Pathfinder, see the [Changes from Pathfinder] page for a summary of the most important changes between Pathfinder or Spheres of Power and the systems used here.
 
-For new players, start reading with the [Getting Started](./basics.md) chapter.
+For new players, start reading with the [Getting Started](./2-basics.html) chapter.
 
-## Allowed Content
-
-Any Pathfinder content not explicitly included in this SRD is *not* allowed when using Project Unison without explicit GM permission, and GMs are encourged to do so only with extreme caution. This SRD is in part meant to simplify character creation in Spheres of Power by removing outdated options and consolidating weak ones. Allowing additional content without good reason may seriously impact this.
-
-As a rule of thumb: Additional content introduced to help with a character concept should be allowed. Additional content added to optimize a character further should not be allowed. Most excluded content is done so purposefully.
-
-[Major Changes]: ./major_changes.html
+[Changes from Pathfinder]: ./1-major_changes.html
 
 ## Table of Contents
 
 * [Front Page](./0-title)
-* [Major Changes](./major_changes.html)
-* Game Rules
-  * [Getting Started](./basics.html)
-  * [Characters](./characters.html)
-  * [Gameplay](./gameplay.html)
-* [Legal](./legal.html)
+* [Changelog](./1-changelog.html)
+* [Changes from Pathfinder](./1-major_changes.html)
+* [Legal](./1-legal.html)
+
+<span><!-- TODO: Figure out how to make pandoc not do weirdness with lists. --></span>
+
+* [Getting Started](./2-basics.html)
+* [Characters](./3-characters.html)
+* [Gameplay](./4-gameplay.html)
+* [Combat](./5-combat.html)
+* [Player Options](./6-player_options.html)
+* [Optional Rules](./7-optional_rules.html)

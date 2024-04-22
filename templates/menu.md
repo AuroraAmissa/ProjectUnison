@@ -1,4 +1,5 @@
 * [Table of Contents](../content/0-title.html#table-of-contents)
-* [Basic Rules](../content/basics.html)
-* [Characters](../content/characters.html)
-* [Gameplay](../content/gameplay.html)
+* [Characters](../content/3-characters.html)
+* [Gameplay](../content/4-gameplay.html)
+* [Combat](../content/5-combat.html)
+* [Player Options](../content/6-player_options.html)
