@@ -1,20 +1,32 @@
-# Basic Rules
+# Getting Started
 
 ## Playing the Game
 
-The Game Master describes the events that occur in the game world, and the players take turns describing what their characters do in response to those events. Unlike storytelling, however, the actions of the players and the characters controlled by the Game Master (frequently called non-player characters, or NPCs) are not certain. Most actions require dice rolls to determine success, with some tasks being more difficult than others. Each character is better at some things than they are at other things, granting them bonuses based on their skills and abilities.
+The Game Master describes the events that occur in the game world, and the players take turns describing what their characters do in response to those events. Unlike freeform roleplaying or storytelling, however, the actions of the players and the characters controlled by the Game Master (frequently called non-player characters, or NPCs) are not certain. Most actions require dice rolls to determine success, with some tasks being more difficult than others. Each character is better at some things than they are at other things, granting them bonuses based on their skills and abilities.
+
+As your character goes on adventures and their story progresses, they earn experience points. Experience points are rewarded for overcoming challenges and completing major storylines. When your character has earned enough experience points, they increase their character level by one, granting them new abilities that allow them to take on even greater challenges.
 
 ## Dice
 
-Whenever a dice roll is required, the roll is noted as "d#," with the "#" representing the number of sides on the die. If you need to roll multiple dice of the same type, there will be a number before the "d." For example, if you are required to roll 4d6, you should roll four six-sided dice and add the results together. Sometimes there will be a + or – after the notation, meaning that you add that number to, or subtract it from, the total results of the dice (not to each individual die rolled). Most die rolls in the game use a d20 with a number of modifiers based on the character’s skills, their abilities, and the situation. Generally speaking, rolling high is better than rolling low. Percentile rolls are a special case, indicated as rolling d%. You can generate a random number in this range by rolling two differently colored ten-sided dice (2d10). Pick one color to represent the tens digit, then roll both dice. If the die chosen to be the tens digit rolls a "4" and the other d10 rolls a "2," then you’ve generated a 42. A zero on the tens digit die indicates a result from 1 to 9, or 100 if both dice result in a zero. Some d10s are printed with "10," "20," "30," and so on in order to make reading d% rolls easier. Unless otherwise noted, whenever you must round a number, always round down.
+Whenever a character does something where the outcome isn't certain, the players and Game Master roll dice to determine the outcome.
 
-As your character goes on adventures, they earn gold, magic items, and experience points. Gold can be used to purchase better equipment, while magic items possess powerful abilities that enhance their character. Experience points are awarded for overcoming challenges and completing major storylines. When your character has earned enough experience points, they increase their character level by one, granting them new powers and abilities that allow them to take on even greater challenges.
+Dice rolls are noted as "d#", where the "#" is the number of sides on the dice. If hy need to roll multiple dice of the same type, there will be a number before the "d#". For example, if you are asked to roll [4d6], you should roll four six-sided dice and add the results together. Dice rolls may contain math, such as [2d6 + 1d10 + 4]. This means to roll [2d6], then add [1d10], then add 4 to the result. Most dice rollers online and in chat room bots already support this notation, so you can directly enter the dice roll.
+
+Most die rolls in the game use a d20 with a number of modifiers based on the character's skills, abilities, and the situation, Generally speaking, rolling high is better than rolling low.
+
+In some circumstances, you may be asked to roll "d100". An easy to do this with physical dice is to roll two differently colored ten-sided dice. Pick one color to represent the tens digit, then roll both dice. If the tens dice rolls a 4 and the ones dice rolls a 2, your result is 42. Some ten-sided dice are prelabeled for use as a tens dice, and are printed with "10", "20", "30", and so on. Treat a "10" as a "0" in that digit, and both dice landing on 10 as a 100.
+
+To resolve an effect that has a certain percentage chance of occuring, roll a [d100], and check if the result is equal to or under the percentage. For example, to check if a 24% chance occurs, roll [d100] and apply the effect if the result is under 24.
 
 ## Rule Zero
 
-The rules are intended to help you breathe life into your characters and the world they explore. While they are designed to make your game easy and exciting, you might find that some of them do not suit the style of play that your gaming group enjoys. Remember that these rules are yours. You can change them to fit your needs. Most Game Masters have a number of "house rules" that they use in their games. The Game Master and players should always discuss any rules changes to make sure that everyone understands how the game will be played. Although the Game Master is the final arbiter of the rules, the Pathfinder RPG is a shared experience, and all of the players should contribute their thoughts when the rules are in doubt.
+The rules are intended to help you breathe life into your characters and the world they explore. While they are designed to make your game easy and exciting, you might find that some of them do not suit the style of play that your gaming group enjoys. Remember that these rules are yours. You can change them to fit your needs.
+
+Most Game Masters have a number of "house rules" that they use in their games. The Game Master and players should always discuss any rules changes to make sure that everyone understands how the game will be played. Although the Game Master is the final arbiter of the rules, the Pathfinder RPG is a shared experience, and all of the players should contribute their thoughts when the rules are in doubt.
 
 ## General Rules
+
+There are a few basic guidelines for how to interpret game rules to keep in mind:
 
 * In general, if you wind up with a fraction, round down, even if the fraction is one-half or larger. Certain rolls, such as damage and hit points, have a minimum of 1.
 * Specific trumps general. If one ability says you can't do something in general, and another rule says you can do it in a specific case, you can do it only in that specific case.

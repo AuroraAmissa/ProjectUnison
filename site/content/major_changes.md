@@ -1,6 +1,13 @@
 # Major Changes
 
-This is a brief listing of all changes to the Pathfinder core system, to help people familiar with the system get acquainted easier with this homebrew SRD.
+This is a brief listing of all changes to the Pathfinder core system and Spheres of Power, to help people familiar with the system get acquainted easier with this homebrew SRD.
+
+## Templating Differences
+
+* Actions characters can take are explicitly put into a distinct box, rather than leaving it ambiguous. Sphere effects explicitly modify specific actions rather than leaving some subtle interactions ambigious.
+* Dice rolls and calculations are always surrounded in brackets like so: [d20], [d20+10], [2 + 3/character level]. This helps players immediately understand the effect.
+* The term "level" is never used ambigiously to refer to "class level". The Project Unison SRD always explicitly uses "class level" or "character level" - or otherwise makes it clear which is being referred to.
+* The term "magical effect" is used in place of "sphere effect" and "caster" in place of "spherescaster" as there are no spells in this SRD. To prevent confusion when using external content including spells, the term "spell" and "spellcaster" is never used.
 
 ## New Systems
 
@@ -22,5 +29,3 @@ This is a brief listing of all changes to the Pathfinder core system, to help pe
 * Magic items do not exist in the same way as in Pathfinder. Instead, rules are in place that give similar benefits as innate character traits. When using the Project Unison changeset, any magical rewards for dungeons or similar explorations should be at least as powerful as a minor artifact.
 
 ## Spheres of Power
-
-* The term "magical effect" is used in place of "sphere effect" and "caster" in place of "spherescaster" as there are no spells in this SRD. To prevent confusion when using external content including spells, the term "spell" and "spellcaster" is never used.

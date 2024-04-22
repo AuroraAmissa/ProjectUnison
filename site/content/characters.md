@@ -1,5 +1,13 @@
 # Characters
 
+This chapter contains information on characters and how they are built.
+
+<div id="subpages">
+
+[testing](./test)
+
+</div>
+
 ## Outline
 
 [TODO: Make this eventually!]
@@ -30,6 +38,20 @@ When you create your character, assign values from the table below to each abili
 | 18            | 6 points  |
 | 20            | 10 points |
 | 22            | 14 points |
+
+### Alignment
+
+> #### Note: Settings without Alignment
+> 
+> Alignment, due to its nature of treating ethics and morals as a physical and objective force in the world is not approprate for all campaigns and all settings.
+> 
+> For more information on alternatives, see the [Optional Rules](./optional_rules.html#replacing-alignment) chapter.
+
+### Skills
+
+### Competencies
+
+### Talents
 
 ## The Abilities
 

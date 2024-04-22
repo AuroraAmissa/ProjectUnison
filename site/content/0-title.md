@@ -1,4 +1,6 @@
-# Front Page
+This document contains Project Unison version <span id="ver-tag">[unknown]</span>.
+
+The source files for this project can be found on [Github]. This is revision <span id="rev-tag">0000000</span>.
 
 ## What is this?
 
@@ -10,10 +12,13 @@ It adds some custom content from the following sources, in addition to Pathfinde
 
 [Pathfinder]: https://paizo.com/pathfinder
 [Spheres of Power]: http://spheresofpower.wikidot.com/
+[Github]: https://github.com/AuroraAmissa/ProjectUnison
 
 ## Getting Started
 
 For players who are already familiar with Pathfinder, see the [Major Changes] page for a summary of the most important changes between Pathfinder or Spheres of Power and the systems used here.
+
+For new players, start reading with the [Getting Started](./basics.md) chapter.
 
 ## Allowed Content
 
@@ -25,9 +30,10 @@ As a rule of thumb: Additional content introduced to help with a character conce
 
 ## Table of Contents
 
+* [Front Page](./0-title)
 * [Major Changes](./major_changes.html)
-* [Basic Rules](./basics.html)
-* [Characters](./characters.html)
-* [Gameplay](./gameplay.html)
-
+* Game Rules
+  * [Getting Started](./basics.html)
+  * [Characters](./characters.html)
+  * [Gameplay](./gameplay.html)
 * [Legal](./legal.html)
