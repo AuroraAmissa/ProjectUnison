@@ -21,6 +21,12 @@ file = "scripts/plugins/inline-style.lua"
 [plugins.remove_redundant_hr]
 file = "scripts/plugins/remove_redundant_hr.lua"
 
+[templates.redirect]
+file = "templates/redirect.html"
+content_selector = 'head'
+content_action = "append_child"
+section = ""
+
 [widgets.header]
 widget = "include"
 selector = "header"

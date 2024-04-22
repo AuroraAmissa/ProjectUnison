@@ -24,7 +24,7 @@ For new players, start reading with the [Getting Started](./2-basics.html) chapt
 
 ## Table of Contents
 
-* [Front Page](./0-title)
+* [Front Page](./0-title.md)
 * [Changelog](./1-changelog.html)
 * [Changes from Pathfinder](./1-major_changes.html)
 * [Legal](./1-legal.html)
