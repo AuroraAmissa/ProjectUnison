@@ -65,7 +65,7 @@ def text_from_html(body, filter_fn):
 text = ""
 text_title = ""
 text_code = ""
-for page in glob("build/content/**/*.html", recursive=True):
+for page in glob("build/web/**/*.html", recursive=True):
     html = open(page).read()
     text += text_from_html(html, filter_body_text) + "\n\n"
     text_title += text_from_html(html, filter_title_text) + "\n\n"
