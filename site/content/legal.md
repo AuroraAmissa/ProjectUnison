@@ -15,9 +15,10 @@ Every effort has been made to avoid posting any material designated as the Produ
 Art assets are used from the following sources:
 
 * [Subtle Patterns](https://www.toptal.com/designers/subtlepatterns/) - Under Creative Commons, unspecified version.
-* [Haru Machi Pop](https://github.com/noriokanisawa/HachiMaruPop) - Under SIL Open Font License.
-* [M PLUS 2](https://github.com/coz-m/MPLUS_FONTS) - Under SIL Open Font License.
-* [Noto Sans Mono](https://fonts.google.com/noto/specimen/Noto+Sans+Mono) - Under SIL Open Font License.
+* [Haru Machi Pop](https://github.com/noriokanisawa/HachiMaruPop) - Under SIL Open Font License. Used for symbols.
+* [M PLUS 2](https://github.com/coz-m/MPLUS_FONTS) - Under SIL Open Font License. Used for body text.
+* [Rounded M+](http://jikasei.me/font/rounded-mplus/) - Under SIL Open Font License. Used for headings.
+* [Noto Sans Mono](https://fonts.google.com/noto/specimen/Noto+Sans+Mono) - Under SIL Open Font License. Used for monospace text.
 
 ## Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 

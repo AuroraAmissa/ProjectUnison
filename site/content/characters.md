@@ -4,15 +4,19 @@
 
 [TODO: Make this eventually!]
 
-## Ability Scores
+## Traits
 
-Each character has six ability scores that represent their character’s most basic attributes. They are their raw talent and prowess. While a character rarely rolls a check using just an ability score, these scores, and the modifiers they create, affect nearly every aspect of a character’s skills and abilities. Each ability score generally ranges from 3 to 18, although racial bonuses and penalties can alter this; an average ability score is 10.
+### Ability Scores
 
-### Generating Ability Scores
+Each character has six ability scores that represent their most basic attributes - their raw talent and prowess. While a character rarely rolls a check using just an ability score, these scores and the modifiers they create affect nearly every aspect of a character's skills and abilities. An average ability score is 10, and player characters typically start with ability scores ranging from 5 to 18.
 
-Each character receives a number of points to spend on buying their ability scores. To take a certain starting score in an ability score, you must spend the corresponding number of points in the table below. Negative points give you additional points to spend on other attributes.
+#### Ability Modifiers
 
-You may choose whether your character receives 12 points or 13 points. If they receive 12 points, add one to their lowest 5 ability scores after this process. Otherwise, you only add one to their lowest 3 ability scores. If there is a tie, you may choose which scores to apply the bonus to among the tied scores.
+Each ability has a modifier associated with. To calculate the modifier for an ability, divide it by two, and subtract 5. The modifier is the number you apply to the die roll when your character tries to do something related to that ability. You also use the modifier with some numbers that aren’t die rolls. A positive modifier is called a bonus, and a negative modifier is called a penalty.
+
+#### Generating Ability Scores
+
+When you create your character, assign values from the table below to each ability score your character has. The point cost of the ability scores must sum to 12 or 13. If you spent 12 points, add 1 to your lowest 5 ability scores, and if you spent 13, add 1 to your lowest 3 ability scores. If two or more scores are tied, you may choose which score among them to apply the bonus to.
 
 | Ability Score | Points    |
 |---------------|-----------|
@@ -26,10 +30,6 @@ You may choose whether your character receives 12 points or 13 points. If they r
 | 18            | 6 points  |
 | 20            | 10 points |
 | 22            | 14 points |
-
-### Determine Bonuses
-
-Each ability has a modifier associated with. To calculate the modifier for an ability, divide it by two, and subtract 5. The modifier is the number you apply to the die roll when your character tries to do something related to that ability. You also use the modifier with some numbers that aren’t die rolls. A positive modifier is called a bonus, and a negative modifier is called a penalty.
 
 ## The Abilities
 
@@ -154,3 +154,45 @@ Some spells and abilities cause you to take an ability penalty for a limited amo
 ### $$ Ability Drain
 
 Ability drain actually reduces the relevant ability score. Modify all skills and statistics related to that ability. This might cause you to lose skill points, hit points, and other bonuses. Ability drain can be healed through the use of talents such as the Restore Spirit talent of the Life sphere.
+
+## Alignment
+
+This game assumes good and evil are definitive things. Evidence for this outlook can be found in the indicated good or evil monster subtypes, spells that detect good and evil, and spells that have the good or evil descriptor. Characters using spells with the evil descriptor should consider themselves to be committing minor acts of evil, though using spells to create undead is an even more grievous act of evil that requires atonement. Creatures with an evil subtype (generally outsiders) are creatures that are fundamentally evil: devils, daemons, and demons, for instance. Their redemption is rare, if it is even possible. They are evil to their very core, and commit evil acts perpetually and persistently. Mortals with an evil alignment, however, are different from these beings. In fact, having an evil alignment alone does not make one a super-villain or even require one to be thwarted or killed. The extent of a character’s evil alignment might be a lesser evil, like selfishness, greed, or extreme vanity. Having these qualities might not even cause the character to detect as evil when subjected to detect evil, as creatures possessing 4 or fewer Hit Dice do not register to the spell (with the exception of clerics or other characters that radiate an aura).
+
+A creature’s general moral and personal attitudes are represented by its alignment: lawful good, neutral good, chaotic good, lawful neutral, neutral, chaotic neutral, lawful evil, neutral evil, or chaotic evil.
+
+Alignment is a tool for developing your character’s identity—it is not a straitjacket for restricting your character. Each alignment represents a broad range of personality types or personal philosophies, so two characters of the same alignment can still be quite different from each other. In addition, few people are completely consistent.
+
+All creatures have an alignment and alignment determines the effectiveness of some spells and magic items.
+
+Animals and other creatures incapable of moral action are neutral. Even deadly vipers and tigers that eat people are neutral because they lack the capacity for morally right or wrong behavior. Dogs may be obedient and cats free-spirited, but they do not have the moral capacity to be truly lawful or chaotic.
+
+### Good vs Evil
+
+Good characters and creatures protect innocent life. Evil characters and creatures debase or destroy innocent life, whether for fun or profit.
+
+* **Good**: Good implies altruism, respect for life, and a concern for the dignity of sentient beings. Good characters make personal sacrifices to help others.
+
+* **Evil**: Evil implies hurting, oppressing, and killing others. Some evil creatures simply have no compassion for others and kill without qualms if doing so is convenient. Others actively pursue evil, killing for sport or out of duty to some evil deity or master.
+
+* **Neutral**: People who are neutral with respect to good and evil have compunctions against killing the innocent, but may lack the commitment to make sacrifices to protect or help others.
+
+### Law vs Chaos
+
+Lawful characters tell the truth, keep their word, respect authority, honor tradition, and judge those who fall short of their duties. Chaotic characters follow their consciences, resent being told what to do, favor new ideas over tradition, and do what they promise if they feel like it.
+
+* **Law**: Law implies honor, trustworthiness, obedience to authority, and reliability. On the downside, lawfulness can include closed-mindedness, reactionary adherence to tradition, self-righteousness, and a lack of adaptability. Those who consciously promote lawfulness say that only lawful behavior creates a society in which people can depend on each other and make the right decisions in full confidence that others will act as they should.
+
+* **Chaos**: Chaos implies freedom, adaptability, and flexibility. On the downside, chaos can include recklessness, resentment toward legitimate authority, arbitrary actions, and irresponsibility. Those who promote chaotic behavior say that only unfettered personal freedom allows people to express themselves fully and lets society benefit from the potential that its individuals have within them.
+
+* **Neutral**: Someone who is neutral with respect to law and chaos has some respect for authority and feels neither a compulsion to obey nor a compulsion to rebel. They are generally honest, but can be tempted into lying or deceiving others.
+
+### Alignment Steps
+
+Occasionally the rules refer to "steps" when dealing with alignment. In this case, "steps" refers to the number of alignment shifts between the two alignments, as shown on the following diagram. Note that diagonal "steps" count as two steps. For example, a lawful neutral character is one step away from a lawful good alignment, and three steps away from a chaotic evil alignment. A cleric's alignment must be within one step of the alignment of their deity.
+
+|             | Lawful         | Neutral      | Chaotic         |
+|-------------|----------------|--------------|-----------------|
+| **Good**    | Lawful Good    | Neutral Good | Chaotic Good    | 
+| **Neutral** | Lawful Neutral | Neutral      | Chaotic Neutral | 
+| **Evil**    | Lawful Evil    | Neutral Evil | Chaotic Evil    | 

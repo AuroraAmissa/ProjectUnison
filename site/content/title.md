@@ -25,8 +25,9 @@ As a rule of thumb: Additional content introduced to help with a character conce
 
 ## Table of Contents
 
-* [Front Page](#)
 * [Major Changes](./major_changes.html)
 * [Basic Rules](./basics.html)
 * [Characters](./characters.html)
+* [Gameplay](./gameplay.html)
+
 * [Legal](./legal.html)

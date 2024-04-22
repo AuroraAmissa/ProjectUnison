@@ -10,7 +10,8 @@ body {
     --color-background-main: rgba(254, 250, 255, 0.85);
     --color-background-secondary: rgba(255, 255, 255, 0.6);
 
-    --font-title: "Hachi Maru Pop", sans-serif;
+    --font-title: "Rounded Mplus 1c Bold", sans-serif;
+    --font-symbol: "Hachi Maru Pop", sans-serif;
     --font-main: "M PLUS 2", sans-serif;
     --font-mono: "Noto Sans Mono", "M PLUS 2", monospace;
 }
@@ -74,11 +75,7 @@ div.highlight {
 
 /* General Elements */
 body {
-    background: url('background_main.jpg');
-    background-attachment: fixed;
-    background-color: #dcf8ef;
-    background-position: 0 0;
-    background-repeat: repeat;
+    background: #dcf8ef url('background_main.jpg') repeat fixed 0 -60px;
     font-family: var(--font-main);
     font-weight: 420;
     color: var(--color-text);
@@ -103,15 +100,17 @@ img {
 
 .h0:before {
     content: "☆ ";
+    font-family: var(--font-symbol);
 }
 
 .h0:after {
     content: " ☆";
+    font-family: var(--font-symbol);
 }
 
 :not(ol) > li::marker {
-    content: "♡  ";
-    font-family: var(--font-title);
+    content: "☆  ";
+    font-family: var(--font-symbol);
 }
 
 ul {
@@ -130,16 +129,17 @@ blockquote, table {
 .section {
     float: right;
     user-select: none;
+    font-family: var(--font-symbol);
 }
 
 h2::before, h3::before, h4::before, h5::before, h6::before {
     content: "《  ";
-    font-family: var(--font-title);
+    font-family: var(--font-symbol);
 }
 
 h2::after, h3::after, h4::after, h5::after, h6::after {
     content: "  》";
-    font-family: var(--font-title);
+    font-family: var(--font-symbol);
 }
 
 .a-left {
@@ -151,7 +151,7 @@ h2::after, h3::after, h4::after, h5::after, h6::after {
 }
 
 .a-left, .a-right {
-    font-family: var(--font-title);
+    font-family: var(--font-symbol);
     user-select: none;
 }
 
@@ -160,19 +160,19 @@ h2::after, h3::after, h4::after, h5::after, h6::after {
 }
 
 .h0 {
-    font-size: 3.5em;
+    font-size: 3.65em;
     margin: 0.1em 0 0 0;
     padding: 0 0 0.3em 0;
 }
 
 h1 {
-    font-size: 2.2em;
+    font-size: 2.5em;
     margin: 0.1em 0 0 0;
     padding: 0 0 0.3em 0;
 }
 
 h2 {
-    font-size: 1.8em;
+    font-size: 1.9em;
 }
 
 h3 {
@@ -324,8 +324,8 @@ article {
     }
 
     #gen-menu > ul > li:before {
-        content: "  ♡  ";
-        font-family: var(--font-title);
+        content: "  ☆  ";
+        font-family: var(--font-symbol);
     }
 
     .nav-dec {
