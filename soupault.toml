@@ -13,13 +13,13 @@ default_content_selector = "article"
 default_content_action = "append_child"
 
 [preprocessors]
-md = 'pandoc -f commonmark+smart+pipe_tables -t html --no-highlight --lua-filter=scripts/support/pandoc-language.lua'
+md = 'pandoc -f markdown -t html --no-highlight --lua-filter=scripts/support/pandoc-language.lua'
 
 [plugins.inline-styles]
 file = "scripts/plugins/inline-style.lua"
 
-[plugins.remove_redundant_hr]
-file = "scripts/plugins/remove_redundant_hr.lua"
+[plugins.custom_toc]
+file = "scripts/plugins/custom_toc.lua"
 
 [templates.redirect]
 file = "templates/redirect.html"
@@ -35,7 +35,7 @@ file = "templates/header.html"
 [widgets.menu-inner]
 widget = "exec"
 selector = ["#gen-menu"]
-command = "pandoc -f commonmark+smart -t html --no-highlight templates/menu.md"
+command = "pandoc -f markdown -t html --no-highlight templates/menu.md"
 
 [widgets.ver-tag]
 widget = "exec"
@@ -81,6 +81,6 @@ slug_replacement_string = "-"
 [widgets.inline-styles]
 widget = "inline-styles"
 
-[widgets.remove_redundant_hr]
+[widgets.custom_toc]
 after = "table-of-contents"
-widget = "remove_redundant_hr"
+widget = "custom_toc"

@@ -118,14 +118,6 @@ ul {
     padding-left: 1.75em;
 }
 
-blockquote, table {
-    margin: 0;
-    padding: 0.01em 0.7em 0.01em  0.7em;
-    border-color: var(--color-border);
-    border-style: dotted;
-    border-width: 0 0 0 0.15em;
-}
-
 .section {
     float: right;
     user-select: none;
@@ -168,15 +160,26 @@ h2::after, h3::after, h4::after, h5::after, h6::after {
 h1 {
     font-size: 2.5em;
     margin: 0.1em 0 0 0;
-    padding: 0 0 0.3em 0;
+    padding: 0 0 0.4em 0;
 }
 
 h2 {
     font-size: 1.9em;
+    margin: 1.5rem 0 0.6rem 0;
+}
+
+h1 + h2 {
+    margin: 0.75rem 0 0.6rem 0;
 }
 
 h3 {
     font-size: 1.4em;
+    margin: 1.1rem 0 0.6rem 0;
+}
+
+h4 {
+    font-size: 1em;
+    margin: 0.9rem 0 0.6rem 0;
 }
 
 .h0 {
@@ -184,8 +187,12 @@ h3 {
     display: block;
 }
 
-:not(li) > ul, p {
+:not(li) > ul {
     margin: 0.8rem 0 0.8rem 0;
+}
+
+p {
+    margin: 0.6rem 0 0.6rem 0;
 }
 
 .nav-span > ul {
@@ -194,14 +201,6 @@ h3 {
 
 li > ul {
     margin: 0.2rem 0 0.2rem 0;
-}
-
-h2, h3, h4, h5, h6 {
-    margin: 1.5rem 0 0.8rem 0;
-}
-
-h1 + h2 {
-    margin: 0.75rem 0 0.8rem 0;
 }
 
 hr {
@@ -222,6 +221,27 @@ a:link, a:visited {
 
 a:hover, a:active {
     text-decoration: underline;
+}
+
+blockquote, table {
+    margin: 0;
+    padding: 0.01em 0.7em 0.01em  0.7em;
+    border-color: var(--color-border);
+    border-style: dotted;
+    border-width: 1px 1px 1px 0.15em;
+    background: rgba(251, 228, 255, 0.35);
+}
+
+blockquote:last-child, table:last-child {
+    margin-bottom: 0.4em;
+}
+
+blockquote > h2, blockquote > h3, blockquote > h4, blockquote > h5, blockquote > h6 {
+    margin-top: 0.4em;
+}
+
+blockquote > p:last-child {
+    margin-bottom: 0.4em;
 }
 
 /* Page elements */
@@ -260,8 +280,8 @@ article {
     padding: 5px 10px 5px 10px;
 }
 
-#nav-hr {
-    margin: 1em 0 1em 0;
+.nav-hr {
+    margin: 0.85em 0;
 }
 
 /* Media queries */
@@ -288,9 +308,13 @@ article {
 
     .nav-header {
         display: block;
-        margin-bottom: 0.35em;
+        margin-bottom: 0.2em;
         font-family: var(--font-title);
         text-align: center;
+    }
+
+    #subpages-section {
+        display: none;
     }
 }
 
@@ -314,10 +338,6 @@ article {
         grid-column: 1;
     }
 
-    #nav-hr, #nav-banner-toc, #gen-toc {
-        display: none;
-    }
-
     #gen-menu > ul, #gen-menu > ul > li {
         display: inline;
         padding: 0;
@@ -328,7 +348,7 @@ article {
         font-family: var(--font-symbol);
     }
 
-    .nav-dec {
+    .nav-desk {
         display: none;
     }
 }

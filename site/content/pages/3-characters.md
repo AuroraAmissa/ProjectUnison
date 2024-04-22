@@ -2,12 +2,6 @@
 
 This chapter contains information on characters and how they are built.
 
-<div id="subpages">
-
-[testing](./test)
-
-</div>
-
 ## Outline
 
 [TODO: Make this eventually!]
@@ -43,9 +37,9 @@ When you create your character, assign values from the table below to each abili
 
 > #### Note: Settings without Alignment
 > 
-> Alignment, due to its nature of treating ethics and morals as a physical and objective force in the world is not approprate for all campaigns and all settings.
+> Alignment treats ethics and morals as a objective and physical force in the world. This is not approprate for all campaignns and all settings.
 > 
-> For more information on alternatives, see the [Optional Rules](./7-optional_rules.html#replacing-alignment) chapter.
+> For more information on alternatives, see the [Optional Rules](./4a-optional_rules.html#replacing-alignment) chapter.
 
 ### Skills
 
@@ -159,21 +153,21 @@ You apply your character’s Charisma modifier to:
 
 Some abilities increase your ability scores. Ability score increases with a duration of 1 day or less give only temporary bonuses. For every two points of increase to a single ability, apply a +1 bonus to the skills and statistics listed with the relevant ability.
 
-### $$ Permanent Bonuses
+### Permanent Bonuses {.unlisted .unnumbered}
 
 Ability bonuses with a duration greater than 1 day actually increase the relevant ability score after 24 hours. Modify all skills and statistics related to that ability. This might cause you to gain skill points, hit points, and other bonuses. These bonuses should be noted separately in case they are removed.
 
-### $$ Ability Score Damage
+### Ability Score Damage {.unlisted .unnumbered}
 
 Diseases, poisons, spells, and other abilities can all deal damage directly to your ability scores. This damage does not actually reduce an ability, but it does apply a penalty to the skills and statistics that are based on that ability.
 
 For every 2 points of damage you take to a single ability, apply a –1 penalty to skills and statistics listed with the relevant ability. If the amount of ability damage you have taken equals or exceeds your ability score, you immediately fall unconscious until the damage is less than your ability score. The only exception to this is your Constitution score. If the damage to your Constitution is equal to or greater than your Constitution score, you die. Unless otherwise noted, damage to your ability scores is healed at the rate of 1 per day to each ability score that has been damaged. Ability damage can be healed through the use of spells, such as lesser restoration.
 
-### $$ Ability Score Penalties
+### Ability Score Penalties {.unlisted .unnumbered}
 
 Some spells and abilities cause you to take an ability penalty for a limited amount of time. While in effect, these penalties function just like ability damage, but they cannot cause you to fall unconscious or die. In essence, penalties cannot decrease your ability score to less than 1.
 
-### $$ Ability Drain
+### Ability Drain {.unlisted .unnumbered}
 
 Ability drain actually reduces the relevant ability score. Modify all skills and statistics related to that ability. This might cause you to lose skill points, hit points, and other bonuses. Ability drain can be healed through the use of talents such as the Restore Spirit talent of the Life sphere.
 

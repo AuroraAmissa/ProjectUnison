@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Pandoc.Settings">
+    <option name="pathToPandoc" value="/nix/store/vancx24g8af1h38gzn365pyg6xcc4nng-pandoc-cli-3.1.11.1/bin/pandoc" />
+  </component>
+</project>

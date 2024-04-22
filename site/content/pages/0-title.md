@@ -1,4 +1,4 @@
-This document contains Project Unison <span id="ver-tag"></span>. The source files for this project can be found on [Github]. This is revision <code><span id="rev-tag">0000000</span></code>.
+This document contains Project Unison [(unknown)]{#ver-tag}. The source files for this project can be found on [Github]. This is revision `(unknown)`{#rev-tag}.
 
 ## What is this?
 
@@ -24,12 +24,12 @@ For new players, start reading with the [Getting Started](./2-basics.html) chapt
 
 ## Table of Contents
 
-* [Front Page](./0-title.md)
+* [Front Page](./0-title.html)
 * [Changelog](./1-changelog.html)
 * [Changes from Pathfinder](./1-major_changes.html)
 * [Legal](./1-legal.html)
 
-<span><!-- TODO: Figure out how to make pandoc not do weirdness with lists. --></span>
+<!-- -->
 
 * [Getting Started](./2-basics.html)
 * [Characters](./3-characters.html)
