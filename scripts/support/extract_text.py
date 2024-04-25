@@ -16,6 +16,8 @@ def filter_body_text(element):
     if element.parent.name in ['h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'code']:
         return False
     if "class" in element.parent.attrs:
+        if "symbol" in element.parent.attrs["class"]:
+            return False
         if "nav-header" in element.parent.attrs["class"]:
             return False
         if "section" in element.parent.attrs["class"]:
@@ -33,7 +35,11 @@ def filter_title_text(element):
     if element.parent.name in ['code']:
         return False
     if "class" in element.parent.attrs:
-        if "nav-dec" in element.parent.attrs["class"]:
+        if "symbol" in element.parent.attrs["class"]:
+            return False
+        if "a-left" in element.parent.attrs["class"]:
+            return False
+        if "a-right" in element.parent.attrs["class"]:
             return False
         if "section" in element.parent.attrs["class"]:
             return False
@@ -77,7 +83,7 @@ def glyphs(t):
 open("build/text_body.txt", "w").write(text)
 open("build/text_title.txt", "w").write(text_title)
 open("build/text_code.txt", "w").write(text_code)
-open("build/text_symbols.txt", "w").write("《》☆§")
+open("build/text_symbols.txt", "w").write("《》☆§●○")
 
 print("Text glyphs: "+glyphs(text))
 print("Title glyphs: "+glyphs(text_title))

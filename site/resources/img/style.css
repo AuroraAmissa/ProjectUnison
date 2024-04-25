@@ -1,21 +1,3 @@
-/* Variables */
-body {
-    --grid-spacing: 0.35em;
-
-    --color-border: #c480ff;
-    --color-link: #af5ff5;
-    --color-text: #601e9a;
-    --color-code: var(--color-text);
-    --color-code-block: var(--color-text);
-    --color-background-main: rgba(254, 250, 255, 0.85);
-    --color-background-secondary: rgba(255, 255, 255, 0.6);
-
-    --font-title: "Rounded Mplus 1c Bold", sans-serif;
-    --font-symbol: "Hachi Maru Pop", sans-serif;
-    --font-main: "M PLUS 2", sans-serif;
-    --font-mono: "Noto Sans Mono", "M PLUS 2", monospace;
-}
-
 /* Composable elements */
 h1, .h0, .center {
     text-align: center;
@@ -196,7 +178,7 @@ p {
 }
 
 .nav-span > ul {
-    margin: 0.2em 0 0.2em 0;
+    margin: 0.2rem 0 0.2rem 0;
 }
 
 li > ul {
@@ -223,16 +205,56 @@ a:hover, a:active {
     text-decoration: underline;
 }
 
-blockquote, table {
+blockquote, table, .ability {
     margin: 0;
     padding: 0.01em 0.7em 0.01em  0.7em;
     border-color: var(--color-border);
     border-style: dotted;
-    border-width: 1px 1px 1px 0.15em;
-    background: rgba(251, 228, 255, 0.35);
+    border-width: 1px 1px 1px 2px;
+    background: var(--color-background-sidebar);
 }
 
-blockquote:last-child, table:last-child {
+.ability > h6 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.ability-head {
+    float: right;
+
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: bold;
+
+    padding-right: 0.6rem;
+}
+
+.symbol {
+    font-family: var(--font-symbol);
+    font-style: normal;
+    font-weight: normal;
+}
+
+.subability > h6 {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.subability {
+    background: none;
+    border-width: 0 0 0 2px;
+    padding-right: 0;
+}
+
+.subability-head {
+    padding-right: 0;
+}
+
+.ability + .ability {
+    margin-top: 0.6rem;
+}
+
+blockquote:last-child, table:last-child, .ability:last-child {
     margin-bottom: 0.4em;
 }
 
@@ -240,7 +262,11 @@ blockquote > h2, blockquote > h3, blockquote > h4, blockquote > h5, blockquote >
     margin-top: 0.4em;
 }
 
-blockquote > p:last-child {
+.ability > h2, .ability > h3, .ability > h4, .ability > h5, .ability > h6 {
+    margin-top: 0.4em;
+}
+
+blockquote > p:last-child, .ability > p:last-child {
     margin-bottom: 0.4em;
 }
 

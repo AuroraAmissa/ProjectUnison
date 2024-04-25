@@ -1,0 +1,18 @@
+body {
+    --grid-spacing: 0.35em;
+
+    --color-border: #c480ff;
+    --color-link: #af5ff5;
+    --color-text: #601e9a;
+    --color-code: var(--color-text);
+    --color-code-block: var(--color-text);
+    --color-background-main: rgba(254, 250, 255, 0.85);
+    --color-background-secondary: rgba(251, 228, 255, 0.35);
+    --color-background-sidebar: rgba(251, 228, 255, 0.35);
+
+    --font-title: "Rounded Mplus 1c Bold", sans-serif;
+    --font-symbol: "Hachi Maru Pop", sans-serif;
+    --font-main: "M PLUS 2", sans-serif;
+    --font-mono: "Noto Sans Mono", "M PLUS 2", monospace;
+}
+

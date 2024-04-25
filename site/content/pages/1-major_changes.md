@@ -24,8 +24,12 @@ This is a brief listing of all changes to the Pathfinder core system and Spheres
   * Unchained Action Economy
   * Fractional Base Bonuses
   * Elephant in the Room (3PP)
-* Gold is not tracked directly. Instead, the backgrounds system is used to track your character's general level of wealth.
+* Gold is not tracked directly. Instead, the Resources bonus trait is used to gain mundane equipment and consumable items.
 * Characters do not gain ability points each 4th level. Instead, this is rolled into the Bonus Points system. 
 * Magic items do not exist in the same way as in Pathfinder. Instead, rules are in place that give similar benefits as innate character traits. When using the Project Unison changeset, any magical rewards for dungeons or similar explorations should be at least as powerful as a minor artifact.
+* Alignment is downgraded to an optional rule, and suggestions are given for adapting it to broader settings than standard D&D cosmology.
 
 ## Spheres of Power
+
+* Sphere-specific drawbacks are no longer considered part of a tradition, and instead simply something you take as part of gaining a sphere.
+* Trade and Martial traditions no longer exist as a concept. Instead, as with casting, you simply get two talents for free when you first gain a class with martial or trade talent progression.

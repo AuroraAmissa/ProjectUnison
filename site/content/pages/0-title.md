@@ -25,6 +25,7 @@ For new players, start reading with the [Getting Started](./2-basics.html) chapt
 ## Table of Contents
 
 * [Front Page](./0-title.html)
+* [Introduction](./1-about.md)
 * [Changelog](./1-changelog.html)
 * [Changes from Pathfinder](./1-major_changes.html)
 * [Legal](./1-legal.html)
@@ -33,7 +34,11 @@ For new players, start reading with the [Getting Started](./2-basics.html) chapt
 
 * [Getting Started](./2-basics.html)
 * [Characters](./3-characters.html)
+  * [Ability Scores](./3a-ability_scores.html)
+  * [Bonus Points](./3b-bonus_points.html)
+  * [Equipment](./3c-equipment.html)
 * [Gameplay](./4-gameplay.html)
+  * [Optional Rules](./4a-optional_rules.html)
 * [Combat](./5-combat.html)
 * [Player Options](./6-player_options.html)
 * [Optional Rules](./7-optional_rules.html)

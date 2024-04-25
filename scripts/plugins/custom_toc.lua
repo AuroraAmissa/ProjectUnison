@@ -1,9 +1,7 @@
 -- Delete the `#nav-hr` if there is no table of contents
 local html = HTML.select_one(page, "#gen-toc>ul")
-if html then
-    if Table.length(HTML.children(html)) == 0 then
-        Table.iter_values(HTML.delete, HTML.select_all_of(page, {"#nav-hr", "#nav-banner-toc", "#gen-toc"}))
-    end
+if not html or Table.length(HTML.children(html)) == 0 then
+    Table.iter_values(HTML.delete, HTML.select_all_of(page, {"#nav-hr", "#nav-banner-toc", "#gen-toc"}))
 end
 
 -- Allows anchors for all headings, but exclude any after the second level from the TOC.
@@ -14,12 +12,12 @@ unlisted_ids = {}
 function process_unlisted(element)
     local attr = HTML.get_attribute(element, "id")
     if attr then
-        unlisted_ids["#" .. attr] = true
+        unlisted_ids["#" .. attr] = 1
     end
 end
 Table.iter_values(process_unlisted, HTML.select_all_of(page, { ".unlisted" }))
 
--- Delete the `#nav-hr` if there is no table of contents
+-- Process toc and exclude references that are excluded
 local html = HTML.select_one(page, "#gen-toc")
 function process_entries(element)
     local link = HTML.select_one(element, "a")
@@ -47,3 +45,19 @@ else
     -- Delete the subpage headings
     Table.iter_values(HTML.delete, HTML.select_all_of(page, {"#gen-subpages", "#nav-subpages", "#subpages-hr"}))
 end
+
+-- Force ability heads to the end of the headings
+function move_ability_head(element)
+    local parent = HTML.parent(element)
+    HTML.append_child(parent, element)
+    local text = HTML.children(parent)
+    HTML.append_child(parent, HTML.create_text(String.trim(HTML.inner_text(text[1]))))
+    HTML.delete(text[1])
+end
+Table.iter_values(move_ability_head, HTML.select_all_of(page, {".ability-head"}))
+
+-- Remove section tags from subabilities
+function subability_no_subsection(element)
+    Table.iter_values(HTML.delete, HTML.select_all_of(element, {".section"}))
+end
+Table.iter_values(subability_no_subsection, HTML.select_all_of(page, {".subability"}))
