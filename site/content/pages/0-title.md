@@ -36,6 +36,8 @@ For new players, start reading with the [Getting Started]() chapter.
   * [Bonus Points]()
   * [Equipment]()
 * [Gameplay]()
+  * [Conditions]()
+  * [Downtime and Rest]()
   * [Optional Rules]()
     * [Integrity]()
     * [Modern Settings]()
