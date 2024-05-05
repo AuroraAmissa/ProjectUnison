@@ -268,13 +268,13 @@ You may purchase the Weapon Attunement bonus trait with minimums of "3/5/7/9/10/
 
 You may additionally take character drawbacks that grant you additional bonus points. Each drawback grants a number of drawback points equal to the stated "**Points**:" value. You may take a maximum of 4 points worth of drawbacks. Depending on the number of drawback points you have, you gain extra bonus points at each level:
 
-| Drawback Points | Extra Bonus Points                                                  |
-|-----------------|---------------------------------------------------------------------|
-| 0               | None                                                                |
-| 1               | +1 at 1st level, +1 at 4th level and every 3 levels thereafter      |
-| 2               | +1 at each odd level                                                |
-| 3               | +1 at each odd level, +1 at 2nd level and every 4 levels thereafter |
-| 4               | +1 at each character level                                          |
+| Drawback Points | Extra Bonus Points                                                                               |
+|-----------------|--------------------------------------------------------------------------------------------------|
+| 0               | None                                                                                             |
+| 1               | +1 at 1st level and +1 at 4th level and every 3 levels thereafter                                |
+| 2               | +2 at 1st level and +1 at each odd level thereafter                                              |
+| 3               | +3 at 1st level and +1 at each level thereafter (except the 2nd, and every 4th level thereafter) |
+| 4               | +4 at 1st level and +1 at each character level thereafter                                        |
 
 Character drawbacks may only be taken at character creation.
 
@@ -294,6 +294,13 @@ Your character suffers an additional Distortion at 0 Integrity Damage. This Dist
 **Points**: 2
 
 If your character intentionally causes lethal damage to another character or otherwise causes their death, they take nonlethal damage equal to the amount they dealt and are stunned 1d4+1 rounds.
+:::::
+
+::::: {.ability}
+###### Poverty [Character Drawback]{.ability-head} {.unlisted .unnumbered}
+**Points**: 1
+
+Your character begins with no resource level, and can never gain the Resources drawback or talents that grant them income streams. They may still gain an income through other means.
 :::::
 
 ## Character Boons

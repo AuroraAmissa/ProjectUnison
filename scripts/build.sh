@@ -9,6 +9,7 @@ mkdir -p build/web
 rm -rf build/web/* build/web/.* ||:
 
 # Build content
+python3.11 scripts/support/gather_headings.py
 soupault --build-dir build/web
 
 # Extract text
