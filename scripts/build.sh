@@ -10,10 +10,27 @@ rm -rf build/web/* build/web/.* ||:
 
 # Build content
 soupault --build-dir build/web
-minify -vr build/web/ -o build/web/ --html-keep-comments
 
 # Extract text
 python3.11 scripts/support/extract_text.py
+
+# Generate webfonts
+mkdir -p build/web/resources/webfonts
+scripts/support/mkwebfont -v --store build/web/resources/webfonts --store-uri "../webfonts/" \
+    --splitter=none --subset-from=build/text_body.txt \
+    -o build/web/resources/webfonts/fonts.css fonts/MPLUS2-VariableFont_wght.ttf
+scripts/support/mkwebfont -v --store build/web/resources/webfonts --store-uri "../webfonts/" \
+    --splitter=none --subset-from=build/text_title.txt \
+    -a build/web/resources/webfonts/fonts.css fonts/MPLUSRounded1c-Bold.ttf
+scripts/support/mkwebfont -v --store build/web/resources/webfonts --store-uri "../webfonts/" \
+    --splitter=none --subset-from=build/text_code.txt \
+    -a build/web/resources/webfonts/fonts.css fonts/NotoSansMono-VariableFont_wdth,wght.ttf
+scripts/support/mkwebfont -v --store build/web/resources/webfonts --store-uri "../webfonts/" \
+    --splitter=none --subset-from=build/text_symbols.txt \
+    -a build/web/resources/webfonts/fonts.css fonts/HachiMaruPop-Regular.ttf
+
+# Minify
+minify -vr build/web/ -o build/web/ --html-keep-comments
 
 # Build archive
 cd build

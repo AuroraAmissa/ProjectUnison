@@ -214,6 +214,10 @@ blockquote, table, .ability {
     background: var(--color-background-sidebar);
 }
 
+th + th, td + td {
+    padding-left: 0.4em;
+}
+
 .ability > h6 {
     font-size: 1.2rem;
     margin: 0;

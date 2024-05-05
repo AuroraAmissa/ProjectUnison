@@ -24,6 +24,8 @@ def filter_body_text(element):
             return False
         if "h0" in element.parent.attrs["class"]:
             return False
+        if "ability-head" in element.parent.attrs["class"]:
+            return True
     if element.parent.name != "body" and element.parent.name != "html":
         return filter_body_text(element.parent)
     return True
@@ -42,6 +44,8 @@ def filter_title_text(element):
         if "a-right" in element.parent.attrs["class"]:
             return False
         if "section" in element.parent.attrs["class"]:
+            return False
+        if "ability-head" in element.parent.attrs["class"]:
             return False
         if "nav-header" in element.parent.attrs["class"]:
             return True

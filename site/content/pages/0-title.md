@@ -41,4 +41,5 @@ For new players, start reading with the [Getting Started](./2-basics.html) chapt
   * [Optional Rules](./4a-optional_rules.html)
 * [Combat](./5-combat.html)
 * [Player Options](./6-player_options.html)
-* [Optional Rules](./7-optional_rules.html)
+* [Gamemastering](./7-gamemastering.html)
+* [Campaign Options](./8-campaign_options.html)

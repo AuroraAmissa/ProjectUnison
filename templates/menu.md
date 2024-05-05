@@ -3,3 +3,4 @@
 * [Gameplay](../../content/pages/4-gameplay.html)
 * [Combat](../../content/pages/5-combat.html)
 * [Player Options](../../content/pages/6-player_options.html)
+* [Gamemastering](../../content/pages/7-gamemastering.html)
