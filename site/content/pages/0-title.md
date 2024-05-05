@@ -16,11 +16,9 @@ If you enjoy this SRD, consider buying some of the rulebooks or campaign setting
 
 ## Getting Started
 
-For players who are already familiar with Pathfinder, see the [Changes from Pathfinder] page for a summary of the most important changes between Pathfinder or Spheres of Power and the systems used here.
+For players who are already familiar with Pathfinder, see the [Changes from Pathfinder]() page for a summary of the most important changes between Pathfinder or Spheres of Power and the systems used here.
 
 For new players, start reading with the [Getting Started](./2-basics.html) chapter.
-
-[Changes from Pathfinder]: ./1-major_changes.html
 
 ## Table of Contents
 
@@ -42,4 +40,3 @@ For new players, start reading with the [Getting Started](./2-basics.html) chapt
 * [Combat](./5-combat.html)
 * [Player Options](./6-player_options.html)
 * [Gamemastering](./7-gamemastering.html)
-* [Campaign Options](./8-campaign_options.html)

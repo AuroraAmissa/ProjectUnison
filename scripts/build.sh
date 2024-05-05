@@ -1,5 +1,5 @@
 #! /usr/bin/env nix-shell
-#! nix-shell -i bash --pure -p soupault -p pandoc -p minify -p nix -p git -p zip
+#! nix-shell -i bash --pure -p soupault -p pandoc -p minify -p nix -p git -p zip -p linkchecker
 #! nix-shell -p python311 -p python311Packages.beautifulsoup4
 
 set -eu
@@ -32,6 +32,9 @@ scripts/support/mkwebfont -v --store build/web/resources/webfonts --store-uri ".
 
 # Minify
 minify -vr build/web/ -o build/web/ --html-keep-comments
+
+# Check links (validation step)
+linkchecker build/web/
 
 # Build archive
 cd build
