@@ -286,7 +286,7 @@ Character drawbacks may only be taken at character creation.
 
 Your character suffers an additional Distortion at 0 Integrity Damage. This Distortion may be a Major Distortion (in which case, this drawback is worth 3 points) or a Minor Distortion (in which case, this drawback is worth 2 points).
 
-*Special:* This drawback is designed for games that use the [Integrity](./4aa-integrity.html) optional rule. It may still be taken in games that do not use this rule.
+*Special:* This drawback is designed for games that use the [Integrity]() optional rule. It may still be taken in games that do not use this rule.
 :::::
 
 ::::: {.ability}

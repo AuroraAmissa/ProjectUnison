@@ -18,25 +18,27 @@ If you enjoy this SRD, consider buying some of the rulebooks or campaign setting
 
 For players who are already familiar with Pathfinder, see the [Changes from Pathfinder]() page for a summary of the most important changes between Pathfinder or Spheres of Power and the systems used here.
 
-For new players, start reading with the [Getting Started](./2-basics.html) chapter.
+For new players, start reading with the [Getting Started]() chapter.
 
 ## Table of Contents
 
 * [Front Page](./0-title.html)
-* [Introduction](./1-about.md)
-* [Changelog](./1-changelog.html)
-* [Changes from Pathfinder](./1-major_changes.html)
-* [Legal](./1-legal.html)
+* [Introduction]()
+* [Changelog]()
+* [Changes from Pathfinder]()
+* [Legal]()
 
 <!-- -->
 
-* [Getting Started](./2-basics.html)
-* [Characters](./3-characters.html)
-  * [Ability Scores](./3a-ability_scores.html)
-  * [Bonus Points](./3b-bonus_points.html)
-  * [Equipment](./3c-equipment.html)
-* [Gameplay](./4-gameplay.html)
-  * [Optional Rules](./4a-optional_rules.html)
-* [Combat](./5-combat.html)
-* [Player Options](./6-player_options.html)
-* [Gamemastering](./7-gamemastering.html)
+* [Getting Started]()
+* [Characters]()
+  * [Ability Scores]()
+  * [Bonus Points]()
+  * [Equipment]()
+* [Gameplay]()
+  * [Optional Rules]()
+    * [Integrity]()
+    * [Modern Settings]()
+* [Combat]()
+* [Player Options]()
+* [Gamemastering]()

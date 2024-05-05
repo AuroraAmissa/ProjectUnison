@@ -17,6 +17,8 @@ function string:split(sep)
             return t
         end
     end
+    table.insert(t, "")
+    return t
 end
 
 function string:contains(sub)

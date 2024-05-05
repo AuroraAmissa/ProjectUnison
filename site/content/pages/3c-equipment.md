@@ -16,7 +16,7 @@ Add together the numerical bulk values of all items you are wearing and carrying
 
 ### Bulk Limits
 
-You can carry an amount of bulk up to half your Strength score without difficulty. If you carry more than that, you gain the [Encumbered](./4b-conditions.html#encumbered) condition, until the amount of bulk you carry becomes less than or equal to half your Strength score. You can't voluntarily wear or hold an amount of bulk that is greater than your Strength score. If you are forced to do so (due to changing gravity, for example), you gain the [Overburdened](./4b-conditions.html#overburdened) condition, until the bulk you carry becomes less than or equal to your Strength score.
+You can carry an amount of bulk up to half your Strength score without difficulty. If you carry more than that, you gain the [Encumbered](Conditions#) condition, until the amount of bulk you carry becomes less than or equal to half your Strength score. You can't voluntarily wear or hold an amount of bulk that is greater than your Strength score. If you are forced to do so (due to changing gravity, for example), you gain the [Overburdened](Conditions#) condition, until the bulk you carry becomes less than or equal to your Strength score.
 
 If you are wearing armor, use the worse penalty (from armor or bulk) for speed adjustments and skill checks. The penalties do not stack.
 
@@ -30,7 +30,7 @@ In addition to their bulk, items have a cost that represents the financial burde
 
 ### Resources Level
 
-Your character's resources level represents their general level of wealth. All characters begin with a base resources level of 1, and may gain additional levels through the [Resources](./3b-bonus_points.html#resources-bonus-trait) bonus trait and some talents.
+Your character's resources level represents their general level of wealth. All characters begin with a base resources level of 1, and may gain additional levels through the [Resources](Bonus Points#Resources Bonus Trait) bonus trait and some talents.
 
 A character may purchase new equipment with a cost up their purchase cap during each downtime, and may maintain equipment with a cost up their maintenance cap each downtime.
 
@@ -49,7 +49,7 @@ Any resources from a character's purchase cap that they don't spend during a dow
 | 6 (High-Ranking Nobility) | 250          | 3000            |
 | 7 (Monarch)               | 1000         | 15000           |
 
-**Note**: Resource levels for lower class characters in medieval settings often represents skills and resources available for barter rather than currency. As such, resource points are an abstract measure of value and purchasing power with no direct conversion to currency. For more advanced settings where currency is used universally, see the chapter on [Modern Settings](./4ab-modern_settings.html#Resources).
+**Note**: Resource levels for lower class characters in medieval settings often represents skills and resources available for barter rather than currency. As such, resource points are an abstract measure of value and purchasing power with no direct conversion to currency. For more advanced settings where currency is used universally, see the chapter on [Modern Settings](#Resources).
 
 ### Multiple Income Sources
 

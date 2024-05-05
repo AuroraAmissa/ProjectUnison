@@ -5,12 +5,10 @@ This chapter contains information on characters and how they are built.
 ::::: {#subpages-section}
 ## Subpages {.unlisted .unnumbered}
 
-* [Ability Scores]
-* [Bonus Points](./3b-bonus_points.html)
-* [Equipment](./3c-equipment.html)
+* [Ability Scores]()
+* [Bonus Points]()
+* [Equipment]()
 :::::
-
-[Ability Scores]: ./3a-ability_scores.html
 
 ## Character Creation
 
@@ -22,7 +20,7 @@ This section contains  a summary of traits that all characters have, and how the
 
 ### Ability Scores
 
-*(For details, see: [Ability Scores])*
+*(For details, see: [Ability Scores]())*
 
 Each character has six ability scores that represent their most basic attributes:
 
