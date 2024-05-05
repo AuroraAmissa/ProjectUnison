@@ -34,7 +34,7 @@ Your character's resources level represents their general level of wealth. All c
 
 A character may purchase new equipment with a cost up their purchase cap during each downtime, and may maintain equipment with a cost up their maintenance cap each downtime.
 
-If they cannot pay the cost to maintain their equipment, it gains the broken condition. If they cannot pay the cost to maintain broken equipment, it becomes unusable and cannot be economically repaired. Fixing broken equipment requires twice the usual maintenance cap be spent to restore it. Holdings such as businesses or land are simply lost, and cannot be repaired or unbroken.
+If they cannot pay the cost to maintain their equipment, it gains the [Broken](Conditions#) condition. If they cannot pay the cost to maintain broken equipment, it becomes unusable and cannot be economically repaired. Fixing broken equipment requires twice the usual maintenance cap be spent to restore it. Holdings such as businesses or land are simply lost, and cannot be repaired or unbroken.
 
 Any resources from a character's purchase cap that they don't spend during a downtime cycle is saved, and may be spent in future cycles, up to a cap of their maintenance cap. For easier tracking, these savings are rounded down to the nearest resource point if you have a resources level of 2 or higher.
 
