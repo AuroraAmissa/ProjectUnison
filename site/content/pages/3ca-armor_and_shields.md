@@ -5,7 +5,7 @@ For most, armor is the simplest way to protect oneself in a world of rampant thr
 ## Armor List
 
 ``` {.include}
-includes/tables/armor_list.md
+site/content/include/armor_list.md
 ```
 
 ## Mechanics

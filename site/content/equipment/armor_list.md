@@ -5,7 +5,7 @@ This page contains detailed descriptions of all armor types. A summary may be fo
 ## Summary
 
 ``` {.include}
-includes/tables/armor_list.md
+site/content/include/armor_list.md
 ```
 
 ## Light Armor Descriptions
@@ -84,7 +84,7 @@ Scale mail is made up of dozens of small, overlapping metal plates. Similar to b
 Unlike a chain shirt, which covers only the chest, chainmail protects the wearer with a complete mesh of chain links that cover the torso and arms, and extends below the waist. Multiple interconnected pieces offer additional protection over vital areas. The suit includes gauntlets.
 :::::
 
-::::: {.ability}
+::::: {.abisite/content/includelity}
 ###### Agile Breastplate [Equipment - Armor]{.ability-head} {.unlisted .unnumbered}
 
 **Cost** 5; **Bulk** 2; **Weight** Medium \

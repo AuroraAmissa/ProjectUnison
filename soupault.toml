@@ -5,6 +5,7 @@ doctype = "<!DOCTYPE html>"
 clean_urls = false
 page_file_extensions = ["htm", "html", "md"]
 ignore_extensions = ["draft"]
+ignore_directories = ["include"]
 plugin_discovery = true
 plugin_dirs = ["scripts/plugins"]
 
