@@ -19,6 +19,7 @@ This page contains detailed descriptions of all armor types. A summary may be fo
 | [Half-Plate]        | Heavy        | 5    | 5    | +8          | —             | -7                  |
 | [Full Plate]        | Heavy        | 8    | 5    | +9          | —             | -8                  |
 | [Buckler]           | Shield       | L    | L    | +1          | —             | -1                  |
+| [Light Shield]      | Shield       | L    | L    | +1          | —             | -1                  |
 | [Shield]            | Shield       | L    | 1    | +2          | —             | -2                  |
 | [Tower Shield]      | Shield       | 1    | 3    | +4          | +2            | -10                 |
 
@@ -35,6 +36,7 @@ This page contains detailed descriptions of all armor types. A summary may be fo
 [Half-Plate]: Armor List#Half-Plate Equipment Armor
 [Full Plate]: Armor List#Full Plate Equipment Armor
 [Buckler]: Armor List#Buckler Equipment Shield
+[Light Shield]: Armor List#Light Shield Equipment Shield
 [Shield]: Armor List#Shield Equipment Shield
 [Tower Shield]: Armor List#Tower Shield Equipment Shield
 
@@ -164,16 +166,31 @@ This metal suit comprises multiple pieces of interconnected and overlaying metal
 
 A buckler is a small shield, gripped in the fist with a central handle behind the boss. Its size makes it poor protection against missile weapons but useful in deflecting the blow of an opponent's weapons, binding their arms, hindering their movements, or punching them.
 
-You can use a bow or crossbow without penalty while carrying it. You can also use your shield arm to wield a weapon (whether you are using an offhand weapon or using your off hand to help wield a two-handed weapon), but you take a –1 penalty on attack rolls while doing so. This penalty stacks with those that may apply for fighting with your off hand and for fighting with two weapons. In any case, if you use a weapon in your off hand, you lose the buckler’s Armor Class bonus until your next turn. You can cast a spell with somatic components using your shield arm, but you lose the buckler’s Armor Class bonus until your next turn. You can’t make a shield bash with a buckler.
+As a buckler is strapped to an arm, and the hand is considered free for use for other purposes, including wielding a weapon. You take a –1 penalty to attack rolls with any weapon wielded in a hand you have a buckler on. If you use a weapon wielded in your off-hand or provide a spell's somatic components with it, you lose the buckler's Armor Class bonus until your next turn.
+:::::
+
+::::: {.ability}
+###### Light Shield [Equipment - Shield]{.ability-head} {.unlisted .unnumbered}
+
+**Cost** L; **Bulk** L \
+**Armor Bonus** +1; **Max Dex Bonus** —; **Armor Check Penalty** -1 \
+**Damage** 1d2 (small), 1d3 (medium); **Critical** x2; **Type** bludgeoning \
+**Category** light; **Proficiency** martial; **Weapon Groups** close
+
+A light shield functions the same as a [Shield](#Shield Equipment Shield), but has differing stats.
 :::::
 
 ::::: {.ability}
 ###### Shield [Equipment - Shield]{.ability-head} {.unlisted .unnumbered}
 
 **Cost** L; **Bulk** 1 \
-**Armor Bonus** +2; **Max Dex Bonus** —; **Armor Check Penalty** -2
+**Armor Bonus** +2; **Max Dex Bonus** —; **Armor Check Penalty** -2 \
+**Damage** 1d3 (small), 1d4 (medium); **Critical** x2; **Type** bludgeoning
+**Category** one-handed; **Proficiency** martial; **Weapon Groups** close
 
 A shield is a piece of personal armour held in the hand, which may or may not be strapped to the wrist or forearm. Shields are used to intercept specific attacks, whether from close-ranged weaponry or projectiles such as arrows, by means of active blocks, as well as to provide passive protection by closing one or more lines of engagement during combat. 
+
+Shields are held in a specific hand like a weapon, and must be wielded to provide their benefits. You can bash an opponent with a shield, using it as an off-hand weapon. Used this way, a shield is a martial bludgeoning weapon. If you use your shield as a weapon, you lose its AC bonus until your next turn.
 :::::
 
 ::::: {.ability}
@@ -182,7 +199,7 @@ A shield is a piece of personal armour held in the hand, which may or may not be
 **Cost** 1; **Bulk** 3 \
 **Armor Bonus** +4; **Max Dex Bonus** +2; **Armor Check Penalty** -10
 
-In most situations, a tower shield provides the indicated shield bonus to your Armor Class. As a standard action, however, you can use a tower shield to grant you total cover until the beginning of your next turn. When using a tower shield in this way, you must choose one edge of your space. That edge is treated as a solid wall for attacks targeting you only. You gain total cover for attacks that pass through this edge and no cover for attacks that do not pass through this edge (see Combat). The shield does not, however, provide cover against targeted spells; a spellcaster can cast a spell on you by targeting the shield you are holding. You cannot bash with a tower shield, nor can you use your shield hand for anything else.
+In most situations, a tower shield provides the indicated shield bonus to your Armor Class. As a standard action, however, you can use a tower shield to grant you total cover until the beginning of your next turn. When using a tower shield in this way, you must choose one edge of your space. That edge is treated as a solid wall for attacks targeting you only. You gain total cover for attacks that pass through this edge and no cover for attacks that do not pass through this edge. The shield does not, however, provide cover against targeted spells; a spellcaster can cast a spell on you by targeting the shield you are holding.
 
 When employing a tower shield in combat, you take a –2 penalty on attack rolls because of the shield’s encumbrance.
 :::::
