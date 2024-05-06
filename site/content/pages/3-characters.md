@@ -12,7 +12,7 @@ This chapter contains information on characters and how they are built.
 
 ## Character Creation
 
-### Step 1:  {.unlisted .unnumbered}
+### Step 1: Character Concept {.unlisted .unnumbered}
 
 ## Character Traits
 
