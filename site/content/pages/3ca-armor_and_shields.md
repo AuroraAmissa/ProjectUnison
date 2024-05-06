@@ -19,6 +19,7 @@ For most, armor is the simplest way to protect oneself in a world of rampant thr
 | [Half-Plate]        | Heavy        | 5    | 5    | +8          | —             | -7                  |
 | [Full Plate]        | Heavy        | 8    | 5    | +9          | —             | -8                  |
 | [Buckler]           | Shield       | L    | L    | +1          | —             | -1                  |
+| [Light Shield]      | Shield       | L    | L    | +1          | —             | -1                  |
 | [Shield]            | Shield       | L    | 1    | +2          | —             | -2                  |
 | [Tower Shield]      | Shield       | 1    | 3    | +4          | +2            | -10                 |
 
@@ -35,6 +36,7 @@ For most, armor is the simplest way to protect oneself in a world of rampant thr
 [Half-Plate]: Armor List#Half-Plate Equipment Armor
 [Full Plate]: Armor List#Full Plate Equipment Armor
 [Buckler]: Armor List#Buckler Equipment Shield
+[Light Shield]: Armor List#Light Shield Equipment Shield
 [Shield]: Armor List#Shield Equipment Shield
 [Tower Shield]: Armor List#Tower Shield Equipment Shield
 

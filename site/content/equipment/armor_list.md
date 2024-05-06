@@ -177,7 +177,7 @@ As a buckler is strapped to an arm, and the hand is considered free for use for 
 **Damage** 1d2 (small), 1d3 (medium); **Critical** x2; **Type** bludgeoning \
 **Category** light; **Proficiency** martial; **Weapon Groups** close
 
-A light shield functions the same as a [Shield](#Shield Equipment Shield), but has differing stats.
+A light shield functions the same as a [Shield](Armor List#Shield Equipment Shield), but has differing stats.
 :::::
 
 ::::: {.ability}
