@@ -229,6 +229,7 @@ th + th, td + td {
     font-family: var(--font-main);
     font-style: normal;
     font-weight: bold;
+    user-select: none;
 
     padding-right: 0.6rem;
 }

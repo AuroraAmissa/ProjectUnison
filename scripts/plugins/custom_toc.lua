@@ -43,9 +43,11 @@ end
 -- Force ability heads to the end of the headings
 function move_ability_head(element)
     local parent = HTML.parent(element)
-    HTML.append_child(parent, element)
+
     local text = HTML.children(parent)
     HTML.append_child(parent, HTML.create_text(String.trim(HTML.inner_text(text[1]))))
+    HTML.append_child(parent, element)
+
     HTML.delete(text[1])
 end
 Table.iter_values(move_ability_head, HTML.select_all_of(page, {".ability-head"}))

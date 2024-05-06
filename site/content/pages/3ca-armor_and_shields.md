@@ -4,41 +4,9 @@ For most, armor is the simplest way to protect oneself in a world of rampant thr
 
 ## Armor List
 
-| Name                | Armor Weight | Cost | Bulk | Armor Bonus | Max Dex Bonus | Armor Check Penalty |
-|---------------------|--------------|------|------|-------------|---------------|---------------------|
-| [Padded]            | Light        | L    | L    | +1          | +8            | 0                   |
-| [Leather]           | Light        | L    | 1    | +2          | +6            | 0                   |
-| [Studded Leather]   | Light        | L    | 1    | +3          | +5            | -1                  |
-| [Leaf]              | Light        | 5    | L    | +3          | +6            | 0                   |
-| [Chain Shirt]       | Light        | 1    | 1    | +4          | +3            | -2                  |
-| [Hide]              | Medium       | L    | 2    | +4          | +4            | -3                  | 
-| [Scale Mail]        | Medium       | 1    | 3    | +5          | +3            | -4                  |
-| [Chainmail]         | Medium       | 2    | 3    | +6          | +2            | -4                  |
-| [Agile Breastplate] | Medium       | 5    | 2    | +6          | +3            | -4 (See Text)       |
-| [Banded Mail]       | Heavy        | 3    | 4    | +7          | —             | -6                  |
-| [Half-Plate]        | Heavy        | 5    | 5    | +8          | —             | -7                  |
-| [Full Plate]        | Heavy        | 8    | 5    | +9          | —             | -8                  |
-| [Buckler]           | Shield       | L    | L    | +1          | —             | -1                  |
-| [Light Shield]      | Shield       | L    | L    | +1          | —             | -1                  |
-| [Shield]            | Shield       | L    | 1    | +2          | —             | -2                  |
-| [Tower Shield]      | Shield       | 1    | 3    | +4          | +2            | -10                 |
-
-[Padded]: Armor List#Padded Armor Equipment Armor
-[Leather]: Armor List#Leather Armor Equipment Armor
-[Studded Leather]: Armor List#Studded Leather Armor Equipment Armor
-[Leaf]: Armor List#Leaf Armor Equipment Armor
-[Chain Shirt]: Armor List#Chain Shirt Equipment Armor
-[Hide]: Armor List#Hide Armor Equipment Armor
-[Scale Mail]: Armor List#Scale Mail Equipment Armor
-[Chainmail]: Armor List#Chainmail Equipment Armor
-[Agile Breastplate]: Armor List#Agile Breastplate Equipment Armor
-[Banded Mail]: Armor List#Banded Mail Equipment Armor
-[Half-Plate]: Armor List#Half-Plate Equipment Armor
-[Full Plate]: Armor List#Full Plate Equipment Armor
-[Buckler]: Armor List#Buckler Equipment Shield
-[Light Shield]: Armor List#Light Shield Equipment Shield
-[Shield]: Armor List#Shield Equipment Shield
-[Tower Shield]: Armor List#Tower Shield Equipment Shield
+``` {.include}
+includes/tables/armor_list.md
+```
 
 ## Mechanics
 
@@ -47,8 +15,11 @@ For most, armor is the simplest way to protect oneself in a world of rampant thr
 Armor comes in three types: Light, Medium and Heavy. Characters gain special bonuses depending on whether they're wearing armor and what kinds of armor they are wearing: 
 
 * **Unarmored**: Characters who wear no armor benefit from a baseline dodge bonus to AC, equal to [3 + 1/3 the character's ranks in Acrobatics]. This bonus applies against touch attacks, but not when you are flat-footed or otherwise denied your Dexterity bonus to AC. This bonus does not stack with armor bonuses to AC.
+
 * **Light**: Characters who wear light armor gain no special benefits.
+
 * **Medium**: Characters who wear medium armor gain no special benefits.
+
 * **Heavy**: Characters who wear heavy armor do not add a Dexterity bonus or penalty to their AC, cannot be flanked, and are never treated as if they have lost their Dexterity bonus to AC.
 
 ### Armor/Shield Bonus
@@ -83,8 +54,8 @@ Shields: Shields do not affect a character’s speed.
 
 Putting on or taking off armor is a sometimes complicated procedure. The time required to don armor depends on its type.
 
-**Light**: Light armor takes 1 minute to put on or remove. The time to remove light armor may be halved with the help of another character. It may be donned hastily in half the time, increasing the armor check penalty by 1 and reducing the armor bonus by 1.
+* **Light**: Light armor takes 1 minute to put on or remove. The time to remove light armor may be halved with the help of another character. It may be donned hastily in half the time, increasing the armor check penalty by 1 and reducing the armor bonus by 1.
 
-**Medium**: Medium armor takes 4 minutes to put on and 1 minute to remove. These times may be halved with the help of another character. It may be donned hastily in 1 minute, increasing the armor check penalty by 1 and reducing the armor bonus by 1.
+* **Medium**: Medium armor takes 4 minutes to put on and 1 minute to remove. These times may be halved with the help of another character. It may be donned hastily in 1 minute, increasing the armor check penalty by 1 and reducing the armor bonus by 1.
 
-**Heavy**: Heavy armor may only be put on with the help of another character, and takes 4 minutes to do so. It may be removed alone in 4 minutes, or removed in 2 minutes with help. It may be donned hastily alone in 4 minutes, or with help in 2 minutes, increasing the armor check penalty by 2 and reducing the armor bonus by 2.
+* **Heavy**: Heavy armor may only be put on with the help of another character, and takes 4 minutes to do so. It may be removed alone in 4 minutes, or removed in 2 minutes with help. It may be donned hastily alone in 4 minutes, or with help in 2 minutes, increasing the armor check penalty by 2 and reducing the armor bonus by 2.
