@@ -59,7 +59,7 @@ Any resources from a character's purchase cap that they don't spend during a dow
 | 6 (High-Ranking Nobility) | 250          | 3000            |
 | 7 (Monarch)               | 1000         | 15000           |
 
-**Note**: Resource levels for lower class characters in medieval settings often represents skills and resources available for barter rather than currency. As such, resource points are an abstract measure of value and purchasing power with no direct conversion to currency. For more advanced settings where currency is used universally, see the chapter on [Modern Settings](#Resources).
+**Note:** Resource levels for lower class characters in medieval settings often represents skills and resources available for barter rather than currency. As such, resource points are an abstract measure of value and purchasing power with no direct conversion to currency. For more advanced settings where currency is used universally, see the chapter on [Modern Settings](#Resources).
 
 ### Multiple Income Sources
 

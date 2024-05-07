@@ -76,6 +76,10 @@ b, strong {
     font-weight: 610;
 }
 
+i, em {
+    font-style: oblique 12deg;
+}
+
 img {
     border: 0;
 }
@@ -207,15 +211,51 @@ a:hover, a:active {
 
 blockquote, table, .ability {
     margin: 0;
-    padding: 0.01em 0.7em 0.01em  0.7em;
     border-color: var(--color-border);
     border-style: dotted;
     border-width: 1px 1px 1px 2px;
+}
+
+blockquote, .ability {
+    padding: 0.01em 0.7em 0.01em  0.7em;
     background: var(--color-background-sidebar);
 }
 
+table {
+    padding: 0;
+    border-spacing: 0;
+}
+
+thead>tr>th {
+    padding-bottom: 0.3em;
+}
+
+th:first-child, td:first-child {
+    padding-left: 0.7em;
+}
+
+th:last-child, td:last-child {
+    padding-right: 0.7em;
+}
+
+.header>th {
+    padding-top: 0.2rem;
+}
+
+tr:last-child>td {
+    padding-bottom: 0.2rem;
+}
+
+.even, .header {
+    background: var(--color-background-table-even);
+}
+
+.odd {
+    background: var(--color-background-table-odd);
+}
+
 th + th, td + td {
-    padding-left: 0.4em;
+    padding-left: 0.7em;
 }
 
 .ability > h6 {

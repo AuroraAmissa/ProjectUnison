@@ -6,13 +6,14 @@ body {
     --color-text: #601e9a;
     --color-code: var(--color-text);
     --color-code-block: var(--color-text);
-    --color-background-main: rgba(254, 250, 255, 0.85);
-    --color-background-secondary: rgba(251, 228, 255, 0.35);
-    --color-background-sidebar: rgba(251, 228, 255, 0.35);
+    --color-background-main: rgba(254, 250, 255, 85%);
+    --color-background-secondary: rgba(251, 228, 255, 35%);
+    --color-background-sidebar: var(--color-background-secondary);
+    --color-background-table-even: rgba(255, 255, 255, 35%);
+    --color-background-table-odd: var(--color-background-secondary);
 
     --font-title: "Rounded Mplus 1c Bold", sans-serif;
     --font-symbol: "Hachi Maru Pop", sans-serif;
     --font-main: "M PLUS 2", sans-serif;
     --font-mono: "Noto Sans Mono", "M PLUS 2", monospace;
 }
-

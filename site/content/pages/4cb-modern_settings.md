@@ -31,19 +31,19 @@ The Resources bonus trait, and Poverty drawback are modified in modern settings.
 
 ::::: {.ability}
 ###### Resources [Bonus Trait]{.ability-head} {.unlisted .unnumbered}
-**Cost**: 1/level \
-**Mins**: 1/1/1/1/1/1
+**Cost:** 1/level \
+**Mins:** 1/1/1/1/1/1
 
 Your character has a day job which they may rely on for income between their adventures, or a significant source of passive income such as ownership of a business, investments, or a trust fund. Increase your character's base resource level by their levels in this trait.
 
 Levels of this trait beyond the 3rd may only be taken at character creation.
 
-*(**Note**: Characters without this trait have a base resource level of 1.)*
+*(**Note:** Characters without this trait have a base resource level of 1.)*
 :::::
 
 ::::: {.ability}
 ###### Abject Poverty [Character Drawback]{.ability-head} {.unlisted .unnumbered}
-**Points**: 1
+**Points:** 1
 
 Your character begins with no resource level, and can never gain the Resources drawback or talents that grant them income streams. They may still gain an income through other means.
 :::::

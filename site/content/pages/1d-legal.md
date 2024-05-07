@@ -6,7 +6,7 @@ Project Unison is licenced under the OGL, and extensively uses content from othe
 
 Every effort has been made to avoid posting any material designated as the Product Identity of any publisher under the terms of this license without permission from its owner, and to reference all sources that may have in any way contributed to this content. Please leave an issue if you see any material that is in violation of the Open Game License.
 
-**Special Note**: "This document" is used to refer to any page or document included in the `.zip` file distribution of Project Unison, or any source file in a source distribution.
+**Special Note:** "This document" is used to refer to any page or document included in the `.zip` file distribution of Project Unison, or any source file in a source distribution.
 
 **Designation of Product Identity:** The following items are hereby identified as Product Identity for Project Unison, as defined in the Open Game License version 1.0a, Section 1(e), and are not Open Game Content: Nothing in this document is designated as product identity.
 

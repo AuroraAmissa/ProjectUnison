@@ -14,13 +14,13 @@ site/content/include/armor_list.md
 
 Armor comes in three types: Light, Medium and Heavy. Characters gain special bonuses depending on whether they're wearing armor and what kinds of armor they are wearing: 
 
-* **Unarmored**: Characters who wear no armor benefit from a baseline dodge bonus to AC, equal to [3 + 1/3 the character's ranks in Acrobatics]. This bonus applies against touch attacks, but not when you are flat-footed or otherwise denied your Dexterity bonus to AC. This bonus does not stack with armor bonuses to AC.
+* **Unarmored:** Characters who wear no armor benefit from a baseline dodge bonus to AC, equal to [3 + 1/3 the character's ranks in Acrobatics]. This bonus applies against touch attacks, but not when you are flat-footed or otherwise denied your Dexterity bonus to AC. This bonus does not stack with armor bonuses to AC.
 
-* **Light**: Characters who wear light armor gain no special benefits.
+* **Light:** Characters who wear light armor gain no special benefits.
 
-* **Medium**: Characters who wear medium armor gain no special benefits.
+* **Medium:** Characters who wear medium armor gain no special benefits.
 
-* **Heavy**: Characters who wear heavy armor do not add a Dexterity bonus or penalty to their AC, cannot be flanked, and are never treated as if they have lost their Dexterity bonus to AC.
+* **Heavy:** Characters who wear heavy armor do not add a Dexterity bonus or penalty to their AC, cannot be flanked, and are never treated as if they have lost their Dexterity bonus to AC.
 
 ### Armor/Shield Bonus
 
@@ -44,18 +44,16 @@ Any armor heavier than leather, as well as any shield, hurts a character’s abi
 
 **Sleeping in Armor:** A character who sleeps in medium or heavy armor is automatically fatigued the next day. He takes a –2 penalty on Str and Dex and can’t charge or run. Sleeping in light armor does not cause fatigue.
 
-### Speed
+### Speed Penalty
 
-Medium or heavy armor slows the wearer down. The number on Table: Armor and Shields is the character’s speed while wearing the armor. Humans, elves, half-elves, and half-orcs have an unencumbered speed of 30 feet. They use the first column. Dwarves, gnomes, and halflings have an unencumbered speed of 20 feet. They use the second column. Remember, however, that a dwarf’s land speed remains 20 feet even in medium or heavy armor or when carrying a medium or heavy load.
-
-Shields: Shields do not affect a character’s speed.
+Heavy armor reduces each of your character's base movement speeds by 5 feet per 15 feet of its original value.
 
 ### Getting Into and Out of Armor
 
 Putting on or taking off armor is a sometimes complicated procedure. The time required to don armor depends on its type.
 
-* **Light**: Light armor takes 1 minute to put on or remove. The time to remove light armor may be halved with the help of another character. It may be donned hastily in half the time, increasing the armor check penalty by 1 and reducing the armor bonus by 1.
+* **Light:** Light armor takes 1 minute to put on or remove. The time to remove light armor may be halved with the help of another character. It may be donned hastily in half the time, increasing the armor check penalty by 1 and reducing the armor bonus by 1.
 
-* **Medium**: Medium armor takes 4 minutes to put on and 1 minute to remove. These times may be halved with the help of another character. It may be donned hastily in 1 minute, increasing the armor check penalty by 1 and reducing the armor bonus by 1.
+* **Medium:** Medium armor takes 4 minutes to put on and 1 minute to remove. These times may be halved with the help of another character. It may be donned hastily in 1 minute, increasing the armor check penalty by 1 and reducing the armor bonus by 1.
 
-* **Heavy**: Heavy armor may only be put on with the help of another character, and takes 4 minutes to do so. It may be removed alone in 4 minutes, or removed in 2 minutes with help. It may be donned hastily alone in 4 minutes, or with help in 2 minutes, increasing the armor check penalty by 2 and reducing the armor bonus by 2.
+* **Heavy:** Heavy armor may only be put on with the help of another character, and takes 4 minutes to do so. It may be removed alone in 4 minutes, or removed in 2 minutes with help. It may be donned hastily alone in 4 minutes, or with help in 2 minutes, increasing the armor check penalty by 2 and reducing the armor bonus by 2.
