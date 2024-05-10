@@ -1,4 +1,4 @@
---- pandoc-include-files.lua – filter to include Markdown files
+--- include-files.lua – filter to include Markdown files
 ---
 --- Copyright: © 2019–2021 Albert Krewinkel
 --- License:   MIT – see LICENSE file for details

@@ -63,3 +63,11 @@ local html = HTML.select_one(page, "#gen-toc>ul")
 if not html or Table.length(HTML.children(html)) == 0 then
     Table.iter_values(HTML.delete, HTML.select_all_of(page, {"#nav-hr", "#nav-banner-toc", "#gen-toc"}))
 end
+
+-- Delete remaining empty .toc elements
+function delete_empty_toc(element)
+    if Table.length(HTML.children(element)) == 0 then
+        HTML.delete(element)
+    end
+end
+Table.iter_values(delete_empty_toc, HTML.select_all_of(page, {".toc"}))

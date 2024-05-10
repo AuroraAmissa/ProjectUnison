@@ -169,5 +169,5 @@ site/content/include/armor_list.md
 
 **Effect:** In most situations, a tower shield provides the indicated shield bonus to your Armor Class. As a standard action, however, you can use a tower shield to grant you total cover until the beginning of your next turn. When using a tower shield in this way, you must choose one edge of your space. That edge is treated as a solid wall for attacks targeting you only. You gain total cover for attacks that pass through this edge and no cover for attacks that do not pass through this edge. The shield does not, however, provide cover against targeted spells; a spellcaster can cast a spell on you by targeting the shield you are holding.
 
-When employing a tower shield in combat, you take a –2 penalty on attack rolls because of the shield’s encumbrance.
+When employing a tower shield in combat, you take a –2 penalty on attack rolls because of the shield’s encumbrance. Your shield bonus to AC cannot be reduced by the overpower weapon special property.
 :::::

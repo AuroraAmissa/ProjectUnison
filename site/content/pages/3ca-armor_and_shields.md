@@ -14,13 +14,13 @@ site/content/include/armor_list.md
 
 Armor comes in three types: Light, Medium and Heavy. Characters gain special bonuses depending on whether they're wearing armor and what kinds of armor they are wearing: 
 
-* **Unarmored:** Characters who wear no armor benefit from a baseline dodge bonus to AC, equal to [3 + 1/3 the character's ranks in Acrobatics]. This bonus applies against touch attacks, but not when you are flat-footed or otherwise denied your Dexterity bonus to AC. This bonus does not stack with armor bonuses to AC.
+* **Unarmored:** Characters who wear no armor and are trained in Acrobatics benefit from a baseline dodge bonus to AC, equal to [3 + 1/3 their ranks in Acrobatics]{.c}. This bonus applies against touch attacks, but not when you are flat-footed or otherwise denied your Dexterity bonus to AC. This bonus does not stack with armor bonuses to AC.
 
 * **Light:** Characters who wear light armor gain no special benefits.
 
 * **Medium:** Characters who wear medium armor gain no special benefits.
 
-* **Heavy:** Characters who wear heavy armor do not add a Dexterity bonus or penalty to their AC, cannot be flanked, and are never treated as if they have lost their Dexterity bonus to AC.
+* **Heavy:** Characters who wear heavy armor do not add a Dexterity bonus or penalty to their AC and CMB, cannot be flanked, and are never treated as if they have lost their Dexterity bonus to AC.
 
 ### Armor/Shield Bonus
 

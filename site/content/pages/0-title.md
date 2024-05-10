@@ -2,7 +2,7 @@ This document contains Project Unison [(unknown)]{#ver-tag}. The source files fo
 
 ## What is this?
 
-Project Unison is an alternative SRD for [Pathfinder] and [Spheres of Power] that reworks the systems of both to simplify the systems of both for newer players while retaining the combat depth that more advanced players enjoy. It adds some custom content from the following sources, in addition to Pathfinder and Spheres of Power:
+Project Unison is a modified SRD for [Pathfinder] and [Spheres of Power] that reworks the systems of both to simplify the systems of both for newer players while retaining the combat depth that more advanced players enjoy. It adds some custom content from the following sources, in addition to Pathfinder and Spheres of Power:
 
 * [Elephant in the Room](https://michaeliantorno.com/feat-taxes-in-pathfinder/)
 * [Psychological Combat](https://www.opengamingstore.com/products/psychological-combat)

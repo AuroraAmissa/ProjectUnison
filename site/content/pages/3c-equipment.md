@@ -20,7 +20,7 @@ These carrying capacity rules determine how much your character's equipment slow
 
 Each item in this chapter has a representation of its bulk, which is a number, the letter "L" if it has light bulk, or a dash ("—") if it has negligible bulk.
 
-Every 10 items that have light bulk count as 1 bulk, and fractions don't count—so 10 items with light bulk have a total of 1 bulk, and 19 such items also have a total of 1 bulk. Items that have negligible bulk count toward your bulk limit only if the GM determines that you are carrying an unreasonable number of them.
+Every 10 items that have light bulk count as 1 bulk. Fractional bulk is rounded up, so that 10 items with light bulk have a total of 1 bulk, but 1 such items also does. Items that have negligible bulk count toward your bulk limit only if the GM determines that you are carrying an unreasonable number of them.
 
 Add together the numerical bulk values of all items you are wearing and carrying to determine the total amount of bulk you are carrying.
 
@@ -36,7 +36,7 @@ As a general rule, an item that weighs around 5 to 10 pounds is 1 bulk (and ever
 
 ## Resources and Maintenance
 
-In addition to their bulk, items have a cost that represents the financial burden of obtaining and maintaining that equipment. These costs have the same format as Bulk, with "L" representing trivial cost and a dash ("—") representing negligible cost.
+In addition to their bulk, items have a cost that represents the financial burden of obtaining and maintaining that equipment. These costs have the same format as Bulk, with "L" representing low cost and a dash ("—") representing negligible cost.
 
 ### Resources Level
 
@@ -46,7 +46,7 @@ A character may purchase new equipment with a cost up their purchase cap during 
 
 If they cannot pay the cost to maintain their equipment, it gains the [Broken](Conditions#) condition. If they cannot pay the cost to maintain broken equipment, it becomes unusable and cannot be economically repaired. Fixing broken equipment requires twice the usual maintenance cap be spent to restore it. Holdings such as businesses or land are simply lost, and cannot be repaired or unbroken.
 
-Any resources from a character's purchase cap that they don't spend during a downtime cycle is saved, and may be spent in future cycles, up to a cap of their maintenance cap. For easier tracking, these savings are rounded down to the nearest resource point if you have a resources level of 2 or higher.
+Any resources from a character's purchase and consistence cap that they don't spend during a downtime cycle is saved, and may be spent in future cycles, up to a cap of their maintenance cap. If you have a resources level of 0 or 1, **do not** round up L costs or caps, and instead track the number of Ls you have. With greater wealth, this level of tracking is no longer required.
 
 | Resources Level           | Purchase Cap | Maintenance Cap |
 |---------------------------|--------------|-----------------|

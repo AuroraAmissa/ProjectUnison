@@ -5,7 +5,7 @@ This is a brief listing of all changes to the Pathfinder core system and Spheres
 ## Templating Differences
 
 * Actions characters can take are explicitly put into a distinct box, rather than leaving it ambiguous. Sphere effects explicitly modify specific actions rather than leaving some subtle interactions ambigious.
-* Dice rolls and calculations are always surrounded in brackets like so: [d20], [d20+10], [2 + 3/character level]. This helps players immediately understand the effect.
+* Dice rolls and calculations are always surrounded in brackets like so: [d20]{.calc}, [d20 + 10]{.calc}, [2 + 3/character level]{.calc}. This helps players immediately understand the templating..
 * The term "level" is never used ambigiously to refer to "class level". The Project Unison SRD always explicitly uses "class level" or "character level" - or otherwise makes it clear which is being referred to.
 * The term "magical effect" is used in place of "sphere effect" and "caster" in place of "spherescaster" as there are no spells in this SRD. To prevent confusion when using external content including spells, the term "spell" and "spellcaster" is never used.
 
@@ -34,6 +34,11 @@ This is a brief listing of all changes to the Pathfinder core system and Spheres
 * Unarmored characters and characters who wear heavy armor now gain special bonuses:
   * Unarmored characters gain a weakened version of the Unarmored Training talent through base mechanics. They gain a dodge bonus to AC that does not stack with armor bonuses, and is lost when they lose their dex bonus to AC.
   * Characters using heavy armor do not suffer a dexterity penalty to AC.
+* The weapons list and list of weapon special properties has been significantly reworked. The goal is to make different weapon options distinct
+* Weapon proficiency is reworked. All characters are proficient in simple weapons, and characters do not typically gain proficiency in all martial weapons. Instead, as part of a martial tradition, they may gain proficiency with groups of weapons. Proficiency with a single exotic weapon in a group you are already proficient in may be taken in place of a group.
+  * Exotic weapons are massively buffed and many features that are part of their feat chains are rolled into having the proficiency due to the increased cost to gain proficiency at all.
+* Project Unison uses the Pathfinder 2e system for Bulk for both item costs and item weight.
+  * Unlike the Pathfinder 2e implementation L bulk rounds up! That is, if you have only two items with a bulk of L, your total bulk is 1 not 0. This is done to work better for consistency with cost mechanics.
 
 ## Spheres of Power
 

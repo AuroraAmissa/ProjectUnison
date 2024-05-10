@@ -16,12 +16,10 @@
 -- Author: Daniil Baturin
 -- License: MIT
 
-styles = HTML.select(page, "inlineStyle")
+styles = HTML.select(page, "style")
 
 function add_style(s)
-  css = HTML.inner_html(s)
-  e = HTML.create_element("style", css)
-  head = HTML.select_one(page, "head")
+  head = HTML.select_one(s, "head")
   HTML.append_child(head, e)
 end
 

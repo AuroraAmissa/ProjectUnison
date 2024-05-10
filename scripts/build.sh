@@ -18,7 +18,7 @@ python3.11 scripts/support/extract_text.py
 # Generate webfonts
 mkdir -p build/web/resources/webfonts
 scripts/support/mkwebfont -v --store build/web/resources/webfonts --store-uri "../webfonts/" \
-    --splitter=none --subset-from=build/text_body.txt \
+    --splitter=none --subset-from=build/text_body.txt --subset-from=build/text_code.txt \
     -o build/web/resources/webfonts/fonts.css fonts/MPLUS2-VariableFont_wght.ttf
 scripts/support/mkwebfont -v --store build/web/resources/webfonts --store-uri "../webfonts/" \
     --splitter=none --subset-from=build/text_title.txt \
@@ -27,7 +27,7 @@ scripts/support/mkwebfont -v --store build/web/resources/webfonts --store-uri ".
     --splitter=none --subset-from=build/text_code.txt \
     -a build/web/resources/webfonts/fonts.css fonts/NotoSansMono-VariableFont_wdth,wght.ttf
 scripts/support/mkwebfont -v --store build/web/resources/webfonts --store-uri "../webfonts/" \
-    --splitter=none --subset-from=build/text_symbols.txt \
+    --splitter=none --subset="〈〉《》☆§●○" \
     -a build/web/resources/webfonts/fonts.css fonts/HachiMaruPop-Regular.ttf
 
 # Minify

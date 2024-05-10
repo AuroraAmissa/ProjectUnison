@@ -87,7 +87,6 @@ def glyphs(t):
 open("build/text_body.txt", "w").write(text)
 open("build/text_title.txt", "w").write(text_title)
 open("build/text_code.txt", "w").write(text_code)
-open("build/text_symbols.txt", "w").write("《》☆§●○")
 
 print("Text glyphs: "+glyphs(text))
 print("Title glyphs: "+glyphs(text_title))

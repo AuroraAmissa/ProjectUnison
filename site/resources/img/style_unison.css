@@ -12,8 +12,49 @@ body {
     --color-background-table-even: rgba(255, 255, 255, 35%);
     --color-background-table-odd: var(--color-background-secondary);
 
-    --font-title: "Rounded Mplus 1c Bold", sans-serif;
-    --font-symbol: "Hachi Maru Pop", sans-serif;
-    --font-main: "M PLUS 2", sans-serif;
-    --font-mono: "Noto Sans Mono", "M PLUS 2", monospace;
+    --font-title: "Rounded Mplus 1c Bold";
+    --font-symbol: "Hachi Maru Pop";
+    --font-main: "M PLUS 2";
+    --font-mono: "Noto Sans Mono", "M PLUS 2";
+
+    --menu-mobile-seperator: "  ☆  ";
+}
+
+.h0:before {
+    content: "☆  ";
+    font-family: var(--font-symbol);
+}
+
+.h0:after {
+    content: "  ☆";
+    font-family: var(--font-symbol);
+}
+
+:not(ol) > li::marker {
+    content: "☆  ";
+    font-family: var(--font-symbol);
+}
+
+h2::before {
+    content: "《  ";
+    font-family: var(--font-symbol);
+    margin-left: -0.5em;
+    padding-left: 0.15rem;
+}
+
+h2::after {
+    content: "  》";
+    font-family: var(--font-symbol);
+}
+
+h3::before, h6::before {
+    content: "〈  ";
+    font-family: var(--font-symbol);
+    margin-left: -0.6em;
+    padding-left: 0.15rem;
+}
+
+h3::after, h6::after {
+    content: "  〉";
+    font-family: var(--font-symbol);
 }

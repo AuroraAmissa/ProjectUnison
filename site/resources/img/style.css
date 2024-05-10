@@ -69,11 +69,11 @@ body {
 }
 
 a {
-    font-weight: 430;
+    font-weight: 420;
 }
 
 b, strong {
-    font-weight: 610;
+    font-weight: 625;
 }
 
 i, em {
@@ -84,21 +84,6 @@ img {
     border: 0;
 }
 
-.h0:before {
-    content: "☆  ";
-    font-family: var(--font-symbol);
-}
-
-.h0:after {
-    content: "  ☆";
-    font-family: var(--font-symbol);
-}
-
-:not(ol) > li::marker {
-    content: "☆  ";
-    font-family: var(--font-symbol);
-}
-
 ul {
     margin: 0;
     padding-left: 1.75em;
@@ -107,16 +92,6 @@ ul {
 .section {
     float: right;
     user-select: none;
-    font-family: var(--font-symbol);
-}
-
-h2::before, h3::before, h4::before, h5::before, h6::before {
-    content: "《  ";
-    font-family: var(--font-symbol);
-}
-
-h2::after, h3::after, h4::after, h5::after, h6::after {
-    content: "  》";
     font-family: var(--font-symbol);
 }
 
@@ -146,7 +121,7 @@ h2::after, h3::after, h4::after, h5::after, h6::after {
 h1 {
     font-size: 2.5em;
     margin: 0.1em 0 0 0;
-    padding: 0 0 0.4em 0;
+    padding: 0 0 0.25em 0;
 }
 
 h2 {
@@ -239,7 +214,7 @@ th:last-child, td:last-child {
 }
 
 .header>th {
-    padding-top: 0.2rem;
+    padding-top: 0.25rem;
 }
 
 tr:last-child>td {
@@ -313,6 +288,12 @@ blockquote > h2, blockquote > h3, blockquote > h4, blockquote > h5, blockquote >
 
 blockquote > p:last-child, .ability > p:last-child {
     margin-bottom: 0.4em;
+}
+
+.calc, .c {
+    margin-left: -0.4em;
+    margin-right: -0.4em;
+    line-height: 100%; /* ensure we don't fuck stuff up */
 }
 
 /* Page elements */
@@ -415,7 +396,7 @@ article {
     }
 
     #gen-menu > ul > li:before {
-        content: "  ☆  ";
+        content: var(--menu-mobile-seperator);
         font-family: var(--font-symbol);
     }
 

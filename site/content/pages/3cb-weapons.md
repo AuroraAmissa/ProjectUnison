@@ -45,11 +45,13 @@ A character who uses a weapon with which he is not proficient takes a –4 penal
 
 Melee weapons are used for making melee attacks, though some of them can be thrown as well. Ranged weapons are thrown weapons or projectile weapons that are not effective in melee.
 
-* **Reach Weapons:** A reach weapon is a melee weapon that allows its wielder to strike at targets that aren’t adjacent to him. Most reach weapons double the wielder’s natural reach, meaning that a typical Small or Medium wielder of such a weapon can attack a creature 10 feet away, but not a creature in an adjacent square. A typical Large character wielding a reach weapon of the appropriate size can attack a creature 15 or 20 feet away, but not adjacent creatures or creatures up to 10 feet away.
+* **Melee Weapons:** A melee weapon allows the wielder to strike targets in their natural reach. Light melee weapons use the higher of the user's Strength and Dexterity modifiers to hit, and the user's Strength modifier for damage. 1H and 2H melee weapons use the user's Strength modifier both to hit and for damage.
 
-* **Thrown Weapons:** The wielder applies their Strength modifier to damage dealt by thrown weapons. It is possible to throw a weapon that isn’t designed to be thrown, and a character who does so takes a –4 penalty on the attack roll. Throwing a light or one-handed weapon is a standard action, while throwing a two-handed weapon is a full-round action. Regardless of the type of weapon, such an attack scores a threat only on a natural 20 and deals double damage on a critical hit. Such a weapon has a range increment of 10 feet.
+* **Reach Weapons:** A reach weapon is a melee weapon that allows its wielder to strike targets within double their natural reach. However, they cannot strike targets within their usual natural reach. Hence, Medium wielders may strike creatures between 5 and 10 feet away and Large creatures may strike creatures between 10 and 20 feet away.
 
-* **Projectile Weapons:** Most projectile weapons require two hands to use. A character gets no Strength bonus on damage rolls with a projectile weapon unless it’s a specially built composite shortbow or longbow, or a sling. If the character has a penalty for low Strength, apply it to damage rolls when they use a bow or a sling.
+* **Ranged Weapons:** Most ranged weapons require two hands to use. Ranged weapons use their wielder's Dexterity modifier to hit. A character gets no Strength bonus or penalty on damage rolls with a projectile weapon unless it has the muscle or power special features.
+
+* **Thrown Weapons:** Certain weapons are design to be thrown. Thrown weapons may be used as either a melee weapon or a ranged weapon. Throwing a light or 1H weapon requires 2 Acts, while throwing a 2H weapon requires 3 Acts. While you can throw melee weapons that aren't designed for throwing, using them in such a way reduces their damage dice by one step, their critical threat range to "×2", and causes you to roll the attack as if you were nonproficient in the weapon.
 
 * **Ammunition:** Projectile weapons use ammunition. When using a bow, a character can draw ammunition as a free action; crossbows and slings require an action for reloading (as noted in their descriptions). Generally speaking, ammunition that hits its target is destroyed or rendered useless, while ammunition that misses has a 50% chance of being destroyed or lost. Although they are thrown weapons, shuriken are treated as ammunition for the purposes of drawing them, crafting masterwork or otherwise special versions of them, and what happens to them after they are thrown.
 
@@ -59,7 +61,7 @@ This designation is a measure of how much effort it takes to wield a weapon in c
 
 * **Light:** A light weapon is easily wielded in one hand, even by physically weaker characters. A character using a light weapon may always choose to add their Dexterity bonus in place of their Strength bonus when rolling to hit. Add the wielder's Strength modifier when a light weapon is used in the primary hand and half the wielder's Strength modifier when it is used in the off-hand. Using two hands to wield a light weapon gives no specific advantage.
 
-* **One-Handed:**  A one-handed weapon can be used in either the primary hand or the off hand. Add the wielder’s Strength bonus to damage rolls for melee attacks with a one-handed weapon if it’s used in the primary hand, or 1/2 his Strength bonus if it’s used in the off hand. If a one-handed weapon is wielded with two hands during melee combat, add 1-1/2 times the character’s Strength bonus to damage rolls.
+* **One-Handed:** A one-handed weapon can be used in either the primary hand or the off hand. Add the wielder’s Strength bonus to damage rolls for melee attacks with a one-handed weapon if it’s used in the primary hand, or 1/2 his Strength bonus if it’s used in the off hand. If a one-handed weapon is wielded with two hands during melee combat, add 1-1/2 times the character’s Strength bonus to damage rolls.
 
 * **Two-Handed:** Two hands are required to use a two-handed melee weapon effectively. Apply 1-1/2 times the character’s Strength bonus to damage rolls for melee attacks with such a weapon.
 
@@ -85,48 +87,60 @@ All weapons have several statistics that determine how they function in combat:
 
 * **Dmg:** The damage the weapon deals. The stated damage is for when the weapon is wielded by a medium sized creature. Decrease the damage dice by one step for each size smaller than Medium the creature is, or increase it by one step for each size larger than Medium the character is. If the dice value goes below 1, the weapon is too small to function.
 
-* **Crit:** This entry notes how the weapon functions with the rules for critical hits. A number range such as "19-20" means the weapon threatens a critical hit if the roll is 19 or higher, or whatever the lower number is. A multiplier such as "×2" or "×3" means to multiply the damage dealt by the weapon by 2 or 3 on a critical hit. These numbers are often written together with a slash between them, such as "19-20/×3".
+* **Crit:** This entry notes how the weapon functions with the rules for critical hits. A number range such as "19-20" means the weapon threatens a critical hit if the roll is 19 or higher, or whatever the lower number is. A multiplier such as "×2" or "×3" means to multiply the damage dealt by the weapon by 2 or 3 on a critical hit. These numbers are often written together with a slash between them, such as "19-20/×3". "—" means the weapon cannot threaten critical hits.
 
 * **Range:** Any attack at more than this distance is penalized for range. Beyond this range, the attack takes a cumulative –2 penalty for each full range increment (or fraction thereof) of distance to the target. For example, a dagger (with a range of 10 feet) thrown at a target that is 25 feet away would incur a –4 penalty. A thrown weapon has a maximum range of five range increments. A projectile weapon can shoot to 10 range increments.
 
 * **Type:** Weapons are classified according to the type of damage they deal: B for bludgeoning, P for piercing, or S for slashing. Some characters may be resistant or immune to attacks from certain types of weapons. Some weapons deal damage of multiple types. If a weapon causes two types of damage, the type it deals is not half one type and half another; all damage caused is of both types. Therefore, a creature would have to be immune to both types of damage to ignore any of the damage caused by such a weapon. In other cases, a weapon can deal either of two types of damage. In a situation where the damage type is significant, the wielder can choose which type of damage to deal with such a weapon.
 
-#### Damage Dice Steps
-
-When you increase or decrease a damage dice by a step, use the next or previous value in the following list: 1, 1d2, 1d3, 1d4, 1d6, 1d8, 1d10, 2d6, 2d8, 3d6, 3d8, 4d6, 4d8, 6d6, 6d8, 8d6, 8d8, 12d6, 12d8, 16d6
+> #### Damage Dice Steps
+> 
+> When you increase or decrease a damage dice by a step, use the next or previous value in the following list: [1]{.c}, [1d2]{.c}, [1d3]{.c}, [1d4]{.c}, [1d6]{.c}, [1d8]{.c}, [1d10]{.c}, [2d6]{.c}, [2d8]{.c}, [3d6]{.c}, [3d8]{.c}, [4d6]{.c}, [4d8]{.c}, [6d6]{.c}, [6d8]{.c}, [8d6]{.c}, [8d8]{.c}, [12d6]{.c}, [12d8]{.c}, [16d6]{.c}
 
 ### Special Features
 
-Some weapons have special features in addition to those noted in their descriptions.
+Some weapons have special features in addition to those noted in their descriptions. Special features marked with a (\*) may only be applied if you are proficient with the weapon.
 
-* **Blocking:** When you use this weapon to fight defensively, you gain a +1 shield bonus to AC.
+* **Ammo:** A thrown weapon with the ammo special feature is only useful as a thrown weapon. It counts as an improvised weapon with damage dice that is one step lower when used as a melee weapon. For purposes of crafting, purchasing them, or retrieving them after being fired, they count as ammunition instead of weapons.
 
-* **Brace:** If you use a readied action to set a brace weapon against a charge, you deal double damage on a successful hit against a charging creature.
+* **Blocking (\*):** When you use this weapon to fight defensively, you gain a +1 shield bonus to AC and reduce the penalty on attack rolls to -2. Some weapons may specify a higher bonus to AC with a property like "blocking (+2)".
 
-* **Brawling:** A brawling weapon is used like normal close combat martial arts. You may use any abilities you could normally use with an unarmed strike with a brawling weapon instead.
+* **Brace (\*):** If you use a readied action to set a brace weapon against a charge, you deal double damage on a successful hit against a charging creature
 
-* **Concealable:** You get a +2 bonus on Subterfuge skill checks made to conceal a concealable weapon on your body. Some weapons may specify a higher concealment bonus with a propertly like "concealable (+4)".
+* **Breach (\*):** If you use a breach weapon to attack an object, you ignore a certain amount of its hardness.
 
-* **Deadly:** When you use this weapon to deliver a coup de grace, it gains a +4 bonus to damage when calculating the DC of the Fortitude saving throw to see whether the target of the coup de grace dies from the attack. The bonus is not added to the actual damage of the coup de grace attack.
+* **Brawling (\*):** A brawling weapon is used like normal close combat martial arts. You may use any abilities you could normally use with an unarmed strike with a brawling weapon instead.
 
-* **Disarm:** When you use a disarm weapon, you get a +2 bonus on Combat Maneuver Checks to disarm an enemy.
+* **Concealable:** You get a +2 bonus on Finesse skill checks made to conceal a concealable weapon on your body. Some weapons may specify a higher bonus.
 
-* **Distracting:** You gain a +2 bonus on Bluff skill checks to feint in combat while wielding this weapon.
+* **Crush (\*):** When used to attack an enemy wearing heavy armor, reduce their armor bonus to AC by 2 while calculating whether this weapon hits. The same applies when attacking an enemy wearing medium armor, but this only reduces the armor bonus by 1. Some weapons may specify a higher amount of AC ignored, which only applies to heavy armor.
+
+* **Disarm (\*):** When you use a disarm weapon, you get a +2 bonus on Combat Maneuver Checks to disarm an enemy. Some weapons may specify a higher bonus.
+
+* **Distracting (\*):** You gain a +2 bonus on Deception skill checks to feint in combat while wielding this weapon. Some weapons may specify a higher bonus.
 
 * **Double:** You can use a double weapon to fight as if fighting with two weapons, but if you do, you incur all the normal attack penalties associated with fighting with two weapons, just as if you were using a one-handed weapon and a light weapon. You can choose to wield one end of a double weapon two-handed, but it cannot be used as a double weapon when wielded in this way—only one end of the weapon can be used in any given round.
 
-* **Fragile:** Weapons and armor with the fragile quality cannot take the beating that sturdier weapons can. A fragile weapon gains the broken condition if the wielder rolls a natural 1 on an attack roll with the weapon. If a fragile weapon is already broken, the roll of a natural 1 destroys it instead. Masterwork and magical fragile weapons and armor lack these flaws unless otherwise noted in the item description or the special material description. If a weapon gains the broken condition in this way, that weapon is considered to have taken damage equal to half its hit points +1. This damage is repaired either by something that addresses the effect that granted the weapon the broken condition (like quick clear in the case of firearm misfires or the Field Repair feat) or by the repair methods described in the broken condition. When an effect that grants the broken condition is removed, the weapon regains the hit points it lost when the broken condition was applied. Damage done by an attack against a weapon (such as from a sunder combat maneuver) cannot be repaired by an effect that removes the broken condition. Source: PRG:UC.
+* **Fearsome (\*):** You gain a +2 bonus on Influence skill checks to intimidate in combat while wielding this weapon. Some weapons may specify a higher bonus.
 
-* **Grapple:** On a successful critical hit with a weapon of this type, you can grapple the target of the attack. The wielder can then attempt a combat maneuver check to grapple his opponent as a free action. This grapple attempt does not provoke an attack of opportunity from the creature you are attempting to grapple if that creature is not threatening you. While you grapple the target with a grappling weapon, you can only move or damage the creature on your turn. You are still considered grappled, though you do not have to be adjacent to the creature to continue the grapple. If you move far enough away to be out of the weapon’s reach, you end the grapple with that action. Source: PRG:UC.
+* **Finesse:** You may apply your Dexterity modifier to hit with this weapon, as if it were a Light weapon.
+
+* **Harrying (\*):** You gain a +2 bonus on skill checks to antagonize in while wielding this weapon. Some weapons may specify a higher bonus. 
+
+* **Muscle:** Some ranged weapons depend on the strength of the wielder to deliver the proper power. If you have a negative Strength modifier, apply it to your damage with this weapon.
 
 * **Nonlethal:** These weapons deal nonlethal damage.
 
-* **Performance:** When wielding this weapon, if an attack or combat maneuver made with this weapon prompts a combat performance check, you gain a +2 bonus on that check.
+* **Overpower (\*):** You ignore any dodge bonus to AC from fighting defensively. When used to attack an enemy with a shield bonus to AC, reduce it by 2 while calculating whether this weapon hits. Some weapons may specify a higher amount of AC ignored.
 
-* **Reach:** You use a reach weapon to strike opponents 10 feet away, but you can’t use it against an adjacent foe.
+* **Pierce:** When used to attack an enemy with an armor bonus to AC, reduce it by 1 while calculating whether this weapon hits. Some weapons may specify a higher amount of AC ignored.
 
-* **Strength (#):** This feature is usually only applied to ranged weapons (such as composite bows). Some weapons function better in the hands of stronger users. All such weapons are made with a particular Strength rating (that is, each requires a minimum Strength modifier to use with proficiency and this number is included in parenthesis). If your Strength bonus is less than the strength rating of the weapon, you can’t effectively use it, so you take a –2 penalty on attacks with it. For example, the default (lowest form of) composite longbow requires a Strength modifier of +0 or higher to use with proficiency. A weapon with the Strength feature allows you to add your Strength bonus to damage, up to the maximum bonus indicated for the bow. Each point of Strength bonus granted by the bow adds 100 gp to its cost. If you have a penalty for low Strength, apply it to damage rolls when you use a composite longbow. Editor’s Note: The “Strength” weapon feature was ‘created’ by d20pfsrd.com as a shorthand note to the composite bow mechanics. This is not “Paizo” or “official” content.
+* **Precision (\*):** You must apply your Dexterity bonus to damage in place of your Strength bonus. Additionally, when you use this weapon to deliver a coup de grâce, it deals 3 additional damage that is not multiplied on a critical hit.
 
-* **Sunder:** When you use a sunder weapon, you get a +2 bonus on Combat Maneuver Checks to sunder attempts.
+* **Power:** The power tag functions identically to the muscle tag, except the wielder adds their Strength bonus to damage if they have one.
 
-* **Trip:** You can use a trip weapon to make trip attacks. If you are tripped during your own trip attempt, you can drop the weapon to avoid being tripped.
+* **Reload:** This weapon cannot be loaded as part of firing it, and an additional action must be taken to load it.
+
+* **Sunder (\*):** When you use a sunder weapon, you get a +2 bonus on Combat Maneuver Checks to sunder attempts. Some weapons may specify a higher bonus.
+
+* **Trip (\*):** When you use a trip weapon, you get a +2 bonus on Combat Manuever Checks to trip attempts. If you are tripped during your own trip attempt, you can drop the weapon to avoid being tripped. Some weapons may specify a higher bonus.

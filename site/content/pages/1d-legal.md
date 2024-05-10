@@ -14,11 +14,10 @@ Every effort has been made to avoid posting any material designated as the Produ
 
 ## Credits
 
-Art assets are used from the following sources:
+Art/font assets are used from the following sources:
 
-* [Subtle Patterns](https://www.toptal.com/designers/subtlepatterns/) - Under Creative Commons, unspecified version.
 * [Haru Machi Pop](https://github.com/noriokanisawa/HachiMaruPop) - Under SIL Open Font License. Font used for symbols.
-* [M PLUS 2](https://github.com/coz-m/MPLUS_FONTS) - Under SIL Open Font License. Font used for body text.
+* [M PLUS 2](https://github.com/coz-m/MPLUS_FONTS) - Under SIL Open Font License. Font used for body text. (also, look at this, can you believe they did this!? mplusfonts omg.)
 * [Rounded M+](http://jikasei.me/font/rounded-mplus/) - Under SIL Open Font License. Font used for headings.
 * [Noto Sans Mono](https://fonts.google.com/noto/specimen/Noto+Sans+Mono) - Under SIL Open Font License. Font used for monospace text.
 

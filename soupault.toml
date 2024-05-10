@@ -14,7 +14,7 @@ default_content_selector = "article"
 default_content_action = "append_child"
 
 [preprocessors]
-md = 'scripts/support/pandoc_sh.sh'
+md = 'scripts/support/pandoc_html.sh'
 
 [plugins.inline-styles]
 file = "scripts/plugins/inline-style.lua"
@@ -36,7 +36,7 @@ file = "templates/header.html"
 [widgets.menu-inner]
 widget = "exec"
 selector = ["#gen-menu"]
-command = "scripts/support/pandoc_sh.sh templates/menu.md"
+command = "scripts/support/pandoc_html.sh templates/menu.md"
 
 [widgets.ver-tag]
 widget = "exec"
