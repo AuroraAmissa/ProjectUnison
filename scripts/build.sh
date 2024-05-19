@@ -9,24 +9,24 @@ mkdir -p build/web
 rm -rf build/web/* build/web/.* ||:
 
 # Build content
-python3.11 scripts/support/gather_headings.py
+python3.11 PandocRulebookBase/support/gather_headings.py
 soupault --build-dir build/web
 
 # Extract text
-python3.11 scripts/support/extract_text.py
+python3.11 PandocRulebookBase/support/extract_text.py
 
 # Generate webfonts
 mkdir -p build/web/resources/webfonts
-scripts/support/mkwebfont.sh -v --store build/web/resources/webfonts --store-uri "../webfonts/" \
+PandocRulebookBase/support/mkwebfont.sh -v --store build/web/resources/webfonts --store-uri "../webfonts/" \
     --splitter=none --subset-from=build/text_body.txt --subset-from=build/text_code.txt \
     -o build/web/resources/webfonts/fonts.css fonts/MPLUS2-VariableFont_wght.ttf
-scripts/support/mkwebfont.sh -v --store build/web/resources/webfonts --store-uri "../webfonts/" \
+PandocRulebookBase/support/mkwebfont.sh -v --store build/web/resources/webfonts --store-uri "../webfonts/" \
     --splitter=none --subset-from=build/text_title.txt \
     -a build/web/resources/webfonts/fonts.css fonts/MPLUSRounded1c-Bold.ttf
-scripts/support/mkwebfont.sh -v --store build/web/resources/webfonts --store-uri "../webfonts/" \
+PandocRulebookBase/support/mkwebfont.sh -v --store build/web/resources/webfonts --store-uri "../webfonts/" \
     --splitter=none --subset-from=build/text_code.txt \
     -a build/web/resources/webfonts/fonts.css fonts/NotoSansMono-VariableFont_wdth,wght.ttf
-scripts/support/mkwebfont.sh -v --store build/web/resources/webfonts --store-uri "../webfonts/" \
+PandocRulebookBase/support/mkwebfont.sh -v --store build/web/resources/webfonts --store-uri "../webfonts/" \
     --splitter=none --subset="〈〉《》☆§●○" \
     -a build/web/resources/webfonts/fonts.css fonts/HachiMaruPop-Regular.ttf
 

@@ -1,4 +1,4 @@
-local common = require 'scripts.pandoc.common'
+local common = require 'PandocRulebookBase.pandoc.common'
 
 local pages = pandoc.json.decode(common.read_file("build/pages.json"))
 

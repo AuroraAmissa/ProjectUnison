@@ -1,4 +1,4 @@
-local common = require 'scripts.pandoc.common'
+local common = require 'PandocRulebookBase.pandoc.common'
 
 function Span(span)
     -- we don't use css for this so it's selectable

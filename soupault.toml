@@ -14,16 +14,16 @@ default_content_selector = "article"
 default_content_action = "append_child"
 
 [preprocessors]
-md = 'scripts/support/pandoc_html.sh'
+md = 'PandocRulebookBase/support/pandoc_html.sh'
 
 [plugins.inline-styles]
-file = "scripts/plugins/inline-style.lua"
+file = "PandocRulebookBase/plugins/inline-style.lua"
 
 [plugins.pandoc-cleanup-css]
-file = "scripts/plugins/pandoc-cleanup-css.lua"
+file = "PandocRulebookBase/plugins/pandoc-cleanup-css.lua"
 
 [plugins.custom_toc]
-file = "scripts/plugins/custom_toc.lua"
+file = "PandocRulebookBase/plugins/custom_toc.lua"
 
 [templates.redirect]
 file = "templates/redirect.html"
@@ -39,7 +39,7 @@ file = "templates/header.html"
 [widgets.menu-inner]
 widget = "exec"
 selector = ["#gen-menu"]
-command = "scripts/support/pandoc_html.sh templates/menu.md"
+command = "PandocRulebookBase/support/pandoc_html.sh templates/menu.md"
 
 [widgets.ver-tag]
 widget = "exec"
