@@ -101,19 +101,21 @@ All weapons have several statistics that determine how they function in combat:
 
 Some weapons have special features in addition to those noted in their descriptions. Special features marked with a (\*) may only be applied if you are proficient with the weapon.
 
+* **Agile (\*):** The multiple attack penalty you take with this weapon on the second attack is reduced by 1, and by 2 on the third and subsequent attacks in the turn.
+
 * **Ammo:** A thrown weapon with the ammo special feature is only useful as a thrown weapon. It counts as an improvised weapon with damage dice that is one step lower when used as a melee weapon. For purposes of crafting, purchasing them, or retrieving them after being fired, they count as ammunition instead of weapons.
 
-* **Blocking (\*):** When you use this weapon to fight defensively, you gain a +1 shield bonus to AC and reduce the penalty on attack rolls to -2. Some weapons may specify a higher bonus to AC with a property like "blocking (+2)".
+* **Blocking (\*):** When you use this weapon to fight defensively, you gain a +1 shield bonus to AC and reduce the penalty on attack rolls to -2. Some weapons may specify a higher bonus to AC such as "blocking (+2)".
 
-* **Brace (\*):** If you use a readied action to set a brace weapon against a charge, you deal double damage on a successful hit against a charging creature
+* **Brace (\*):** If you use a readied action to set a brace weapon against a charge, you deal double damage on a successful hit against a charging creature.
 
-* **Breach (\*):** If you use a breach weapon to attack an object, you ignore a certain amount of its hardness.
+* **Breach (\*):** If you use a breach weapon to attack an object, you ignore a certain amount of its hardness. For example "breach 2" means to ignore 2 hardness when attacking an object.
 
 * **Brawling (\*):** A brawling weapon is used like normal close combat martial arts. You may use any abilities you could normally use with an unarmed strike with a brawling weapon instead.
 
-* **Concealable:** You get a +2 bonus on Finesse skill checks made to conceal a concealable weapon on your body. Some weapons may specify a higher bonus.
+* **Concealable:** You get a +2 bonus on Finesse skill checks and DCs made to conceal a concealable weapon on your body. Some weapons may specify a higher bonus such as "concealable (+4)".
 
-* **Crush (\*):** When used to attack an enemy wearing heavy armor, reduce their armor bonus to AC by 2 while calculating whether this weapon hits. The same applies when attacking an enemy wearing medium armor, but this only reduces the armor bonus by 1. Some weapons may specify a higher amount of AC ignored, which only applies to heavy armor.
+* **Crush (\*):** When used to attack an enemy wearing heavy armor, reduce their armor bonus to AC by 2 while calculating whether this weapon hits. The same applies when attacking an enemy wearing medium armor, but this only reduces the armor bonus by 1. Some weapons may specify a higher amount of AC ignored, which only applies to heavy armor such as "crush 3".
 
 * **Disarm (\*):** When you use a disarm weapon, you get a +2 bonus on Combat Maneuver Checks to disarm an enemy. Some weapons may specify a higher bonus.
 
@@ -135,7 +137,7 @@ Some weapons have special features in addition to those noted in their descripti
 
 * **Pierce:** When used to attack an enemy with an armor bonus to AC, reduce it by 1 while calculating whether this weapon hits. Some weapons may specify a higher amount of AC ignored.
 
-* **Precision (\*):** You must apply your Dexterity bonus to damage in place of your Strength bonus. Additionally, when you use this weapon to deliver a coup de grâce, it deals 3 additional damage that is not multiplied on a critical hit.
+* **Precision:** You must apply your Dexterity modifier to damage in place of your Strength modifier. Additionally, when you use this weapon to deliver a coup de grâce, it deals 3 additional damage that is not multiplied on a critical hit.
 
 * **Power:** The power tag functions identically to the muscle tag, except the wielder adds their Strength bonus to damage if they have one.
 
@@ -143,4 +145,4 @@ Some weapons have special features in addition to those noted in their descripti
 
 * **Sunder (\*):** When you use a sunder weapon, you get a +2 bonus on Combat Maneuver Checks to sunder attempts. Some weapons may specify a higher bonus.
 
-* **Trip (\*):** When you use a trip weapon, you get a +2 bonus on Combat Manuever Checks to trip attempts. If you are tripped during your own trip attempt, you can drop the weapon to avoid being tripped. Some weapons may specify a higher bonus.
+* **Trip (\*):** When you use a trip weapon, you get a +2 bonus on Combat Maneuver Checks to trip attempts. If you are tripped during your own trip attempt, you can drop the weapon to avoid being tripped. Some weapons may specify a higher bonus.

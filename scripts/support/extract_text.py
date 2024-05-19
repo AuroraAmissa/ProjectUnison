@@ -82,7 +82,7 @@ for page in glob("build/web/**/*.html", recursive=True):
     text_code += text_from_html(html, filter_code_text) + "\n\n"
 
 def glyphs(t):
-    return repr(sorted(list(set(t))))
+    return repr("".join(sorted(list(set(t)))))
 
 open("build/text_body.txt", "w").write(text)
 open("build/text_title.txt", "w").write(text_title)
