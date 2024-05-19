@@ -46,4 +46,7 @@ For new players, start reading with the [Getting Started]() chapter.
     * [Modern Settings]()
 * [Combat]()
 * [Player Options]()
+  * Equipment Lists
+    * [Armor List]()
+    * [Weapon List]()
 * [Gamemastering]()

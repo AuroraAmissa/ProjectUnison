@@ -19,6 +19,9 @@ md = 'scripts/support/pandoc_html.sh'
 [plugins.inline-styles]
 file = "scripts/plugins/inline-style.lua"
 
+[plugins.pandoc-cleanup-css]
+file = "scripts/plugins/pandoc-cleanup-css.lua"
+
 [plugins.custom_toc]
 file = "scripts/plugins/custom_toc.lua"
 
@@ -85,3 +88,7 @@ widget = "inline-styles"
 [widgets.custom_toc]
 after = "table-of-contents"
 widget = "custom_toc"
+
+[widgets.pandoc-cleanup-css]
+after = "custom_toc"
+widget = "pandoc-cleanup-css"
