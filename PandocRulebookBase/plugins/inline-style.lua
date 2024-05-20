@@ -6,7 +6,7 @@
 -- and has less potential to cause strange behavior with browsers
 -- and HTML tools
 --
--- To run it, you need to add something like this to soupault.toml:
+-- To run it, you need to add something like this to soupault_base.toml:
 -- [plugins.inline-styles]
 --   file = "plugins/inline-style.lua"
 --

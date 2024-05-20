@@ -9,7 +9,7 @@ ignore_directories = ["include"]
 plugin_discovery = true
 plugin_dirs = ["scripts/plugins"]
 
-default_template_file = "templates/main.html"
+default_template_file = "PandocRulebookBase/templates/main.html"
 default_content_selector = "article"
 default_content_action = "append_child"
 
@@ -26,7 +26,7 @@ file = "PandocRulebookBase/plugins/pandoc-cleanup-css.lua"
 file = "PandocRulebookBase/plugins/custom_toc.lua"
 
 [templates.redirect]
-file = "templates/redirect.html"
+file = "PandocRulebookBase/templates/redirect.html"
 content_selector = 'head'
 content_action = "append_child"
 section = ""
@@ -39,7 +39,7 @@ file = "templates/header.html"
 [widgets.menu-inner]
 widget = "exec"
 selector = ["#gen-menu"]
-command = "PandocRulebookBase/support/pandoc_html.sh templates/menu.md"
+command = "PandocRulebookBase/support/pandoc_html.sh templates/menu_index.md"
 
 [widgets.ver-tag]
 widget = "exec"
@@ -61,8 +61,8 @@ html = '<meta name="generator" content="soupault">'
 [widgets.page-title]
 widget = "title"
 selector = "h1"
-default = "Project Unison"
-append = " | Project Unison"
+default = "Project Name"
+append = " | Project Name"
 force = true
 keep = true
 

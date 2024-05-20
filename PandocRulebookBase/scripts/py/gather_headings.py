@@ -3,7 +3,7 @@ import json
 
 files = {}
 
-for file in glob.glob("site/content/*/*.md"):
+for file in glob.glob("content/*/*.md"):
     contents = open(file, "r").read()
 
     title = None

@@ -1,0 +1,6 @@
+[config]
+title = "Project Unison"
+
+[entry]
+name = "Project Unison SRD"
+path = "web/content/pages/0-title.html"

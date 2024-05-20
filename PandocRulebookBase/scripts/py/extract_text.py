@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 from bs4 import BeautifulSoup
 from bs4.element import Comment
 from glob import glob
@@ -75,6 +73,7 @@ def text_from_html(body, filter_fn):
 text = ""
 text_title = ""
 text_code = ""
+text_symbol = ""
 for page in glob("build/web/**/*.html", recursive=True):
     html = open(page).read()
     text += text_from_html(html, filter_body_text) + "\n\n"
