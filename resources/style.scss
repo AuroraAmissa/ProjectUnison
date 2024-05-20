@@ -1,8 +1,3 @@
-@use 'wf_body';
-@use 'wf_code';
-@use 'wf_symbol';
-@use 'wf_title';
-
 @use 'PandocRulebookBase/common_style' with (
   $color_border: #c480ff,
   $color_link: #af5ff5,

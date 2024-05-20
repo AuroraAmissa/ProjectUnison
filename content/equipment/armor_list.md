@@ -5,7 +5,7 @@ This page contains detailed descriptions of all armor types. A summary may be fo
 ## Summary
 
 ``` {.include}
-site/content/include/armor_list.md
+content/include/armor_list.md
 ```
 
 ## Light Armor

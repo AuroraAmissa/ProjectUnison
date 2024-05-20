@@ -1,6 +1,6 @@
 local common = require 'PandocRulebookBase.pandoc.common'
 
-local pages = pandoc.json.decode(common.read_file("build/pages.json"))
+local pages = pandoc.json.decode(common.read_file("build/extract/pages.json"))
 
 function Link(el)
     if el.target and not el.target:startswith("http") then

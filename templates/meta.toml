@@ -1,6 +1,15 @@
 [config]
 title = "Project Unison"
+path = "Web SRD Files"
 
 [entry]
-name = "Project Unison SRD"
-path = "web/content/pages/0-title.html"
+name = "Project Unison Web SRD"
+path = "Web SRD Files/chapters/0-title.html"
+
+[fonts]
+main = "templates/fonts/MPLUS2-VariableFont_wght.ttf"
+title = "templates/fonts/MPLUSRounded1c-Bold.ttf"
+code = "templates/fonts/NotoSansMono-VariableFont_wdth,wght.ttf"
+symbol = "templates/fonts/HachiMaruPop-Regular.ttf"
+
+code_fallback = ["main"]

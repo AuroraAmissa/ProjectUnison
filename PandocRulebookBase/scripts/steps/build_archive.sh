@@ -16,4 +16,4 @@ mkdir -p dist
 cp -r web "$CONTENT_DIR"
 zip -r -q "$ZIP_FILE" "$CONTENT_DIR"
 rm -rf "$CONTENT_DIR"
-cp -v "$ZIP_FILE" dist/
+mv -v "$ZIP_FILE" dist/

@@ -15,5 +15,5 @@ for file in glob.glob("content/*/*.md"):
         files[title.lower()] = "/".join(file.split("/")[-2:])
         files[title.lower().replace(" ", "%20")] = "/".join(file.split("/")[-2:])
 
-open("build/pages.json", "w").write(json.dumps(files))
+open("build/extract/pages.json", "w").write(json.dumps(files))
 print(files)
