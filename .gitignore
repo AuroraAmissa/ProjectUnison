@@ -2,3 +2,4 @@
 /site/resources/webfonts
 /venv
 /.sass-cache
+/deploy_test.sh
