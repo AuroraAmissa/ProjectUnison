@@ -1,0 +1,3 @@
+[submodule "PandocRulebookBase"]
+	path = PandocRulebookBase
+	url = https://github.com/AuroraAmissa/PandocRulebookBase.git
