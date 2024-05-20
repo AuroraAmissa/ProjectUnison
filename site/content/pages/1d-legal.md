@@ -30,6 +30,7 @@ The following software was used to create this document. No part of these progra
 * [minify](https://github.com/tdewolff/minify) - Used to reduce the size of the HTML and CSS files.
 * [Nix](https://nixos.org/) - Used to help manage the programs used in the scripts that generate this document.
 * [LinkChecker](https://wummel.github.io/linkchecker/) - Used to ensure there are no dead links inside the document.
+* [Sass](https://sass-lang.com/) - Used to help style the rulebook in HTML mode.
 
 The OGL license block here is compiled from the Spheres of Power wiki. A lot of stuff there I likely have no content from, but it is near-impossible for me to check for sure, so I have the full list.
 

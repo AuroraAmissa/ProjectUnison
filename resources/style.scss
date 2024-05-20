@@ -1,0 +1,78 @@
+@use 'webfonts';
+@use 'PandocRulebookBase/common_style' with (
+  $color_border: #c480ff,
+  $color_link: #af5ff5,
+  $color_text: #601e9a,
+
+  $color_background_main: rgba(254, 250, 255, 85%),
+  $color_background_secondary: rgba(251, 228, 255, 35%),
+  $color_background_table_even: rgba(255, 255, 255, 35%),
+
+  $font_title: "Rounded Mplus 1c Bold",
+  $font_symbol: "Hachi Maru Pop",
+  $font_main: "M PLUS 2",
+  $font_code: "Noto Sans Mono" "M PLUS 2",
+
+  $font_weight_main: 420,
+  $font_weight_strong: 625,
+  $font_weight_code: 380,
+  $font_weight_title: bold,
+  $font_weight_symbol: inherit,
+  $font_style_em: oblique 12deg,
+
+  $border_style_main: dotted,
+  $menu_mobile_seperator: "  ☆  ",
+
+  //noinspection CssUnknownTarget
+  $background: #dcf8ef url('background_main.jpg') repeat fixed 0 -60px,
+);
+
+:not(ol) > li::marker {
+  content: "☆  ";
+  @include common_style.font_symbol;
+}
+
+.h0 {
+  &:before {
+    content: "☆  ";
+  }
+
+  &:after {
+    content: "  ☆";
+  }
+}
+
+h2 {
+  &::before {
+    content: "《  ";
+    margin-left: -0.5em;
+    padding-left: 0.15rem;
+  }
+
+  &::after {
+    content: "  》";
+  }
+}
+
+
+h3, h6 {
+  &::before {
+    content: "〈  ";
+    margin-left: -0.6em;
+    padding-left: 0.15rem;
+  }
+
+  &::after {
+    content: "  〉";
+  }
+}
+
+.h0, h2, h3, h6 {
+  &::before, &::after {
+    @include common_style.font_symbol;
+  }
+}
+
+.section {
+  font-weight: common_style.$font_weight_main;
+}

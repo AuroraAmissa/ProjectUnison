@@ -1,4 +1,4 @@
-* [Table of Contents](../pages/0-title.html#table-of-contents)
+* [Table of Contents](../pages/0-title.html)
 * [Characters]()
 * [Gameplay]()
 * [Combat]()
