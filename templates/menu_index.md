@@ -1,6 +1,5 @@
-* [Table of Contents](../chapters/0-title.html)
+* [Table of Contents](../ch1-meta/title.html)
 * [Characters]()
 * [Gameplay]()
-* [Combat]()
 * [Player Options]()
 * [Gamemastering]()

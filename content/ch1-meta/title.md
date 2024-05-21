@@ -23,7 +23,7 @@ For new players, start reading with the [Getting Started]() chapter.
 
 ## Table of Contents
 
-* [Front Page](./0-title.html)
+* [Front Page](./title.html)
 * [Introduction]()
 * [Changelog]()
 * [Changes from Pathfinder]()
@@ -39,12 +39,12 @@ For new players, start reading with the [Getting Started]() chapter.
     * [Armor and Shields]()
     * [Weapons]()
 * [Gameplay]()
+  * [Combat]()
   * [Conditions]()
   * [Downtime and Rest]()
   * [Optional Rules]()
     * [Integrity]()
     * [Modern Settings]()
-* [Combat]()
 * [Player Options]()
   * Equipment Lists
     * [Armor List]()

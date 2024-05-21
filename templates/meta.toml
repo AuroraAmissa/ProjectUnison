@@ -4,7 +4,7 @@ path = "Web SRD Files"
 
 [entry]
 name = "Project Unison Web SRD"
-path = "Web SRD Files/chapters/0-title.html"
+path = "Web SRD Files/ch1-meta/title.html"
 
 [fonts]
 main = "templates/fonts/MPLUS2-VariableFont_wght.ttf"

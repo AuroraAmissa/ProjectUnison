@@ -27,7 +27,7 @@ Unlike any other bonus trait, many of these traits represent story elements that
 
 **Effect:** Increase your character's base resource level by their levels in this trait. 
 
-*(**Note:** Characters without this trait have a base resource level of 1. For more information, see the [Equipment](./3c-equipment.html) chapter.)*
+*(**Note:** Characters without this trait have a base resource level of 1. For more information, see the [Equipment]() chapter.)*
 :::::
 
 ### Personal Bonus Traits
