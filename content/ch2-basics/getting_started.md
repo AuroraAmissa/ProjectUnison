@@ -30,6 +30,7 @@ There are a few basic guidelines for how to interpret game rules to keep in mind
 
 * In general, if you wind up with a fraction, round down, even if the fraction is one-half or larger. Certain rolls, such as damage and hit points, have a minimum of 1.
 * Specific trumps general. If one ability says you can't do something in general, and another rule says you can do it in a specific case, you can do it only in that specific case.
+* During a single level, 
 
 ## Allowed Content
 

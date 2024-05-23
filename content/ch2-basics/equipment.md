@@ -12,6 +12,11 @@ Characters begin with a selection of equipment whose maintenance cost does not e
 * [Weapons]()
 :::::
 
+## Equipment Lists
+
+* [Armor List]() *(See also: [Armor and Shields]())*
+* [Weapon List]() *(See also: [Weapons]())*
+
 ## Carrying Capacity
 
 These carrying capacity rules determine how much your character's equipment slows you down. Carrying capacity is based on the bulk of items, which accounts for both their weight and their unwieldiness.
@@ -77,3 +82,8 @@ For this purpose, a character may provide the entirety of one of their income so
 >
 > This rule is meant for social-centered campaigns where the financial situation of characters and the social weight that carries is more central to the storyline. For more standard campaigns centered on exploration, combat or dungeons, consider forbidding the use of this rule. This reduces the need to track individual income sources for characters.
 
+## Equipment Tags
+
+Some equipment has special properties in addition to those noted in their description.
+
+[TODO: List]

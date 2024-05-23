@@ -12,7 +12,7 @@ Some bonus traits allow you to take multiple instances of them. This allows you 
 
 ## Bonus Traits List
 
-### Background Bonus Traits
+### Background Traits
 
 Background bonus traits represent benefits your character gains from their backstory. On the first level, your character may only take background or personal bonus traits, as all other bonus traits require a higher minimum level.
 
@@ -30,7 +30,7 @@ Unlike any other bonus trait, many of these traits represent story elements that
 *(**Note:** Characters without this trait have a base resource level of 1. For more information, see the [Equipment]() chapter.)*
 :::::
 
-### Personal Bonus Traits
+### Personal Traits
 
 Personal bonus traits represent your character's upbringing and skills. On the first level, your character may only take background or personal bonus traits, as all other bonus traits require a higher minimum level.
 
@@ -114,7 +114,7 @@ Personal bonus traits represent your character's upbringing and skills. On the f
 **Effect:** Whenever you gain a level in this trait, you may exchange a talent you gain from class levels for any other kind of talent you have a tradition for. *(This may be applied to talents gained the character level you gain a level in this bonus trait.)*
 :::::
 
-### Enhancement Bonus Traits
+### Enhancement Traits
 
 Enhancement bonus traits allow you to spend bonus traits to increase your character's abilities and other statistics. U
 
@@ -206,7 +206,7 @@ Enhancement bonus traits allow you to spend bonus traits to increase your charac
 **Effect:** You may apply the effects of Weapon Attunement to an additional weapon, up to a maximum level equal to your levels in this trait. You may take this trait multiple times, allowing you to attune an additional weapon each time.
 :::::
 
-### Focus Bonus Traits
+### Focus Traits
 
 Focus bonus traits allow you to focus on a specific kind of Enhancement Bonus Trait, boosting a single stat in favor of others. Characters may only have a single (focus) bonus trait.
 
@@ -270,13 +270,13 @@ Focus bonus traits allow you to focus on a specific kind of Enhancement Bonus Tr
 
 You may additionally take character drawbacks that grant you additional bonus points. Each drawback grants a number of drawback points equal to the stated "**Points:**" value. You may take a maximum of 4 points worth of drawbacks. Depending on the number of drawback points you have, you gain extra bonus points at each level:
 
-| Drawback Points | Extra Bonus Points                                                                               |
-|-----------------|--------------------------------------------------------------------------------------------------|
-| 0               | None                                                                                             |
-| 1               | +1 at 1st level and +1 at 4th level and every 3 levels thereafter                                |
-| 2               | +2 at 1st level and +1 at each odd level thereafter                                              |
-| 3               | +3 at 1st level and +1 at each level thereafter (except the 2nd, and every 4th level thereafter) |
-| 4               | +4 at 1st level and +1 at each character level thereafter                                        |
+| Drawback Points | Extra Bonus Points |
+| - | ---- |
+| 0 | None |
+| 1 | +1 at 1st level and +1 at 4th level and every 3 levels thereafter |
+| 2 | +2 at 1st level and +1 at each odd level thereafter |
+| 3 | +3 at 1st level and +1 at each level thereafter (except the 2nd, and every 4th level thereafter) |
+| 4 | +4 at 1st level and +1 at each character level thereafter |
 
 Character drawbacks may only be taken at character creation.
 

@@ -142,8 +142,8 @@ content/include/armor_list.md
 
 **Cost** L; **Bulk** L \
 **Armor Bonus** +1; **Max Dex Bonus** None; **Armor Check Penalty** -1 \
-**Damage** 1d2 (small), 1d3 (medium); **Critical** x2; **Type** bludgeoning \
-**Category** light; **Proficiency** martial; **Weapon Groups** close
+**Damage** [1d3]{.c} bludgeoning; **Critical** x2 \
+**Category** light; **Proficiency** martial; **Weapon Groups** shields (\*)
 
 **Effect:** A light shield functions the same as a [Shield](Armor List#Shield Equipment Shield), but has differing stats.
 :::::
@@ -153,8 +153,8 @@ content/include/armor_list.md
 
 **Cost** L; **Bulk** 1 \
 **Armor Bonus** +2; **Max Dex Bonus** None; **Armor Check Penalty** -2 \
-**Damage** 1d3 (small), 1d4 (medium); **Critical** x2; **Type** bludgeoning
-**Category** one-handed; **Proficiency** martial; **Weapon Groups** close
+**Damage** [1d4]{.c} bludgeoning; **Critical** x2 \
+**Category** one-handed; **Proficiency** martial; **Weapon Groups** shields (\*)
 
 *A shield is a piece of personal armour held in the hand, which may or may not be strapped to the wrist or forearm. Shields are used to intercept specific attacks, whether from close-ranged weaponry or projectiles such as arrows, by means of active blocks, as well as to provide passive protection by closing one or more lines of engagement during combat.*
 

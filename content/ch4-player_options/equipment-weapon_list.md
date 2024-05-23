@@ -19,7 +19,7 @@ Axes are weapons consisting of weighed head with a point or edge. They used by c
 **Damage** [1d8]{.c} slashing; **Critical** ×3 \
 **Category** one-handed; **Proficiency** martial; **Range** melee \
 **Groups** axes \
-**Special** [breach] 3
+**Tags** [breach] 3
 
 *The handle of this axe is long enough that you can wield it one-handed or two-handed. The head may have one blade or two, with blade shapes ranging from half-moons to squared edges like narrower versions of woodcutting axes. The wooden haft may be protected and strengthened with metal bands called langets.*
 :::::
@@ -31,7 +31,7 @@ Axes are weapons consisting of weighed head with a point or edge. They used by c
 **Damage** [2d6]{.c} slashing; **Critical** ×3 \
 **Category** two-handed; **Proficiency** martial; **Range** melee \
 **Groups** axes \
-**Special** [breach] 4
+**Tags** [breach] 4
 
 *This two-handed battle axe is heavy enough that you can’t wield it with one hand. The head may have one blade or two, and may be “bearded” (meaning hooked or trailing at the bottom) to increase cleaving power and help pull down enemy shields. The haft is usually 3 to 4 feet long.*
 :::::
@@ -43,7 +43,7 @@ Axes are weapons consisting of weighed head with a point or edge. They used by c
 **Damage** [1d6]{.c} slashing; **Critical** ×3 \
 **Category** light; **Proficiency** martial; **Range** melee \
 **Groups** axes \
-**Special** [breach] 3, [sunder]
+**Tags** [breach] 3, [sunder]
 
 *This one-handed axe is short (roughly 1 foot long) and designed for use with one hand. Unlike throwing axes, it is not well balanced for a graceful tumbling motion, and is instead heavier at its head. Tomahawks, war hatchets, and other such names usually refer to hand axes.*
 :::::
@@ -55,7 +55,7 @@ Axes are weapons consisting of weighed head with a point or edge. They used by c
 **Damage** [1d6]{.c} piercing; **Critical** ×4 \
 **Category** light; **Proficiency** martial; **Range** melee \
 **Groups** axes \
-**Special** [breach] 4, [pierce]
+**Tags** [breach] 4, [pierce]
 
 *This variant of the light pick has a longer handle and can be used with one or two hands. It is a common, inexpensive weapon for mounted soldiers since it can be used effectively from horseback.*
 :::::
@@ -67,7 +67,7 @@ Axes are weapons consisting of weighed head with a point or edge. They used by c
 **Damage** [1d4]{.c} piercing; **Critical** ×4 \
 **Category** light; **Proficiency** martial; **Range** melee \
 **Groups** axes \
-**Special** [breach] 3, [pierce]
+**Tags** [breach] 3, [pierce]
 
 *This weapon, adapted from the pickaxe tool, has a head with a slightly curved, armorpiercing spike and a hammerlike counterweight.*
 :::::
@@ -79,7 +79,7 @@ Axes are weapons consisting of weighed head with a point or edge. They used by c
 **Damage** [1d8]{.c} piercing; **Critical** ×4 \
 **Category** two-handed; **Proficiency** martial; **Range** melee \
 **Groups** axes \
-**Special** [breach] 4, [pierce]
+**Tags** [breach] 4, [pierce]
 
 *A two-handed version of the heavy pick, the brutal pickaxe is equally effective at breaking up earth and stone as it is at sundering flesh and bone. Often a weapon of convenience for commoners, the pickaxe is also a favorite among brutes and thugs who value the intimidation factor afforded by the immense weapon.*
 :::::
@@ -91,7 +91,7 @@ Axes are weapons consisting of weighed head with a point or edge. They used by c
 **Damage** [1d6]{.c} slashing; **Critical** ×2 \
 **Category** light; **Proficiency** martial; **Range** thrown (10 ft.) \
 **Groups** axes, thrown \
-**Special** [breach] 2
+**Tags** [breach] 2
 
 *This is a small axe balanced for throwing.*
 :::::
@@ -106,8 +106,7 @@ Archery weapons are varied weapons used to fire projectiles at targets from a di
 **Cost** L; **Bulk** L \
 **Damage** [1]{.c} piercing; **Critical** — \
 **Category** two-handed; **Proficiency** simple; **Range** ranged (20 ft.) \
-**Groups** archery; **Ammunition** blowgun darts \
-**Special** —
+**Groups** archery; **Ammunition** blowgun darts
 
 *Blowguns are generally used to deliver debilitating (but rarely fatal) poisons from a distance. They are nearly silent when fired.*
 
@@ -121,7 +120,7 @@ Archery weapons are varied weapons used to fire projectiles at targets from a di
 **Damage** [1d8]{.c} piercing; **Critical** ×3 \
 **Category** two-handed; **Proficiency** martial; **Range** ranged (110 ft.) \
 **Groups** archery \
-**Special** [power]
+**Tags** [power]
 
 *A composite bow is a longer composite bow.*
 :::::
@@ -133,7 +132,7 @@ Archery weapons are varied weapons used to fire projectiles at targets from a di
 **Damage** [1d6]{.c} piercing; **Critical** ×3 \
 **Category** two-handed; **Proficiency** martial; **Range** ranged (70 ft.) \
 **Groups** archery \
-**Special** [power]
+**Tags** [power]
 
 *A composite bow is a traditional bow made from horn, wood, and sinew laminated together, a form of laminated bow.*
 :::::
@@ -145,7 +144,7 @@ Archery weapons are varied weapons used to fire projectiles at targets from a di
 **Damage** [1d10]{.c} piercing; **Critical** 19-20/×2 \
 **Category** two-handed; **Proficiency** simple; **Range** ranged (120 ft.) \
 **Groups** archery; **Ammunition** bolts \
-**Special** [reload] (2 acts)
+**Tags** [reload] (2 acts)
 
 *A heavier crossbow that is more powerful and more cumbersome to fire.*
 :::::
@@ -157,7 +156,7 @@ Archery weapons are varied weapons used to fire projectiles at targets from a di
 **Damage** [1d8]{.c} piercing; **Critical** 19-20/×2 \
 **Category** two-handed; **Proficiency** simple; **Range** ranged (80 ft.) \
 **Groups** archery; **Ammunition** bolts \
-**Special** [reload] (simple)
+**Tags** [reload] (simple)
 
 *A crossbow is a ranged weapon consisting of a bow-like assembly, mounted horizontally on a main frame, and hand-held in a similar fashion to the stock of a long gun.*
 :::::
@@ -169,7 +168,7 @@ Archery weapons are varied weapons used to fire projectiles at targets from a di
 **Damage** [1d8]{.c} piercing; **Critical** ×3 \
 **Category** two-handed; **Proficiency** martial; **Range** ranged (100 ft.) \
 **Groups** archery \
-**Special** [muscle]
+**Tags** [muscle]
 
 *At almost 5 feet in height, a longbow is made up of one solid piece of carefully curved wood.*
 :::::
@@ -181,7 +180,7 @@ Archery weapons are varied weapons used to fire projectiles at targets from a di
 **Damage** [1d6]{.c} piercing; **Critical** ×3 \
 **Category** two-handed; **Proficiency** martial; **Range** ranged (60 ft.) \
 **Groups** archery \
-**Special** [muscle]
+**Tags** [muscle]
 
 *A shortbow is made up of one piece of wood, about 3 feet in length.*
 :::::
@@ -193,7 +192,7 @@ Archery weapons are varied weapons used to fire projectiles at targets from a di
 **Damage** [1d8]{.c} bludgeoning; **Critical** ×3 \
 **Category** one-handed; **Proficiency** exotic; **Range** ranged (80 ft.) \
 **Groups** archery, thrown; **Ammunition** sling bullets \
-**Special** [concealable], [power]
+**Tags** [concealable], [power]
 
 *A sling is made from a small cradle or pouch in the middle of two retention cords.*
 
@@ -217,7 +216,7 @@ Heavy blades are weapons with a broader blade, allowing it to strike with more f
 **Damage** [1d10]{.c} slashing; **Critical** 18-20/×2 \
 **Category** two-handed; **Proficiency** martial; **Range** melee \
 **Groups** heavy blades \
-**Special** [blocking]
+**Tags** [blocking]
 
 *This sword has one curved, sharp edge like a scimitar, with the back edge unsharpened and either flat or slightly curved. Its weight is greater toward the end, making it better for chopping rather than stabbing.*
 :::::
@@ -229,7 +228,7 @@ Heavy blades are weapons with a broader blade, allowing it to strike with more f
 **Damage** [1d8]{.c} slashing; **Critical** 19-20/×2 \
 **Category** one-handed; **Proficiency** martial; **Range** melee \
 **Groups** heavy blades \
-**Special** [blocking]
+**Tags** [blocking]
 
 *This sword is about 3½ feet in length.*
 :::::
@@ -241,7 +240,7 @@ Heavy blades are weapons with a broader blade, allowing it to strike with more f
 **Damage** [1d6]{.c} slashing; **Critical** 18-20/×2 \
 **Category** one-handed; **Proficiency** martial; **Range** melee \
 **Groups** heavy blades \
-**Special** [blocking]
+**Tags** [blocking]
 
 *This curved sword is shorter than a longsword and longer than a shortsword. Only the outer edge is sharp, and the back is flat, giving the blade a triangular cross-section.*
 :::::
@@ -253,7 +252,7 @@ Heavy blades are weapons with a broader blade, allowing it to strike with more f
 **Damage** [1d8]{.c} piercing and slashing; **Critical** ×4 \
 **Category** two-handed; **Proficiency** martial; **Range** melee \
 **Groups** heavy blades \
-**Special** [fearsome], [trip]
+**Tags** [fearsome], [trip]
 
 *This weapon consists of a long wooden shaft with protruding handles and a sharp curved blade set at a right angle. Derived from a farm tool used to mow down crops, a scythe requires two hands to use, and is unwieldy but capable of inflicting grievous wounds. Its connotations as a symbol of death make it an intimidating weapon.*
 :::::
@@ -265,7 +264,7 @@ Heavy blades are weapons with a broader blade, allowing it to strike with more f
 **Damage** [1d10]{.c} piercing; **Critical** ×2 \
 **Category** two-handed; **Proficiency** exotic; **Range** melee \
 **Groups** heavy blades, flails \
-**Special** [blocking], [disarm], [trip], [finesse]
+**Tags** [blocking], [disarm], [trip], [finesse]
 
 *This 4-foot-long length of chain is covered with barbs and has spikes on one or both ends. Some feature metal hoops used as handgrips.*
 
@@ -279,7 +278,7 @@ Heavy blades are weapons with a broader blade, allowing it to strike with more f
 **Damage** [2d6]{.c} bludgeoning; **Critical** 19-20/×2 \
 **Category** two-handed; **Proficiency** martial; **Range** melee \
 **Groups** heavy blades \
-**Special** [blocking]
+**Tags** [blocking]
 
 *This larger, bulkier version of the common club is heavy enough that you can’t wield it with one hand. It may be ornate and carved, reinforced with metal, or a simple branch from a tree. Like simple clubs, greatclubs have many names, such as cudgels, bludgeons, shillelaghs, and more.*
 :::::
@@ -294,8 +293,7 @@ Light blades are weapons with a more lightweight blade, allowing them to be used
 **Cost** L; **Bulk** L \
 **Damage** [1d6]{.c} piercing; **Critical** ×2 \
 **Category** two-handed; **Proficiency** simple; **Range** melee \
-**Groups** light blade \
-**Special** —
+**Groups** light blade
 
 *Bayonets are close combat weapons designed to fit into special grooves on crossbows and firearms.*
 
@@ -309,7 +307,7 @@ Light blades are weapons with a more lightweight blade, allowing them to be used
 **Damage** [1d3]{.c} piercing or slashing; **Critical** 19-20/×2 \
 **Category** light; **Proficiency** simple; **Range** thrown (10 ft.) \
 **Groups** light blade, throwing \
-**Special** [agile], [concealable], [precision]
+**Tags** [agile], [concealable], [precision]
 
 *A dagger has a blade that is about 1 foot in length.*
 :::::
@@ -321,7 +319,7 @@ Light blades are weapons with a more lightweight blade, allowing them to be used
 **Damage** [1d6]{.c} piercing; **Critical** 18-20/×2 \
 **Category** light; **Proficiency** martial; **Range** melee \
 **Groups** light blades \
-**Special** [agile], [distracting], [precision]
+**Tags** [agile], [distracting], [precision]
 
 *A rapier is a type of sword with a straight, slender and sharply pointed two-edged long blade wielded in one hand.*
 :::::
@@ -333,7 +331,7 @@ Light blades are weapons with a more lightweight blade, allowing them to be used
 **Damage** [1d6]{.c} piercing and slashing; **Critical** 19-20/×2 \
 **Category** light; **Proficiency** martial; **Range** melee \
 **Groups** light blades \
-**Special** [agile], [blocking]
+**Tags** [agile], [blocking]
 
 *Shortswords are some of the most common weapons found in any martial society, and thus designs are extremely varied, depending on the region and creator. Most are around 2 feet in length. Their blades can be curved or straight, single- or double-edged, and wide or narrow. Hilts may be ornate or simple, with crossguards, basket hilts, or no guard at all. Such weapons are often used on their own, but can also be paired as a matched set, or used in conjunction with a dagger or longer sword.*
 :::::
@@ -345,7 +343,7 @@ Light blades are weapons with a more lightweight blade, allowing them to be used
 **Damage** [1d6]{.c} slashing; **Critical** ×2 \
 **Category** light; **Proficiency** simple; **Range** melee \
 **Groups** light blade \
-**Special** [trip]
+**Tags** [trip]
 
 *A sickle is a single-handed agricultural tool designed with curved blades. Like other farming tools, the sickle is often used as an improvised bladed weapon.*
 :::::
@@ -357,7 +355,7 @@ Light blades are weapons with a more lightweight blade, allowing them to be used
 **Damage** [1d4]{.c} piercing or slashing; **Critical** 19-20/×2 \
 **Category** light; **Proficiency** simple; **Range** thrown (10 ft.) \
 **Groups** light blade \
-**Special** [concealable] +4
+**Tags** [concealable] +4
 
 *This 4-inch blade is attached via a hinge to a wooden handle with a slot in the center, into which the blade can be folded. With a click of a switch, a spring thrusts the blade outward, where it locks into place until it is reset.*
 
@@ -375,7 +373,7 @@ Blunt weapons are those that deal damage through sheer mass and blunt force. The
 **Damage** [3d6]{.c} bludgeoning; **Critical** ×3 \
 **Category** two-handed; **Proficiency** exotic; **Range** melee \
 **Groups** blunt \
-**Special** [breach] 5, [crush] 3, [fearsome], [overpower]
+**Tags** [breach] 5, [crush] 3, [fearsome], [overpower]
 
 *The crude metal of this massive hammer’s head ends in multiple blunt spikes that help concentrate the force of a powerful swing down into a smaller, more focused area, allowing it to smash through armor with greater ease. Due to the tremendous size and weight of its head, an earth breaker is poorly balanced, and requires two hands to properly lift and control.*
 
@@ -391,7 +389,7 @@ Blunt weapons are those that deal damage through sheer mass and blunt force. The
 **Damage** [1d10]{.c} bludgeoning; **Critical** ×2 \
 **Category** two-handed; **Proficiency** martial; **Range** melee \
 **Groups** blunt \
-**Special** [crush], [fearsome]
+**Tags** [crush], [fearsome]
 
 *This larger, bulkier version of the common club is heavy enough that you can’t wield it with one hand. It may be ornate and carved, reinforced with metal, or a simple branch from a tree. Like simple clubs, greatclubs have many names, such as cudgels, bludgeons, shillelaghs, and more.*
 :::::
@@ -403,7 +401,7 @@ Blunt weapons are those that deal damage through sheer mass and blunt force. The
 **Damage** [1d6]{.c} bludgeoning; **Critical** ×2 \
 **Category** one-handed; **Proficiency** simple; **Range** melee \
 **Groups** blunt \
-**Special** [crush]
+**Tags** [crush]
 
 *A heavy mace has a larger head and a longer handle than a normal (light) mace.*
 :::::
@@ -415,7 +413,7 @@ Blunt weapons are those that deal damage through sheer mass and blunt force. The
 **Damage** [1d6]{.c} bludgeoning; **Critical** ×2 \
 **Category** light; **Proficiency** simple; **Range** melee \
 **Groups** blunt \
-**Special** [crush]
+**Tags** [crush]
 
 *A light mace is made up of an ornate metal head attached to a simple wooden or metal shaft.*
 :::::
@@ -427,7 +425,7 @@ Blunt weapons are those that deal damage through sheer mass and blunt force. The
 **Damage** 2×[1d6]{.c} bludgeoning; **Critical** ×2 \
 **Category** two-handed; **Proficiency** simple; **Range** melee \
 **Groups** blunt \
-**Special** [double]
+**Tags** [double]
 
 *A quarterstaff is a simple piece of wood, about 5 feet in length.*
 :::::
@@ -439,7 +437,7 @@ Blunt weapons are those that deal damage through sheer mass and blunt force. The
 **Damage** [1d8]{.c} bludgeoning; **Critical** ×3 \
 **Category** one-handed; **Proficiency** martial; **Range** melee \
 **Groups** blunt \
-**Special** [overpower]
+**Tags** [overpower]
 
 *This weapon consists of a wooden haft and a heavy, metal head. The head may be single (like a carpenter’s hammer) or double (like a sledgehammer). The haft is long enough that you may wield it one- or two-handed. Though heavy and relatively slow to wield, warhammers are capable of delivering immense blows, crushing armor and flesh alike.*
 :::::
@@ -455,7 +453,7 @@ Close Combat weapons are weapons that are adapted for use with unarmed martial a
 **Damage** [1d8]{.c} slashing; **Critical** ×3 \
 **Category** light; **Proficiency** exotic; **Range** melee \
 **Groups** close combat, axes \
-**Special** [brawling], [blocking], [disarm], [sunder]
+**Tags** [brawling], [blocking], [disarm], [sunder]
 
 *An axe-gauntlet is a locked gauntlet covering the hand and forearm up to and over the elbow, with an axe blade built around the gauntlet’s permanently closed fist.*
 
@@ -469,7 +467,7 @@ Close Combat weapons are weapons that are adapted for use with unarmed martial a
 **Damage** [1d3]{.c} bludgeoning; **Critical** 19-20/×2 \
 **Category** light; **Proficiency** simple; **Range** melee \
 **Groups** close combat \
-**Special** [brawling]
+**Tags** [brawling]
 
 *These close combat weapons are designed to fit comfortably around the knuckles, narrowing the contact area and therefore magnifying the amount of force delivered by a punch.*
 :::::
@@ -481,7 +479,7 @@ Close Combat weapons are weapons that are adapted for use with unarmed martial a
 **Damage** [1d4]{.c} slashing; **Critical** 19-20/×2 \
 **Category** light; **Proficiency** martial; **Range** melee \
 **Groups** close combat, light blades \
-**Special** [brawling], [blocking]
+**Tags** [brawling], [blocking]
 
 *This weapon consists of a soft wrapping around a hard, dense core, typically a leather sheath around a lead rod. The head is wider than the handle and designed to spread out the force of the blow, making it less likely to draw blood or break bones.*
 :::::
@@ -493,7 +491,7 @@ Close Combat weapons are weapons that are adapted for use with unarmed martial a
 **Damage** [1d4]{.c} bludgeoning and slashing; **Critical** 18-20/×2 \
 **Category** light; **Proficiency** martial; **Range** melee \
 **Groups** close combat \
-**Special** [brawling], [agile]
+**Tags** [brawling], [agile]
 
 *These subtle blades were first created by catfolk, fitting over their claws in one hand to enhance their striking power. Bought in a set of five, they fit over the wearer’s claws on one hand. Versions attached to gloves were later created to allow other races to use their martial arts.*
 
@@ -507,7 +505,7 @@ Close Combat weapons are weapons that are adapted for use with unarmed martial a
 **Damage** [1d6]{.c} bludgeoning; **Critical** ×2 \
 **Category** light; **Proficiency** martial; **Range** melee \
 **Groups** close combat, blunt \
-**Special** [brawling], [nonlethal]
+**Tags** [brawling], [nonlethal]
 
 *This weapon consists of a soft wrapping around a hard, dense core, typically a leather sheath around a lead rod. The head is wider than the handle and designed to spread out the force of the blow, making it less likely to draw blood or break bones.*
 :::::
@@ -523,7 +521,7 @@ Flails are weapons with a flexible component, whether they're entirely flexible 
 **Damage** [1d3]{.c} slashing; **Critical** 19-20/×2 \
 **Category** two-handed; **Proficiency** exotic; **Range** melee \
 **Groups** flails \
-**Special** [agile], [distracting], [finesse], [trip], [precision]
+**Tags** [agile], [distracting], [finesse], [trip], [precision]
 
 *The thin metal plates interwoven throughout this long scarf turn a fashion accessory into a deadly weapon.*
 
@@ -541,7 +539,7 @@ Furthermore, you deal 1d6 points of slashing damage to any creature that makes a
 **Damage** [1d10]{.c} bludgeoning; **Critical** 19-20/×2 \
 **Category** two-handed; **Proficiency** martial; **Range** melee \
 **Groups** flail \
-**Special** [disarm], [trip]
+**Tags** [disarm], [trip]
 
 *Similar to a light flail, a heavy flail has a larger metal ball and a longer handle.*
 :::::
@@ -553,7 +551,7 @@ Furthermore, you deal 1d6 points of slashing damage to any creature that makes a
 **Damage** [1d8]{.c} bludgeoning; **Critical** ×2 \
 **Category** one-handed; **Proficiency** martial; **Range** melee \
 **Groups** flail \
-**Special** [disarm], [trip]
+**Tags** [disarm], [trip]
 
 *A light flail consists of a weighted striking end connected to a handle by a sturdy chain. Though often imagined as a ball, sometimes spiked like the head of a morningstar, the head of a light flail can actually take many different shapes, such as short bars. Military flails are sturdier evolutions of agricultural flails, which are used for threshing – beating stacks of grains to separate the useful grains from their husks.*
 :::::
@@ -565,7 +563,7 @@ Furthermore, you deal 1d6 points of slashing damage to any creature that makes a
 **Damage** [1d6]{.c} bludgeoning; **Critical** ×2 \
 **Category** light; **Proficiency** martial; **Range** melee \
 **Groups** flails \
-**Special** [blocking], [disarm], [distracting]
+**Tags** [blocking], [disarm], [distracting]
 
 *A nunchaku is made up of two wooden or metal bars connected by a small length of rope or chain.*
 :::::
@@ -577,7 +575,7 @@ Furthermore, you deal 1d6 points of slashing damage to any creature that makes a
 **Damage** [1d3]{.c} slashing; **Critical** ×2 \
 **Category** one-handed; **Proficiency** exotic; **Range** reach \
 **Groups** flails \
-**Special** [agile], [disarm], [nonlethal], [trip]
+**Tags** [agile], [disarm], [nonlethal], [trip]
 
 *A whip is a firm stick designed for direct contact, or a flexible line requiring a specialized swing.*
 
@@ -597,7 +595,7 @@ Polearms are weapons attached to the end of long handles, allowing them great ra
 **Damage** [1d8]{.c} piercing; **Critical** ×3 \
 **Category** two-handed; **Proficiency** simple; **Range** reach \
 **Groups** polearms \
-**Special** [brace]
+**Tags** [brace]
 
 *A longspear is about 8 feet in length.*
 :::::
@@ -609,7 +607,7 @@ Polearms are weapons attached to the end of long handles, allowing them great ra
 **Damage** [1d10]{.c} slashing; **Critical** ×3 \
 **Category** two-handed; **Proficiency** martial; **Range** reach \
 **Groups** polearms \
-**Special** [brace]
+**Tags** [brace]
 
 *A glaive is composed of a simple blade mounted on the end of a pole about 7 feet in length.*
 :::::
@@ -621,7 +619,7 @@ Polearms are weapons attached to the end of long handles, allowing them great ra
 **Damage** [1d10]{.c} slashing; **Critical** ×3 \
 **Category** two-handed; **Proficiency** martial; **Range** reach \
 **Groups** polearms \
-**Special** [trip]
+**Tags** [trip]
 
 *A guisarme is an 8-foot-long shaft with a blade and a hook mounted at the tip.*
 :::::
@@ -633,7 +631,7 @@ Polearms are weapons attached to the end of long handles, allowing them great ra
 **Damage** [1d10]{.c} piercing or slashing; **Critical** ×3 \
 **Category** two-handed; **Proficiency** martial; **Range** melee \
 **Groups** polearms \
-**Special** reach, [trip]
+**Tags** reach, [trip]
 
 *A halberd is similar to a 5-foot-long spear, but it also has a small, axe-like head mounted near the tip.*
 :::::
@@ -644,8 +642,7 @@ Polearms are weapons attached to the end of long handles, allowing them great ra
 **Cost** 1; **Bulk** 2 \
 **Damage** [1d8]{.c} piercing; **Critical** ×3 \
 **Category** two-handed; **Proficiency** martial; **Range** reach \
-**Groups** polearms \
-**Special** —
+**Groups** polearms
 
 *A lance is a long thrusting spear designed to be used by a mounted warrior or cavalry soldier.*
 
@@ -658,8 +655,7 @@ Effect: A lance deals double damage when used from the back of a charging mount.
 **Cost** L; **Bulk** L \
 **Damage** [1d6]{.c} piercing; **Critical** ×2 \
 **Category** one-handed; **Proficiency** simple; **Range** thrown (20 ft.) \
-**Groups** polearms, thrown \
-**Special** —
+**Groups** polearms, thrown
 
 *A shortspear is about 3 feet in length, making it a suitable thrown weapon.*
 :::::
@@ -671,7 +667,7 @@ Effect: A lance deals double damage when used from the back of a charging mount.
 **Damage** [1d8]{.c} piercing; **Critical** ×3 \
 **Category** two-handed; **Proficiency** simple; **Range** thrown (20 ft.) \
 **Groups** polearms, thrown \
-**Special** [brace]
+**Tags** [brace]
 
 *A spear is 5 feet in length and can be thrown.*
 :::::
@@ -686,8 +682,7 @@ Thrown weapons are used by throwing them at opponents. While less wieldly than a
 **Cost** 1 (×5); **Bulk** 1 (×5) \
 **Damage** [1d8]{.c} slashing; **Critical** 19-20/×2 \
 **Category** one-handed; **Proficiency** martial; **Range** thrown (30 ft.) \
-**Groups** throwing \
-**Special** —
+**Groups** throwing
 
 *The chakram is a simple, elegant, and highly portable thrown weapon. It is a flat, open-centered metal discus with a sharpened edge.*
 
@@ -701,7 +696,7 @@ Thrown weapons are used by throwing them at opponents. While less wieldly than a
 **Damage** [1d6]{.c} piercing; **Critical** ×2 \
 **Category** one-handed; **Proficiency** simple; **Range** thrown (30 ft.) \
 **Groups** thrown \
-**Special** [ammo]
+**Tags** [ammo]
 
 *A javelin is a thin throwing spear.*
 :::::
@@ -713,7 +708,7 @@ Thrown weapons are used by throwing them at opponents. While less wieldly than a
 **Damage** [1d4]{.c} bludgeoning or piercing; **Critical** ×2 \
 **Category** light; **Proficiency** simple; **Range** thrown (10 ft.) \
 **Groups** close combat, throwing \
-**Special** [concealable]
+**Tags** [concealable]
 
 *Crafted from a single piece of iron, a kunai has a leaf-shaped blade and a ring for a pommel. Adapted from the common trowel, the kunai has a thick blade that is sharpened only near the tip.*
 :::::
@@ -725,7 +720,7 @@ Thrown weapons are used by throwing them at opponents. While less wieldly than a
 **Damage** [1d4]{.c} piercing; **Critical** ×2 \
 **Category** one-handed; **Proficiency** simple; **Range** thrown (20 ft.) \
 **Groups** thrown \
-**Special** [ammo]
+**Tags** [ammo]
 
 *Darts are missile weapons, designed to fly such that a sharp, often weighted point will strike first. They can be distinguished from javelins by fletching (i.e., feathers on the tail) and a shorter shaft, and from arrows by the fact that they are not of the right length to use with a normal bow.*
 :::::

@@ -450,6 +450,8 @@ Wizards"). All Rights Reserved.
 
 ### 15. COPYRIGHT NOTICE {.unlisted .unnumbered}
 
+Project Unison © 2023, AuroraAmissa.
+
 #### Basic System {.unlisted .unnumbered}
 
 Open Game License v 1.0 © 2000, Wizards of the Coast, Inc.
@@ -2660,6 +2662,8 @@ Troll, Rock from the Tome of Horrors, Revised © 2002, Necromancer Games, Inc.; 
 Wolf-In-Sheep’s-Clothing from the Tome of Horrors, Revised © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.
 
 Zombie, Juju from the Tome of Horrors, Revised © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.
+
+Elephant in the Room, Third printing © 2021, www.mammothisland.com; Authors: Mathew Iantorno & Michael Iantorno
 
 ## SIL Open Font License
 

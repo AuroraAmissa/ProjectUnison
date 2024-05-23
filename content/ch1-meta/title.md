@@ -38,6 +38,7 @@ For new players, start reading with the [Getting Started]() chapter.
   * [Equipment]()
     * [Armor and Shields]()
     * [Weapons]()
+  * [Origins]()
 * [Gameplay]()
   * [Combat]()
   * [Conditions]()
@@ -46,6 +47,8 @@ For new players, start reading with the [Getting Started]() chapter.
     * [Integrity]()
     * [Modern Settings]()
 * [Player Options]()
+  * Character Options
+    * *(See also: [Bonus Points]())*
   * Equipment Lists
     * [Armor List]()
     * [Weapon List]()

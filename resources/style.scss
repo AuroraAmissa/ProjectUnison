@@ -1,11 +1,20 @@
-@use 'PandocRulebookBase/common_style' with (
-  $color_border: #c480ff,
-  $color_link: #af5ff5,
-  $color_text: #601e9a,
+$color_link: #a755ef !default;
+$color_text: #5a1a93 !default;
 
-  $color_background_main: rgba(254, 250, 255, 85%),
-  $color_background_secondary: rgba(251, 228, 255, 35%),
-  $color_background_table_even: rgba(255, 255, 255, 35%),
+$color_border_main: #eddaff !default;
+$color_border_hr: #C480FF !default;
+$color_border_ability: #ead5ff !default;
+
+@use 'PandocRulebookBase/common_style' with (
+  $color_border: $color_border_main,
+  $color_link: $color_link,
+  $color_text: $color_text,
+
+  $color_background_main: rgba(254,250,255,0.85),
+  $color_background_secondary_dark: rgba(252,207,255,0.35),
+  $color_background_secondary_light: rgba(252,221,255,0.15),
+  $color_background_table_even: rgba(253,247,255,0.35),
+  $color_background_table_odd: rgba(249,213,255,0.35),
 
   $font_title: "Rounded Mplus 1c Bold",
   $font_symbol: "Hachi Maru Pop",
@@ -19,7 +28,10 @@
   $font_weight_symbol: inherit,
   $font_style_em: oblique 12deg,
 
-  $border_style_main: dotted,
+  $border_style_main: solid,
+  $border_style_title: dotted,
+  $border_width_secondary: 1px,
+
   $menu_mobile_seperator: "  ☆  ",
 
   //noinspection CssUnknownTarget
@@ -29,6 +41,14 @@
 :not(ol) > li::marker {
   content: "☆  ";
   @include common_style.font_symbol;
+}
+
+h1, hr {
+  @include common_style.border_color($color_border_hr);
+}
+
+.ability, blockquote, table {
+  @include common_style.border_color($color_border_ability);
 }
 
 .h0 {
@@ -72,6 +92,6 @@ h3, h6 {
   }
 }
 
-.section {
-  font-weight: common_style.$font_weight_main;
+.ability > h6 {
+  padding-left: common_style.$sidebar_layout_padding_width - 0.15em;
 }

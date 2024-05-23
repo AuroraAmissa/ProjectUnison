@@ -29,6 +29,10 @@ All weapons are categorized into one or more of 10 weapon groups:
 * **Polearms** include weapons on poles that can be used at longer ranges, such as spears and naginata.
 * **Thrown** weapons include those that can be used by throwing, such as chakram, daggers, or darts.
 
+Shields are special weapons that fall under a special group. Characters are considered proficient in shields as a weapon if they are proficient in them as armor.
+
+* **Shields** can be used as weapons by bashing enemies with them. 
+
 Additionally, some special weapons are categorized into one of 3 special groups. Any abilities that grant characters the ability to use such weapons also grants them proficiency with them. As such, these groups are generally only used for feats such as Weapon Focus, rather than being important for proficiencies: 
 
 * **Ephemeral** weapons are those created out of fire, light, or other similar formless energies.
@@ -97,9 +101,9 @@ All weapons have several statistics that determine how they function in combat:
 > 
 > When you increase or decrease a damage dice by a step, use the next or previous value in the following list: [1]{.c}, [1d2]{.c}, [1d3]{.c}, [1d4]{.c}, [1d6]{.c}, [1d8]{.c}, [1d10]{.c}, [2d6]{.c}, [2d8]{.c}, [3d6]{.c}, [3d8]{.c}, [4d6]{.c}, [4d8]{.c}, [6d6]{.c}, [6d8]{.c}, [8d6]{.c}, [8d8]{.c}, [12d6]{.c}, [12d8]{.c}, [16d6]{.c}
 
-### Special Features
+### Weapon Tags
 
-Some weapons have special features in addition to those noted in their descriptions. Special features marked with a (\*) may only be applied if you are proficient with the weapon.
+Some weapons have special features in addition to those noted in their descriptions. Weapon tags marked with a (\*) may only be applied if you are proficient with the weapon.
 
 * [**Agile (\*):**]{id=sf-agile} The multiple attack penalty you take with this weapon on the second attack is reduced by 1, and by 2 on the third and subsequent attacks in the turn.
 

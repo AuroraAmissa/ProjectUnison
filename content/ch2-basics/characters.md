@@ -8,17 +8,24 @@ This chapter contains information on characters and how they are built.
 * [Ability Scores]()
 * [Bonus Points]()
 * [Equipment]()
+* [Origins]()
 :::::
 
 ## Character Creation
 
 ### Step 1: Character Concept {.unlisted .unnumbered}
 
-## Character Traits
+The first part of character creation is to come up with a rough idea of who you want to play. What is their name, how old are they, and what gender are they? How old are they? What kind of person are they?
 
-This section contains  a summary of traits that all characters have, and how they function. For more details, check the subpages for each trait.
+Then, think as to their life history. What kind of background do they have? What did they make of it? What skills and talents do they have? Do they use magic, or are they trained to fight with weapons? How has their view of the world and the kind of person they are influence the skills they've developed? How has their history changed who they are?
 
-### Ability Scores
+Once you have a core character concept, consider how to translate it to the mechanics found in Pathfinder and Spheres of Power.
+
+> #### Flavor First? Mechanics First?
+> 
+> Some players may prefer to start character creation by starting with the mechanical aspects and moving on backwards to their backstory. If so, it works to skip this step and come back to it after all other steps. In the end, it only matters that all steps get done, not the order in which you do them.
+
+### Step 2: Determine Ability Scores {.unlisted .unnumbered}
 
 *(For details, see: [Ability Scores]())*
 
@@ -31,26 +38,23 @@ Each character has six ability scores that represent their most basic attributes
 * Wisdom represents your character's willpower, common sense, awareness and intuition.
 * Charisma represents your character's personality, personal magnetism, ability to lead and appearance.
 
-#### Ability Modifiers
+Start by generating your character’s ability scores. These six scores determine your character’s most basic attributes and are used to decide a wide variety of details and statistics. Some class selections require you to have better than average scores for some of your abilities.
 
-Each ability has a modifier associated with. To calculate the modifier for an ability, divide it by two, and subtract 5. The modifier is the number you apply to the die roll when your character tries to do something related to that ability. You also use the modifier with some numbers that aren’t die rolls. A positive modifier is called a bonus, and a negative modifier is called a penalty.
+For each of your six ability scores, pick one of the values from the following list, and then add the point values together. The cost must sum to 12 or 13. If you spent only 12 points, add 1 to your lowest 5 ability scores. If you spent all 13, instead add 1 to only your 3 lowest ability scores. If two or more scores are tied, you may choose which to apply it to among the tied scores. 
 
-#### Generating Ability Scores
+``` {.include}
+content/include/ability-point-buy_table.md
+```
 
-When you create your character, assign values from the table below to each ability score your character has. The point cost of the ability scores must sum to 12 or 13. If you spent 12 points, add 1 to your lowest 5 ability scores, and if you spent 13, add 1 to your lowest 3 ability scores. If two or more scores are tied, you may choose which score among them to apply the bonus to.
+Most of the time, your character's ability scores will not be used directly. Instead, a modifier associated with each ability will be used. To calculate the modifier for an ability, divide it by two and subtract 5. This number is often added to dice rolls or other calculations relating to your character's statistics.
 
-| Ability Score |    Points |
-|---------------|----------:|
-| 4             | -3 points |
-| 6             | -2 points |
-| 8             | -1 points |
-| 10            |  0 points |
-| 12            |  1 points |
-| 14            |  2 points |
-| 16            |  4 points |
-| 18            |  6 points |
-| 20            | 10 points |
-| 22            | 14 points |
+
+
+## Character Traits
+
+This section contains  a summary of traits that all characters have, and how they function. For more details, check the subpages for each trait.
+
+### Ability Scores
 
 ### Skills
 

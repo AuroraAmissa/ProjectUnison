@@ -19,19 +19,19 @@
 
 *(\*): This item has special effects. Please see the description for more information.*
 
-[Padded]: Armor List#Padded Armor Equipment Armor
-[Leather]: Armor List#Leather Armor Equipment Armor
-[Studded Leather]: Armor List#Studded Leather Armor Equipment Armor
-[Leaf]: Armor List#Leaf Armor Equipment Armor
-[Chain Shirt]: Armor List#Chain Shirt Equipment Armor
-[Hide]: Armor List#Hide Armor Equipment Armor
-[Scale Mail]: Armor List#Scale Mail Equipment Armor
-[Chainmail]: Armor List#Chainmail Equipment Armor
 [Agile Breastplate]: Armor List#Agile Breastplate Equipment Armor
 [Banded Mail]: Armor List#Banded Mail Equipment Armor
-[Half-Plate]: Armor List#Half-Plate Equipment Armor
-[Full Plate]: Armor List#Full Plate Equipment Armor
 [Buckler]: Armor List#Buckler Equipment Shield
+[Chainmail]: Armor List#Chainmail Equipment Armor
+[Chain Shirt]: Armor List#Chain Shirt Equipment Armor
+[Full Plate]: Armor List#Full Plate Equipment Armor
+[Half-Plate]: Armor List#Half-Plate Equipment Armor
+[Hide]: Armor List#Hide Armor Equipment Armor
+[Leaf]: Armor List#Leaf Armor Equipment Armor
+[Leather]: Armor List#Leather Armor Equipment Armor
 [Light Shield]: Armor List#Light Shield Equipment Shield
+[Padded]: Armor List#Padded Armor Equipment Armor
+[Scale Mail]: Armor List#Scale Mail Equipment Armor
 [Shield]: Armor List#Shield Equipment Shield
+[Studded Leather]: Armor List#Studded Leather Armor Equipment Armor
 [Tower Shield]: Armor List#Tower Shield Equipment Shield

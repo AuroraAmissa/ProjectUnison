@@ -1,4 +1,4 @@
-| Name | Weapon Type | Weapon Group | Cost | Bulk | Damage | Crit | Properties |
+| Name | Weapon Type | Weapon Group | Cost | Bulk | Damage | Crit | Weapon Tags |
 |--------|-----|------|--|--|------|-----|-----------|
 | [Battleaxe]             | 1H  (Mar) | Axes                       | 1 | 1 | [1d8]{.c}S   | ×3       | breach 3, sunder |
 | [Greataxe]              | 2H  (Mar) | Axes                       | 1 | 1 | [2d6]{.c}S   | ×3       | breach 4, sunder |
@@ -50,6 +50,8 @@
 | [Lance] (*)             | 2H  (Mar) | Polearms                   | 1 | 2 | [1d8]{.c}P   | ×3       | reach |
 | [Shortspear]            | 1H        | Polearms, Thrown           | L | L | [1d6]{.c}P   | ×2       | thrown (20 ft.) |
 | [Spear]                 | 2H        | Polearms, Thrown           | L | 1 | [1d8]{.c}P   | ×3       | thrown (20 ft.), brace |
+| [Light Shield] (*)      | 1H  (Mar) | Shields                    | L | L | [1d4]{.c}B   | ×2       | — |
+| [Shield] (*)            | 1H  (Mar) | Shields                    | L | L | [1d4]{.c}B   | ×2       | — |
 | [Chakram] (*) (×5)      | 1H  (Mar) | Thrown                     | 1 | 1 | [1d8]{.c}S   | 19-20/×2 | thrown (30 ft.) |
 | [Dart] (×20)            | 1H        | Thrown                     | L | 1 | [1d4]{.c}P   | ×2       | thrown (20 ft.), ammo |
 | [Javelin] (×5)          | 1H        | Thrown                     | L | 1 | [1d6]{.c}P   | ×2       | thrown (30 ft.), ammo |
@@ -92,6 +94,7 @@
 [Light Flail]: Weapon List#Light Flail Equipment Weapon
 [Light Mace]: Weapon List#Light Mace Equipment Weapon
 [Light Pick]: Weapon List#Light Pick Equipment Weapon
+[Light Shield]: Armor List#Light Shield Equipment Shield
 [Longbow]: Weapon List#Longbow Equipment Weapon
 [Longspear]: Weapon List#Longspear Equipment Weapon
 [Longsword]: Weapon List#Longsword Equipment Weapon
@@ -102,6 +105,7 @@
 [Sap]: Weapon List#Sap Equipment Weapon
 [Scimitar]: Weapon List#Scimitar Equipment Weapon
 [Scythe]: Weapon List#Scythe Equipment Weapon
+[Shield]: Armor List#Shield Equipment Shield
 [Shortbow]: Weapon List#Shortbow Equipment Weapon
 [Shortspear]: Weapon List#Shortspear Equipment Weapon
 [Shortsword]: Weapon List#Shortsword Equipment Weapon
