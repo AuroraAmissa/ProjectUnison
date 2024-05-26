@@ -116,7 +116,7 @@ Personal bonus traits represent your character's upbringing and skills. On the f
 
 ### Enhancement Traits
 
-Enhancement bonus traits allow you to spend bonus traits to increase your character's abilities and other statistics. U
+Enhancement bonus traits allow you to spend bonus traits to increase your character's abilities and other statistics.
 
 ::::: {.ability}
 ###### Ability Enhancement [Bonus Trait]{.ability-head} {.unlisted .unnumbered}

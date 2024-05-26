@@ -1,10 +1,14 @@
-# Getting Started
+# Basic Rules
 
 ## Playing the Game
 
 The Game Master describes the events that occur in the game world, and the players take turns describing what their characters do in response to those events. Unlike freeform roleplaying or storytelling, however, the actions of the players and the characters controlled by the Game Master (frequently called non-player characters, or NPCs) are not certain. Most actions require dice rolls to determine success, with some tasks being more difficult than others. Each character is better at some things than they are at other things, granting them bonuses based on their skills and abilities.
 
 As your character goes on adventures and their story progresses, they earn experience points. Experience points are rewarded for overcoming challenges and completing major storylines. When your character has earned enough experience points, they increase their character level by one, granting them new abilities that allow them to take on even greater challenges.
+
+## Calculations
+
+Calculations and dice rolls are surrounded by brackets, like this: [2]{.c}, [1d6 + 1d8]{.c}. Calculations are always used to mark values that affect hit points, dice rolls, and any significant calculations where it would help clarify the text. The symbol "/" is only used to mean fractions, such as in [1/2]{.c} or per, such as [1/level]{.c} to mean "one per level". Division is always specified using the symbol "÷", such as [level ÷ 2]{.c}.
 
 ## Dice
 
@@ -18,6 +22,14 @@ In some circumstances, you may be asked to roll [d100]{.calc}. An easy to do thi
 
 To resolve an effect that has a certain percentage chance of occuring, roll a [d100]{.calc}, and check if the result is equal to or under the percentage. For example, to check if a 24% chance occurs, roll [d100]{.calc} and apply the effect if the result is under 24.
 
+Additionally, [1d2]{.c} or [1d3]{.c} dice are fairly rare and are not part of a standard dice set. For [d2]{.c}, flip a coin, roll a [d4]{.c} and divide by 2 or roll a [d6]{.c} and divide by 3. For a [d3]{.c}, roll a [d6]{.c} and divide by 2. Dice rolling software can usually support these unusual dice types directly.
+
+### Dice Steps
+
+When you increase or decrease a damage dice by a step, use the next or previous value in the following list: [1]{.c}, [1d2]{.c}, [1d3]{.c}, [1d4]{.c}, [1d6]{.c}, [1d8]{.c}, [1d10]{.c}, [2d6]{.c}, [2d8]{.c}, [3d6]{.c}, [3d8]{.c}, [4d6]{.c}, [4d8]{.c}, [6d6]{.c}, [6d8]{.c}, [8d6]{.c}, [8d8]{.c}, [12d6]{.c}, [12d8]{.c}, [16d6]{.c}
+
+Some abilities increase or decrease the dice step of abilities and roll a variable number of dice depending on some factor. For these abilities, use this list instead: [X]{.c}, [Xd2]{.c}, [Xd3]{.c}, [Xd4]{.c}, [Xd6]{.c}, [Xd8]{.c}, [Xd10]{.c}, [Xd12]{.c}
+
 ## Rule Zero
 
 The rules are intended to help you breathe life into your characters and the world they explore. While they are designed to make your game easy and exciting, you might find that some of them do not suit the style of play that your gaming group enjoys. Remember that these rules are yours. You can change them to fit your needs.
@@ -30,7 +42,7 @@ There are a few basic guidelines for how to interpret game rules to keep in mind
 
 * In general, if you wind up with a fraction, round down, even if the fraction is one-half or larger. Certain rolls, such as damage and hit points, have a minimum of 1.
 * Specific trumps general. If one ability says you can't do something in general, and another rule says you can do it in a specific case, you can do it only in that specific case.
-* During a single level, 
+* During a single level, your character may choose the features they gain on that level in any order. Two features can never serve as prerequisites for one another - there must be an order in which you can gain the features and all prerequisites are already met when the feature is gained. 
 
 ## Allowed Content
 
@@ -40,7 +52,7 @@ As a rule of thumb: Additional content introduced to help with a character conce
 
 ## Common Terms
 
-The Pathfinder RPG uses a number of terms, abbreviations, and definitions in presenting the rules of the game. The following are among the most common.
+The Pathfinder RPG uses a number of terms, abbreviations, and definitions in presenting the rules of the game. The following are among the most common. These terms are explained in more detail in future chapters
 
 * **Ability Score:** Each creature has six ability scores: Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma. These scores represent a creature's most basic attributes. The higher the score, the more raw potential and talent your character possesses.
 

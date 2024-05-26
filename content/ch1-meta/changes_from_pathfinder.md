@@ -39,7 +39,7 @@ This is a brief listing of all changes to the Pathfinder core system and Spheres
   * Exotic weapons are massively buffed and many features that are part of their feat chains are rolled into having the proficiency due to the increased cost to gain proficiency at all.
 * Project Unison uses the Pathfinder 2e system for Bulk for both item costs and item weight.
   * Unlike the Pathfinder 2e implementation L bulk rounds up! That is, if you have only two items with a bulk of L, your total bulk is 1 not 0. This is done to work better for consistency with cost mechanics.
-* Creature type is divided into a Mental type and a Form type, to better function in settings with unusual characters and species.
+* Creature type is divided into a physical type and a mental type, to better function in settings with unusual characters and species.
 
 ## Spheres of Power
 
@@ -52,3 +52,9 @@ This is a brief listing of all changes to the Pathfinder core system and Spheres
 
 * Origins talents now include many abilities that were previously traits. To compensate for this, origins now provide additional talents.
 * Optionally, Origins now use "lineages" as a template in settings where there is a small fixed list of species. 
+* Origins talents now have "origin tags" instead of being divided into spheres, that determine how they interact with polymorph effects and when they can be gained.
+* The distinction between phenomenal and regular origin talents is removed.
+* The following origin talents have been changed or reworked:
+  * Elemental Explosion and Elemental Augmentation can no longer receive multiple instances. An Elemental Prism auxiliary talent has been added instead to allow your character to deal esoteric types of damage, or multiple types of damage with their elemental augmentation.
+  * Practiced Magic has been significantly buffed, due to it being normally available as a talent.
+  * Legless is downgraded to an auxiliary talent.

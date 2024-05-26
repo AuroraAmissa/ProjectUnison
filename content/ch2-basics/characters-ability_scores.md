@@ -19,11 +19,19 @@ Each ability has a modifier associated with. To calculate the modifier for an ab
 
 ### Generating Ability Scores {.unlisted .unnumbered}
 
-When you create your character, pick one of the values from the following list for each of the six ability scores, and then add the point values together. The cost must sum to 12 or 13. If you spent only 12 points, add 1 to your lowest 5 ability scores. If you spent all 13, instead add 1 to only your 3 lowest ability scores. If two or more scores are tied, you may choose which to apply it to among the tied scores.
+When you create your character, pick one of the values from the following list for each of the six ability scores, and then add the point values together. The cost must sum to the character's ability score limit or lower. Add 1 to your lowest 3 ability scores. If you did not spend all your points, instead add 1 to your lowest 5 ability scores. If two or more scores are tied, you may choose which to apply it to among the tied scores.
 
 ``` {.include}
 content/include/ability-point-buy_table.md
 ```
+
+Player characters have an ability score limit of either 9 or 13 (chosen by the GM before the campaign begins). Subordinate characters such as companions or animal companions usually have a lower level, specified in the description for the ability that grants you them.
+
+> #### Sidebar: Standard Point-Buy Equivalents
+>
+> The 13 point allocation is equivalent to characters using a 25-point buy in the vanilla Pathfinder system and applying origin bonuses to ability scores optimally. The 9 point allocation is instead about equivalent to using a 15-point buy under the same conditions.
+> 
+> Using the Pathfinder generation methods in Project Unison is not recommended. This table is designed to simplify character creation for newer players.
 
 ## The Six Abilities
 

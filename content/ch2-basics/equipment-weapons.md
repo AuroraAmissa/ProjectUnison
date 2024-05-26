@@ -75,11 +75,11 @@ Every weapon has a size category. This designation indicates the size of the cre
 
 A weapon’s size category isn’t the same as its size as an object. Instead, a weapon’s size category is keyed to the size of the intended wielder. In general, a light weapon is an object two size categories smaller than the wielder, a one-handed weapon is an object one size category smaller than the wielder, and a two-handed weapon is an object of the same size category as the wielder.
 
-> #### Inappropriately Sized Weapons
-> 
-> A creature can’t make optimum use of a weapon that isn’t properly sized for it. A cumulative –2 penalty applies on attack rolls for each size category of difference between the size of its intended wielder and the size of its actual wielder. If the creature isn’t proficient with the weapon, a –4 nonproficiency penalty also applies.
-> 
-> The measure of how much effort it takes to use a weapon (whether the weapon is designated as a light, one-handed, or two-handed weapon for a particular wielder) is altered by one step for each size category of difference between the wielder’s size and the size of the creature for which the weapon was designed. For example, a Small creature would wield a Medium one-handed weapon as a two-handed weapon. If a weapon’s designation would be changed to something other than light, one-handed, or two-handed by this alteration, the creature can’t wield the weapon at all.
+#### Inappropriately Sized Weapons
+
+A creature can’t make optimum use of a weapon that isn’t properly sized for it. A cumulative –2 penalty applies on attack rolls for each size category of difference between the size of its intended wielder and the size of its actual wielder. If the creature isn’t proficient with the weapon, a –4 nonproficiency penalty also applies.
+
+The measure of how much effort it takes to use a weapon (whether the weapon is designated as a light, one-handed, or two-handed weapon for a particular wielder) is altered by one step for each size category of difference between the wielder’s size and the size of the creature for which the weapon was designed. For example, a Small creature would wield a Medium one-handed weapon as a two-handed weapon. If a weapon’s designation would be changed to something other than light, one-handed, or two-handed by this alteration, the creature can’t wield the weapon at all.
 
 ### Improvised Weapons
 
@@ -97,7 +97,7 @@ All weapons have several statistics that determine how they function in combat:
 
 * **Type:** Weapons are classified according to the type of damage they deal: B for bludgeoning, P for piercing, or S for slashing. Some characters may be resistant or immune to attacks from certain types of weapons. Some weapons deal damage of multiple types. If a weapon causes two types of damage, the type it deals is not half one type and half another; all damage caused is of both types. Therefore, a creature would have to be immune to both types of damage to ignore any of the damage caused by such a weapon. In other cases, a weapon can deal either of two types of damage. In a situation where the damage type is significant, the wielder can choose which type of damage to deal with such a weapon.
 
-> #### Damage Dice Steps
+> #### Sidebar: Damage Dice Steps
 > 
 > When you increase or decrease a damage dice by a step, use the next or previous value in the following list: [1]{.c}, [1d2]{.c}, [1d3]{.c}, [1d4]{.c}, [1d6]{.c}, [1d8]{.c}, [1d10]{.c}, [2d6]{.c}, [2d8]{.c}, [3d6]{.c}, [3d8]{.c}, [4d6]{.c}, [4d8]{.c}, [6d6]{.c}, [6d8]{.c}, [8d6]{.c}, [8d8]{.c}, [12d6]{.c}, [12d8]{.c}, [16d6]{.c}
 
