@@ -3,6 +3,7 @@
 ## Character Options
 
 * *(See Also: [Bonus Points]())*
+* *(See Also: [Origins]())*
 
 ## Equipment Lists
 

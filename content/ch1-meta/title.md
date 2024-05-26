@@ -39,6 +39,7 @@ For new players, start reading with the [Basic Rules]() section.
     * [Armor and Shields]()
     * [Weapons]()
   * [Origins]()
+  * [Special Abilities]()
 * [Gameplay]()
   * [Combat]()
   * [Conditions]()
@@ -49,6 +50,7 @@ For new players, start reading with the [Basic Rules]() section.
 * [Player Options]()
   * Character Options
     * *(See also: [Bonus Points]())*
+    * *(See Also: [Origins]())*
   * Equipment Lists
     * [Armor List]()
     * [Weapon List]()

@@ -9,6 +9,7 @@ This chapter contains information on characters and how they are built.
 * [Bonus Points]()
 * [Equipment]()
 * [Origins]()
+* [Special Abilities]()
 :::::
 
 ## Character Creation

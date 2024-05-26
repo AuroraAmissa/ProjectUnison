@@ -40,6 +40,7 @@ This is a brief listing of all changes to the Pathfinder core system and Spheres
 * Project Unison uses the Pathfinder 2e system for Bulk for both item costs and item weight.
   * Unlike the Pathfinder 2e implementation L bulk rounds up! That is, if you have only two items with a bulk of L, your total bulk is 1 not 0. This is done to work better for consistency with cost mechanics.
 * Creature type is divided into a physical type and a mental type, to better function in settings with unusual characters and species.
+* Radiant damage is added as a damage type. Unlike in 5e's meaning, this is less holy damage (that would be sacred) and more just plain damage through light as it is a fairly common theme in Spheres of Power.
 
 ## Spheres of Power
 
@@ -58,3 +59,4 @@ This is a brief listing of all changes to the Pathfinder core system and Spheres
   * Elemental Explosion and Elemental Augmentation can no longer receive multiple instances. An Elemental Prism auxiliary talent has been added instead to allow your character to deal esoteric types of damage, or multiple types of damage with their elemental augmentation.
   * Practiced Magic has been significantly buffed, due to it being normally available as a talent.
   * Legless is downgraded to an auxiliary talent.
+  * Spiritfoe no longer requires a second purchase.

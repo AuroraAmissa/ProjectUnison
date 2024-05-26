@@ -44,6 +44,16 @@ There are a few basic guidelines for how to interpret game rules to keep in mind
 * Specific trumps general. If one ability says you can't do something in general, and another rule says you can do it in a specific case, you can do it only in that specific case.
 * During a single level, your character may choose the features they gain on that level in any order. Two features can never serve as prerequisites for one another - there must be an order in which you can gain the features and all prerequisites are already met when the feature is gained. 
 
+## Special Abilities
+
+All talents, feats, class features, bonus point abilities, and similar traits a character possesses are collectively called "special abilities". Special abilities fall into three categories:
+
+* **Extraordinary Abilities:** Abilities with "(Ex)" after the name are extraordinary abilities. Extraordinary abilities are non-magical. They are, however, not something that just anyone can do or even learn to do without extensive training. Effects or areas that suppress or negate magic have no effect on extraordinary abilities.
+
+* **Sphere-Like Abilities:** Abilities with "(Sp)" after the name are sphere-like abilities. Sphere-like abilities are magical abilities that work like magical effects created by magic spheres. They are subject to spell resistance and dispelling. They do not function in areas where magic is suppressed or negated (such as an antimagic field).
+
+* **Supernatural Abilities:** Abilities with "(Su)" after the name are supernatural abilities. Supernatural abilities are not subject to spell resistance and do not function in areas where magic is suppressed or negated (such as an antimagic field). A supernatural ability’s effect cannot be dispelled and is not subject to counterspells.
+
 ## Allowed Content
 
 Any Pathfinder content not explicitly included in this SRD is *not* allowed when using Project Unison without explicit GM permission, and GMs are encourged to do so only with extreme caution. This SRD is in part meant to simplify character creation in Spheres of Power by removing outdated options and consolidating weak ones. Allowing additional content without good reason may seriously impact this.

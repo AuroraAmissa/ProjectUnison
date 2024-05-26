@@ -65,9 +65,9 @@ This designation is a measure of how much effort it takes to wield a weapon in c
 
 * **Light:** A light weapon is easily wielded in one hand, even by physically weaker characters. A character using a light weapon may always choose to add their Dexterity bonus in place of their Strength bonus when rolling to hit. Add the wielder's Strength modifier when a light weapon is used in the primary hand and half the wielder's Strength modifier when it is used in the off-hand. Using two hands to wield a light weapon gives no specific advantage.
 
-* **One-Handed:** A one-handed weapon can be used in either the primary hand or the off hand. Add the wielder’s Strength bonus to damage rolls for melee attacks with a one-handed weapon if it’s used in the primary hand, or 1/2 his Strength bonus if it’s used in the off hand. If a one-handed weapon is wielded with two hands during melee combat, add 1-1/2 times the character’s Strength bonus to damage rolls.
+* **One-Handed:** A one-handed weapon can be used in either the primary hand or the off-hand. Add the wielder’s Strength bonus to damage rolls for melee attacks with a one-handed weapon if it’s used in the primary hand, or 1/2 his Strength bonus if it’s used in the off-hand. If a one-handed weapon is wielded with two hands during melee combat, add 1½ times the character’s Strength bonus to damage rolls.
 
-* **Two-Handed:** Two hands are required to use a two-handed melee weapon effectively. Apply 1-1/2 times the character’s Strength bonus to damage rolls for melee attacks with such a weapon.
+* **Two-Handed:** Two hands are required to use a two-handed melee weapon effectively. Apply 1½ times the character’s Strength bonus to damage rolls for melee attacks with such a weapon.
 
 ### Weapon Size
 

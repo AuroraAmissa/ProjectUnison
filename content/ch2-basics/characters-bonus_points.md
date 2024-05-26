@@ -79,6 +79,7 @@ Personal bonus traits represent your character's upbringing and skills. On the f
 **Cost:** 3/level \
 **Mins:** 1
 
+
 **Effect:** Your character gains a martial tradition, if they do not already possess one.
 :::::
 
