@@ -97,9 +97,11 @@ All weapons have several statistics that determine how they function in combat:
 
 * **Type:** Weapons are classified according to the type of damage they deal: B for bludgeoning, P for piercing, or S for slashing. Some characters may be resistant or immune to attacks from certain types of weapons. Some weapons deal damage of multiple types. If a weapon causes two types of damage, the type it deals is not half one type and half another; all damage caused is of both types. Therefore, a creature would have to be immune to both types of damage to ignore any of the damage caused by such a weapon. In other cases, a weapon can deal either of two types of damage. In a situation where the damage type is significant, the wielder can choose which type of damage to deal with such a weapon.
 
-> #### Sidebar: Damage Dice Steps
-> 
-> When you increase or decrease a damage dice by a step, use the next or previous value in the following list: [1]{.c}, [1d2]{.c}, [1d3]{.c}, [1d4]{.c}, [1d6]{.c}, [1d8]{.c}, [1d10]{.c}, [2d6]{.c}, [2d8]{.c}, [3d6]{.c}, [3d8]{.c}, [4d6]{.c}, [4d8]{.c}, [6d6]{.c}, [6d8]{.c}, [8d6]{.c}, [8d8]{.c}, [12d6]{.c}, [12d8]{.c}, [16d6]{.c}
+::::: {.sidebar}
+#### Sidebar: Damage Dice Steps
+
+When you increase or decrease a damage dice by a step, use the next or previous value in the following list: [1]{.c}, [1d2]{.c}, [1d3]{.c}, [1d4]{.c}, [1d6]{.c}, [1d8]{.c}, [1d10]{.c}, [2d6]{.c}, [2d8]{.c}, [3d6]{.c}, [3d8]{.c}, [4d6]{.c}, [4d8]{.c}, [6d6]{.c}, [6d8]{.c}, [8d6]{.c}, [8d8]{.c}, [12d6]{.c}, [12d8]{.c}, [16d6]{.c}
+:::::
 
 ### Weapon Tags
 

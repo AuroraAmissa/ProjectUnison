@@ -13,3 +13,40 @@ code = "templates/fonts/NotoSansMono-VariableFont_wdth,wght.ttf"
 symbol = "templates/fonts/HachiMaruPop-Regular.ttf"
 
 code_fallback = ["main"]
+
+[alt]
+# misc
+"dice" = "number of dice rolled"
+
+# stats
+"HD" = "((your ))Hit Dice"
+
+# attributes
+"STR" = "((your ))Strength modifier"
+"DEX" = "((your ))Dexterity modifier"
+"CON" = "((your ))Constitution modifier"
+"INT" = "((your ))Intelligence modifier"
+"WIS" = "((your ))Wisdom modifier"
+"CHA" = "((your ))Charisma modifier"
+
+"TAM" = "((your ))tradition ability modifier (or highest mental ability modifier)"
+
+# skills
+"Awareness" = "((your ))ranks in Awareness"
+"Acrobatics" = "((your ))ranks in Acrobatics"
+"Arts" = "((your ))ranks in Arts"
+"Athletics" = "((your ))ranks in Athletics"
+"Culture" = "((your ))ranks in Culture"
+"Deception" = "((your ))ranks in Deception"
+"Empathy" = "((your ))ranks in Empathy"
+"Engineering" = "((your ))ranks in Engineering"
+"Esoteria" = "((your ))ranks in Esoteria"
+"Finesse" = "((your ))ranks in Finesse"
+"Heal" = "((your ))ranks in Heal"
+"Influence" = "((your ))ranks in Influence"
+"Investigate" = "((your ))ranks in Investigate"
+"Logic" = "((your ))ranks in Logic"
+"Nature" = "((your ))ranks in Nature"
+"Sciences" = "((your ))ranks in Sciences"
+"Stealth" = "((your ))ranks in Stealth"
+"Trades" = "((your ))ranks in Trades"

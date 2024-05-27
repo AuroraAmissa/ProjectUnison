@@ -22,9 +22,11 @@ Then, think as to their life history. What kind of background do they have? What
 
 Once you have a core character concept, consider how to translate it to the mechanics found in Pathfinder and Spheres of Power.
 
-> #### Sidebar: Flavor First? Mechanics First?
-> 
-> Some players may prefer to start character creation by starting with the mechanical aspects and moving on backwards to their backstory. If so, it works to skip this step and come back to it after all other steps. In the end, it only matters that all steps get done, not the order in which you do them.
+::::: {.sidebar}
+#### Sidebar: Flavor First? Mechanics First?
+
+Some players may prefer to start character creation by starting with the mechanical aspects and moving on backwards to their backstory. If so, it works to skip this step and come back to it after all other steps. In the end, it only matters that all steps get done, not the order in which you do them.
+:::::
 
 ### Step 2: Determine Ability Scores {.unlisted .unnumbered}
 

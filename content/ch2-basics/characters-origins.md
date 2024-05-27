@@ -30,9 +30,11 @@ Origin talents and variations may have the following tags that indicate how and 
 
 * **Learned:** Learned traits are skill and talents learned over the course of a character's life, through their culture, training or experience. Learned traits are lost when your character's body is being controlled by another creature (such as due to possession effects, or the effects of the Fusion talent).
 
-> #### Optional Rule: Free Development
-> 
-> In some settings (such as those of the Chinese cultivation, or Japanese isekai genres), characters can easily develop their innate traits, changing physically and spiritually as the story progresses. The GM may choose to waive the GM approval requirement for essence traits, innate traits, or both before the game begins.
+::::: {.sidebar}
+#### Optional Rule: Free Development
+
+In some settings (such as those of the Chinese cultivation, or Japanese isekai genres), characters can easily develop their innate traits, changing physically and spiritually as the story progresses. The GM may choose to waive the GM approval requirement for essence traits, innate traits, or both before the game begins.
+:::::
 
 ## Creature Type
 
@@ -61,19 +63,23 @@ Physical types represent what a character is made out of physically, and the sha
 * **Fey:** Beings who think and experience the world through stories, archetypes, and esoteric concepts. Sapient form of Spirits.
 * **Mindless:** Creatures that react based on principles too simple to be considered considered a true mind.
 
-> #### Optional Rule: Very Common Types
-> 
-> Some origin talents in this campaign are designed for games where the enemies players are likely to face are diverse, and fall into different creature types. However, in some campaigns, the majority of potential opponents in the world share a type, such as the "Biological" physical type.
-> 
-> In such campaigns, the GM may disallow characters from having abilities that increase their effectiveness against those types, or consider using a custom type list to avoid this problem. Drawbacks that allow abilities to function only against a certain type should never be banned in this way.
+::::: {.sidebar}
+#### Optional Rule: Very Common Types
 
-> #### Optional Rule: Campaign Customizations
-> 
-> The GM may choose to replace the creature type lists with custom ones designed to reflect their campaign. The physical types list may be modified to better suit the kinds of creatures that are common in a setting, or reflect rules of the setting's magic that allows it to be more specific.
-> 
-> The mental types list should be modified only if the setting has a strong reason for it. For example, aligned outsiders in the default Pathfinder setting could have a different mental type due to their minds being strongly tied to cosmic alignment, and the setting of *Frieren: Beyond Journey's End* would justify adding a separate "Monster > Demon" pairing.
-> 
-> For similar reasons, the GM may choose to ban certain physical or mental types for player characters entirely.
+Some origin talents in this campaign are designed for games where the enemies players are likely to face are diverse, and fall into different creature types. However, in some campaigns, the majority of potential opponents in the world share a type, such as the "Biological" physical type.
+
+In such campaigns, the GM may disallow characters from having abilities that increase their effectiveness against those types, or consider using a custom type list to avoid this problem. Drawbacks that allow abilities to function only against a certain type should never be banned in this way.
+:::::
+
+::::: {.sidebar}
+#### Optional Rule: Campaign Customizations
+
+The GM may choose to replace the creature type lists with custom ones designed to reflect their campaign. The physical types list may be modified to better suit the kinds of creatures that are common in a setting, or reflect rules of the setting's magic that allows it to be more specific.
+
+The mental types list should be modified only if the setting has a strong reason for it. For example, aligned outsiders in the default Pathfinder setting could have a different mental type due to their minds being strongly tied to cosmic alignment, and the setting of *Frieren: Beyond Journey's End* would justify adding a separate "Monster > Demon" pairing.
+
+For similar reasons, the GM may choose to ban certain physical or mental types for player characters entirely.
+:::::
 
 ## Lineages
 
@@ -97,9 +103,11 @@ Additionally, all characters have the following traits baseline, which may be mo
 
 * **Limbs:** The character possesses two arms with opposable thumbs which can wield weapons and other equipment. They also possess two legs which are used for mobility.
 
-> #### Optional Rule: Uncommon Types
->
-> In many settings, being an uncommon creature type is a major advantage - such as being Fey in a world where most mages have mental magic tuned for Humanoids, or being a Construct in a campaign where poisons are commonly used. In such a case, you may require that characters spend an auxiliary origin talent to pick creature types that provide an innate advantage.
+::::: {.sidebar}
+#### Optional Rule: Uncommon Types
+
+In many settings, being an uncommon creature type is a major advantage - such as being Fey in a world where most mages have mental magic tuned for Humanoids, or being a Construct in a campaign where poisons are commonly used. In such a case, you may require that characters spend an auxiliary origin talent to pick creature types that provide an innate advantage.
+:::::
 
 ## Selecting Lineages
 
@@ -170,7 +178,7 @@ As an alternative to [Setting Lineages](Origins#), a GM may allow player charact
 ###### Bountiful Healing [Origin Talent]{.ability-head} {.u}
 **Type:** Potent (Essence or Innate)
 
-**Effect:** You recover 50% more hit points (minimum 1) whenever you recover hit points from rest. Whenever you are healed of hit point damage by a spell or supernatural ability, you heal an additional [2⁠/⁠die rolled]{.c} hit points. The extra healing does not apply to spells or other effects that grant fast healing, regeneration, or similar effects.
+**Effect:** You recover 50% more hit points (minimum 1) whenever you recover hit points from rest. Whenever you are healed of hit point damage by a spell or supernatural ability, you heal an additional [2×[dice]{.alt}]{.c} hit points. The extra healing does not apply to spells or other effects that grant fast healing, regeneration, or similar effects.
 :::::
 
 ::::: {.ability}
@@ -276,7 +284,7 @@ When you make an attack which adds the damage from that Elemental Augmentation, 
 **Type:** Potent (Essence or Innate) \
 **Reqs:** [Damage Reduction](Origins#Damage Reduction Origin Talent)
 
-**Effect:** Your damage reduction improves to [2 + 1⁠/⁠4 your character level]{.c}. In place of cold iron or silver, you may select wood, glass, or another material at GM discretion to be required to bypass your damage reduction.
+**Effect:** Your damage reduction improves to [2 + [HD]{.alt}/4]{.c}. In place of cold iron or silver, you may select wood, glass, or another material at GM discretion to be required to bypass your damage reduction.
 :::::
 
 ::::: {.ability}
@@ -312,7 +320,7 @@ When you make an attack which adds the damage from that Elemental Augmentation, 
 ###### Spell Resistance [Origin Talent]{.ability-head} {.u}
 **Type:** Potent (Essence or Learned)
 
-**Effect:** You gain [spell resistance](Special Abilities#) equal to [6 + your character level]{.c}. You may select this talent a second time (or a first time if you gain spell resistance or already possess spell resistance from another source besides equipment) to increase your spell resistance to [11 + your character level]{.c}.
+**Effect:** You gain [spell resistance](Special Abilities#) equal to [6 + [HD]{.alt}]{.c}. You may select this talent a second time (or a first time if you gain spell resistance or already possess spell resistance from another source besides equipment) to increase your spell resistance to [11 + [HD]{.alt}]{.c}.
 :::::
 
 ::::: {.ability}
@@ -383,7 +391,7 @@ You may select this talent a second time. If you do, your size increases by one 
 ###### Damage Reduction [Origin Talent]{.ability-head} {.u}
 **Type:** Auxiliary (Essence or Innate)
 
-**Effect:** You gain DR 1/cold iron or DR 1/silver. This damage reduction increases by 1 for every 5 Hit Dice you have.
+**Effect:** You gain DR/cold iron or DR/silver equal to [1 + [HD]{.alt}/5]{.c}.
 :::::
 
 ::::: {.ability}
@@ -423,8 +431,6 @@ You may select this talent a second time. If you do, your size increases by one 
 
 If you choose two effects with different origin tags, you may select a different origin for each type of effect. You do not lose your entire Developed Tolerance ability when you lose origin talents with a certain tag, only your bonus to saving throws against effects marked with that tag.
 
-:::: {}
-
 | Effect Type | Origin Tags |
 | - | - |
 | Ability damage and ability drain | Acquired or Innate |
@@ -454,7 +460,6 @@ If you choose two effects with different origin tags, you may select a different
 | Possession effects | Essence |
 | Sleep effects | Acquired or Innate |
 | Stunning | Acquired or Innate |
-::::
 
 *(\*): This effect costs two effect slots rather than one.*
 :::::
@@ -500,7 +505,7 @@ If you choose two effects with different origin tags, you may select a different
 ###### Energy Renewal (Su) [Origin Talent]{.ability-head} {.u}
 **Type:** Auxiliary (Essence or Learned)
 
-**Effect:** Choose one of the following energy types: acid, cold, electricity, fire, radiant, or sonic. You gain energy resist 5 against the chosen type. You gain [fast healing](Special Abilities#) 2 for 1 round anytime you take damage of that type (whether or not this damage gets through your energy resistance). You can heal up to [2/level]{.c} hit points per level per day with this ability, after which this healing ceases to function. You may select this talent multiple times, each time selecting a different energy type.
+**Effect:** Choose one of the following energy types: acid, cold, electricity, fire, radiant, or sonic. You gain energy resist 5 against the chosen type. You gain [fast healing](Special Abilities#) 2 for 1 round anytime you take damage of that type (whether or not this damage gets through your energy resistance). You can heal up to [2×[HD]{.alt}]{.c} hit points per level per day with this ability, after which this healing ceases to function. You may select this talent multiple times, each time selecting a different energy type.
 :::::
 
 ::::: {.ability}
@@ -556,14 +561,14 @@ If you choose two effects with different origin tags, you may select a different
 ###### Hardened [Origin Talent]{.ability-head} {.u}
 **Type:** Auxiliary (Acquired or Innate)
 
-**Effect:** You gain DR 2/- against nonlethal damage. This damage reduction increases by 1 for every 5 character levels you possess.
+**Effect:** You gain DR/— [2 + [HD]{.alt}/5]{.c} against nonlethal damage.
 :::::
 
 ::::: {.ability}
 ###### Hazardous Blood (Su) [Origin Talent]{.ability-head} {.u}
 **Type:** Auxiliary (Essence, Innate or Learned)
 
-**Effect:** Each time you take bleed or blood drain damage, each creature currently adjacent to you also takes [1⁠/⁠2 your hit dice]{.c} points of acid, cold, electricity, or fire damage (chosen when you take this talent). As a move action, you may inflict 1 point of bleed damage on yourself and immediately trigger this ability.
+**Effect:** Each time you take bleed or blood drain damage, each creature currently adjacent to you also takes [[HD]{.alt}/2]{.c} points of acid, cold, electricity, or fire damage (chosen when you take this talent). As a move action, you may inflict 1 point of bleed damage on yourself and immediately trigger this ability.
 :::::
 
 ::::: {.ability}
@@ -623,7 +628,7 @@ You can transfer a held object to your hidden storage or extract an object from 
 **Type:** Auxiliary (Essence or Learned) \
 **Reqs:** [Energy Renewal](Origins#Energy Renewal Origin Talent)
 
-**Effect:** The amount of healing you may receive from Energy Renewal increases to [5/level]{.c} hit points per day. In addition, rather than an effect granting you fast healing, you may choose to have the effect heal you for [1⁠/⁠2 damage negated] hit points immediately.
+**Effect:** The amount of healing you may receive from Energy Renewal increases to [5×[HD]{.alt}]{.c} hit points per day. In addition, rather than an effect granting you fast healing, you may choose to have the effect heal you for [damage negated/2]{.c} hit points immediately.
 :::::
 
 ::::: {.ability}
@@ -698,14 +703,12 @@ You can transfer a held object to your hidden storage or extract an object from 
 **Effect:** You can see through fog, mist, murky water, and smoke as if they were perfectly clear, ignoring the miss chance for these obstructions, up to your normal range of vision.
 :::::
 
-
 ::::: {.ability}
 ###### Natural Attack [Origin Talent]{.ability-head} {.u}
 **Type:** Auxiliary (Innate)
 
 **Effect:** You gain one of the following natural attacks, chosen when you select this talent. You must meet any prerequisites required by the natural attack (such as having legs to gain talon attacks) and can’t choose the same appendage twice. The damage dice listed are for Medium-sized creatures and should be adjusted appropriately for creatures of other sizes.
 
-::: {}
 * **Bite:** You gain a bite attack as a primary natural attack with one of your heads which deals [1d6]{.c} piercing damage.
 
 * **Claws:** You gain a pair of claws on 2 of your hands which can be used as primary natural weapons and deal [1d4]{.c} slashing damage. These claws do not stop you from holding or using things in your hands but cannot be used to make attacks while the hands hold something.
@@ -717,7 +720,6 @@ You can transfer a held object to your hidden storage or extract an object from 
 * **Tail Slap:** You gain a tail and can make a tail slap attack with it. This is a secondary natural attack that deals [1d6]{.c} bludgeoning damage.
 
 * **Wing Buffets:** You gain two wing buffet attacks as secondary natural attacks which deal [1d4]{.c} bludgeoning and slashing damage.
-:::
 :::::
 
 ::::: {.ability}
@@ -767,7 +769,7 @@ You can transfer a held object to your hidden storage or extract an object from 
 ###### Resist Level Drain [Origin Talent]{.ability-head} {.u}
 **Type:** Auxiliary (Essence or Innate)
 
-**Effect:** You reduce the total penalties that you take from negative levels by 1 (minimum 0). This reduction increases by 1 for every 5 character levels you possess. This talent only negates the penalties of negative levels taken from energy drain effects, spell effects, magic items, wild magic effects, and sphere effects. You cannot use this talent to ignore penalties from negative levels you have inflicted upon yourself.
+**Effect:** You reduce the total penalties that you take from negative levels by [1 + [HD]{.alt}/5]{.c} (minimum 0). This talent only negates the penalties of negative levels taken from energy drain effects, spell effects, magic items, wild magic effects, and sphere effects. You cannot use this talent to ignore penalties from negative levels you have inflicted upon yourself.
 :::::
 
 ::::: {.ability}
@@ -804,7 +806,7 @@ You may take this talent a second time. If you do, you can choose to take a -5 p
 ###### Sizeshifter (Su) [Origin Talent]{.ability-head} {.u}
 **Type:** Auxiliary (Essence or Innate)
 
-**Effect:** As an action that requires 2 acts, you may change your size category to Small or Medium (chosen when you gain this talent). Your ability scores do not change, only your size (and thus your weapon damage); normal size penalties and bonuses to AC and CMD and on attack and skill rolls apply. Changing size or returning to your true size requires 2 acts. Your size in this form overrides and ignores any other effects which might change your size unless the caster succeeds at a magic skill check against a DC equal to [11 + your Hit Dice]{.c}.
+**Effect:** As an action that requires 2 acts, you may change your size category to Small or Medium (chosen when you gain this talent). Your ability scores do not change, only your size (and thus your weapon damage); normal size penalties and bonuses to AC and CMD and on attack and skill rolls apply. Changing size or returning to your true size requires 2 acts. Your size in this form overrides and ignores any other effects which might change your size unless the caster succeeds at a magic skill check against a DC equal to [11 + [HD]{.alt}]{.c}.
 :::::
 
 ::::: {.ability}
@@ -818,7 +820,7 @@ You may take this talent a second time. If you do, you can choose to take a -5 p
 ###### Spell Renewal (Su) [Origin Talent]{.ability-head} {.u}
 **Type:** Auxiliary (Essence)
 
-**Effect:** You can choose to gain [fast healing](Special Abilities#) 2 for 1 round anytime you succeed at a saving throw against a spell, magic sphere effect, or other magical effect. You can heal up to [2/level]{.c} hit points per day with this ability, after which it ceases to function.
+**Effect:** You can choose to gain [fast healing](Special Abilities#) 2 for 1 round anytime you succeed at a saving throw against a spell, magic sphere effect, or other magical effect. You can heal up to [2×[HD]{.alt}]{.c} hit points per day with this ability, after which it ceases to function.
 :::::
 
 ::::: {.ability}
@@ -826,6 +828,27 @@ You may take this talent a second time. If you do, you can choose to take a -5 p
 **Type:** Auxiliary (Learned)
 
 **Effect:** Whenever you start and end your turn in the same space, you gain a +2 origin bonus to damage rolls until the start of your next turn.
+:::::
+
+::::: {.ability}
+###### Steadfast [Origin Talent]{.ability-head} {.u}
+**Type:** Auxiliary (Learned)
+
+**Effect:** Choose two types of combat maneuvers (such as grapple, trip, bull rush, or steal). You gain a +4 origin bonus to your CMD to resist such combat maneuvers. You may select this talent multiple times, each time selecting two additional types of combat maneuvers.
+:::::
+
+::::: {.ability}
+###### Steady Trek [Origin Talent]{.ability-head} {.u}
+**Type:** Auxiliary (Acquired or Innate)
+
+**Effect:** The total penalty to your movement speed from armor or encumbrance is reduced by 15, to a minimum of 0.
+:::::
+
+::::: {.ability}
+###### Stench [Origin Talent]{.ability-head} {.u}
+**Type:** Auxiliary (Innate)
+
+**Effect:** You emit a terrible scent as a 10-foot aura that nearly every other creature finds offensive. This is a poison effect. All living creatures (except other creatures with the stench ability) within the aura must succeed at a Fortitude save with DC [10 + [HD]{.alt}/2 + [CON]{.alt}]{.c} or be sickened for [[CON]{.alt}]{.c} rounds. Creatures that succeed at the saving throw cannot be sickened by the same creature’s stench for 24 hours.
 :::::
 
 ::::: {.ability}
@@ -843,6 +866,13 @@ You may take this talent a second time. If you do, you can choose to take a -5 p
 :::::
 
 ::::: {.ability}
+###### Thick-Skinned [Origin Talent]{.ability-head} {.u}
+**Type:** Auxiliary (Acquired or Innate)
+
+**Effect:** You gain a +1 natural armor bonus to AC. You may take this talent a second time, in which case the bonus increases to +2.
+:::::
+
+::::: {.ability}
 ###### Thirst For Vengeance [Origin Talent]{.ability-head} {.u}
 **Type:** Auxiliary (Learned)
 
@@ -850,10 +880,17 @@ You may take this talent a second time. If you do, you can choose to take a -5 p
 :::::
 
 ::::: {.ability}
+###### Unbowed [Origin Talent]{.ability-head} {.u}
+**Type:** Auxiliary (Acquired, Essence or Innate)
+
+**Effect:** Choose three types of weather conditions from the weather sphere (such as Cold, Heat, and Wind). You treat these conditions as one category less severe for the purpose of determining how you are affected. You may take this talent multiple times, each time selecting up to three different types of weather conditions.
+:::::
+
+::::: {.ability}
 ###### Unnatural Aura (Su) [Origin Talent]{.ability-head} {.u}
 **Type:** Auxiliary (Essence)
 
-**Effect:** Animals do not willingly approach you unless they succeed on a Will save with a DC of [10 + 1⁠/⁠2 your Hit Dice + your highest mental ability modifier]{.c} or the animal’s master attempts a Handle Animal, Ride, or wild empathy check. The DC is equal to [10 + your level + your Charisma modifier]{.c}.
+**Effect:** Animals do not willingly approach you unless they succeed on a Will save with a DC of [10 + [HD]{.alt}/2 + [CHA]{.alt}]{.c} or the animal’s master attempts a Handle Animal, Ride, or wild empathy check. The DC for the check is equal to [10 + [HD]{.alt} + [CHA]{.alt}]{.c}.
 :::::
 
 ::::: {.ability}
@@ -869,29 +906,6 @@ You may take this talent a second time. If you do, you can choose to take a -5 p
 
 **Effect:** You gain a +1 origin bonus on Reflex saves and a +1 dodge bonus to armor class when adjacent to at least two other allies. Crowds do not count as difficult terrain for you.
 :::::
-
-
-
-
-
-
-Steadfast [auxiliary]
-
-Choose two types of combat maneuvers (such as grapple, trip, bull rush, or steal). You gain a +4 origin bonus to your CMD to resist such combat maneuvers. You may select this talent multiple times, each time selecting two additional types of combat maneuvers.
-Steady Trek [auxiliary]
-
-The total penalty to your movement speed from armor or encumbrance is reduced by 15, to a minimum of 0.
-Stench [auxiliary]
-
-You emit a terrible scent as a 10-foot aura that nearly every other creature finds offensive. This is a poison effect. All living creatures (except other creatures with the stench ability) within the aura must succeed at a Fortitude saving throw (DC 10 + 1/2 your character level + your Constitution modifier) or be sickened for a number of rounds equal to your Constitution modifier. Creatures that succeed at the saving throw cannot be sickened by the same creature’s stench for 24 hours. A delay poison or neutralize poison spell or similar effect removes the effect from the sickened creature.
-Thick-Skinned [auxiliary]
-
-You gain a +1 natural armor bonus to AC. You may take this talent a second time, in which case the bonus increases to +2. Associated Feat: Improved Natural Armor.
-Unbowed [auxiliary]
-
-Choose three types of weather conditions from the weather sphere (such as Cold, Heat, and Wind). You treat these conditions as one category less severe for the purpose of determining how you are affected. You may take this talent multiple times, each time selecting up to three different types of weather conditions.
-
-
 
 ## Classic Lineages
 

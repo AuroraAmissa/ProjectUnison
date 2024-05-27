@@ -27,11 +27,13 @@ content/include/ability-point-buy_table.md
 
 Player characters have an ability score limit of either 9 or 13 (chosen by the GM before the campaign begins). Subordinate characters such as companions or animal companions usually have a lower level, specified in the description for the ability that grants you them.
 
-> #### Sidebar: Standard Point-Buy Equivalents
->
-> The 13 point allocation is equivalent to characters using a 25-point buy in the vanilla Pathfinder system and applying origin bonuses to ability scores optimally. The 9 point allocation is instead about equivalent to using a 15-point buy under the same conditions.
-> 
-> Using the Pathfinder generation methods in Project Unison is not recommended. This table is designed to simplify character creation for newer players.
+::::: {.sidebar}
+#### Sidebar: Standard Point-Buy Equivalents
+
+The 13 point allocation is equivalent to characters using a 25-point buy in the vanilla Pathfinder system and applying origin bonuses to ability scores optimally. The 9 point allocation is instead about equivalent to using a 15-point buy under the same conditions.
+
+Using the Pathfinder generation methods in Project Unison is not recommended. This table is designed to simplify character creation for newer players.
+:::::
 
 ## The Six Abilities
 

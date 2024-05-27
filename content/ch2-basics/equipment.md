@@ -78,9 +78,11 @@ Particularly rich characters may be able to provide income to other characters w
 
 For this purpose, a character may provide the entirety of one of their income sources to another character, or divide an income source into 4 income sources with a resources level one lower than its current one. They may choose to benefit from one of these, if they have done this to their largest income source.
 
-> #### Optional Rule: Simplified Income
->
-> This rule is meant for social-centered campaigns where the financial situation of characters and the social weight that carries is more central to the storyline. For more standard campaigns centered on exploration, combat or dungeons, consider forbidding the use of this rule. This reduces the need to track individual income sources for characters.
+::::: {.sidebar}
+#### Optional Rule: Simplified Income
+
+This rule is meant for social-centered campaigns where the financial situation of characters and the social weight that carries is more central to the storyline. For more standard campaigns centered on exploration, combat or dungeons, consider forbidding the use of this rule. This reduces the need to track individual income sources for characters.
+:::::
 
 ## Equipment Tags
 

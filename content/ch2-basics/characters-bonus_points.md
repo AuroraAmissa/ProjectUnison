@@ -296,7 +296,7 @@ Character drawbacks may only be taken at character creation.
 ###### Pacifist [Character Drawback]{.ability-head} {.unlisted .unnumbered}
 **Points:** 2
 
-**Effect:** If your character intentionally causes lethal damage to another character or otherwise causes their death, they take nonlethal damage equal to the amount they dealt and are stunned for [1d4 + 1]{.calc} rounds.
+**Effect:** If your character intentionally causes lethal damage to another character or otherwise causes their death, they take nonlethal damage equal to the amount they dealt and are stunned for [1d4 + 1]{.c} rounds.
 :::::
 
 ::::: {.ability}

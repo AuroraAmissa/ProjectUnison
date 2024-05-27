@@ -8,19 +8,34 @@ As your character goes on adventures and their story progresses, they earn exper
 
 ## Calculations
 
-Calculations and dice rolls are surrounded by brackets, like this: [2]{.c}, [1d6 + 1d8]{.c}. Calculations are always used to mark values that affect hit points, dice rolls, and any significant calculations where it would help clarify the text. The symbol "/" is only used to mean fractions, such as in [1/2]{.c} or per, such as [1/level]{.c} to mean "one per level". Division is always specified using the symbol "÷", such as [level ÷ 2]{.c}.
+Calculations and dice rolls are surrounded by brackets, like this: [2]{.c}, [1d6 + 1d8]{.c}. Calculations are always used to mark values that affect hit points, dice rolls, and any significant calculations where it would help clarify the text. The symbol "/" is used to mean division.
+
+The following abbreviations are used in calculations:
+
+* HD = Hit Dice
+* dice = number of dice rolled
+* Acrobatics, or any other skill = ranks in the skill
+* STR = Strength modifier
+* DEX = Dexterity modifier
+* CON = Constitution modifier
+* INT = Intelligence modifier
+* WIS = Wisdom modifier
+* CHA = Charisma modifier
+* TAM = your character's tradition ability modifier (or their highest mental ability score if they possess no traditions)
+
+If the text does not specify whose trait is used, it means the traits of the character that possesses the ability. For example, [HD/2]{.c .nb} means "half of your hit dice" while something like [their HD/2]{.c} would mean "half of *their* hit dice".  
 
 ## Dice
 
 Whenever a character does something where the outcome isn't certain, the players and Game Master roll dice to determine the outcome.
 
-Dice rolls are noted as "d#", where the "#" is the number of sides on the dice. If hy need to roll multiple dice of the same type, there will be a number before the "d#". For example, if you are asked to roll [4d6]{.calc}, you should roll four six-sided dice and add the results together. Dice rolls may contain math, such as [2d6 + 1d10 + 4]{.calc}. This means to roll [2d6]{.calc}, then add [1d10]{.calc}, then add 4 to the result. Most dice rollers online and in chat room bots already support this notation, so you can directly enter the dice roll.
+Dice rolls are noted as "d#", where the "#" is the number of sides on the dice. If hy need to roll multiple dice of the same type, there will be a number before the "d#". For example, if you are asked to roll [4d6]{.c}, you should roll four six-sided dice and add the results together. Dice rolls may contain math, such as [2d6 + 1d10 + 4]{.c}. This means to roll [2d6]{.c}, then add [1d10]{.c}, then add 4 to the result. Most dice rollers online and in chat room bots already support this notation, so you can directly enter the dice roll.
 
 Most die rolls in the game use a d20 with a number of modifiers based on the character's skills, abilities, and the situation, Generally speaking, rolling high is better than rolling low.
 
-In some circumstances, you may be asked to roll [d100]{.calc}. An easy to do this with physical dice is to roll two differently colored ten-sided dice. Pick one color to represent the tens digit, then roll both dice. If the tens dice rolls a 4 and the ones dice rolls a 2, your result is 42. Some ten-sided dice are prelabeled for use as a tens dice, and are printed with "10", "20", "30", and so on. Treat a 10 as a 0 in that digit, and both dice landing on 10 as a 100.
+In some circumstances, you may be asked to roll [d100]{.c}. An easy to do this with physical dice is to roll two differently colored ten-sided dice. Pick one color to represent the tens digit, then roll both dice. If the tens dice rolls a 4 and the ones dice rolls a 2, your result is 42. Some ten-sided dice are prelabeled for use as a tens dice, and are printed with "10", "20", "30", and so on. Treat a 10 as a 0 in that digit, and both dice landing on 10 as a 100.
 
-To resolve an effect that has a certain percentage chance of occuring, roll a [d100]{.calc}, and check if the result is equal to or under the percentage. For example, to check if a 24% chance occurs, roll [d100]{.calc} and apply the effect if the result is under 24.
+To resolve an effect that has a certain percentage chance of occuring, roll a [d100]{.c}, and check if the result is equal to or under the percentage. For example, to check if a 24% chance occurs, roll [d100]{.c} and apply the effect if the result is under 24.
 
 Additionally, [1d2]{.c} or [1d3]{.c} dice are fairly rare and are not part of a standard dice set. For [d2]{.c}, flip a coin, roll a [d4]{.c} and divide by 2 or roll a [d6]{.c} and divide by 3. For a [d3]{.c}, roll a [d6]{.c} and divide by 2. Dice rolling software can usually support these unusual dice types directly.
 

@@ -36,9 +36,11 @@ Many abilities refer to a "favored terrain", giving you the ability to work more
 
 Additionally, you may pick the landscape of any alternative plane of existence as a favored terrain.
 
-> #### Optional Rule: Additional Terrain Types
-> 
-> Some settings may have a common terrain biome that does not map well to the terrain types here. If so, the GM may choose to add additional favored terrain types. These favored terrain types should usually be known before the game starts.
+::::: {.sidebar}
+#### Optional Rule: Additional Terrain Types
+
+Some settings may have a common terrain biome that does not map well to the terrain types here. If so, the GM may choose to add additional favored terrain types. These favored terrain types should usually be known before the game starts.
+:::::
 
 ## Scent
 
