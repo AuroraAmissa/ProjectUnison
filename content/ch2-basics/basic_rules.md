@@ -14,6 +14,7 @@ The following abbreviations are used in calculations:
 
 * HD = Hit Dice
 * dice = number of dice rolled
+* level = your levels in this class (or bonus trait)
 * Acrobatics, or any other skill = ranks in the skill
 * STR = Strength modifier
 * DEX = Dexterity modifier

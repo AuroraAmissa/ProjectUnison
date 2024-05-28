@@ -19,7 +19,7 @@ Each ability has a modifier associated with. To calculate the modifier for an ab
 
 ### Generating Ability Scores {.unlisted .unnumbered}
 
-When you create your character, pick one of the values from the following list for each of the six ability scores, and then add the point values together. The cost must sum to the character's ability score limit or lower. Add 1 to your lowest 3 ability scores. If you did not spend all your points, instead add 1 to your lowest 5 ability scores. If two or more scores are tied, you may choose which to apply it to among the tied scores.
+When you create your character, pick one of the values from the following list for each of the six ability scores, and then add the point values together. The cost must sum to the character's ability score limit or lower. Add 1 to your lowest 2 ability scores. If you did not spend all your points, instead add 1 to your lowest 4 ability scores. If two or more scores are tied, you may choose which to apply it to among the tied scores.
 
 ``` {.include}
 content/include/ability-point-buy_table.md

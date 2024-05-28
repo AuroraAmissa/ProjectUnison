@@ -7,6 +7,6 @@
 | 12            |  1 points |
 | 14            |  2 points |
 | 16            |  4 points |
-| 18            |  6 points |
+| 18            |  7 points |
 | 20            | 10 points |
 | 22            | 14 points |

@@ -357,6 +357,22 @@ You may select this talent a second time. If you do, your size increases by one 
 :::::
 
 ::::: {.ability}
+###### Additional Natural Attack [Origin Talent]{.ability-head} {.u}
+**Type:** Auxiliary (Innate) \
+**Reqs:** [Natural Attack](Origins#Natural Attack Origin Talent)
+
+**Effect:** You may select a second natural attack. This may be a second instance of a natural attack you have already selected, in which cases it applies on an additional head or set of arms, legs, or wings. This talent may be selected multiple times, each time gaining an additional natural attack or instance of a natural attack.
+:::::
+
+::::: {.ability}
+###### Additional Wings [Origin Talent]{.ability-head} {.u}
+**Type:** Auxiliary (Innate) \
+**Reqs:** [Developed Wings](Origins#Developed Wings Origin Talent)
+
+**Effect:** You gain an additional pair of wings which increase your maneuverability by 1 step (to a maximum of perfect). You may select this talent multiple times.
+:::::
+
+::::: {.ability}
 ###### Aquatic [Origin Talent]{.ability-head} {.u}
 **Type:** Auxiliary (Innate)
 
@@ -385,6 +401,14 @@ You may select this talent a second time. If you do, your size increases by one 
 **Type:** Auxiliary (Innate or Learned)
 
 **Effect:** You gain a climb speed of 20 feet. If you do not possess a land speed, you may use half your climb speed as a land speed.
+:::::
+
+::::: {.ability}
+###### Controlled Stench [Origin Talent]{.ability-head} {.u}
+**Type:** Auxiliary (Innate)
+**Reqs:** [Stench](Origins#Stench Origin Talent)
+
+**Effect:** The aura range of your stench ability increases by 10 feet. You can activate or suppress your stench ability as a free action. You may take this talent multiple times, each time increasing the range of your stench by 10 feet.
 :::::
 
 ::::: {.ability}
@@ -455,7 +479,7 @@ If you choose two effects with different origin tags, you may select a different
 | Paralysis | Acquired or Innate |
 | Patterns and phantasms | Essence or Trained |
 | Petrification and polymorph effects | Acquired or Innate |
-| Posion | Acquired or Innate |
+| Poison | Acquired or Innate |
 | Positive and negative energy effects | Acquired or Innate |
 | Possession effects | Essence |
 | Sleep effects | Acquired or Innate |
@@ -469,6 +493,13 @@ If you choose two effects with different origin tags, you may select a different
 **Type:** Auxiliary (Learned)
 
 **Effect:** You gain a +2 origin bonus to concentration checks.
+:::::
+
+::::: {.ability}
+###### Distributed Vitals [Origin Talent]{.ability-head} {.u}
+**Type:** Auxiliary (Acquired or Innate)
+
+**Effect:** You are immune to decapitation from the vorpal weapon special ability. A successful coup de grace performed against you deals normal damage rather than a critical hit and you automatically succeed at any saving throws made to avoid dying from a coup de grace.
 :::::
 
 ::::: {.ability}
@@ -558,6 +589,14 @@ If you choose two effects with different origin tags, you may select a different
 :::::
 
 ::::: {.ability}
+###### Greater Natural Attack [Origin Talent]{.ability-head} {.u}
+**Type:** Auxiliary (Innate) \
+**Reqs:** [Improved Natural Attack](Origins#Improved Natural Attack Origin Talent)
+
+**Effect:** Choose a natural attack which has had its damage increased by Improved Natural Attack. It is treated as one additional size larger for the purpose of calculating its damage dice. This talent can be selected multiple times, each time applying to a different natural weapon.
+:::::
+
+::::: {.ability}
 ###### Hardened [Origin Talent]{.ability-head} {.u}
 **Type:** Auxiliary (Acquired or Innate)
 
@@ -624,6 +663,14 @@ You can transfer a held object to your hidden storage or extract an object from 
 :::::
 
 ::::: {.ability}
+###### Idealized Form [Origin Talent]{.ability-head} {.u}
+**Type:** Auxiliary (Acquired or Innate) \
+**Reqs:** [Developed Tolerance](Origins#Developed Tolerance Origin Talent) (petrification and polymorph effects)
+
+**Effect:** You are immune to any petrification and polymorph effects which do not originate from yourself.
+:::::
+
+::::: {.ability}
 ###### Immediate Renewal [Origin Talent]{.ability-head} {.u}
 **Type:** Auxiliary (Essence or Learned) \
 **Reqs:** [Energy Renewal](Origins#Energy Renewal Origin Talent)
@@ -651,6 +698,22 @@ You can transfer a held object to your hidden storage or extract an object from 
 **Type:** Auxiliary (Learned)
 
 **Effect:** For the purpose of meeting prerequisites, you treat all of your ability scores as the higher of 13 or their actual value.
+:::::
+
+::::: {.ability}
+###### Inviolate Abilities [Origin Talent]{.ability-head} {.u}
+**Type:** Auxiliary (Acquired or Innate) \
+**Reqs:** [Developed Tolerance](Origins#Developed Tolerance Origin Talent) (ability damage and ability drain)
+
+**Effect:** You suffer no penalties from ability damage, although you still fall unconscious if ability damage in a specific ability score exceeds your ability score. If you take this talent a second time, you become immune to ability damage and ability drain.
+:::::
+
+::::: {.ability}
+###### Inviolate Senses [Origin Talent]{.ability-head} {.u}
+**Type:** Auxiliary (Acquired or Innate) \
+**Reqs:** [Developed Tolerance](Origins#Developed Tolerance Origin Talent) (patterns and phantasms)
+
+**Effect:** You are immune to pattern and phantasm effects.
 :::::
 
 ::::: {.ability}
@@ -737,10 +800,27 @@ You can transfer a held object to your hidden storage or extract an object from 
 :::::
 
 ::::: {.ability}
+###### Perfect Health [Origin Talent]{.ability-head} {.u}
+**Type:** Auxiliary (Innate) \
+**Reqs:** [Developed Tolerance](Origins#Developed Tolerance Origin Talent) (disease)
+
+**Effect:** You are immune to disease effects.
+:::::
+
+::::: {.ability}
 ###### Practiced Magic [Origin Talent]{.ability-head} {.u}
 **Type:** Auxiliary (Learned)
 
 **Effect:** Choose three magic spheres. You gain a +1 origin bonus to your caster level for those spheres as long as this bonus does not raise your caster level above your current Hit Dice.
+:::::
+
+
+::::: {.ability}
+###### Reaching Appendage [Origin Talent]{.ability-head} {.u}
+**Type:** Auxiliary (Innate) \
+**Reqs:** [Convenient Appendage](Origins#Convenient Appendage Origin Talent)
+
+**Effect:** One of your Convenient Appendages has a reach of 10 feet. You can use your appendage to pick up items weighing no more than 5 pounds, attempt Sleight of Hand checks, perform the steal or disarm combat maneuvers, or make melee touch attacks. This cannot be applied to a convenient appendage which is improved by the Extra Arm talent. If you possess a tail slap attack, your reach with that tail slap improves by 5 feet.
 :::::
 
 ::::: {.ability}
@@ -758,11 +838,27 @@ You can transfer a held object to your hidden storage or extract an object from 
 :::::
 
 ::::: {.ability}
+###### Redundant Physiology [Origin Talent]{.ability-head} {.u}
+**Type:** Auxiliary (Acquired or Innate) \
+**Reqs:** [Developed Tolerance](Origins#Developed Tolerance Origin Talent) (bleed and pain effects)
+
+**Effect:** You are immune to bleed and pain effects.
+:::::
+
+::::: {.ability}
 ###### Refined Targeting [Origin Talent]{.ability-head} {.u}
 **Type:** Auxiliary (Learned) \
 **Reqs:** [Longtime Foe](Origins#Longtime Foe Origin Talent)
 
 **Effect:** You gain a +1 origin bonus to the DCs of your abilities for the purpose of any creature you designate as your longtime foe.
+:::::
+
+::::: {.ability}
+###### Resilient Constitution [Origin Talent]{.ability-head} {.u}
+**Type:** Auxiliary (Acquired or Innate) \
+**Reqs:** [Developed Tolerance](Origins#Developed Tolerance Origin Talent) (poison)
+
+**Effect:** You are immune to poison effects.
 :::::
 
 ::::: {.ability}
@@ -773,6 +869,14 @@ You can transfer a held object to your hidden storage or extract an object from 
 :::::
 
 ::::: {.ability}
+###### Sacrosanct Body [Origin Talent]{.ability-head} {.u}
+**Type:** Auxiliary (Essence) \
+**Reqs:** [Developed Tolerance](Origins#Developed Tolerance Origin Talent) (possession effects)
+
+**Effect:** You are immune to possession effects not originating from your subordinates.
+:::::
+
+::::: {.ability}
 ###### Salvaging Luck [Origin Talent]{.ability-head} {.u}
 **Type:** Auxiliary (Essence)
 
@@ -780,10 +884,34 @@ You can transfer a held object to your hidden storage or extract an object from 
 :::::
 
 ::::: {.ability}
+###### Saving Grace [Origin Talent]{.ability-head} {.u}
+**Type:** Auxiliary (Varies) \
+**Reqs:** [Developed Tolerance](Origins#Developed Tolerance Origin Talent)
+
+**Effect:** Choose two effects you are resistant to due to Developed Tolerance. When you fail a saving throw against such an effect, you can attempt a new saving throw at the start of your next turn to end the effect. Your origin bonus increases by +2 on this second saving throw, but if you fail, the effect persists as long as it normally would. Failing this additional saving throw does not cause you to suffer additional effects from the disease or poison or for it to progress.
+:::::
+
+::::: {.ability}
 ###### Scent [Origin Talent]{.ability-head} {.u}
 **Type:** Auxiliary (Innate)
 
 **Effect:** You have a limited [scent](Special Abilities#) ability, which only functions for corpses and badly wounded creatures (50% or fewer hit points). If you take this talent a second time, you gain the full benefits of the scent ability.
+:::::
+
+::::: {.ability}
+###### See In Darkness [Origin Talent]{.ability-head} {.u}
+**Type:** Auxiliary (Essence or Innate) \
+**Reqs:** [Darkvision](Origins#Darkvision Origin Talent)
+
+**Effect:** You can see perfectly in darkness of any kind, including that created by deeper darkness, out to the range of your darkvision. If your darkvision range is 120 feet or greater, you can see out to any distance in darkness of any kind.
+:::::
+
+::::: {.ability}
+###### Shatterproof Senses [Origin Talent]{.ability-head} {.u}
+**Type:** Auxiliary (Acquried or Innate) \
+**Reqs:** [Developed Tolerance](Origins#Developed Tolerance Origin Talent) (stunning)
+
+**Effect:** You are immune to the stunned condition.
 :::::
 
 ::::: {.ability}
@@ -817,6 +945,14 @@ You may take this talent a second time. If you do, you can choose to take a -5 p
 :::::
 
 ::::: {.ability}
+###### Sleepless [Origin Talent]{.ability-head} {.u}
+**Type:** Auxiliary (Acquried or Innate) \
+**Reqs:** [Developed Tolerance](Origins#Developed Tolerance Origin Talent) (sleep effects)
+
+**Effect:** You are immune to sleep effects and do not need to sleep. You must still take 8 hours of general inactivity to regain spell points and spells.
+:::::
+
+::::: {.ability}
 ###### Spell Renewal (Su) [Origin Talent]{.ability-head} {.u}
 **Type:** Auxiliary (Essence)
 
@@ -831,10 +967,18 @@ You may take this talent a second time. If you do, you can choose to take a -5 p
 :::::
 
 ::::: {.ability}
-###### Steadfast [Origin Talent]{.ability-head} {.u}
+###### Steadfast Defense [Origin Talent]{.ability-head} {.u}
 **Type:** Auxiliary (Learned)
 
 **Effect:** Choose two types of combat maneuvers (such as grapple, trip, bull rush, or steal). You gain a +4 origin bonus to your CMD to resist such combat maneuvers. You may select this talent multiple times, each time selecting two additional types of combat maneuvers.
+:::::
+
+::::: {.ability}
+###### Steadfast Will [Origin Talent]{.ability-head} {.u}
+**Type:** Auxiliary (Essence or Trained) \
+**Reqs:** [Developed Tolerance](Origins#Developed Tolerance Origin Talent) (charm effects)
+
+**Effect:** You are immune to charm effects.
 :::::
 
 ::::: {.ability}
@@ -852,6 +996,14 @@ You may take this talent a second time. If you do, you can choose to take a -5 p
 :::::
 
 ::::: {.ability}
+###### Strong Stomach [Origin Talent]{.ability-head} {.u}
+**Type:** Auxiliary (Essence or Trained) \
+**Reqs:** [Developed Tolerance](Origins#Developed Tolerance Origin Talent) (effects that cause nauseated or sickened)
+
+**Effect:** You gain immunity to the nauseated and sickened conditions.
+:::::
+
+::::: {.ability}
 ###### Supplemental Artifice [Origin Talent]{.ability-head} {.u}
 **Type:** Auxiliary (Acquired or Innate)
 
@@ -863,6 +1015,16 @@ You may take this talent a second time. If you do, you can choose to take a -5 p
 **Type:** Auxiliary (Learned)
 
 **Effect:** You and any other ally with this talent can share the same square or squares at the same time. If two creatures with this talent in the same square threaten the same foe, they are considered to be flanking that foe as if they were in two opposite squares.
+:::::
+
+::::: {.ability}
+###### Tail Hang [Origin Talent]{.ability-head} {.u}
+**Type:** Auxiliary (Innate) \
+**Reqs:** [Convinent Appendage](Origins#Convinent Appendage Origin Talent) or tail slap natural attack
+
+**Effect:** If your square has a branch or other sturdy large object that you could hang from, as a swift action you may jump upward and use your tail to hang from that object. While hanging, you cannot be tripped, you ignore the effects of difficult terrain in your square, and you gain a +2 bonus to your CMD against bull rush, drag, and reposition attacks. If you leave that square (including if you are moved against your will), you lose your grip on the object and are no longer hanging, falling prone if you are moved against your will. While hanging, you cannot use your tail for anything else.
+
+If you possess the Reaching Appendage talent, you can hang from an object within 10 feet of you
 :::::
 
 ::::: {.ability}
@@ -880,6 +1042,14 @@ You may take this talent a second time. If you do, you can choose to take a -5 p
 :::::
 
 ::::: {.ability}
+###### Tremendous Tolerance [Origin Talent]{.ability-head} {.u}
+**Type:** Auxiliary (Varies) \
+**Reqs:** [Developed Tolerance](Origins#Developed Tolerance Origin Talent) or [Spellhardy](Origins#Spellhardy Origin Talent)
+
+**Effect:** Choose either Spellhardy or one instance of Developed Tolerance. Your origin bonus to saving throws from that talent increases from +2 to +4. You may take this talent multiple times, each time selecting a different instance of one of those two talents.
+:::::
+
+::::: {.ability}
 ###### Unbowed [Origin Talent]{.ability-head} {.u}
 **Type:** Auxiliary (Acquired, Essence or Innate)
 
@@ -891,6 +1061,37 @@ You may take this talent a second time. If you do, you can choose to take a -5 p
 **Type:** Auxiliary (Essence)
 
 **Effect:** Animals do not willingly approach you unless they succeed on a Will save with a DC of [10 + [HD]{.alt}/2 + [CHA]{.alt}]{.c} or the animal’s master attempts a Handle Animal, Ride, or wild empathy check. The DC for the check is equal to [10 + [HD]{.alt} + [CHA]{.alt}]{.c}.
+:::::
+
+::::: {.ability}
+###### Unshakeable Nerve [Origin Talent]{.ability-head} {.u}
+**Type:** Auxiliary (Trained) \
+**Reqs:** [Developed Tolerance](Origins#Developed Tolerance Origin Talent) (fear effects)
+
+**Effect:** You are immune to fear (magical or otherwise).
+:::::
+
+::::: {.ability}
+###### Unwavering Path [Origin Talent]{.ability-head} {.u}
+**Type:** Auxiliary (Essence or Trained) \
+**Reqs:** [Developed Tolerance](Origins#Developed Tolerance Origin Talent) (compulsion effects)
+
+**Effect:** You are immune to compulsion effects.
+:::::
+
+::::: {.ability}
+###### Vigorous [Origin Talent]{.ability-head} {.u}
+**Type:** Auxiliary (Acquired or Innate) \
+**Reqs:** [Developed Tolerance](Origins#Developed Tolerance Origin Talent) (paralysis)
+
+**Effect:** You gain immunity to paralysis effects.
+:::::
+
+::::: {.ability}
+###### Void Denizen [Origin Talent]{.ability-head} {.u}
+**Type:** Auxiliary (Innate) \
+
+**Effect:** You no longer need to breathe. This grants immunity to inhaled poison as well as suffocation (such as from being underground, underwater, or in a vacuum) but does not grant immunity to cloud or gas attacks that do not require breathing.
 :::::
 
 ::::: {.ability}

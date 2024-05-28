@@ -20,7 +20,7 @@ Unlike any other bonus trait, many of these traits represent story elements that
 
 ::::: {.ability}
 ###### Resources [Bonus Trait]{.ability-head} {.unlisted .unnumbered}
-**Cost:** 2/level \
+**Cost:** 2 points \
 **Mins:** 1/1/3/5
 
 *Your character has a stream of passive income such as ownership of land, a business, or simply skills that allow them to easily barter or earn money during downtime.*
@@ -36,39 +36,41 @@ Personal bonus traits represent your character's upbringing and skills. On the f
 
 ::::: {.ability}
 ###### Advanced Proficiency [Bonus Trait]{.ability-head} {.unlisted .unnumbered}
-**Cost:** 1/level \
+**Cost:** 1 points \
 **Mins:** 1/+2
 
-**Effect:** For each level you gain in this bonus trait, you gain two additional skill points.
+**Effect:** Each time you gain a level in this trait, you gain two additional skill points.
 :::::
 
 ::::: {.ability}
 ###### Dilettante [Bonus Trait]{.ability-head} {.unlisted .unnumbered}
-**Cost:** 1/level \
+**Cost:** 1 points \
 **Mins:** 1/1/1/1/1
 
-**Effect:** For each level you gain in this bonus trait, you may gain an additional class skill.
+**Effect:** Each time you gain a level in this trait, you may gain an additional class skill.
 :::::
 
 ::::: {.ability}
 ###### Diverse Ability [Bonus Trait]{.ability-head} {.unlisted .unnumbered}
-**Cost:** 1/level \
-**Mins:** 1/3/5/7/9
+**Cost:** see text \
+**Mins:** 1/1/4/7
 
 **Effect:** You gain a +1 enhancement bonus to a single ability score, chosen when you gain your first level in this trait. For each additional level you gain this trait past the first, you may apply this bonus to an additional ability score. *(Enhancement bonuses don't stack.)*
+
+**Special:** Diverse Ability costs 1 point for the first level, and 2 for each thereafter.
 :::::
 
 ::::: {.ability}
 ###### Diverse Training [Bonus Trait]{.ability-head} {.unlisted .unnumbered}
-**Cost:** 1/level \
+**Cost:** 1 points \
 **Mins:** 1/2/+2
 
-**Effect:** Whenever you gain a level in this trait, you may exchange a talent you gain from class levels for any other kind of talent you have a tradition for. *(This may be applied to talents gained the character level you gain a level in this bonus trait.)*
+**Effect:** Each time you gain a level in this trait, you may exchange a talent you gain from class levels for any other kind of talent you have a tradition for. *(This may be applied to talents gained the character level you gain a level in this bonus trait.)*
 :::::
 
 ::::: {.ability}
 ###### Hobbyist Mage [Bonus Trait]{.ability-head} {.unlisted .unnumbered}
-**Cost:** 3/level \
+**Cost:** 3 points \
 **Mins:** 1
 
 **Effect:** Your character gains the casting class feature and a casting tradition, if they do not already possess it. They treat their classes that do not provide magic talent progression as if they were casting classes for purpose of calculating magic skill bonus, magic skill defense, and spell points.
@@ -76,7 +78,7 @@ Personal bonus traits represent your character's upbringing and skills. On the f
 
 ::::: {.ability}
 ###### Hobbyist Martial Artist [Bonus Trait]{.ability-head} {.unlisted .unnumbered}
-**Cost:** 3/level \
+**Cost:** 3 points \
 **Mins:** 1
 
 
@@ -85,7 +87,7 @@ Personal bonus traits represent your character's upbringing and skills. On the f
 
 ::::: {.ability}
 ###### Hobbyist Tradesperson [Bonus Trait]{.ability-head} {.unlisted .unnumbered}
-**Cost:** 3/level \
+**Cost:** 3 points \
 **Mins:** 1
 
 **Effect:** Your character gains a trade tradition, if they do not already possess one.
@@ -93,7 +95,7 @@ Personal bonus traits represent your character's upbringing and skills. On the f
 
 ::::: {.ability}
 ###### Learned [Bonus Trait]{.ability-head} {.unlisted .unnumbered}
-**Cost:** 1/level \
+**Cost:** 1 points \
 **Mins:** 1/+3
 
 **Effect:** Your character gains a competency they do not already possess.
@@ -101,7 +103,7 @@ Personal bonus traits represent your character's upbringing and skills. On the f
 
 ::::: {.ability}
 ###### Unique Origins [Bonus Trait]{.ability-head} {.unlisted .unnumbered}
-**Cost:** 3/level \
+**Cost:** 3 points \
 **Mins:** 1/5/9/13/17
 
 **Effect:** Whenever you gain a level in this trait, you gain a potent origin trait or two auxiliary origin traits.
@@ -109,10 +111,10 @@ Personal bonus traits represent your character's upbringing and skills. On the f
 
 ::::: {.ability}
 ###### Utility Training [Bonus Trait]{.ability-head} {.unlisted .unnumbered}
-**Cost:** 1/level \
+**Cost:** 1 points \
 **Mins:** 1/1/+1
 
-**Effect:** Whenever you gain a level in this trait, you may exchange a talent you gain from class levels for any other kind of talent you have a tradition for. *(This may be applied to talents gained the character level you gain a level in this bonus trait.)*
+**Effect:** Each time you gain a level in this trait, you may exchange the next talent you gain from class levels for any other kind of talent you have a tradition for. *(This may be applied to talents gained the character level you gain a level in this bonus trait.)*
 :::::
 
 ### Enhancement Traits
@@ -121,90 +123,104 @@ Enhancement bonus traits allow you to spend bonus traits to increase your charac
 
 ::::: {.ability}
 ###### Ability Enhancement [Bonus Trait]{.ability-head} {.unlisted .unnumbered}
-**Cost:** 4/level \
+**Cost:** 4 points \
 **Mins:** 4/7/10/12/14/16/18/20
 
-**Effect:** You gain an enhancement bonus equal to twice your levels in this trait to an ability score, chosen when you gain your first level in this trait.
+**Effect:** You gain a +[2×[level(bt)]{.alt}]{.c} enhancement bonus to an ability score (chosen when you gain this trait).
 :::::
 
 ::::: {.ability}
 ###### Ability Resonance [Bonus Trait]{.ability-head} {.unlisted .unnumbered}
-**Cost:** 4/level \
+**Cost:** 4 points \
 **Mins:** 5/8/11/15
 
-**Effect:** You may apply the effects of Ability Enhancement to an additional ability score, chosen when you gain your first level in this trait, up to a maximum level equal to your levels in it. You may take multiple instances of this trait, allowing you to choose a different ability score each time.
+**Effect:** You gain a +[2×[level(bt)]{.alt}]{.c} enhancement bonus to an ability score (chosen when you gain this trait).
+
+**Special:** Each level of Ability Resonance requires an equal level of Ability Enhancement. You may take multiple instances of this trait.
 :::::
 
 ::::: {.ability}
 ###### Armor Attunement [Bonus Trait]{.ability-head} {.unlisted .unnumbered}
-**Cost:** 2/level \
+**Cost:** 2 points \
 **Mins:** 2/5/7/9/11
 
-**Effect:** You gain an enhancement bonus equal to your levels in this trait to your armor class, as long as you are wearing armor. You may take a second instance of this trait, instead granting a bonus to our armor class as long as you are wielding a shield. This bonus stacks with the enhancement bonus from the first instance.
+**Effect:** You gain a +[[level(bt)]{.alt}]{.c} enhancement bonus to armor class, as long as you are wearing armor.
 :::::
 
 ::::: {.ability}
 ###### Enhanced Resistance [Bonus Trait]{.ability-head} {.unlisted .unnumbered}
-**Cost:** 2/level \
+**Cost:** 2 points \
 **Mins:** 2/5/7/9/11
 
-**Effect:** You gain a resistance bonus equal to your levels in this trait to all saving throws.
+**Effect:** You gain a +[[level(bt)]{.alt}]{.c} resistance bonus to all saving throws.
 :::::
 
 ::::: {.ability}
 ###### Inherent Aura [Bonus Trait]{.ability-head} {.unlisted .unnumbered}
-**Cost:** 2/level \
+**Cost:** 2 points \
 **Mins:** 5/8/11/13/15
 
-**Effect:** You gain a deflection bonus equal to your levels in this trait to AC.
+**Effect:** You gain a +[[level(bt)]{.alt}]{.c} deflection bonus to armor class.
 :::::
 
 ::::: {.ability}
 ###### Inherent Barrier [Bonus Trait]{.ability-head} {.unlisted .unnumbered}
-**Cost:** 2/level \
+**Cost:** 2 points \
 **Mins:** 5/8/11/13/15
 
-**Effect:** You gain a enhancement bonus equal to your levels in this trait to natural armor.
+**Effect:** You gain a +[[level(bt)]{.alt}]{.c} enhancement bonus to natural armor.
+:::::
+
+::::: {.ability}
+###### Shield Attunement [Bonus Trait]{.ability-head} {.unlisted .unnumbered}
+**Cost:** 2 points \
+**Mins:** 2/5/7/9/11
+
+**Effect:** You gain a +[[level(bt)]{.alt}]{.c} enhancement bonus to armor class, as long as you are gaining a shield bonus from a shield.
 :::::
 
 ::::: {.ability}
 ###### Spheres Attunement [Bonus Trait]{.ability-head} {.unlisted .unnumbered}
-**Cost:** 4/level \
+**Cost:** 4 points \
 **Mins:** 3/6/8/10/12
 
-**Effect:** You gain an enhancement bonus equal to your levels in this trait to your caster level in a specific magical sphere, chosen when you gain your first level in this trait. This bonus never counts as permanent, and thus cannot increase the Hit Dice of Companions or be used to qualify for feats or advanced talents.
+**Effect:** You gain a +[[level(bt)]{.alt}]{.c} enhancement bonus to your caster level in a specific magical sphere. This bonus never counts as permanent.
 :::::
 
 ::::: {.ability}
 ###### Sphere Resonance [Bonus Trait]{.ability-head} {.unlisted .unnumbered}
-**Cost:** 2/level \
+**Cost:** 2 points \
 **Mins:** 5/8/11/13/15
 
-**Effect:** You may apply the effects of Sphere Attunement to an additional magical sphere, chosen when you gain your first level in this trait, up to a maximum level equal to your levels in this trait. You may take multiple instances this trait multiple times, allowing you to choose a different sphere each time.
+**Effect:** You gain a +[[level(bt)]{.alt}]{.c} enhancement bonus to your caster level in a specific magical sphere. This bonus never counts as permanent.
+
+**Special:** Each level of Sphere Resonance requires an equal level of Sphere Attunement. You may take multiple instances of this trait.
 :::::
 
 ::::: {.ability}
 ###### Unarmed Force [Bonus Trait]{.ability-head} {.unlisted .unnumbered}
-**Cost:** 4/level \
+**Cost:** 4 points \
 **Mins:** 3/6/8/10/12
 
-**Effect:** You gain an enhancement bonus equal to your levels in this trait to your attack rolls and damage rolls with unarmed attacks and natural weapons.
+**Effect:** You gain a +[[level(bt)]{.alt}]{.c} enhancement bonus to attack rolls and damage rolls with unarmed attacks and natural attacks.
 :::::
 
 ::::: {.ability}
 ###### Weapon Attunement [Bonus Trait]{.ability-head} {.unlisted .unnumbered}
-**Cost:** 4/level \
+**Cost:** 4 points \
 **Mins:** 3/6/8/10/12
 
-**Effect:** You gain an enhancement bonus equal to your levels in this trait to your attack rolls and damage rolls with a single weapon. Furthermore, the weapon gains +2 hardness and +10 hit points per level of this trait for as long as you wield it. You may change which weapon receives this bonus during a long rest. 
+**Effect:** You gain a +[[level(bt)]{.alt}]{.c} enhancement bonus to your attack rolls and damage rolls with a single weapon. Furthermore, the weapon gains +[2×[level(bt)]{.alt}]{.c} hardness and +[10×[level(bt)]{.alt}]{.c} hit points. You may change which weapon receives this bonus during a long rest.
 :::::
 
 ::::: {.ability}
 ###### Weapon Resonance [Bonus Trait]{.ability-head} {.unlisted .unnumbered}
-**Cost:** 2/level \
+**Cost:** 2 points \
 **Mins:** 5/8/11/13/15
 
-**Effect:** You may apply the effects of Weapon Attunement to an additional weapon, up to a maximum level equal to your levels in this trait. You may take this trait multiple times, allowing you to attune an additional weapon each time.
+**Effect:** You may apply the effects of Weapon Attunement to an additional weapon, up to a maximum level equal to your levels in this trait.
+
+**Special:** You may take multiple instances of this trait.
 :::::
 
 ### Focus Traits
@@ -213,23 +229,23 @@ Focus bonus traits allow you to focus on a specific kind of Enhancement Bonus Tr
 
 ::::: {.ability}
 ###### Ability Focus (focus) [Bonus Trait]{.ability-head} {.unlisted .unnumbered}
-**Cost:** 4/level \
+**Cost:** 5 points \
 **Mins:** 5
 
-**Effect:** You may purchase the Ability Resonance bonus trait for a cost of 2/level instead of 4/level. Gain a +1 enhancement bonus to all attributes. *(Enhancement bonuses don't stack.)*
+**Effect:** You may purchase the Ability Resonance bonus trait for a cost of 2 points per level instead of 4 points per level. Gain a +1 enhancement bonus to all attributes. You may immediately retrain any instances of Diverse Ability you possess. *(Enhancement bonuses don't stack.)*
 :::::
 
 ::::: {.ability}
 ###### Adaptability Focus (focus) [Bonus Trait]{.ability-head} {.unlisted .unnumbered}
-**Cost:** 4/level \
+**Cost:** 5 points \
 **Mins:** 5
 
-**Effect:** You may apply the effects of Sphere Attunement to any magical sphere, up to a maximum level equal to your levels in this trait. *(Enhancement bonuses don't stack.)*
+**Effect:** You may apply the effects of Sphere Attunement to any magical sphere. *(Enhancement bonuses don't stack.)*
 :::::
 
 ::::: {.ability}
 ###### Aura Focus (focus) [Bonus Trait]{.ability-head} {.unlisted .unnumbered}
-**Cost:** 4/level \
+**Cost:** 5 points \
 **Mins:** 5
 
 **Effect:** Gain a +1 resistance bonus to all saving throws, +1 enhancement bonus to natural armor and a +1 deflection bonus to AC. This bonus stacks with the bonus gained from Enhanced Resilience, Inherent Aura and Inherent Barrier.
@@ -237,15 +253,15 @@ Focus bonus traits allow you to focus on a specific kind of Enhancement Bonus Tr
 
 ::::: {.ability}
 ###### Power Focus (focus) [Bonus Trait]{.ability-head} {.unlisted .unnumbered}
-**Cost:** 4/level \
+**Cost:** 5 points \
 **Mins:** 4
 
-**Effect:** You may purchase the Sphere Attunement bonus trait with minimums of "3/5/7/9/10/11". You gain a +1 bonus your DC for any magical sphere for which you are benefiting from an enhancement bonus.
+**Effect:** You may purchase the Sphere Attunement bonus trait with minimums of "3/5/7/9/10/11". You gain a +1 bonus to your DC for any magical sphere for which you are benefiting from an enhancement bonus.
 :::::
 
 ::::: {.ability}
 ###### Skill Focus (focus) [Bonus Trait]{.ability-head} {.unlisted .unnumbered}
-**Cost:** 4/level \
+**Cost:** 5 points \
 **Mins:** 5
 
 **Effect:** You may treat your character level as if it were 1 higher for purposes of gaining skill ranks and calculating your maximum ranks in each skill. 
@@ -253,18 +269,18 @@ Focus bonus traits allow you to focus on a specific kind of Enhancement Bonus Tr
 
 ::::: {.ability}
 ###### Unarmed Focus (focus) [Bonus Trait]{.ability-head} {.unlisted .unnumbered}
-**Cost:** 4/level \
+**Cost:** 5 points \
 **Mins:** 4
 
-**Effect:** You may purchase the Unarmed Force bonus trait with minimums of "3/5/7/9/10/11". You gain a +1 bonus your DC for any combat talent you use with an unarmed attack or natural weapon.
+**Effect:** You may purchase the Unarmed Force bonus trait with minimums of "3/5/7/9/10/11". You gain a +1 bonus to your DC for any combat talent you use with an unarmed attack or natural weapon.
 :::::
 
 ::::: {.ability}
 ###### Weapon Focus (focus) [Bonus Trait]{.ability-head} {.unlisted .unnumbered}
-**Cost:** 4/level \
+**Cost:** 5 points \
 **Mins:** 4
 
-**Effect:** You may purchase the Weapon Attunement bonus trait with minimums of "3/5/7/9/10/11". You gain a +1 bonus your DC for any combat talent you use with a weapon that grants you an enhancement bonus.
+**Effect:** You may purchase the Weapon Attunement bonus trait with minimums of "3/5/7/9/10/11". You gain a +1 bonus to your DC for any combat talent you use with a weapon that grants you an enhancement bonus.
 :::::
 
 ## Character Drawbacks

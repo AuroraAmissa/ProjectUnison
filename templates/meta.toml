@@ -17,6 +17,9 @@ code_fallback = ["main"]
 [alt]
 # misc
 "dice" = "number of dice rolled"
+"level" = "your levels in this class"
+"level(t)" = "the number of times you have taken this talent"
+"level(bt)" = "your levels in this trait"
 
 # stats
 "HD" = "((your ))Hit Dice"
