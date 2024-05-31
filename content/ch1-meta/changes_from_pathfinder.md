@@ -60,3 +60,4 @@ This is a brief listing of all changes to the Pathfinder core system and Spheres
   * Practiced Magic has been significantly buffed, due to it being normally available as a talent.
   * Legless is downgraded to an auxiliary talent.
   * Spiritfoe no longer requires a second purchase.
+  * Skill Familiarity now has a +2 and a +4 option rather than In-Depth Familiarity and Specialized Familiarity existing.

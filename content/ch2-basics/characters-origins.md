@@ -8,7 +8,7 @@ Each Origin is defined by a number of [origin talents](Origins#) and [variations
 
 Origin talents are constant, selectable options which grant characters abilities based on their background in some way, although they can be developed as well through training or other circumstances. Origin talents are generally considered extraordinary abilities unless specified otherwise.
 
-Origin talents are divided into three categories based on power and use: potent, auxiliary, and utility. Potent and auxiliary talents provide combat-relevant abilities of two separate tiers of power and can be selected only as part of an origin tradition or the Extra Origin Talent feat. Utility talents from origin spheres are designed primarily for out-of-combat use and may be selected in place of other utility talents for classes and progressions which gain utility talents from combat, magic, or skill spheres. Origin talents may never be gained as temporary talents through any means.
+Origin talents are divided into three categories based on power and use: potent, auxiliary, and utility. Potent and auxiliary talents provide combat-relevant abilities of two separate tiers of power and can be selected only as part of an origin tradition or the Extra Origin Talent feat. Utility talents from origin spheres are designed primarily for out-of-combat use. Origin talents may never be gained as temporary talents through any means.
 
 ### Variations
 
@@ -24,7 +24,7 @@ Origin talents and variations may have the following tags that indicate how and 
 
 * **Acquired:** Acquired traits can be caused by genetic variation, or gained over the course of a character's life due to events such as injury, training or encounters with esoteric forces. Acquired traits (and any talents bought with an acquired variation) are lost when your character is polymorphed.
 
-* **Essence:** Essence traits are innate to a character's magical essence, due to distant ancestory or simply individual nature. Unlike innate traits, they can manifest in characters of any lineage. However, essence traits cannot be purchased after the first level without story justification, subject to GM approval.
+* **Essence:** Essence traits are innate to a character's magical essence, due to distant ancestry or simply individual nature. Unlike innate traits, they can manifest in characters of any lineage. Essence-based talents are always (Su) abilities, unless the talent is explicitly marked (Ex).
 
 * **Innate:** Innate traits are typically a fundamental part of a character's biology or essence that cannot be easily changed. Innate traits cannot be added to an existing lineage without backstory justification, subject to GM approval, nor can they be purchased after the first level without story justification. Innate traits (and any talents bought with an innate variation) are lost when your character is polymorphed.
 
@@ -33,7 +33,7 @@ Origin talents and variations may have the following tags that indicate how and 
 ::::: {.sidebar}
 #### Optional Rule: Free Development
 
-In some settings (such as those of the Chinese cultivation, or Japanese isekai genres), characters can easily develop their innate traits, changing physically and spiritually as the story progresses. The GM may choose to waive the GM approval requirement for essence traits, innate traits, or both before the game begins.
+In some settings (such as those of the Chinese cultivation, or Japanese isekai genres), characters can easily change physically as they develop their powers. The GM may choose to waive the GM approval requirement for innate traits.
 :::::
 
 ## Creature Type
@@ -113,7 +113,7 @@ In many settings, being an uncommon creature type is a major advantage - such as
 
 How lineages are picked or built depends on the campaign setting, and is chosen by the GM before the campaign starts.
 
-### No Lineages
+### No Lineages {.u}
 
 Some settings have such a great diversity of species and cultures that no set list of lineages can properly convey the setting. This is appropriate for settings where a character's forms are highly personal, such as a space opera where the list of species is countless as the stars or a campaign taking place in a dream world where character's forms are drawn from pure imagination rather than ancestry. It is also recommended for settings where there is only a single dominant species, and hence origins reflect solely a character's upbringing.
 
@@ -125,15 +125,28 @@ All characters choose one of the following options:
 
 Then, they choose their size, type, and appearance freely.
 
-### Setting-based
+### Setting-based {.u}
 
 Some settings have a fixed list of species, cultures, or other similar groupings that player characters are expected to follow. In such settings, the GM should prepare a list of lineages. To create a lineage, choose one of the origin talent loadouts from the [No Lineages](Origins#). Spend any number of these slots to assign innate and standard talents, and list all remaining slots as free talents. Finally, assign the lineage's usual size, creature type, and typical appearances.
 
 For an example set of setting lineages, see the [Classic Lineages](Origins#) section, which has prebuilt lineages for many Pathfinder races.
 
-### Collaborative
+### Collaborative {.u}
 
 As an alternative to [Setting Lineages](Origins#), a GM may allow player characters the option to create their characters without restrictions, then create lineages around them to represent the species or cultures they come from. Under this ruleset, players create their characters as in the [No Lineages](Origins#) ruleset, then picks a list of traits among them to be innate and standard talents for other members of their species.
+
+## Origin Talent Summary
+
+### Core Talents {.u}
+
+This is a list of "core" talents that define your character's basic form, shape, and nature.
+
+| Talent Name | Type | Effect |
+| ---- | -- | ---------- |
+| Talent A                | Potent | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
+| []{.bu} Talent B        | Potent | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
+| []{.ts}[]{.bu} Talent C | Potent | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
+| []{.bu} Talent D        | Potent | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
 
 ## Origin Talent List
 
@@ -193,7 +206,7 @@ As an alternative to [Setting Lineages](Origins#), a GM may allow player charact
 **Type:** Potent (Innate) \
 **Reqs:** [Glider](Origins#Glider Origin Talent)
 
-**Effect:** You automatically succeed at the Fly check made to glide with Glider. At 5th level, you gain a fly speed of 30 feet (average maneuverability) as a result of a pair of wings you have grown. You may take this talent multiple times. If you take this talent and already possess wings and an extraordinary fly speed, you may either increase your fly speed by 15 feet or increase your maneuverability by 1 step.
+**Effect:** You automatically succeed at the Fly check made to glide with Glider. At 5th level, you gain a fly speed of [15 + 15×[level(t)]{.alt}]{.c} feet (average maneuverability) as a result of a pair of wings you have grown. You may take this talent multiple times.
 :::::
 
 ::::: {.ability}
@@ -218,7 +231,7 @@ When you make an attack which adds the damage from that Elemental Augmentation, 
 **Type:** Potent (Acquired or Innate) \
 **Reqs:** [Developed Tolerance](Origins#Developed Tolerance Origin Talent) (exhaustion, fatigue)
 
-**Effect:** You automatically succeed at the Fly check made to glide with Glider. At 5th level, you gain a fly speed of 30 feet (average maneuverability) as a result of a pair of wings you have grown. You may take this talent multiple times. If you take this talent and already possess wings and an extraordinary fly speed, you may either increase your fly speed by 15 feet or increase your maneuverability by 1 step.
+**Effect:** You are immune to fatigue and exhaustion.
 :::::
 
 ::::: {.ability}
@@ -240,7 +253,7 @@ When you make an attack which adds the damage from that Elemental Augmentation, 
 ###### Expansive Training [Origin Talent]{.ability-head} {.u}
 **Type:** Potent (Learned)
 
-**Effect:** Choose a single skill. You gain ranks in that skill equal to your character level. You gain additional rank in this skill every time you gain a character level. This talent may be selected multiple times, each time selecting a different skill.
+**Effect:** Choose a single skill. You gain [HD]{.c} bonus ranks in that skill, up to a cap of your Hit Dice. This talent may be selected multiple times, each time selecting a different skill.
 :::::
 
 ::::: {.ability}
@@ -255,7 +268,7 @@ When you make an attack which adds the damage from that Elemental Augmentation, 
 ###### Extra Legs [Origin Talent]{.ability-head} {.u}
 **Type:** Potent (Innate)
 
-**Effect:** You possess two additional legs, granting you a +4 bonus to CMB against trip attempts and a +10 bonus to your land and climb speed (this does not grant a climb speed, but increases any existing speed you have). In addition, your carrying capacity increases as a result of being a quadruped. You may select this talent multiple times, each time gaining 2 additional legs, a +4 bonus to CMB against trip attempts and increasing your land and climb speed by an additional 10 feet.
+**Effect:** You possess [2×[level(t)]{.alt}]{.c} additional legs, granting you a +[4×[level(t)]{.alt}] bonus to CMB against trip attempts and a +[10×[level(t)]{.alt}] bonus to your land and climb speed (this does not grant a climb speed, but increases any existing speed you have). In addition, your carrying capacity increases as a result of being a quadruped. You may select this talent multiple times.
 :::::
 
 ::::: {.ability}
@@ -269,12 +282,12 @@ When you make an attack which adds the damage from that Elemental Augmentation, 
 ###### Fortified Form [Origin Talent]{.ability-head} {.u}
 **Type:** Potent (Acquired or Innate)
 
-**Effect:** You gain a 20% chance to negate critical hits or sneak attacks and other precision damage (so damage is rolled normally instead). This does not stack with armor with the fortification special ability or any other similar effects. This talent can be selected up to 5 times, increasing the chance to negate critical hits or sneak attacks by an additional 20% for every additional time it is taken (to a maximum of 100%).
+**Effect:** You gain a [20×level]% chance to negate critical hits or sneak attacks and other precision damage (so damage is rolled normally instead). This does not stack with armor with the fortification special ability or any other similar effects. This talent can be selected up to 5 times.
 :::::
 
 ::::: {.ability}
 ###### Gift Of Fortune [Origin Talent]{.ability-head} {.u}
-**Type:** Potent (Essence)
+**Type:** Potent (Acquired, Essence or Innate)
 
 **Effect:** You gain a +1 origin bonus to all saving throws.
 :::::
@@ -304,7 +317,7 @@ When you make an attack which adds the damage from that Elemental Augmentation, 
 
 ::::: {.ability}
 ###### Specialized Training [Origin Talent]{.ability-head} {.u}
-**Type:** Potent (Essence or Learned)
+**Type:** Potent (Innate or Learned)
 
 **Effect:** You gain a single feat of your choice as a bonus feat. You must meet the prerequisites for that feat. You may select this talent multiple times, each time selecting a different feat.
 :::::
@@ -313,7 +326,7 @@ When you make an attack which adds the damage from that Elemental Augmentation, 
 ###### Spellhardy [Origin Talent]{.ability-head} {.u}
 **Type:** Potent (Essence or Learned)
 
-**Effect:** You gain a +2 origin bonus on saving throws against spells, spell-like abilities, and magic sphere effects.
+**Effect:** You gain a +[2×[level(t)]{.alt}]{.c} origin bonus on saving throws against spells, spell-like abilities, and magic sphere effects. You may take this talent up to twice.
 :::::
 
 ::::: {.ability}
@@ -365,14 +378,6 @@ You may select this talent a second time. If you do, your size increases by one 
 :::::
 
 ::::: {.ability}
-###### Additional Wings [Origin Talent]{.ability-head} {.u}
-**Type:** Auxiliary (Innate) \
-**Reqs:** [Developed Wings](Origins#Developed Wings Origin Talent)
-
-**Effect:** You gain an additional pair of wings which increase your maneuverability by 1 step (to a maximum of perfect). You may select this talent multiple times.
-:::::
-
-::::: {.ability}
 ###### Aquatic [Origin Talent]{.ability-head} {.u}
 **Type:** Auxiliary (Innate)
 
@@ -383,7 +388,7 @@ You may select this talent a second time. If you do, your size increases by one 
 ###### Blindsense [Origin Talent]{.ability-head} {.u}
 **Type:** Auxiliary (Innate or Learned)
 
-**Effect:** You gain [blindsense](Special Abilities#) of a type of your choice out to 10 feet. You may select this talent up to three times, each time beyond the first increasing the range of blindsense by 10 feet (if you already possess blindsense of the same type from another source, your blindsense increases by 10 feet for each time you take this talent).
+**Effect:** You gain [blindsense](Special Abilities#) of a type of your choice out to [10×[level(t)]{.alt}]{.c} feet. You may select this talent up to three times.
 
 **Special:** Only echosense may be gained as a learned origin talent.
 :::::
@@ -451,41 +456,38 @@ You may select this talent a second time. If you do, your size increases by one 
 ###### Developed Tolerance [Origin Talent]{.ability-head} {.u}
 **Type:** Auxiliary (Varies)
 
-**Effect:** Choose either two types of effects from the following table. You gain a +2 origin bonus to saving throws against those types of effects. You may select this talent multiple times, each time selecting either two additional effects.
+**Effect:** You gain a +2 origin bonus to saving throws against [2×[level(t)]{.alt}]{.c} effects from the following list. You may improve your bonus against a specific effect to +4 rather than choosing an effect. You may take this talent multiple times.
 
-If you choose two effects with different origin tags, you may select a different origin for each type of effect. You do not lose your entire Developed Tolerance ability when you lose origin talents with a certain tag, only your bonus to saving throws against effects marked with that tag.
+Choose origin tags seperately for each effect. You lose your bonus against a type of effect only if you lose talents of the origin tag it is associated with.
 
 | Effect Type | Origin Tags |
 | - | - |
 | Ability damage and ability drain | Acquired or Innate |
 | Acid effects | Essence or Innate |
 | Bleed and pain effects | Acquired or Innate |
-| Chaos of combat and distraction abilities | Trained |
-| Charm effects | Essence or Trained |
+| Chaos of combat and distraction abilities | Learned |
+| Charm effects | Essence or Learned |
 | Cold effects | Essence or Innate |
-| Compulsion effects | Essence or Trained |
+| Compulsion effects | Essence or Learned |
 | Death effects | Essence or Innate |
 | Disease | Innate |
-| Effects from a chosen magic sphere | Essence or Trained |
+| Effects from a chosen magic sphere | Essence or Learned |
 | Effects that cause dazed or staggered | Acquired or Innate |
 | Effects that cause exhaustion or fatigue | Acquired or Innate |
 | Effects that cause nauseated or sickened | Acquired or Innate |
 | Electricity effects | Essence or Innate |
-| Emotion effects | Essence or Trained |
-| Fear effects | Trained |
+| Emotion effects | Essence or Learned |
+| Fear effects | Learned |
 | Fire effects | Essence or Innate |
-| Language-dependant and sonic effects | Essence or Trained |
-| Mind-affecting abilities (*) | Essence or Trained |
+| Language-dependant and sonic effects | Essence or Learned |
 | Paralysis | Acquired or Innate |
-| Patterns and phantasms | Essence or Trained |
+| Patterns and phantasms | Essence or Learned |
 | Petrification and polymorph effects | Acquired or Innate |
 | Poison | Acquired or Innate |
 | Positive and negative energy effects | Acquired or Innate |
 | Possession effects | Essence |
 | Sleep effects | Acquired or Innate |
 | Stunning | Acquired or Innate |
-
-*(\*): This effect costs two effect slots rather than one.*
 :::::
 
 ::::: {.ability}
@@ -517,7 +519,7 @@ If you choose two effects with different origin tags, you may select a different
 :::::
 
 ::::: {.ability}
-###### Elemental Prism (Su) [Origin Talent]{.ability-head} {.u}
+###### Elemental Prism [Origin Talent]{.ability-head} {.u}
 **Type:** Auxiliary (Essence, Innate or Learned) \
 **Reqs:** [Elemental Augmentation](Origins#Elemental Augmentation Su Origin Talent) or [Hazardous Blood](Origins#Hazardous Blood Origin Talent)
 
@@ -534,16 +536,24 @@ If you choose two effects with different origin tags, you may select a different
 
 ::::: {.ability}
 ###### Energy Renewal (Su) [Origin Talent]{.ability-head} {.u}
-**Type:** Auxiliary (Essence or Learned)
+**Type:** Auxiliary (Essence)
 
 **Effect:** Choose one of the following energy types: acid, cold, electricity, fire, radiant, or sonic. You gain energy resist 5 against the chosen type. You gain [fast healing](Special Abilities#) 2 for 1 round anytime you take damage of that type (whether or not this damage gets through your energy resistance). You can heal up to [2×[HD]{.alt}]{.c} hit points per level per day with this ability, after which this healing ceases to function. You may select this talent multiple times, each time selecting a different energy type.
 :::::
 
 ::::: {.ability}
-###### Energy Resistance (Su) [Origin Talent]{.ability-head} {.u}
-**Type:** Auxiliary (Essence or Learned)
+###### Energy Resistance [Origin Talent]{.ability-head} {.u}
+**Type:** Auxiliary (Acquired, Essence or Innate)
 
 **Effect:** Choose two of the following energy types: acid, cold, electricity, fire, radiant, or sonic. You gain energy resist 5 against the chosen types. You may select this talent multiple times, each time selecting 2 additional energy types.
+:::::
+
+::::: {.ability}
+###### Enhanced Flight [Origin Talent]{.ability-head} {.u}
+**Type:** Auxiliary (Innate) \
+**Reqs:** [Developed Wings](Origins#Developed Wings Origin Talent)
+
+**Effect:** Increase your maneuverability by [[level(t)]{.alt}]{.c} steps (to a maximum of perfect). You may gain an additional pair of wings. You may select this talent multiple times.
 :::::
 
 ::::: {.ability}
@@ -604,7 +614,7 @@ If you choose two effects with different origin tags, you may select a different
 :::::
 
 ::::: {.ability}
-###### Hazardous Blood (Su) [Origin Talent]{.ability-head} {.u}
+###### Hazardous Blood [Origin Talent]{.ability-head} {.u}
 **Type:** Auxiliary (Essence, Innate or Learned)
 
 **Effect:** Each time you take bleed or blood drain damage, each creature currently adjacent to you also takes [[HD]{.alt}/2]{.c} points of acid, cold, electricity, or fire damage (chosen when you take this talent). As a move action, you may inflict 1 point of bleed damage on yourself and immediately trigger this ability.
@@ -649,8 +659,8 @@ You can transfer a held object to your hidden storage or extract an object from 
 :::::
 
 ::::: {.ability}
-###### Hybrid Mind [Origin Talent]{.ability-head} {.u}
-**Type:** Auxiliary (Acquired or Innate)
+###### Hybrid Mind (Ex) [Origin Talent]{.ability-head} {.u}
+**Type:** Auxiliary (Essence)
 
 **Effect:** Your character is considered to possess two mental creature types, and is treated as whichever is more beneficial between the two. *(You may only pick creature types normally accessible to you this way.)*
 :::::
@@ -671,8 +681,8 @@ You can transfer a held object to your hidden storage or extract an object from 
 :::::
 
 ::::: {.ability}
-###### Immediate Renewal [Origin Talent]{.ability-head} {.u}
-**Type:** Auxiliary (Essence or Learned) \
+###### Immediate Renewal (Su) [Origin Talent]{.ability-head} {.u}
+**Type:** Auxiliary (Essence) \
 **Reqs:** [Energy Renewal](Origins#Energy Renewal Origin Talent)
 
 **Effect:** The amount of healing you may receive from Energy Renewal increases to [5×[HD]{.alt}]{.c} hit points per day. In addition, rather than an effect granting you fast healing, you may choose to have the effect heal you for [damage negated/2]{.c} hit points immediately.
@@ -680,7 +690,7 @@ You can transfer a held object to your hidden storage or extract an object from 
 
 ::::: {.ability}
 ###### Improved Energy Resistance [Origin Talent]{.ability-head} {.u}
-**Type:** Auxiliary (Essence or Learned) \
+**Type:** Auxiliary (Acquired, Essence or Innate) \
 **Reqs:** [Energy Renewal](Origins#Energy Renewal Origin Talent) or [Energy Resistance](Origins#Energy Resistance Origin Talent)
 
 **Effect:** You may either increase two instances of your energy resistance from talents by 5 or increase one instance of your energy resistance from a talent by 10. This talent may be selected multiple times. Its effects stack.
@@ -760,7 +770,14 @@ You can transfer a held object to your hidden storage or extract an object from 
 :::::
 
 ::::: {.ability}
-###### Mistsight [Origin Talent]{.ability-head} {.u}
+###### Mental Shield [Origin Talent]{.ability-head} {.u}
+**Type:** Auxiliary (Essence or Learned)
+
+**Effect:** You gain a +[2×[level(t)]{.alt}]{.c} origin bonus to saving throws against mind-affecting abilities. You may take this talent up to twice.
+:::::
+
+::::: {.ability}
+###### Mistsight (Su) [Origin Talent]{.ability-head} {.u}
 **Type:** Auxiliary (Essence)
 
 **Effect:** You can see through fog, mist, murky water, and smoke as if they were perfectly clear, ignoring the miss chance for these obstructions, up to your normal range of vision.
@@ -869,7 +886,7 @@ You can transfer a held object to your hidden storage or extract an object from 
 :::::
 
 ::::: {.ability}
-###### Sacrosanct Body [Origin Talent]{.ability-head} {.u}
+###### Sacrosanct Body (Ex) [Origin Talent]{.ability-head} {.u}
 **Type:** Auxiliary (Essence) \
 **Reqs:** [Developed Tolerance](Origins#Developed Tolerance Origin Talent) (possession effects)
 
@@ -877,7 +894,7 @@ You can transfer a held object to your hidden storage or extract an object from 
 :::::
 
 ::::: {.ability}
-###### Salvaging Luck [Origin Talent]{.ability-head} {.u}
+###### Salvaging Luck (Ex) [Origin Talent]{.ability-head} {.u}
 **Type:** Auxiliary (Essence)
 
 **Effect:** You gain a +1 origin bonus on any reroll of a d20 roll.
@@ -975,7 +992,7 @@ You may take this talent a second time. If you do, you can choose to take a -5 p
 
 ::::: {.ability}
 ###### Steadfast Will [Origin Talent]{.ability-head} {.u}
-**Type:** Auxiliary (Essence or Trained) \
+**Type:** Auxiliary (Essence or Learned) \
 **Reqs:** [Developed Tolerance](Origins#Developed Tolerance Origin Talent) (charm effects)
 
 **Effect:** You are immune to charm effects.
@@ -997,7 +1014,7 @@ You may take this talent a second time. If you do, you can choose to take a -5 p
 
 ::::: {.ability}
 ###### Strong Stomach [Origin Talent]{.ability-head} {.u}
-**Type:** Auxiliary (Essence or Trained) \
+**Type:** Auxiliary (Essence or Learned) \
 **Reqs:** [Developed Tolerance](Origins#Developed Tolerance Origin Talent) (effects that cause nauseated or sickened)
 
 **Effect:** You gain immunity to the nauseated and sickened conditions.
@@ -1042,14 +1059,6 @@ If you possess the Reaching Appendage talent, you can hang from an object within
 :::::
 
 ::::: {.ability}
-###### Tremendous Tolerance [Origin Talent]{.ability-head} {.u}
-**Type:** Auxiliary (Varies) \
-**Reqs:** [Developed Tolerance](Origins#Developed Tolerance Origin Talent) or [Spellhardy](Origins#Spellhardy Origin Talent)
-
-**Effect:** Choose either Spellhardy or one instance of Developed Tolerance. Your origin bonus to saving throws from that talent increases from +2 to +4. You may take this talent multiple times, each time selecting a different instance of one of those two talents.
-:::::
-
-::::: {.ability}
 ###### Unbowed [Origin Talent]{.ability-head} {.u}
 **Type:** Auxiliary (Acquired, Essence or Innate)
 
@@ -1065,7 +1074,7 @@ If you possess the Reaching Appendage talent, you can hang from an object within
 
 ::::: {.ability}
 ###### Unshakeable Nerve [Origin Talent]{.ability-head} {.u}
-**Type:** Auxiliary (Trained) \
+**Type:** Auxiliary (Learned) \
 **Reqs:** [Developed Tolerance](Origins#Developed Tolerance Origin Talent) (fear effects)
 
 **Effect:** You are immune to fear (magical or otherwise).
@@ -1073,7 +1082,7 @@ If you possess the Reaching Appendage talent, you can hang from an object within
 
 ::::: {.ability}
 ###### Unwavering Path [Origin Talent]{.ability-head} {.u}
-**Type:** Auxiliary (Essence or Trained) \
+**Type:** Auxiliary (Essence or Learned) \
 **Reqs:** [Developed Tolerance](Origins#Developed Tolerance Origin Talent) (compulsion effects)
 
 **Effect:** You are immune to compulsion effects.
@@ -1106,6 +1115,138 @@ If you possess the Reaching Appendage talent, you can hang from an object within
 **Type:** Auxiliary (Learned)
 
 **Effect:** You gain a +1 origin bonus on Reflex saves and a +1 dodge bonus to armor class when adjacent to at least two other allies. Crowds do not count as difficult terrain for you.
+:::::
+
+### Utility Talents
+
+::::: {.ability}
+###### Altitude Acclimation [Origin Talent]{.ability-head} {.u}
+**Type:** Utility (Acquired or Innate)
+
+**Effect:** You are immune to altitude sickness and the effects of water pressure from being deep underwater.
+:::::
+
+::::: {.ability}
+###### Applied Consistency [Origin Talent]{.ability-head} {.u}
+**Type:** Utility (Learned)
+
+**Effect:** You gain a +2 origin bonus on any skill check on which you take 10 or take 20.
+:::::
+
+::::: {.ability}
+###### Dabbling Expertise [Origin Talent]{.ability-head} {.u}
+**Type:** Utility (Learned)
+
+**Effect:** You gain a +2 origin bonus on any skill check in which you possess no skill ranks.
+:::::
+
+::::: {.ability}
+###### Ephemeral Substance (Ex) [Origin Talent]{.ability-head} {.u}
+**Type:** Utility (Essence)
+
+**Effect:** In place of typical food or drink, you may obtain sustenance from experiencing certain sensations or external situations (such as listening to music, observing a specific kind of landscape, being around people experiencing strong emotions, or spending time in the embrace of a loved one, at GM discretion). Experiencing one hour of these sensations is sufficient replacement for 1 day’s worth of food and drink. The sensations which sustain you are decided when you take this talent.
+:::::
+
+::::: {.ability}
+###### Estivation [Origin Talent]{.ability-head} {.u}
+**Type:** Utility (Essence or Innate)
+
+**Effect:** You can spend 1 hour entering a state of suspended animation for an indefinite amount of time. While estivating, you do not need to drink or eat, but take a penalty on Perception checks as if sleeping. Ending this dormant state is a full-round action.
+:::::
+
+::::: {.ability}
+###### Freeze [Origin Talent]{.ability-head} {.u}
+**Type:** Utility (Innate)
+
+**Effect:** You can hold yourself so still you appear to be an inanimate object of the appropriate shape (a statue, patch of fungus, etc., chosen when you take this talent). You may take 20 on Stealth check to hide in plain sight as this kind of inanimate object.
+:::::
+
+::::: {.ability}
+###### Harsh Survivor [Origin Talent]{.ability-head} {.u}
+**Type:** Utility (Acquired or Innate)
+
+**Effect:** You gain a +4 origin bonus on Constitution checks and Fortitude saves to avoid fatigue, exhaustion, and nonlethal damage from running, forced marches, starvation, thirst, and hot or cold environments.
+:::::
+
+::::: {.ability}
+###### Keen Senses [Origin Talent]{.ability-head} {.u}
+**Type:** Utility (Essence or Innate)
+
+**Effect:** You gain a +2 origin bonus to Perception checks and gain lowlight vision, allowing you to see twice as far in dim light.
+:::::
+
+::::: {.ability}
+###### Luminous Being (Su) [Origin Talent]{.ability-head} {.u}
+**Type:** Utility (Essence)
+
+**Effect:** As a move action, you may shine light from your body as a torch. You may maintain this effect for any duration and may suppress it as a move action or swift action. This light does not function in areas of magical darkness.
+
+**Special:** You may instead take this talent as "Bioluminescence", in which case it is an extraordinary ability that may be Acquired or Innate.
+:::::
+
+::::: {.ability}
+###### Pheromone Communication [Origin Talent]{.ability-head} {.u}
+**Type:** Utility (Innate)
+
+**Effect:** You gain the ability to release pheromones which you can use to communicate with other creatures as a free action. These pheromones can be used to convey emotions such as fear, interest, or anger. They may also communicate basic concepts such as “this is a safe place”, “this territory belongs to me”, or “food is that way”. Territory may be marked with a specific pheromone to leave a message in that location for a number of days equal to the marking creature’s Hit Dice. Pheromone communication can be understood by any creature with the scent ability or Pheromone Communication talent within 30 feet of the pheromone mark or pheromone-releasing creature.
+:::::
+
+::::: {.ability}
+###### Quick Rest [Origin Talent]{.ability-head} {.u}
+**Type:** Utility (Acquired or Innate)
+
+**Effect:** You only need to sleep 2 hours per day to gain the benefit of 8 hours of sleep. This allows a character that requires rest to regain spell points or prepare spells to do so after only 2 hours, but this does not allow a character to regain spell points or prepare spells more than once per day.
+:::::
+
+::::: {.ability}
+###### Rapid Preparation [Origin Talent]{.ability-head} {.u}
+**Type:** Auxiliary (Learned)
+
+**Effect:** Over the course of an hour, you may perform two acts of preparation which require an hour or less as part of the same hour of preparation.
+:::::
+
+::::: {.ability}
+###### Self-Sustaining [Origin Talent]{.ability-head} {.u}
+**Type:** Utility (Innate)
+
+**Effect:** You do not need to eat or drink.
+:::::
+
+::::: {.ability}
+###### Skill Familiarity [Origin Talent]{.ability-head} {.u}
+**Type:** Utility (Learned)
+
+**Effect:** Gain a +2 origin bonus to two skills of your choice, or a +4 origin bonus to a single skill of your choice. You may select this talent multiple times, each time selecting different skills each time.
+
+**Special:** This talent is only considered a utility talent if none of the following skills are selected: Acrobatics, Awareness, Deception, Empathy, Influence, and Stealth. Otherwise, this talent is considered an auxiliary origin talent.
+:::::
+
+::::: {.ability}
+###### Stonecunning [Origin Talent]{.ability-head} {.u}
+**Type:** Utility (Learned)
+
+**Effect:** You gain a +2 origin bonus on Perception checks to notice unusual stonework or metalwork, such as traps and hidden doors located in walls or floors. You receive a check to notice such features whenever you pass within 10 feet of them, whether or not you are actively looking.
+:::::
+
+::::: {.ability}
+###### Telepathy (Su) [Origin Talent]{.ability-head} {.u}
+**Type:** Utility (Essence or Learned)
+
+**Effect:** You are able to mentally communicate with any creature within 30 feet with whom you share a language. It is possible to address multiple creatures at once telepathically, although maintaining a telepathic conversation with more than one creature at a time is just as difficult as simultaneously speaking and listening to multiple people at the same time. You may take this talent a second time, in which case the range of your telepathy increases to 100 feet + 10 feet per level.
+:::::
+
+::::: {.ability}
+###### Trackless Step [Origin Talent]{.ability-head} {.u}
+**Type:** Utility (Essence or Learned)
+
+**Effect:** You leave no trail in natural surroundings and cannot be tracked. You may choose to leave a trail if so desired.
+:::::
+
+::::: {.ability}
+###### Utility Training [Origin Talent]{.ability-head} {.u}
+**Type:** Utility (Learned)
+
+**Effect:** You gain a single utility talent from any sphere as a bonus talent. You must meet the prerequisites for this talent (the talent you gain through this talent may be determined after you have determined other factors of your character if you select this talent when creating a character). You may select this talent multiple times, each time gaining a new utility talent.
 :::::
 
 ## Classic Lineages
