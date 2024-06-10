@@ -13,7 +13,7 @@ content/include/weapon_list.md
 Axes are weapons consisting of weighed head with a point or edge. They used by chopping or chipping at targets. As they are adapted from tools used to break rock or wood, they are especially proficient at destroying objects and equipment.
 
 ::::: {.ability}
-###### Battleaxe [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Battleaxe [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** 1; **Bulk** 1 \
 **Damage** [1d8]{.c} slashing; **Critical** ×3 \
@@ -25,7 +25,7 @@ Axes are weapons consisting of weighed head with a point or edge. They used by c
 :::::
 
 ::::: {.ability}
-###### Greataxe [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Greataxe [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** 1; **Bulk** 1 \
 **Damage** [2d6]{.c} slashing; **Critical** ×3 \
@@ -37,7 +37,7 @@ Axes are weapons consisting of weighed head with a point or edge. They used by c
 :::::
 
 ::::: {.ability}
-###### Handaxe [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Handaxe [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** L; **Bulk** L \
 **Damage** [1d6]{.c} slashing; **Critical** ×3 \
@@ -49,7 +49,7 @@ Axes are weapons consisting of weighed head with a point or edge. They used by c
 :::::
 
 ::::: {.ability}
-###### Heavy Pick [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Heavy Pick [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** L; **Bulk** L \
 **Damage** [1d6]{.c} piercing; **Critical** ×4 \
@@ -61,7 +61,7 @@ Axes are weapons consisting of weighed head with a point or edge. They used by c
 :::::
 
 ::::: {.ability}
-###### Light Pick [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Light Pick [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** L; **Bulk** L \
 **Damage** [1d4]{.c} piercing; **Critical** ×4 \
@@ -73,7 +73,7 @@ Axes are weapons consisting of weighed head with a point or edge. They used by c
 :::::
 
 ::::: {.ability}
-###### Pickaxe [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Pickaxe [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** 1; **Bulk** 1 \
 **Damage** [1d8]{.c} piercing; **Critical** ×4 \
@@ -85,7 +85,7 @@ Axes are weapons consisting of weighed head with a point or edge. They used by c
 :::::
 
 ::::: {.ability}
-###### Throwing Axe [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Throwing Axe [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** L; **Bulk** L \
 **Damage** [1d6]{.c} slashing; **Critical** ×2 \
@@ -101,7 +101,7 @@ Axes are weapons consisting of weighed head with a point or edge. They used by c
 Archery weapons are varied weapons used to fire projectiles at targets from a distance. Unlike firearms, archery weapons are operated entirely by the user's own muscles, and do not rely on any external force to propel their projectiles.
 
 ::::: {.ability}
-###### Blowgun [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Blowgun [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** L; **Bulk** L \
 **Damage** [1]{.c} piercing; **Critical** — \
@@ -114,7 +114,7 @@ Archery weapons are varied weapons used to fire projectiles at targets from a di
 :::::
 
 ::::: {.ability}
-###### Composite Longbow [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Composite Longbow [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** 3; **Bulk** 1 \
 **Damage** [1d8]{.c} piercing; **Critical** ×3 \
@@ -126,7 +126,7 @@ Archery weapons are varied weapons used to fire projectiles at targets from a di
 :::::
 
 ::::: {.ability}
-###### Composite Shortbow [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Composite Shortbow [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** 2; **Bulk** L \
 **Damage** [1d6]{.c} piercing; **Critical** ×3 \
@@ -138,7 +138,7 @@ Archery weapons are varied weapons used to fire projectiles at targets from a di
 :::::
 
 ::::: {.ability}
-###### Heavy Crossbow [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Heavy Crossbow [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** 1; **Bulk** 1 \
 **Damage** [1d10]{.c} piercing; **Critical** 19-20/×2 \
@@ -150,7 +150,7 @@ Archery weapons are varied weapons used to fire projectiles at targets from a di
 :::::
 
 ::::: {.ability}
-###### Light Crossbow [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Light Crossbow [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** 1; **Bulk** L \
 **Damage** [1d8]{.c} piercing; **Critical** 19-20/×2 \
@@ -162,7 +162,7 @@ Archery weapons are varied weapons used to fire projectiles at targets from a di
 :::::
 
 ::::: {.ability}
-###### Longbow [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Longbow [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** 1; **Bulk** 1 \
 **Damage** [1d8]{.c} piercing; **Critical** ×3 \
@@ -174,7 +174,7 @@ Archery weapons are varied weapons used to fire projectiles at targets from a di
 :::::
 
 ::::: {.ability}
-###### Shortbow [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Shortbow [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** 1; **Bulk** L \
 **Damage** [1d6]{.c} piercing; **Critical** ×3 \
@@ -186,7 +186,7 @@ Archery weapons are varied weapons used to fire projectiles at targets from a di
 :::::
 
 ::::: {.ability}
-###### Sling [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Sling [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** —; **Bulk** L \
 **Damage** [1d8]{.c} bludgeoning; **Critical** ×3 \
@@ -210,7 +210,7 @@ A sling may be loaded with ordinary rocks. Picking up a rock off the ground is a
 Heavy blades are weapons with a broader blade, allowing it to strike with more force and be used more effectively in defensive stances.
 
 ::::: {.ability}
-###### Falchion [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Falchion [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** 2; **Bulk** 1 \
 **Damage** [1d10]{.c} slashing; **Critical** 18-20/×2 \
@@ -222,7 +222,7 @@ Heavy blades are weapons with a broader blade, allowing it to strike with more f
 :::::
 
 ::::: {.ability}
-###### Longsword [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Longsword [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** 1; **Bulk** L \
 **Damage** [1d8]{.c} slashing; **Critical** 19-20/×2 \
@@ -234,7 +234,7 @@ Heavy blades are weapons with a broader blade, allowing it to strike with more f
 :::::
 
 ::::: {.ability}
-###### Scimitar [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Scimitar [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** 1; **Bulk** L \
 **Damage** [1d6]{.c} slashing; **Critical** 18-20/×2 \
@@ -246,7 +246,7 @@ Heavy blades are weapons with a broader blade, allowing it to strike with more f
 :::::
 
 ::::: {.ability}
-###### Scythe [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Scythe [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** 1; **Bulk** 2 \
 **Damage** [1d8]{.c} piercing and slashing; **Critical** ×4 \
@@ -258,7 +258,7 @@ Heavy blades are weapons with a broader blade, allowing it to strike with more f
 :::::
 
 ::::: {.ability}
-###### Spiked Chain [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Spiked Chain [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** 1; **Bulk** L \
 **Damage** [1d10]{.c} piercing; **Critical** ×2 \
@@ -272,7 +272,7 @@ Heavy blades are weapons with a broader blade, allowing it to strike with more f
 :::::
 
 ::::: {.ability}
-###### Greatsword [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Greatsword [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** 2; **Bulk** 1 \
 **Damage** [2d6]{.c} bludgeoning; **Critical** 19-20/×2 \
@@ -288,7 +288,7 @@ Heavy blades are weapons with a broader blade, allowing it to strike with more f
 Light blades are weapons with a more lightweight blade, allowing them to be used for quick and precise strikes.
 
 ::::: {.ability}
-###### Bayonet [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Bayonet [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** L; **Bulk** L \
 **Damage** [1d6]{.c} piercing; **Critical** ×2 \
@@ -301,7 +301,7 @@ Light blades are weapons with a more lightweight blade, allowing them to be used
 :::::
 
 ::::: {.ability}
-###### Dagger [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Dagger [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** L; **Bulk** L \
 **Damage** [1d3]{.c} piercing or slashing; **Critical** 19-20/×2 \
@@ -313,7 +313,7 @@ Light blades are weapons with a more lightweight blade, allowing them to be used
 :::::
 
 ::::: {.ability}
-###### Rapier [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Rapier [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** 1; **Bulk** 1 \
 **Damage** [1d6]{.c} piercing; **Critical** 18-20/×2 \
@@ -325,7 +325,7 @@ Light blades are weapons with a more lightweight blade, allowing them to be used
 :::::
 
 ::::: {.ability}
-###### Shortsword [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Shortsword [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** 1; **Bulk** L \
 **Damage** [1d6]{.c} piercing and slashing; **Critical** 19-20/×2 \
@@ -337,7 +337,7 @@ Light blades are weapons with a more lightweight blade, allowing them to be used
 :::::
 
 ::::: {.ability}
-###### Sickle [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Sickle [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** L; **Bulk** L \
 **Damage** [1d6]{.c} slashing; **Critical** ×2 \
@@ -349,7 +349,7 @@ Light blades are weapons with a more lightweight blade, allowing them to be used
 :::::
 
 ::::: {.ability}
-###### Spring Blade [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Spring Blade [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** 1; **Bulk** L \
 **Damage** [1d4]{.c} piercing or slashing; **Critical** 19-20/×2 \
@@ -367,7 +367,7 @@ Light blades are weapons with a more lightweight blade, allowing them to be used
 Blunt weapons are those that deal damage through sheer mass and blunt force. They are especially proficient at dealing damage through heavy armor.
 
 ::::: {.ability}
-###### Earth Breaker [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Earth Breaker [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** 3; **Bulk** 3 \
 **Damage** [3d6]{.c} bludgeoning; **Critical** ×3 \
@@ -383,7 +383,7 @@ Blunt weapons are those that deal damage through sheer mass and blunt force. The
 :::::
 
 ::::: {.ability}
-###### Greatclub [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Greatclub [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** L; **Bulk** 1 \
 **Damage** [1d10]{.c} bludgeoning; **Critical** ×2 \
@@ -395,7 +395,7 @@ Blunt weapons are those that deal damage through sheer mass and blunt force. The
 :::::
 
 ::::: {.ability}
-###### Heavy Mace [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Heavy Mace [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** L; **Bulk** 1 \
 **Damage** [1d6]{.c} bludgeoning; **Critical** ×2 \
@@ -407,7 +407,7 @@ Blunt weapons are those that deal damage through sheer mass and blunt force. The
 :::::
 
 ::::: {.ability}
-###### Light Mace [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Light Mace [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** L; **Bulk** L \
 **Damage** [1d6]{.c} bludgeoning; **Critical** ×2 \
@@ -419,7 +419,7 @@ Blunt weapons are those that deal damage through sheer mass and blunt force. The
 :::::
 
 ::::: {.ability}
-###### Quarterstaff [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Quarterstaff [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** —; **Bulk** 1 \
 **Damage** 2×[1d6]{.c} bludgeoning; **Critical** ×2 \
@@ -431,7 +431,7 @@ Blunt weapons are those that deal damage through sheer mass and blunt force. The
 :::::
 
 ::::: {.ability}
-###### Warhammer [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Warhammer [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** 1; **Bulk** 1 \
 **Damage** [1d8]{.c} bludgeoning; **Critical** ×3 \
@@ -447,7 +447,7 @@ Blunt weapons are those that deal damage through sheer mass and blunt force. The
 Close Combat weapons are weapons that are adapted for use with unarmed martial arts.
 
 ::::: {.ability}
-###### Axe-Gauntlet [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Axe-Gauntlet [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** 1; **Bulk** 1 \
 **Damage** [1d8]{.c} slashing; **Critical** ×3 \
@@ -461,7 +461,7 @@ Close Combat weapons are weapons that are adapted for use with unarmed martial a
 :::::
 
 ::::: {.ability}
-###### Brass Knuckles [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Brass Knuckles [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** L; **Bulk** L \
 **Damage** [1d3]{.c} bludgeoning; **Critical** 19-20/×2 \
@@ -473,7 +473,7 @@ Close Combat weapons are weapons that are adapted for use with unarmed martial a
 :::::
 
 ::::: {.ability}
-###### Butterfly Knives [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Butterfly Knives [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** 1 (×2); **Bulk** L (×2) \
 **Damage** [1d4]{.c} slashing; **Critical** 19-20/×2 \
@@ -485,7 +485,7 @@ Close Combat weapons are weapons that are adapted for use with unarmed martial a
 :::::
 
 ::::: {.ability}
-###### Claw Blades [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Claw Blades [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** 2; **Bulk** L \
 **Damage** [1d4]{.c} bludgeoning and slashing; **Critical** 18-20/×2 \
@@ -499,7 +499,7 @@ Close Combat weapons are weapons that are adapted for use with unarmed martial a
 :::::
 
 ::::: {.ability}
-###### Sap [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Sap [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** L; **Bulk** L \
 **Damage** [1d6]{.c} bludgeoning; **Critical** ×2 \
@@ -515,7 +515,7 @@ Close Combat weapons are weapons that are adapted for use with unarmed martial a
 Flails are weapons with a flexible component, whether they're entirely flexible or consist of multiple parts attached by a chain. They may be used to tangle opponent's weapons and disorient them.
 
 ::::: {.ability}
-###### Bladed Scarf [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Bladed Scarf [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** 1; **Bulk** L \
 **Damage** [1d3]{.c} slashing; **Critical** 19-20/×2 \
@@ -533,7 +533,7 @@ Furthermore, you deal 1d6 points of slashing damage to any creature that makes a
 :::::
 
 ::::: {.ability}
-###### Heavy Flail [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Heavy Flail [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** 1; **Bulk** 1 \
 **Damage** [1d10]{.c} bludgeoning; **Critical** 19-20/×2 \
@@ -545,7 +545,7 @@ Furthermore, you deal 1d6 points of slashing damage to any creature that makes a
 :::::
 
 ::::: {.ability}
-###### Light Flail [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Light Flail [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** 1; **Bulk** 1 \
 **Damage** [1d8]{.c} bludgeoning; **Critical** ×2 \
@@ -557,7 +557,7 @@ Furthermore, you deal 1d6 points of slashing damage to any creature that makes a
 :::::
 
 ::::: {.ability}
-###### Nunchaku [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Nunchaku [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** L; **Bulk** L \
 **Damage** [1d6]{.c} bludgeoning; **Critical** ×2 \
@@ -569,7 +569,7 @@ Furthermore, you deal 1d6 points of slashing damage to any creature that makes a
 :::::
 
 ::::: {.ability}
-###### Whip [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Whip [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** L; **Bulk** L \
 **Damage** [1d3]{.c} slashing; **Critical** ×2 \
@@ -589,7 +589,7 @@ As a standard action, you may use your whip to manipulate an unattended object u
 Polearms are weapons attached to the end of long handles, allowing them great range and effectiveness in stopping charges.
 
 ::::: {.ability}
-###### Longspear [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Longspear [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** L; **Bulk** 1 \
 **Damage** [1d8]{.c} piercing; **Critical** ×3 \
@@ -601,7 +601,7 @@ Polearms are weapons attached to the end of long handles, allowing them great ra
 :::::
 
 ::::: {.ability}
-###### Glaive [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Glaive [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** 1; **Bulk** 2 \
 **Damage** [1d10]{.c} slashing; **Critical** ×3 \
@@ -613,7 +613,7 @@ Polearms are weapons attached to the end of long handles, allowing them great ra
 :::::
 
 ::::: {.ability}
-###### Guisarme [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Guisarme [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** 1; **Bulk** 2 \
 **Damage** [1d10]{.c} slashing; **Critical** ×3 \
@@ -625,7 +625,7 @@ Polearms are weapons attached to the end of long handles, allowing them great ra
 :::::
 
 ::::: {.ability}
-###### Halberd [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Halberd [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** 1; **Bulk** 2 \
 **Damage** [1d10]{.c} piercing or slashing; **Critical** ×3 \
@@ -637,7 +637,7 @@ Polearms are weapons attached to the end of long handles, allowing them great ra
 :::::
 
 ::::: {.ability}
-###### Lance [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Lance [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** 1; **Bulk** 2 \
 **Damage** [1d8]{.c} piercing; **Critical** ×3 \
@@ -650,7 +650,7 @@ Effect: A lance deals double damage when used from the back of a charging mount.
 :::::
 
 ::::: {.ability}
-###### Shortspear [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Shortspear [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** L; **Bulk** L \
 **Damage** [1d6]{.c} piercing; **Critical** ×2 \
@@ -661,7 +661,7 @@ Effect: A lance deals double damage when used from the back of a charging mount.
 :::::
 
 ::::: {.ability}
-###### Spear [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Spear [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** L; **Bulk** 1 \
 **Damage** [1d8]{.c} piercing; **Critical** ×3 \
@@ -677,7 +677,7 @@ Effect: A lance deals double damage when used from the back of a charging mount.
 Thrown weapons are used by throwing them at opponents. While less wieldly than archery weapons, they can carry significantly more of the user's own strength.
 
 ::::: {.ability}
-###### Chakram [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Chakram [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** 1 (×5); **Bulk** 1 (×5) \
 **Damage** [1d8]{.c} slashing; **Critical** 19-20/×2 \
@@ -690,7 +690,7 @@ Thrown weapons are used by throwing them at opponents. While less wieldly than a
 :::::
 
 ::::: {.ability}
-###### Javelin [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Javelin [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** L (×5); **Bulk** 1 (×5) \
 **Damage** [1d6]{.c} piercing; **Critical** ×2 \
@@ -702,7 +702,7 @@ Thrown weapons are used by throwing them at opponents. While less wieldly than a
 :::::
 
 ::::: {.ability}
-###### Kunai [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Kunai [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** L; **Bulk** L \
 **Damage** [1d4]{.c} bludgeoning or piercing; **Critical** ×2 \
@@ -714,7 +714,7 @@ Thrown weapons are used by throwing them at opponents. While less wieldly than a
 :::::
 
 ::::: {.ability}
-###### Throwing Dart [Equipment - Weapon]{.ability-head} {.unlisted .unnumbered}
+###### Throwing Dart [Equipment - Weapon]{.ability-head} {.u}
 
 **Cost** L (×20); **Bulk** 1 (×20) \
 **Damage** [1d4]{.c} piercing; **Critical** ×2 \

@@ -26,7 +26,11 @@ You gain a single Equipment sphere (discipline) talent or a single Vocation sphe
 
 help, wait until after rework I guess!!
 
+## blah 3
 
+Thrifty Tailoring [SoG]
+
+When creating a disguise, you create it in the least time possible, reducing the normal 1d3 × 10 minutes of work to 10 minutes. This also applies to any other variable-based timing when creating a disguise. You reduce the Disguise penalty for applying a disguise faster by 4 (total).
 
 ## Alignment-related traits
 

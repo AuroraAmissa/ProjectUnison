@@ -12,7 +12,7 @@ Origin talents are divided into three categories based on power and use: potent,
 
 ### Variations
 
-Not all characters possess the default abilities detailed in an origin tradition’s baseline. Certain characters may possess more limited movement options, elemental vulnerabilities, poor daylight vision, or any number of other distinct challenges the character might face. Variations exist to represent these unique aspects mechanically.
+Not all characters possess the default abilities most characters gain by default. Certain characters may possess more limited movement options, elemental vulnerabilities, poor daylight vision, or any number of other distinct challenges the character might face. Variations exist to represent these unique aspects mechanically.
 
 A character may select any number of variations whenever they would be able to gain an origin talent, although certain variations may only be selected at the same time that a character gains a specific origin talent. These variations are in addition to the talents you gain. Variations are cumulative, but a character cannot select a variation which would cause them to lose something they have already lost from another variation (for example, if a character possesses the Buoyant Traveler variation, they possess no land speed and thus may not select the Waterhome variation). Unless otherwise specified, a variation can only be selected once.
 
@@ -29,6 +29,8 @@ Origin talents and variations may have the following tags that indicate how and 
 * **Innate:** Innate traits are typically a fundamental part of a character's biology or essence that cannot be easily changed. Innate traits cannot be added to an existing lineage without backstory justification, subject to GM approval, nor can they be purchased after the first level without story justification. Innate traits (and any talents bought with an innate variation) are lost when your character is polymorphed.
 
 * **Learned:** Learned traits are skill and talents learned over the course of a character's life, through their culture, training or experience. Learned traits are lost when your character's body is being controlled by another creature (such as due to possession effects, or the effects of the Fusion talent).
+
+A variation always has the same tag as the ability that it grants, and both talents and variations must have the same tag as all traits you use to meet their requirements.
 
 ::::: {.sidebar}
 #### Optional Rule: Free Development
@@ -133,7 +135,7 @@ For an example set of setting lineages, see the [Classic Lineages](Origins#) sec
 
 ### Collaborative {.u}
 
-As an alternative to [Setting Lineages](Origins#), a GM may allow player characters the option to create their characters without restrictions, then create lineages around them to represent the species or cultures they come from. Under this ruleset, players create their characters as in the [No Lineages](Origins#) ruleset, then picks a list of traits among them to be innate and standard talents for other members of their species.
+As an alternative to [Setting-Based](Origins#) lineages, a GM may allow player characters the option to create their characters without restrictions, then create lineages around them to represent the species or cultures they come from. Under this ruleset, players create their characters as in the [No Lineages](Origins#) ruleset, then picks a list of traits among them to be innate and standard talents for other members of their species.
 
 ## Origin Talent Summary
 
@@ -163,7 +165,7 @@ This is a list of "core" talents that define your character's basic form, shape,
 ###### All or Nothing [Origin Talent]{.ability-head} {.u}
 **Type:** Potent (Learned)
 
-**Effect:** Choose a single skill. You can choose to roll twice on checks made with that skill. If you do, you take the higher result unless either die roll is a natural 1, in which case the check automatically fails and is treated by a failure of more than 10 (this natural 1 cannot be rerolled, ignored, or altered through abilities such as Tug Fate from the Fate sphere).
+**Effect:** Choose a single skill. You can choose to roll twice on checks made with that skill. If you do, you take the higher result unless either die roll is a natural 1, in which case the check automatically fails and is treated by a failure of more than 10. This natural 1 cannot be rerolled further.
 :::::
 
 ::::: {.ability}
@@ -174,7 +176,7 @@ This is a list of "core" talents that define your character's basic form, shape,
 :::::
 
 ::::: {.ability}
-###### Artificial Soul [Origin Talent]{.ability-head} {.u}
+###### Artificial Form [Origin Talent]{.ability-head} {.u}
 **Type:** Potent (Innate)
 
 **Effect:** You are not healed or harmed by positive or negative energy effects which deal or heal hit point damage. Effects which can be used to repair constructs or objects that cost at least 1 spell point (or which use a spell slot of 1st level or higher) can target you and restore your hit points.
@@ -310,7 +312,7 @@ When you make an attack which adds the damage from that Elemental Augmentation, 
 ::::: {.ability}
 ###### Soulbound Graft [Origin Talent]{.ability-head} {.u}
 **Type:** Potent (Innate) \
-**Reqs:** [Artificial Soul](Origins#Artificial Soul Origin Talent)
+**Reqs:** [Artificial Form](Origins#Artificial Form Origin Talent)
 
 **Effect:** Choose either positive or negative energy. You are no longer immune to that type of energy and are instead healed by it.
 :::::
@@ -406,6 +408,13 @@ You may select this talent a second time. If you do, your size increases by one 
 **Type:** Auxiliary (Innate or Learned)
 
 **Effect:** You gain a climb speed of 20 feet. If you do not possess a land speed, you may use half your climb speed as a land speed.
+:::::
+
+::::: {.ability}
+###### Convenient Appendage [Origin Talent]{.ability-head} {.u}
+**Type:** Auxiliary (Innate)
+
+**Effect:** You possess a tail, tongue, smaller arm, or other appendage that you can use to carry objects. You cannot wield weapons with this appendage, but the appendage allows you to retrieve a small, stowed object carried on your person as a swift action. You may take this talent multiple times, each time gaining an additional convenient appendage.
 :::::
 
 ::::: {.ability}
@@ -519,9 +528,9 @@ Choose origin tags seperately for each effect. You lose your bonus against a typ
 :::::
 
 ::::: {.ability}
-###### Elemental Prism [Origin Talent]{.ability-head} {.u}
+###### Elemental Prism (Su) [Origin Talent]{.ability-head} {.u}
 **Type:** Auxiliary (Essence, Innate or Learned) \
-**Reqs:** [Elemental Augmentation](Origins#Elemental Augmentation Su Origin Talent) or [Hazardous Blood](Origins#Hazardous Blood Origin Talent)
+**Reqs:** [Elemental Augmentation](Origins#Elemental Augmentation Su Origin Talent) or [Hazardous Blood](Origins#Hazardous Blood Su Origin Talent)
 
 **Effect:** Your elemental augmentation and hazardous blood instead deals damage of one of the following types, chosen when you gain this talent: anarchic, axiomatic, force, profane, radiant, sacred, sonic, untyped. Alternatively, you may have them simultaneously deal acid, cold, electricity and fire damage, counting as whichever is most beneficial.
 :::::
@@ -529,10 +538,18 @@ Choose origin tags seperately for each effect. You lose your bonus against a typ
 ::::: {.ability}
 ###### Endure Level Drain [Origin Talent]{.ability-head} {.u}
 **Type:** Auxiliary (Essence or Innate) \
-**Reqs:** [Artifical Soul](Origins#Artifical Soul Origin Talent), [Negative Energy Affinity](Origins#Negative Energy Affinity Origin Talent), or [Resist Level Drain](Origins#Resist Level Drain Origin Talent)
+**Reqs:** [Artificial Form](Origins#Artificial Form Origin Talent), [Negative Energy Affinity](Origins#Negative Energy Affinity Origin Talent), or [Resist Level Drain](Origins#Resist Level Drain Origin Talent)
 
 **Effect:** You take no penalties from energy drain effects, though you can still be killed if you accrue more negative levels than you have Hit Dice. After 24 hours, any negative levels you take are removed without the need for an additional saving throw. This talent only negates the penalties of negative levels taken from energy drain effects, spell effects, magic items, wild magic effects, and sphere effects. You cannot use this talent to ignore penalties from negative levels you have inflicted upon yourself.
 :::::
+
+::::: {.ability}
+###### Energy Conversion (Su) [Origin Talent]{.ability-head} {.u}
+**Type:** Auxiliary (Essence)
+
+Prerequisite: Destruction sphere.
+
+Benefit: Once per day you may cause yourself to become fatigued as a free action. You immediately gain 2 temporary spell points. These points persist until the start of your next turn and can only be spent on a destructive blast. If you are already fatigued, you instead become exhausted. If you are exhausted or immune to fatigue or exhaustion you may not use this trait.
 
 ::::: {.ability}
 ###### Energy Renewal (Su) [Origin Talent]{.ability-head} {.u}
@@ -614,7 +631,7 @@ Choose origin tags seperately for each effect. You lose your bonus against a typ
 :::::
 
 ::::: {.ability}
-###### Hazardous Blood [Origin Talent]{.ability-head} {.u}
+###### Hazardous Blood (Su) [Origin Talent]{.ability-head} {.u}
 **Type:** Auxiliary (Essence, Innate or Learned)
 
 **Effect:** Each time you take bleed or blood drain damage, each creature currently adjacent to you also takes [[HD]{.alt}/2]{.c} points of acid, cold, electricity, or fire damage (chosen when you take this talent). As a move action, you may inflict 1 point of bleed damage on yourself and immediately trigger this ability.
@@ -630,9 +647,9 @@ You can transfer a held object to your hidden storage or extract an object from 
 :::::
 
 ::::: {.ability}
-###### Hollow Soul (Su) [Origin Talent]{.ability-head} {.u}
-**Type:** Auxiliary (Essence) \
-**Reqs:** [Artifical Soul](Origins#Artifical Soul Origin Talent), [Negative Energy Affinity](Origins#Negative Energy Affinity Origin Talent), or [Developed Tolerance](Origins#Developed Tolerance Origin Talent)
+###### Hollow Soul [Origin Talent]{.ability-head} {.u}
+**Type:** Auxiliary (Essence or Innate) \
+**Reqs:** [Artificial Form](Origins#Artificial Form Origin Talent), [Negative Energy Affinity](Origins#Negative Energy Affinity Origin Talent), or [Developed Tolerance](Origins#Developed Tolerance Origin Talent) (death effects)
 
 **Effect:** You gain immunity to death effects.
 :::::
@@ -683,7 +700,7 @@ You can transfer a held object to your hidden storage or extract an object from 
 ::::: {.ability}
 ###### Immediate Renewal (Su) [Origin Talent]{.ability-head} {.u}
 **Type:** Auxiliary (Essence) \
-**Reqs:** [Energy Renewal](Origins#Energy Renewal Origin Talent)
+**Reqs:** [Energy Renewal](Origins#Energy Renewal Su Origin Talent)
 
 **Effect:** The amount of healing you may receive from Energy Renewal increases to [5×[HD]{.alt}]{.c} hit points per day. In addition, rather than an effect granting you fast healing, you may choose to have the effect heal you for [damage negated/2]{.c} hit points immediately.
 :::::
@@ -691,7 +708,7 @@ You can transfer a held object to your hidden storage or extract an object from 
 ::::: {.ability}
 ###### Improved Energy Resistance [Origin Talent]{.ability-head} {.u}
 **Type:** Auxiliary (Acquired, Essence or Innate) \
-**Reqs:** [Energy Renewal](Origins#Energy Renewal Origin Talent) or [Energy Resistance](Origins#Energy Resistance Origin Talent)
+**Reqs:** [Energy Renewal](Origins#Energy Renewal Su Origin Talent) or [Energy Resistance](Origins#Energy Resistance Origin Talent)
 
 **Effect:** You may either increase two instances of your energy resistance from talents by 5 or increase one instance of your energy resistance from a talent by 10. This talent may be selected multiple times. Its effects stack.
 :::::
@@ -750,7 +767,7 @@ You can transfer a held object to your hidden storage or extract an object from 
 ::::: {.ability}
 ###### Magical Flight (Su) [Origin Talent]{.ability-head} {.u}
 **Type:** Auxiliary (Essence or Learned) \
-**Reqs:** [Hover](Origins#Energy Renewal Origin Talent) (×2)
+**Reqs:** [Hover](Origins#Hover Su Origin Talent) (×2)
 
 **Effect:** You gain a fly speed of 30 feet with perfect maneuverability which you can use within any range that you can hover. At 5th level, you may move however you wish using your fly speed. You may take this talent additional times, each time increasing your fly speed by 10 feet.
 :::::
@@ -825,12 +842,19 @@ You can transfer a held object to your hidden storage or extract an object from 
 :::::
 
 ::::: {.ability}
+###### Practiced Aim [Origin Talent]{.ability-head} {.u}
+**Type:** Auxiliary (Learned)
+**Reqs:** [Destruction]() sphere
+
+**Effect:** You gain a +1 origin bonus on attack rolls and a +[[HD]{.alt}/10]{.c} origin bonus to damage with your destructive blast.
+:::::
+
+::::: {.ability}
 ###### Practiced Magic [Origin Talent]{.ability-head} {.u}
 **Type:** Auxiliary (Learned)
 
 **Effect:** Choose three magic spheres. You gain a +1 origin bonus to your caster level for those spheres as long as this bonus does not raise your caster level above your current Hit Dice.
 :::::
-
 
 ::::: {.ability}
 ###### Reaching Appendage [Origin Talent]{.ability-head} {.u}
@@ -963,10 +987,18 @@ You may take this talent a second time. If you do, you can choose to take a -5 p
 
 ::::: {.ability}
 ###### Sleepless [Origin Talent]{.ability-head} {.u}
-**Type:** Auxiliary (Acquried or Innate) \
+**Type:** Auxiliary (Acquired or Innate) \
 **Reqs:** [Developed Tolerance](Origins#Developed Tolerance Origin Talent) (sleep effects)
 
 **Effect:** You are immune to sleep effects and do not need to sleep. You must still take 8 hours of general inactivity to regain spell points and spells.
+:::::
+
+::::: {.ability}
+###### Spatial Awareness [Origin Talent]{.ability-head} {.u}
+**Type:** Auxiliary (Learned)
+**Reqs:** [Creation]() sphere
+
+**Effect:** When using the Creation sphere to make an attack roll, such as with a falling object or the Created Momentum talent, you may choose to use your Dexterity or your casting ability modifier instead of your Intelligence when calculating your attack bonus.
 :::::
 
 ::::: {.ability}
@@ -1037,7 +1069,7 @@ You may take this talent a second time. If you do, you can choose to take a -5 p
 ::::: {.ability}
 ###### Tail Hang [Origin Talent]{.ability-head} {.u}
 **Type:** Auxiliary (Innate) \
-**Reqs:** [Convinent Appendage](Origins#Convinent Appendage Origin Talent) or tail slap natural attack
+**Reqs:** [Convenient Appendage](Origins#Convenient Appendage Origin Talent) or tail slap natural attack
 
 **Effect:** If your square has a branch or other sturdy large object that you could hang from, as a swift action you may jump upward and use your tail to hang from that object. While hanging, you cannot be tripped, you ignore the effects of difficult terrain in your square, and you gain a +2 bonus to your CMD against bull rush, drag, and reposition attacks. If you leave that square (including if you are moved against your will), you lose your grip on the object and are no longer hanging, falling prone if you are moved against your will. While hanging, you cannot use your tail for anything else.
 
@@ -1134,6 +1166,20 @@ If you possess the Reaching Appendage talent, you can hang from an object within
 :::::
 
 ::::: {.ability}
+###### Cautious Observation [Origin Talent]{.ability-head} {.u}
+**Type:** Utility (Learned)
+
+**Effect:** As long as you move no more than your base speed each round, you gain a free Perception check to notice traps and hazards as well as a free Will save to disbelieve illusions the first time you enter within 10 feet of them. Additionally, you gain a free Empathy check to determine whether a creature you end your turn within 10 feet of is affected by a charm or compulsion effect. If you have another ability that would grant you such free checks, you instead gain a +1 circumstance bonus to any check both apply to.
+:::::
+
+::::: {.ability}
+###### Combat Healer [Origin Talent]{.ability-head} {.u}
+**Type:** Utility (Learned)
+
+**Effect:** You can use the first aid aspect of the Heal skill as a simple action, and you gain the First Aid speciality for the Heal skill.
+:::::
+
+::::: {.ability}
 ###### Dabbling Expertise [Origin Talent]{.ability-head} {.u}
 **Type:** Utility (Learned)
 
@@ -1182,6 +1228,13 @@ If you possess the Reaching Appendage talent, you can hang from an object within
 **Effect:** As a move action, you may shine light from your body as a torch. You may maintain this effect for any duration and may suppress it as a move action or swift action. This light does not function in areas of magical darkness.
 
 **Special:** You may instead take this talent as "Bioluminescence", in which case it is an extraordinary ability that may be Acquired or Innate.
+:::::
+
+::::: {.ability}
+###### Magic Wardrobe (Su) [Origin Talent]{.ability-head} {.u}
+**Type:** Utility (Essence or Learned)
+
+**Effect:** As a simple action, you can swap an outfit you are currently wearing for another outfit in your possession, as well as don or remove individual pieces of clothing or jewelry. At the beginning of combat, you may draw your action as a free action. You may not use this talent to don or remove armor, but you may draw things from an extradimensional storage from the Warp sphere.
 :::::
 
 ::::: {.ability}
@@ -1248,6 +1301,10 @@ If you possess the Reaching Appendage talent, you can hang from an object within
 
 **Effect:** You gain a single utility talent from any sphere as a bonus talent. You must meet the prerequisites for this talent (the talent you gain through this talent may be determined after you have determined other factors of your character if you select this talent when creating a character). You may select this talent multiple times, each time gaining a new utility talent.
 :::::
+
+## Variations
+
+TODO
 
 ## Classic Lineages
 

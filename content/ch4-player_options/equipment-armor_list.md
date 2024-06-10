@@ -11,7 +11,7 @@ content/include/armor_list.md
 ## Light Armor
 
 ::::: {.ability}
-###### Padded Armor [Equipment - Armor]{.ability-head} {.unlisted .unnumbered}
+###### Padded Armor [Equipment - Armor]{.ability-head} {.u}
 
 **Cost** L; **Bulk** L; **Weight** Light \
 **Armor Bonus** +1; **Max Dex Bonus** +8; **Armor Check Penalty** 0
@@ -20,7 +20,7 @@ content/include/armor_list.md
 :::::
 
 ::::: {.ability}
-###### Leather Armor [Equipment - Armor]{.ability-head} {.unlisted .unnumbered}
+###### Leather Armor [Equipment - Armor]{.ability-head} {.u}
 
 **Cost** L; **Bulk** 1; **Weight** Light \
 **Armor Bonus** +2; **Max Dex Bonus** +6; **Armor Check Penalty** 0
@@ -29,7 +29,7 @@ content/include/armor_list.md
 :::::
 
 ::::: {.ability}
-###### Studded Leather Armor [Equipment - Armor]{.ability-head} {.unlisted .unnumbered}
+###### Studded Leather Armor [Equipment - Armor]{.ability-head} {.u}
 
 **Cost** L; **Bulk** 1; **Weight** Light \
 **Armor Bonus** +3; **Max Dex Bonus** +5; **Armor Check Penalty** -1
@@ -38,7 +38,7 @@ content/include/armor_list.md
 :::::
 
 ::::: {.ability}
-###### Leaf Armor [Equipment - Armor]{.ability-head} {.unlisted .unnumbered}
+###### Leaf Armor [Equipment - Armor]{.ability-head} {.u}
 
 **Cost** 5; **Bulk** L; **Weight** Light \
 **Armor Bonus** +3; **Max Dex Bonus** +6; **Armor Check Penalty** 0
@@ -47,7 +47,7 @@ content/include/armor_list.md
 :::::
 
 ::::: {.ability}
-###### Chain Shirt [Equipment - Armor]{.ability-head} {.unlisted .unnumbered}
+###### Chain Shirt [Equipment - Armor]{.ability-head} {.u}
 
 **Cost** 1; **Bulk** 1; **Weight** Light \
 **Armor Bonus** +4; **Max Dex Bonus** +3; **Armor Check Penalty** -2
@@ -58,7 +58,7 @@ content/include/armor_list.md
 ## Medium Armor
 
 ::::: {.ability}
-###### Hide Armor [Equipment - Armor]{.ability-head} {.unlisted .unnumbered}
+###### Hide Armor [Equipment - Armor]{.ability-head} {.u}
 
 **Cost** L; **Bulk** 2; **Weight** Medium \
 **Armor Bonus** +4; **Max Dex Bonus** +4; **Armor Check Penalty** -3
@@ -67,7 +67,7 @@ content/include/armor_list.md
 :::::
 
 ::::: {.ability}
-###### Scale Mail [Equipment - Armor]{.ability-head} {.unlisted .unnumbered}
+###### Scale Mail [Equipment - Armor]{.ability-head} {.u}
 
 **Cost** 1; **Bulk** 3; **Weight** Medium \
 **Armor Bonus** +5; **Max Dex Bonus** +3; **Armor Check Penalty** -4
@@ -76,7 +76,7 @@ content/include/armor_list.md
 :::::
 
 ::::: {.ability}
-###### Chainmail [Equipment - Armor]{.ability-head} {.unlisted .unnumbered}
+###### Chainmail [Equipment - Armor]{.ability-head} {.u}
 
 **Cost** 2; **Bulk** 3; **Weight** Medium \
 **Armor Bonus** +6; **Max Dex Bonus** +2; **Armor Check Penalty** -4
@@ -85,7 +85,7 @@ content/include/armor_list.md
 :::::
 
 ::::: {.ability}
-###### Agile Breastplate [Equipment - Armor]{.ability-head} {.unlisted .unnumbered}
+###### Agile Breastplate [Equipment - Armor]{.ability-head} {.u}
 
 **Cost** 5; **Bulk** 2; **Weight** Medium \
 **Armor Bonus** +6; **Max Dex Bonus** +3; **Armor Check Penalty** -4
@@ -98,7 +98,7 @@ content/include/armor_list.md
 ## Heavy Armor
 
 ::::: {.ability}
-###### Banded Mail [Equipment - Armor]{.ability-head} {.unlisted .unnumbered}
+###### Banded Mail [Equipment - Armor]{.ability-head} {.u}
 
 **Cost** 3; **Bulk** 4; **Weight** Heavy \
 **Armor Bonus** +7; **Max Dex Bonus** —; **Armor Check Penalty** -6
@@ -107,7 +107,7 @@ content/include/armor_list.md
 :::::
 
 ::::: {.ability}
-###### Half Plate [Equipment - Armor]{.ability-head} {.unlisted .unnumbered}
+###### Half Plate [Equipment - Armor]{.ability-head} {.u}
 
 **Cost** 5; **Bulk** 5; **Weight** Heavy \
 **Armor Bonus** +8; **Max Dex Bonus** —; **Armor Check Penalty** -7
@@ -116,7 +116,7 @@ content/include/armor_list.md
 :::::
 
 ::::: {.ability}
-###### Full Plate [Equipment - Armor]{.ability-head} {.unlisted .unnumbered}
+###### Full Plate [Equipment - Armor]{.ability-head} {.u}
 
 **Cost** 8; **Bulk** 6; **Weight** Heavy \
 **Armor Bonus** +8; **Max Dex Bonus** —; **Armor Check Penalty** -8
@@ -127,7 +127,7 @@ content/include/armor_list.md
 ## Shields
 
 ::::: {.ability}
-###### Buckler [Equipment - Shield]{.ability-head} {.unlisted .unnumbered}
+###### Buckler [Equipment - Shield]{.ability-head} {.u}
 
 **Cost** L; **Bulk** L \
 **Armor Bonus** +1; **Max Dex Bonus** None; **Armor Check Penalty** -1
@@ -138,7 +138,7 @@ content/include/armor_list.md
 :::::
 
 ::::: {.ability}
-###### Light Shield [Equipment - Shield]{.ability-head} {.unlisted .unnumbered}
+###### Light Shield [Equipment - Shield]{.ability-head} {.u}
 
 **Cost** L; **Bulk** L \
 **Armor Bonus** +1; **Max Dex Bonus** None; **Armor Check Penalty** -1 \
@@ -149,7 +149,7 @@ content/include/armor_list.md
 :::::
 
 ::::: {.ability}
-###### Shield [Equipment - Shield]{.ability-head} {.unlisted .unnumbered}
+###### Shield [Equipment - Shield]{.ability-head} {.u}
 
 **Cost** L; **Bulk** 1 \
 **Armor Bonus** +2; **Max Dex Bonus** None; **Armor Check Penalty** -2 \
@@ -162,7 +162,7 @@ content/include/armor_list.md
 :::::
 
 ::::: {.ability}
-###### Tower Shield [Equipment - Shield]{.ability-head} {.unlisted .unnumbered}
+###### Tower Shield [Equipment - Shield]{.ability-head} {.u}
 
 **Cost** 1; **Bulk** 3 \
 **Armor Bonus** +4; **Max Dex Bonus** +2; **Armor Check Penalty** -10
