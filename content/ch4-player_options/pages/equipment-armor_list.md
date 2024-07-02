@@ -1,6 +1,6 @@
 ---
 author: auroraamissa
-ogl_author: oglsource_dds
+ogl_author: oglsource_paizo
 ---
 
 # Armor List
