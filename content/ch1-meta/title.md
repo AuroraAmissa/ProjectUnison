@@ -1,3 +1,5 @@
+# Project Unison {.hide_h1}
+
 This document contains Project Unison [(unknown)]{#ver-tag}. The source files for this project can be found on [Github]. This is revision `(unknown)`{#rev-tag}.
 
 ## What is this?
@@ -23,7 +25,7 @@ For new players, start reading with the [Basic Rules]() section.
 
 ## Table of Contents
 
-* [Front Page](./title.html)
+* [Front Page](Project Unison)
 * [Introduction]()
 * [Changelog]()
 * [Changes from Pathfinder]()
