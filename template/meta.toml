@@ -1,6 +1,6 @@
 [config]
 title = "Project Unison"
-path = "Web SRD Files"
+resource_root = "Web SRD Files"
 
 image_src = "/Web SRD Files/images/"
 image_uri = "../images/"
@@ -8,14 +8,6 @@ image_uri = "../images/"
 [entry]
 name = "Project Unison Web SRD"
 path = "Web SRD Files/ch1-meta/title.html"
-
-[fonts]
-main = "templates/fonts/MPLUS2-VariableFont_wght.ttf"
-title = "templates/fonts/MPLUSRounded1c-Bold.ttf"
-code = "templates/fonts/NotoSansMono-VariableFont_wdth,wght.ttf"
-symbol = "templates/fonts/HachiMaruPop-Regular.ttf"
-
-code_fallback = ["main"]
 
 [alt]
 # misc
@@ -28,6 +20,7 @@ code_fallback = ["main"]
 "HD" = "((your ))Hit Dice"
 "MT" = "((your ))Mythic Tier"
 "MR" = "((your ))Mythic Rank"
+"CL" = "((your ))Caster Level"
 
 # attributes
 "STR" = "((your ))Strength modifier"

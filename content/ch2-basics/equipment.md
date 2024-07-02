@@ -42,7 +42,7 @@ As a general rule, an item that weighs around 5 to 10 pounds is 1 bulk (and ever
 ## Resources and Maintenance
 
 In addition to their bulk, items have a cost that represents the financial burden of obtaining and maintaining that equipment. These costs have the same format as Bulk, with "L" representing low cost and a dash ("—") representing negligible cost.
-
+    
 ### Resources Level
 
 Your character's resources level represents their general level of wealth. All characters begin with a base resources level of 1, and may gain additional levels through the [Resources](Bonus Points#Resources Bonus Trait) bonus trait and some talents.
@@ -53,16 +53,16 @@ If they cannot pay the cost to maintain their equipment, it gains the [Broken](C
 
 Any resources from a character's purchase and consistence cap that they don't spend during a downtime cycle is saved, and may be spent in future cycles, up to a cap of their maintenance cap. If you have a resources level of 0 or 1, **do not** round up L costs or caps, and instead track the number of Ls you have. With greater wealth, this level of tracking is no longer required.
 
-| Resources Level           | Purchase Cap | Maintenance Cap |
-|---------------------------|--------------|-----------------|
-| 0 (Poverty)               | —            | L               |
-| 1 (Laborer)               | L            | 1               |
-| 2 (Skilled Laborer)       | 1            | 5               |
-| 3 (Low-Ranking Official)  | 5            | 25              |
-| 4 (High-Ranking Official) | 15           | 120             |
-| 5 (Low-Ranking Nobility)  | 60           | 600             |
-| 6 (High-Ranking Nobility) | 250          | 3000            |
-| 7 (Monarch)               | 1000         | 15000           |
+Resources Level           Purchase Cap Maintenance Cap
+------------------------- ------------ ---------------
+0 (Poverty)               —            L
+1 (Laborer)               L            1
+2 (Skilled Laborer)       1            5
+3 (Low-Ranking Official)  5            25
+4 (High-Ranking Official) 15           120
+5 (Low-Ranking Nobility)  60           600
+6 (High-Ranking Nobility) 250          3000
+7 (Monarch)               1000         15000
 
 **Note:** Resource levels for lower class characters in medieval settings often represents skills and resources available for barter rather than currency. As such, resource points are an abstract measure of value and purchasing power with no direct conversion to currency. For more advanced settings where currency is used universally, see the chapter on [Modern Settings](#Resources).
 

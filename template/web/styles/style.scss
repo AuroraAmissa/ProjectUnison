@@ -1,0 +1,13 @@
+@use 'PandocRulebookBase/scss/common_chromatic' with (
+  $theme_color: 305,
+  $theme_color_secondary: 325,
+  $bg_alpha: 0.85,
+  $font_title: "Rounded Mplus 1c Bold",
+  $marker_li: "☆",
+  $marker_li_2: "◇",
+  $marker_title: "☆",
+  $title_selector: ".h0",
+  $background: #dcf8ef url('background_main.jpg') repeat fixed 0 -60px,
+);
+
+@use 'PandocRulebookBase/scss/code_highlight';
