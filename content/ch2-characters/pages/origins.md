@@ -1,5 +1,8 @@
 ---
 author: auroraamissa
+ogl_author: 
+- oglsource_dds
+- oglsource_paizo
 ---
 
 # Origins

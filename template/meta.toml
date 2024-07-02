@@ -1,6 +1,7 @@
 [config]
 title = "Project Unison"
 resource_root = "Web SRD Files"
+modified_mode = "none"
 
 [entry]
 name = "Project Unison Web SRD"

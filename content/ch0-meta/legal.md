@@ -25,6 +25,7 @@ Art/font assets are used from the following sources:
 * [M PLUS 2](https://github.com/coz-m/MPLUS_FONTS) - Under SIL Open Font License. Font used for body text. (also, look at this, can you believe they did this!? mplusfonts omg.)
 * [Rounded M+](http://jikasei.me/font/rounded-mplus/) - Under SIL Open Font License. Font used for headings.
 * [Noto Sans Mono](https://fonts.google.com/noto/specimen/Noto+Sans+Mono) - Under SIL Open Font License. Font used for monospace text.
+* Robots lovingly delivered by [Robohash.org](https://robohash.org/). Pls make a media kit, DDS.
 
 The following software was used to create this document. No part of these programs are included in the document, but credit is due where credit is due:
 
