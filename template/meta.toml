@@ -2,9 +2,6 @@
 title = "Project Unison"
 resource_root = "Web SRD Files"
 
-image_src = "/Web SRD Files/images/"
-image_uri = "../images/"
-
 [entry]
 name = "Project Unison Web SRD"
 path = "Web SRD Files/ch0-meta/title.html"

@@ -1,3 +1,7 @@
+---
+author: auroraamissa
+---
+
 # Basic Rules
 [[Project Unison]() > $]{.breadcrumbs}
 
