@@ -1,4 +1,9 @@
+---
+authors: auroraamissa
+---
+
 # Weapon List
+[[Project Unison]() > [Player Options]() > $]{.breadcrumbs}
 
 This page contains detailed descriptions of all weapon types. A summary may be found on the [Weapons](#Weapon List) page.
 

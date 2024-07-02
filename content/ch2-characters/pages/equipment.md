@@ -1,4 +1,9 @@
+---
+authors: auroraamissa
+---
+
 # Equipment
+[[Project Unison]() > [Characters]() > $]{.breadcrumbs}
 
 To make your mark on the world, you'll need to have the right equipment, including armor, weapons, and other gear. This chapter presents a list of equipment your character may use, and rules for how they work.
 
@@ -42,7 +47,7 @@ As a general rule, an item that weighs around 5 to 10 pounds is 1 bulk (and ever
 ## Resources and Maintenance
 
 In addition to their bulk, items have a cost that represents the financial burden of obtaining and maintaining that equipment. These costs have the same format as Bulk, with "L" representing low cost and a dash ("—") representing negligible cost.
-    
+
 ### Resources Level
 
 Your character's resources level represents their general level of wealth. All characters begin with a base resources level of 1, and may gain additional levels through the [Resources](Bonus Points#Resources Bonus Trait) bonus trait and some talents.

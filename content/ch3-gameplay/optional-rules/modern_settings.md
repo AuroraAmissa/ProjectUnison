@@ -1,4 +1,9 @@
+---
+authors: auroraamissa
+---
+
 # Modern Settings
+[[Project Unison]() > [Gameplay]() > [Optional Rules]() > $]{.breadcrumbs}
 
 The rules of Project Unison are specifically designed to function in modern urban fantasy settings in addition to medieval settings. Science-fiction or science-fantasy settings are not directly supported, but a further extension to this set of optional rules with Starfinder mechanics will likely be sufficient.
 

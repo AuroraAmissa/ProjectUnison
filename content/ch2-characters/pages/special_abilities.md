@@ -1,4 +1,9 @@
+---
+authors: auroraamissa
+---
+
 # Special Abilities
+[[Project Unison]() > [Characters]() > $]{.breadcrumbs}
 
 The following special abilities include rules commonly granted or possessed by a number of creatures and talents.
 

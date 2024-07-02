@@ -1,4 +1,9 @@
+---
+authors: auroraamissa
+---
+
 # Origins
+[[Project Unison]() > [Characters]() > $]{.breadcrumbs}
 
 A character's Origin conveys their experiences, upbringing and physiology, and how those change how they interact with the world.
 

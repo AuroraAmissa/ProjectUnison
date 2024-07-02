@@ -1,4 +1,9 @@
+---
+authors: auroraamissa
+---
+
 # Armor List
+[[Project Unison]() > [Player Options]() > $]{.breadcrumbs}
 
 This page contains detailed descriptions of all armor types. A summary may be found on the [Armor and Shields](#Armor List) page.
 

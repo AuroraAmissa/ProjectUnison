@@ -7,7 +7,7 @@ image_uri = "../images/"
 
 [entry]
 name = "Project Unison Web SRD"
-path = "Web SRD Files/ch1-meta/title.html"
+path = "Web SRD Files/ch0-meta/title.html"
 
 [alt]
 # misc

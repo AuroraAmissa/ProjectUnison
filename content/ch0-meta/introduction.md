@@ -1,4 +1,9 @@
+---
+author: auroraamissa
+---
+
 # Introduction
+[[Project Unison]() > $]{.breadcrumbs}
 
 Project Unison is an alternative SRD for [Pathfinder] and [Spheres of Power] that reworks the systems of both to simplify the systems of both for newer players while retaining the combat depth that more advanced players enjoy.
 

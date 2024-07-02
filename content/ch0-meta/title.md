@@ -1,3 +1,7 @@
+---
+author: auroraamissa
+---
+
 # Project Unison {.hide_h1}
 
 This document contains Project Unison [(unknown)]{#ver-tag}. The source files for this project can be found on [Github]. This is revision `(unknown)`{#rev-tag}.
@@ -25,14 +29,11 @@ For new players, start reading with the [Basic Rules]() section.
 
 ## Table of Contents
 
-* [Front Page](Project Unison)
-* [Introduction]()
-* [Changelog]()
-* [Changes from Pathfinder]()
-* [Legal]()
-
-<!-- -->
-
+* [Project Unison]()
+  * [Introduction]()
+  * [Changelog]()
+  * [Changes from Pathfinder]()
+  * [Legal]()
 * [Basic Rules]()
 * [Characters]()
   * [Ability Scores]()

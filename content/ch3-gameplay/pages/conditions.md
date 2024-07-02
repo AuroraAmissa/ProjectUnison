@@ -1,4 +1,9 @@
+---
+authors: auroraamissa
+---
+
 # Conditions
+[[Project Unison]() > [Gameplay]() > $]{.breadcrumbs}
 
 Characters may often gain temporary conditions during combat or exploration, representing various forms of temporary harm inflicted upon them. If more than one condition affects a character, apply them all. If effects can’t combine, apply the most severe effect.
 

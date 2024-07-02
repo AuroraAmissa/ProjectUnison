@@ -1,4 +1,9 @@
+---
+authors: auroraamissa
+---
+
 # Characters
+[[Project Unison]() > $]{.breadcrumbs}
 
 This chapter contains information on characters and how they are built.
 

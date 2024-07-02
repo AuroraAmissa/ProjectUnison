@@ -1,4 +1,9 @@
+---
+authors: auroraamissa
+---
+
 # Armor and Shields
+[[Project Unison]() > [Characters]() > [Equipment]() > $]{.breadcrumbs}
 
 For most, armor is the simplest way to protect oneself in a world of rampant threats and dangers. Many characters can wear only the simplest of armors, and only some can use shields. To wear heavier armor effectively, a character must possess the approprate Equipment sphere talents.
 

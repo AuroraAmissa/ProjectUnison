@@ -1,4 +1,9 @@
+---
+author: auroraamissa
+---
+
 # Changes from Pathfinder
+[[Project Unison]() > $]{.breadcrumbs}
 
 This is a brief listing of all changes to the Pathfinder core system and Spheres of Power, to help people familiar with the system get acquainted easier with this homebrew SRD.
 

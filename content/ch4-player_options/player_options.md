@@ -1,4 +1,9 @@
+---
+authors: auroraamissa
+---
+
 # Player Options
+[[Project Unison]() > $]{.breadcrumbs}
 
 ## Character Options
 

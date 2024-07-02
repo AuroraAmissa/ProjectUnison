@@ -1,4 +1,9 @@
+---
+authors: auroraamissa
+---
+
 # Bonus Points
+[[Project Unison]() > [Characters]() > $]{.breadcrumbs}
 
 Your character gains 5 bonus points each level (including the first), which may be spent to buy bonus traits. Each bonus trait has multiple levels, granting increasing benefits the more levels you ahve of the trait. To gain a new bonus trait or increase a level of a bonus trait, you spend bonus points equal to its cost per level.
 

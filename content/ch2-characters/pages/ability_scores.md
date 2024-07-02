@@ -1,4 +1,9 @@
+---
+authors: auroraamissa
+---
+
 # Ability Scores
+[[Project Unison]() > [Characters]() > $]{.breadcrumbs}
 
 Each character has six ability scores that represent their most basic attributes:
 
