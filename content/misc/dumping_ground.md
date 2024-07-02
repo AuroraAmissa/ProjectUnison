@@ -4,7 +4,6 @@
 
 * stuff like flaming, what to do? weapon special abilities (shows up in: origins)
 
-
 ## blah
 
 IDK if I'd still want this after the companions rework. [TODO: Later]

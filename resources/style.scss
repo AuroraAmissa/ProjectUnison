@@ -20,7 +20,7 @@ $color_border_ability: #ead5ff !default;
   $font_title: "Rounded Mplus 1c Bold",
   $font_symbol: "Hachi Maru Pop",
   $font_main: "M PLUS 2",
-  $font_code: "Noto Sans Mono" "M PLUS 2",
+  $font_code: ("Noto Sans Mono", "M PLUS 2"),
 
   $font_weight_main: 420,
   $font_weight_strong: 625,
@@ -28,6 +28,7 @@ $color_border_ability: #ead5ff !default;
   $font_weight_title: bold,
   $font_weight_symbol: inherit,
   $font_style_em: oblique 12deg,
+  $font_weight_menu: 450,
 
   $border_style_main: solid,
   $border_style_title: dotted,

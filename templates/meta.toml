@@ -2,6 +2,9 @@
 title = "Project Unison"
 path = "Web SRD Files"
 
+image_src = "/Web SRD Files/images/"
+image_uri = "../images/"
+
 [entry]
 name = "Project Unison Web SRD"
 path = "Web SRD Files/ch1-meta/title.html"
@@ -23,6 +26,8 @@ code_fallback = ["main"]
 
 # stats
 "HD" = "((your ))Hit Dice"
+"MT" = "((your ))Mythic Tier"
+"MR" = "((your ))Mythic Rank"
 
 # attributes
 "STR" = "((your ))Strength modifier"
