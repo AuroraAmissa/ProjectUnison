@@ -1,5 +1,5 @@
 ---
-authors: auroraamissa
+author: auroraamissa
 ---
 
 # Gamemastering
