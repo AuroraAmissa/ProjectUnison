@@ -5,7 +5,7 @@ modified_mode = "none"
 
 [entry]
 name = "Project Unison Web SRD"
-path = "Web SRD Files/ch0-meta/title.html"
+path = "ch0-meta/title.html"
 
 [alt]
 # misc
