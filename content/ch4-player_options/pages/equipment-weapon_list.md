@@ -10,9 +10,7 @@ This page contains detailed descriptions of all weapon types. A summary may be f
 
 ## Summary
 
-``` {.include}
-content/include/weapon_list.md
-```
+@![content/include/weapon_list.md]
 
 ## Axes Weapons List
 

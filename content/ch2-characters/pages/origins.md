@@ -5,6 +5,8 @@ ogl_author:
 - oglsource_paizo
 ---
 
+@![content/include/origin_list_links.md]
+
 # Origins
 [[Project Unison]() > [Characters]() > $]{.breadcrumbs}
 
@@ -208,7 +210,7 @@ This is a list of "core" talents that define your character's basic form, shape,
 ###### Chef’s Upkeep [Origin Talent]{.ability-head} {.u}
 **Type:** Potent (Learned)
 
-**Effect:** You learn a single recipe, choosing a single entree and flavor. This functions as the iron chef blacksmith recipes class feature, treating your effective blacksmith level as level 1. If you ever gain the recipes class feature, you gain Extra Smithing Insight as a bonus feat and must choose a smithing insight that grants additional options for their recipes class feature (such as the fruits or starches smithing insights). The Extra Smithing Insight feat gained this way does not count against the number of times you may gain the feat normally.
+**Effect:** You learn a single recipe, choosing a single entree and flavor. This functions as the iron chef blacksmith recipes class feature, treating your effective blacksmith level as level 1. If you ever gain the recipes class feature, you gain Extra Smithing Insight as a bonus feat and must choose a smithing insight that grants additional options for their recipes class feature (such as the fruits or starches smithing insights). The Extra Smithing Insight feat gained this    way does not count against the number of times you may gain the feat normally.
 :::::
 
 ::::: {.ability}
@@ -368,6 +370,13 @@ You may select this talent a second time. If you do, your size increases by one 
 **Reqs:** [Hardened](Origins#Hardened Origin Talent)
 
 **Effect:** You are immune to nonlethal damage.
+:::::
+
+::::: {.ability}
+###### Wild Resonance [Origin Talent]{.ability-head} {.u}
+**Type:** Potent (Essence) \
+
+**Effect:** As a reaction that may be used [1 + [HD]{.alt}/4]}{.c} times a day, you may choose to either add [1d6]{.c} or subtract [1d6]{.c} from the results of a wild magic event roll you make. This counts as a wild magic feat, and you may spend a use of this ability in place of a spell point when using wild magic feats.
 :::::
 
 ### Auxiliary Talents
@@ -706,6 +715,13 @@ You can transfer a held object to your hidden storage or extract an object from 
 :::::
 
 ::::: {.ability}
+###### Ink in the Blood (Su) [Origin Talent]{.ability-head} {.u}
+**Type:** Auxiliary (Essence)
+
+**Effect:** Gain a shadow point and a shadow pool. You are treated as having the create reality class feature for the purposes of meeting prerequisites for surreal feats.
+:::::
+
+::::: {.ability}
 ###### Immediate Renewal (Su) [Origin Talent]{.ability-head} {.u}
 **Type:** Auxiliary (Essence) \
 **Reqs:** [Energy Renewal](Origins#Energy Renewal Su Origin Talent)
@@ -953,6 +969,13 @@ You can transfer a held object to your hidden storage or extract an object from 
 **Reqs:** [Darkvision](Origins#Darkvision Origin Talent)
 
 **Effect:** You can see perfectly in darkness of any kind, including that created by deeper darkness, out to the range of your darkvision. If your darkvision range is 120 feet or greater, you can see out to any distance in darkness of any kind.
+:::::
+
+::::: {.ability}
+###### Sharp Reflexes [Origin Talent]{.ability-head} {.u}
+**Type:** Auxiliary (Trained) \
+
+**Effect:** You gain the ability to make one additional attack of opportunity each round.
 :::::
 
 ::::: {.ability}
@@ -1310,9 +1333,49 @@ If you possess the Reaching Appendage talent, you can hang from an object within
 **Effect:** You gain a single utility talent from any sphere as a bonus talent. You must meet the prerequisites for this talent (the talent you gain through this talent may be determined after you have determined other factors of your character if you select this talent when creating a character). You may select this talent multiple times, each time gaining a new utility talent.
 :::::
 
-## Variations
+## Variations List
 
-TODO
+::::: {.ability}
+###### Aloof [Origin Variation]{.ability-head} {.u}
+**Type:** Variation (Learned)
+
+**Effect:** You may take a -4 penalty on initiative and Perception checks. If you do, you gain one of [Reactive Combatant], [Stand Your Ground], or [Thirst For Vengeance] as a bonus talent.
+:::::
+
+::::: {.ability}
+###### Nonverbal [Origin Variation]{.ability-head} {.u}
+**Type:** Variation (Acquired, Innate or Learned)
+
+**Effect:** You lack the ability to vocalize, preventing you from communicating through spoken language, providing verbal components for magic, or performing other actions which require speech. This does not prevent you from making noise through other means (such as grunting, stomping, clapping, etc.). To represent focus on other means of action or communication, you gain [Utility Training] as a bonus talent.
+:::::
+
+::::: {.ability}
+###### Aloof [Origin Variation]{.ability-head} {.u}
+**Type:** Variation (Learned)
+
+**Effect:** You may take a -4 penalty on initiative and Perception checks. If you do, you gain either Reactive Combatant, Stand Your Ground, or Thirst For Vengeance as a bonus talent.
+:::::
+
+::::: {.ability}
+###### Aloof [Origin Variation]{.ability-head} {.u}
+**Type:** Variation (Learned)
+
+**Effect:** You may take a -4 penalty on initiative and Perception checks. If you do, you gain either Reactive Combatant, Stand Your Ground, or Thirst For Vengeance as a bonus talent.
+:::::
+
+::::: {.ability}
+###### Aloof [Origin Variation]{.ability-head} {.u}
+**Type:** Variation (Learned)
+
+**Effect:** You may take a -4 penalty on initiative and Perception checks. If you do, you gain either Reactive Combatant, Stand Your Ground, or Thirst For Vengeance as a bonus talent.
+:::::
+
+::::: {.ability}
+###### Aloof [Origin Variation]{.ability-head} {.u}
+**Type:** Variation (Learned)
+
+**Effect:** You may take a -4 penalty on initiative and Perception checks. If you do, you gain either Reactive Combatant, Stand Your Ground, or Thirst For Vengeance as a bonus talent.
+:::::
 
 ## Classic Lineages
 

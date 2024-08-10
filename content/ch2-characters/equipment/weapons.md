@@ -14,9 +14,7 @@ Weapons are grouped into several interlocking sets of categories. These categori
 
 ## Weapon List
 
-``` {.include}
-content/include/weapon_list.md
-```
+@![content/include/weapon_list.md]
 
 ## Mechanics
 

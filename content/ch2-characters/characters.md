@@ -52,9 +52,7 @@ For each of your six ability scores, pick one of the values from the following l
 
 In higher power games, the point limit is 13. In lower power games, the point limit is 9. Ask your GM which point limit to use if you aren't sure.
 
-``` {.include}
-content/include/ability-point-buy_table.md
-```
+@![content/include/ability-point-buy_table.md]
 
 Most of the time, your character's ability scores will not be used directly. Instead, a modifier associated with each ability will be used. To calculate the modifier for an ability, divide it by two and subtract 5. This number is often added to dice rolls or other calculations relating to your character's statistics.
 
